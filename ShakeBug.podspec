@@ -51,8 +51,8 @@ Pod::Spec.new do |s|
   #  profile URL.
   #
 
-  s.author             = { "iChirag" => "softnoesis@gmail.com" }
-  # Or just: s.author    = "iChirag"
+  s.author             = { "Softnoesis" => "softnoesis@gmail.com" }
+
 
   # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
@@ -76,7 +76,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/softnoesis-com/ShakeBug.git", :tag => "1.0" }
+  s.source       = { :git => "https://github.com/softnoesis-com/ShakeBug.git", :tag => s.version.to_s }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
