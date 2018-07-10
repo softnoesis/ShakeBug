@@ -1,7 +1,19 @@
 # ShakeBug
+
 Bug &amp; Crash reporting tool.
 
+## Installation
 
-#use pod
+### CocoaPods
 
-`pod 'ShakeBug'`
+To integrate Buglife into your Xcode project using [CocoaPods](https://cocoapods.org), specify it in your `Podfile`:
+
+```ruby
+pod 'ShakeBug'
+```
+
+Then, run the following command:
+
+```bash
+$ pod install
+```
