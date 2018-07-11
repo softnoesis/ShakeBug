@@ -26,7 +26,7 @@ Pod::Spec.new do |s|
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = "Report bugs, annotate screenshots, and collect logs from within your iOS app!"
 
-  s.homepage     = "https://softnoesis.com"
+  s.homepage     = "https://github.com/softnoesis-com/ShakeBug"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
