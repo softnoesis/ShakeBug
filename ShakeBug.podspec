@@ -92,7 +92,7 @@ Pod::Spec.new do |s|
 
 
   #s.xcconfig = { 'SWIFT_OBJC_BRIDGING_HEADER' => '${POD_ROOT}/BridgingHeader.h' } 
-  s.public_header_files = 'ShakeBug.h'
+  #s.public_header_files = 'ShakeBug.h'
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
