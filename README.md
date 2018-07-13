@@ -51,8 +51,6 @@ $ pod install
 
 Build & run your app. Once your app is running, shake your device (\^⌘Z in the simulator) to report a bug! Bug reports are sent directly to your email address.
 
-You can customize how the bug reporter is invoked. **Rather than shake, we recommend configuring the bug reporter to be shown when a user takes a screenshot:**
-
 
 ## Contact
 
