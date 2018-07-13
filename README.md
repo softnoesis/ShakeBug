@@ -27,6 +27,7 @@ $ pod install
     import ShakeBug
     ```
     
+    
     ```objective-c
     // Objective-C
     #import <ShakeBug/ShakeBug.h>
@@ -34,15 +35,16 @@ $ pod install
 
 2. Add the following to your app delegate's `application:didFinishLaunchingWithOptions:` method.
 	
-	```swift
-    	// Swift
-    	ShakeBug.sharedInstance().initiate(withKey: “<Your Key>")
-    	```
+   ```swift
+   // Swift
+   ShakeBug.sharedInstance().initiate(withKey: “<Your Key>")
+   ```
     
-	```objective-c
-	// Objective-C
-	[[ShakeBug sharedInstance] initiateWithKey:@"<Your Key>"];
-	```
+   ```objective-c
+   // Objective-C
+   [[ShakeBug sharedInstance] initiateWithKey:@"<Your Key>"];
+   ```
+
 	Be sure to replace `<Your Key>` with your application key which given by ShakeBug website..
 	
 ## Usage
