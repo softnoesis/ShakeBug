@@ -87,12 +87,9 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "ShakeBug.framework"
+  s.source_files = "ShakeBug"
   s.vendored_frameworks = "ShakeBug.framework"
 
-
-  #s.xcconfig = { 'SWIFT_OBJC_BRIDGING_HEADER' => '${POD_ROOT}/BridgingHeader.h' } 
-  #s.public_header_files = 'ShakeBug.h'
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
