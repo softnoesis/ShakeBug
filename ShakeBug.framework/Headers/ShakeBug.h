@@ -14,13 +14,9 @@
 #import <UIKit/UIKit.h>
 
 @interface ShakeBug : NSObject
+
 + (nonnull instancetype)sharedInstance;
-
-
-
-//Private methods
 - (void)printLog:(NSString *_Nullable)message;
-
 - (void)initiateWithKey:(NSString *_Nullable)key;
-- (void)presentTutorialScreen;
+
 @end

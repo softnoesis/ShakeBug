@@ -6,11 +6,11 @@
 	<dict>
 		<key>Headers/ShakeBug.h</key>
 		<data>
-		PmfU+9X3WKjuTekvglyr381BlK0=
+		qFnNhfVjt765sTK+zbXal7lIw3w=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		0EPXD7Sc6CJnSJmXT6Zk5dvxUNY=
+		/cH36LssXz2vDpDZPcAbKC5sF+U=
 		</data>
 		<key>LICENSE</key>
 		<data>
@@ -28,34 +28,6 @@
 		<data>
 		zxNZV7x3IKVDRmui/1+VM1a5xNo=
 		</data>
-		<key>ShakeBug.bundle/Blue.png</key>
-		<data>
-		xwEykuT2JmscMc+G81GKOjWY5qQ=
-		</data>
-		<key>ShakeBug.bundle/Brown.png</key>
-		<data>
-		mbm+IL6wxk7Ys0mKgnTdYqUeh7c=
-		</data>
-		<key>ShakeBug.bundle/Custom-Color.png</key>
-		<data>
-		l/tn0Jgfj6kH8WLoEx2GYs+0PSo=
-		</data>
-		<key>ShakeBug.bundle/DarkGreen.png</key>
-		<data>
-		W0fku1ittMzEU69ednOgcHntLt4=
-		</data>
-		<key>ShakeBug.bundle/DarkOrange.png</key>
-		<data>
-		GhurCS5lQrzMQSffNasLCM61oOE=
-		</data>
-		<key>ShakeBug.bundle/Eraser.png</key>
-		<data>
-		ATx4Tg2BYZBy6os1qMYGDFp2LqI=
-		</data>
-		<key>ShakeBug.bundle/Grey.png</key>
-		<data>
-		sTdFSZrZeCu7JXz6Xv9TxP/t0Wc=
-		</data>
 		<key>ShakeBug.bundle/LightBlue.png</key>
 		<data>
 		NPE4fBhJ0V6LMnmVh7VjAVnwlW8=
@@ -63,10 +35,6 @@
 		<key>ShakeBug.bundle/LightGreen.png</key>
 		<data>
 		xlAEX9tQLnsg7PcHkLTPcSuSuzg=
-		</data>
-		<key>ShakeBug.bundle/Opacity.png</key>
-		<data>
-		6VVSMzsU+VscKeM9INPgmVm8Q4Q=
 		</data>
 		<key>ShakeBug.bundle/Red.png</key>
 		<data>
@@ -76,25 +44,9 @@
 		<data>
 		jOhqEUF1/xyY+fuswiWT+ELC3dI=
 		</data>
-		<key>ShakeBug.bundle/Save-Small.png</key>
-		<data>
-		Km3/ix4Lh/EUjrSDQwisVhybHec=
-		</data>
-		<key>ShakeBug.bundle/Setting-1.png</key>
-		<data>
-		2KckjPRjjp+iSlzH8h2C5IUEj4E=
-		</data>
-		<key>ShakeBug.bundle/Setting-2.png</key>
-		<data>
-		JeSZ2Lz8FFWUV790hYZEnnxpbN8=
-		</data>
 		<key>ShakeBug.bundle/Yellow.png</key>
 		<data>
 		jK1zYKson9crTBpZ2N5VWapFvZw=
-		</data>
-		<key>ShakeBug.bundle/b.png</key>
-		<data>
-		jOWSUgPdDlqghFTcbqlLU/Yx+9I=
 		</data>
 		<key>ShakeBug.bundle/en.lproj/Root.strings</key>
 		<dict>
@@ -105,14 +57,6 @@
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>ShakeBug.bundle/g.png</key>
-		<data>
-		oi8AedB9PFW4IfZFdVsyKH62+e0=
-		</data>
-		<key>ShakeBug.bundle/r.png</key>
-		<data>
-		wWmWwaaqM1Hh31O1KC9yxt3XiHo=
-		</data>
 		<key>ShakeBug.bundle/reset-Small.png</key>
 		<data>
 		2BzGa3p4hnQxcL1riUm+KkSWzbo=
@@ -121,14 +65,6 @@
 		<data>
 		vjvxehbUAN96Ilc7Bcjl9ncfDYo=
 		</data>
-		<key>ShakeBug.bundle/thickness.png</key>
-		<data>
-		rncwgpERx0ZHEU/VeGor+bBTHQ0=
-		</data>
-		<key>ShakeBug.bundle/width.png</key>
-		<data>
-		Tka4UXMDoB5gYW/D6OKj5qKEHBM=
-		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
@@ -136,11 +72,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			PmfU+9X3WKjuTekvglyr381BlK0=
+			qFnNhfVjt765sTK+zbXal7lIw3w=
 			</data>
 			<key>hash2</key>
 			<data>
-			FAbj1qSpTPRp03nU428oZM+O0wuLCRmn2QjXn1hGtok=
+			iy7H8QiUBvD8Pa5dFjSVNUEKp+JBIhoPB9BYPNjKdvM=
 			</data>
 		</dict>
 		<key>LICENSE</key>
@@ -187,83 +123,6 @@
 			FGwjpBCwCDhpYVbjjiN62nP1F6eErKlavbh0cf04E5E=
 			</data>
 		</dict>
-		<key>ShakeBug.bundle/Blue.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			xwEykuT2JmscMc+G81GKOjWY5qQ=
-			</data>
-			<key>hash2</key>
-			<data>
-			/ZI5wJ0g7LrpNuQEubIM22y1ehpFSZ1eVbGqTg7cER0=
-			</data>
-		</dict>
-		<key>ShakeBug.bundle/Brown.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			mbm+IL6wxk7Ys0mKgnTdYqUeh7c=
-			</data>
-			<key>hash2</key>
-			<data>
-			rCSv1z6faz+CBA+B66ZJFk+e6KCtb7BBDmVp6Y3tQZI=
-			</data>
-		</dict>
-		<key>ShakeBug.bundle/Custom-Color.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			l/tn0Jgfj6kH8WLoEx2GYs+0PSo=
-			</data>
-			<key>hash2</key>
-			<data>
-			bfPgfUJ6nwga5qGuShxhwE1lHGNJUibKfO9wjDqNVyw=
-			</data>
-		</dict>
-		<key>ShakeBug.bundle/DarkGreen.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			W0fku1ittMzEU69ednOgcHntLt4=
-			</data>
-			<key>hash2</key>
-			<data>
-			eR2RXiD327Jc9N8o6PPHch0WySOk3Szx+/TyPAANl/k=
-			</data>
-		</dict>
-		<key>ShakeBug.bundle/DarkOrange.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			GhurCS5lQrzMQSffNasLCM61oOE=
-			</data>
-			<key>hash2</key>
-			<data>
-			SO19qdGQKDd7leFSUCPkzkqaWw3NdS9Z/tBUyhNYXrQ=
-			</data>
-		</dict>
-		<key>ShakeBug.bundle/Eraser.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			ATx4Tg2BYZBy6os1qMYGDFp2LqI=
-			</data>
-			<key>hash2</key>
-			<data>
-			Vevishp+DfwOTW2+v8Ful6P7zgIBzkIdfp0qVl3szb8=
-			</data>
-		</dict>
-		<key>ShakeBug.bundle/Grey.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			sTdFSZrZeCu7JXz6Xv9TxP/t0Wc=
-			</data>
-			<key>hash2</key>
-			<data>
-			F2GNqLGI7992M5KF8nGHC8qe4H/AlyuwFK85uIm7dYM=
-			</data>
-		</dict>
 		<key>ShakeBug.bundle/LightBlue.png</key>
 		<dict>
 			<key>hash</key>
@@ -284,17 +143,6 @@
 			<key>hash2</key>
 			<data>
 			19srZr41SUYRxgabXJ8MLoQvcTRYn2mO01BbSobgdwI=
-			</data>
-		</dict>
-		<key>ShakeBug.bundle/Opacity.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			6VVSMzsU+VscKeM9INPgmVm8Q4Q=
-			</data>
-			<key>hash2</key>
-			<data>
-			OpT53BlK1QivEmumeorPFUJn13bG2KZzpDhlgkkag8o=
 			</data>
 		</dict>
 		<key>ShakeBug.bundle/Red.png</key>
@@ -319,39 +167,6 @@
 			m26DmegPkB5jwUJkVEtLlObYALX8He100Ny0+NNJg/g=
 			</data>
 		</dict>
-		<key>ShakeBug.bundle/Save-Small.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			Km3/ix4Lh/EUjrSDQwisVhybHec=
-			</data>
-			<key>hash2</key>
-			<data>
-			GM1SbPIjvRdLb1a4Ez/zjMGhTMgva8u2qfjPGbiu8Vg=
-			</data>
-		</dict>
-		<key>ShakeBug.bundle/Setting-1.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			2KckjPRjjp+iSlzH8h2C5IUEj4E=
-			</data>
-			<key>hash2</key>
-			<data>
-			7uT1nW+XAcrxkMg9jFSoG0B03ScPmivX4WchBNX74wg=
-			</data>
-		</dict>
-		<key>ShakeBug.bundle/Setting-2.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			JeSZ2Lz8FFWUV790hYZEnnxpbN8=
-			</data>
-			<key>hash2</key>
-			<data>
-			QMUMseFGPt/kvn7HAk7GEIMg39cJwjTKGQ6iUGY4bpk=
-			</data>
-		</dict>
 		<key>ShakeBug.bundle/Yellow.png</key>
 		<dict>
 			<key>hash</key>
@@ -361,17 +176,6 @@
 			<key>hash2</key>
 			<data>
 			CoAEcUZeto35NHGP0CgT5JeKX8GA+YE83rai2cDl6lk=
-			</data>
-		</dict>
-		<key>ShakeBug.bundle/b.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			jOWSUgPdDlqghFTcbqlLU/Yx+9I=
-			</data>
-			<key>hash2</key>
-			<data>
-			Q2OTeIFgC6+g/Cw+XnVg7ATLltdfBnDwbmFemac+A/Q=
 			</data>
 		</dict>
 		<key>ShakeBug.bundle/en.lproj/Root.strings</key>
@@ -386,28 +190,6 @@
 			</data>
 			<key>optional</key>
 			<true/>
-		</dict>
-		<key>ShakeBug.bundle/g.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			oi8AedB9PFW4IfZFdVsyKH62+e0=
-			</data>
-			<key>hash2</key>
-			<data>
-			UFaVdzAsPzVtrYV6Z/vQsFzApMYoHJb1F8i89lPBpMc=
-			</data>
-		</dict>
-		<key>ShakeBug.bundle/r.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			wWmWwaaqM1Hh31O1KC9yxt3XiHo=
-			</data>
-			<key>hash2</key>
-			<data>
-			hEx6Up17rweQoo3MvZ3rxyd8C4PapeATsO5eO1JWYyk=
-			</data>
 		</dict>
 		<key>ShakeBug.bundle/reset-Small.png</key>
 		<dict>
@@ -429,28 +211,6 @@
 			<key>hash2</key>
 			<data>
 			m0lbi06Pxdoq91Mx6Q23R/hs/yAIFy5gRClsP9lqJtc=
-			</data>
-		</dict>
-		<key>ShakeBug.bundle/thickness.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			rncwgpERx0ZHEU/VeGor+bBTHQ0=
-			</data>
-			<key>hash2</key>
-			<data>
-			kr700y/7LcbP8n+LHxFxQFgEmiDbLCQGd5/v3BtDVrQ=
-			</data>
-		</dict>
-		<key>ShakeBug.bundle/width.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			Tka4UXMDoB5gYW/D6OKj5qKEHBM=
-			</data>
-			<key>hash2</key>
-			<data>
-			eynSVnLcXVnR3+TSWA75uEvHLaBcPSmk/AdlO2MX+Pk=
 			</data>
 		</dict>
 	</dict>
