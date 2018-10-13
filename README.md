@@ -45,8 +45,25 @@ $ pod install
    [[ShakeBug sharedInstance] initiateWithKey:@"<Your Key>"];
    ```
 
-	Be sure to replace `<Your Key>` with your application key which given by ShakeBug website..
-	
+	Be sure to replace `<Your Key>` with your application key which given by ShakeBug website.
+
+
+## Optional Settings
+
+1. Add the following to your app delegate's `application:didFinishLaunchingWithOptions:` method for showing or not showing first time tutorial screen
+
+ ```objective-c
+ // Objective-C
+ [[ShakeBug sharedInstance] showTutorialScreenFirstTime:NO];// OR pass YES to show Tutorial screen
+ ```
+
+2. If you dont want to show bug or crash from Simulator then use following code `application:didFinishLaunchingWithOptions:`
+
+ ```objective-c
+ // Objective-C
+ [[ShakeBug sharedInstance] allowBugCrashFromSimulator:YES];// OR pass NO if you dont want to show bug from Simulator
+ ```
+ 
 ## Usage
 
 Build & run your app. Once your app is running, shake your device (\^⌘Z in the simulator) to report a bug! Bug reports are sent directly to your email address.
