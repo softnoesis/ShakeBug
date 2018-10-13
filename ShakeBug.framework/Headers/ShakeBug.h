@@ -16,7 +16,13 @@
 @interface ShakeBug : NSObject
 
 + (nonnull instancetype)sharedInstance;
-- (void)printLog:(NSString *_Nullable)message;
+
 - (void)initiateWithKey:(NSString *_Nullable)key;
+
+- (void)printLog:(NSString *_Nullable)message;
+
+- (void)showTutorialScreenFirstTime:(BOOL)flg;
+
+- (void)allowBugCrashFromSimulator:(BOOL)flg;
 
 @end
