@@ -71,4 +71,4 @@ Build & run your app. Once your app is running, shake your device (\^⌘Z in the
 
 ## Contact
 
-Contact us on softnoesis@gmail.com in case of any use.
+Contact us on contact@softnoesis.com in case of any use.
