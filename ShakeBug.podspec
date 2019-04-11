@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "ShakeBug"
-  s.version      = "1.0.5"
+  s.version      = "1.0.6"
   s.summary      = "bug & crash reporting framework"
 
   # This description is used to generate tags and improve search results.
@@ -51,7 +51,7 @@ Pod::Spec.new do |s|
   #  profile URL.
   #
 
-  s.author             = { "Softnoesis" => "softnoesis@gmail.com" }
+  s.author             = { "Softnoesis" => "care@softnoesis.com" }
 
 
   # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
