@@ -19,10 +19,10 @@
 
 - (void)initiateWithKey:(NSString *_Nullable)key;
 
-- (void)printLog:(NSString *_Nullable)message;
+- (void)makeLogEnabled:(BOOL)flg; // default value NO
 
-- (void)showTutorialScreenFirstTime:(BOOL)flg;
+- (void)showTutorialScreenFirstTime:(BOOL)flg;// default value YES
 
-- (void)allowBugCrashFromSimulator:(BOOL)flg;
+- (void)allowBugCrashFromSimulator:(BOOL)flg; //default value NO
 
 @end
