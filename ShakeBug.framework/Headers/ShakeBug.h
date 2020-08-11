@@ -25,4 +25,6 @@
 
 - (void)allowBugCrashFromSimulator:(BOOL)flg; //default value NO
 
+- (void)addEventKey:(NSString *_Nonnull)key eventValue:(NSString *_Nonnull)value;
+
 @end
