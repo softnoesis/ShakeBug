@@ -34,7 +34,7 @@ $ pod install
     ```
 
 2. Add the following to your app delegate's `application:didFinishLaunchingWithOptions:` method.
-	
+    
    ```swift
    // Swift
    ShakeBug.sharedInstance().initiate(withKey: “<Your Key>")
@@ -45,7 +45,7 @@ $ pod install
    [[ShakeBug sharedInstance] initiateWithKey:@"<Your Key>"];
    ```
 
-	Be sure to replace `<Your Key>` with your application key which given by ShakeBug website.
+    Be sure to replace `<Your Key>` with your application key which given by ShakeBug website.
 
 
 ## Optional Settings
@@ -54,37 +54,39 @@ $ pod install
 
 ```swift
 // Swift
-ShakeBug.sharedInstance().showTutorialScreenFirstTime(false) // OR pass true to show Tutorial screen
+ShakeBug.sharedInstance().showTutorialScreenFirstTime(false) // Default value True
 ```
 
  ```objective-c
  // Objective-C
- [[ShakeBug sharedInstance] showTutorialScreenFirstTime:NO];// OR pass YES to show Tutorial screen
+ [[ShakeBug sharedInstance] showTutorialScreenFirstTime:NO];// Default value YES
  ```
 
-2. If you dont want to show bug or crash from Simulator then use following code `application:didFinishLaunchingWithOptions:`
+2. If you want to show bug or crash from Simulator then use following code `application:didFinishLaunchingWithOptions:`
 
 ```swift
 // Swift
-ShakeBug.sharedInstance().allowCrash(fromSimulator:true) // OR pass false if you dont want to show bug from Simulator
+ShakeBug.sharedInstance().allowBugCrash(fromSimulator:true) // Default value false
 ```
 
  ```objective-c
  // Objective-C
- [[ShakeBug sharedInstance] allowBugCrashFromSimulator:YES];// OR pass NO if you dont want to show bug from Simulator
+ [[ShakeBug sharedInstance] allowBugCrashFromSimulator:YES];// Default value NO
  ```
+ 
  
  3. If you dont want to show any logs on console then use following code `application:didFinishLaunchingWithOptions:`
 
 ```swift
 // Swift
-ShakeBug.sharedInstance().makeLogEnabled(false) // OR pass true if you want to show logs
+ShakeBug.sharedInstance().makeLogEnabled(false) // Default value false
 ```
 
   ```objective-c
   // Objective-C
-  [[ShakeBug sharedInstance] makeLogEnabled:NO];// OR pass YES if you want to show logs
+  [[ShakeBug sharedInstance] makeLogEnabled:NO];// Default value NO
   ```
+  
   
   4. If you want add event to any screen or activity use following methods
 
