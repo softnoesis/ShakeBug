@@ -21,7 +21,7 @@
 
 - (void)makeLogEnabled:(BOOL)flg; // default value NO
 
-- (void)showTutorialScreenFirstTime:(BOOL)flg;// default value YES
+- (void)showTutorialScreenFirstTime:(BOOL)flg; // default value YES
 
 - (void)allowBugCrashFromSimulator:(BOOL)flg; //default value NO
 
