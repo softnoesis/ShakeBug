@@ -1,0 +1,6 @@
+framework module ShakeBug {
+  umbrella header "ShakeBug.h"
+
+  export *
+  module * { export * }
+}

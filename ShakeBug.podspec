@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "ShakeBug"
-  s.version      = "1.0.14"
+  s.version      = "1.0.15"
   s.summary      = "bug & crash reporting framework"
 
   # This description is used to generate tags and improve search results.
@@ -26,7 +26,7 @@ Pod::Spec.new do |s|
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = "Report bugs, annotate screenshots, and collect logs from within your iOS app!"
 
-  s.homepage     = "https://github.com/softnoesis-com/ShakeBug"
+  s.homepage     = "https://github.com/softnoesis/ShakeBug"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -61,13 +61,13 @@ Pod::Spec.new do |s|
   #
 
   # s.platform   = :ios
-  s.platform     = :ios, "10.0"
+  s.platform     = :ios, "14.0"
 
   #  When using multiple platforms
-  # s.ios.deployment_target = "5.0"
-  # s.osx.deployment_target = "10.7"
-  # s.watchos.deployment_target = "2.0"
-  # s.tvos.deployment_target = "9.0"
+   s.ios.deployment_target = "12.0"
+   s.osx.deployment_target = "10.15"
+ #  s.watchos.deployment_target = "2.0"
+ #  s.tvos.deployment_target = "9.0"
 
 
   # ――― Source Location ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -76,7 +76,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/softnoesis-com/ShakeBug.git", :tag => s.version.to_s }
+  s.source       = { :git => "https://github.com/softnoesis/ShakeBug.git", :tag => s.version.to_s }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -88,7 +88,7 @@ Pod::Spec.new do |s|
   #
 
   #s.source_files = "*"
-  s.vendored_frameworks = "ShakeBug.framework"
+  s.vendored_frameworks = "ShakeBug.xcframework"
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
