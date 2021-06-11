@@ -20,6 +20,6 @@ let package = Package(
         // Targets can depend on other targets in this package, and on products in packages this package depends on.
         .binaryTarget(name: "ShakeBug",
                       url: "https://github.com/softnoesis/ShakeBug/archive/refs/tags/1.0.16.zip",
-                      checksum: "ef7c3a50c31db83e0cdfa297bb4465beedd2153475bb146e5994a7f08d205d67"),
+                      checksum: "380ccd59a7d53ba4a09e76882b739d9c01e6d317b8af9c6c6ceb88c222d21993"),
     ]
 )
