@@ -1,6 +1,6 @@
 # ShakeBug
 
-Bug &amp; Crash reporting tool.
+Framework to report bug &amp; crash, analytics and add events.
 
 ## Installation
 
@@ -17,6 +17,20 @@ Then, run the following command:
 ```bash
 $ pod install
 ```
+
+### Carthage
+Add following line to your Xcode project's `Cartfile`
+
+```ruby
+github "softnoesis/ShakeBug"
+```
+
+Then, run the following command:
+
+```bash
+$ carthage update
+```
+Then drag Shakebug.xcframework from Carthage folder to your Xcode project's settings.
 
 ## Code
 
@@ -66,12 +80,12 @@ ShakeBug.sharedInstance().showTutorialScreenFirstTime(false) // Default value Tr
 
 ```swift
 // Swift
-ShakeBug.sharedInstance().allowBugCrash(fromSimulator:true) // Default value false
+ShakeBug.sharedInstance().allowCrash(fromSimulator:true) // Default value false
 ```
 
  ```objective-c
  // Objective-C
- [[ShakeBug sharedInstance] allowBugCrashFromSimulator:YES];// Default value NO
+ [[ShakeBug sharedInstance] allowCrashFromSimulator:YES];// Default value NO
  ```
  
  
