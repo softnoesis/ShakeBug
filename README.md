@@ -1,6 +1,8 @@
 # ShakeBug
 
-Framework to report bug &amp; crash, analytics and add events.
+Shakebug allows you to receive feedback from your beta testers or real users and improve the quality of your application in a simple way. Here users just need to shake their mobile and all the data regarding bugs & crashes can be seen by developers through their log in panel. It also helpful to analyse your users, session, location etc. Addition, you can add events on each action of your application and track it using this Shakebug framework.
+
+Sign up for a service at [https://www.shakebug.com](https://www.shakebug.com)
 
 ## Installation
 
@@ -125,9 +127,10 @@ ShakeBug.sharedInstance().addEventKey("App_open", eventValue: "Started app") //p
    
 ## Usage
 
-Build & run your app. Once your app is running, shake your device (\^⌘Z in the simulator) to report a bug! Bug reports are sent directly to your email address.
+Build & run your app. Once your app is running, shake your device (\^⌘Z in the simulator) to report a bug! Bug/Crash reports are sent directly to login panel of Shakebug.com and also notify on your registered email id.
 
 
 ## Contact
+Visit on: [https://www.shakebug.com](https://www.shakebug.com)
 
 Contact us on contact@shakebug.com in case of any use.
