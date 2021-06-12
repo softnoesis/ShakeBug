@@ -32,6 +32,15 @@ $ carthage update
 ```
 Then drag Shakebug.xcframework from Carthage folder to your Xcode project's settings.
 
+### Swift Package Manager
+Navigate to the SPM section in your project, add a new package, point it to
+
+```ruby
+https://github.com/softnoesis/ShakeBug/
+```
+and select the latest version.
+
+
 ## Code
 
 1. Import the ShakeBug framework header into your app delegate.
