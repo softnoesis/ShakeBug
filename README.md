@@ -4,6 +4,13 @@ Shakebug allows you to receive feedback from your beta testers or real users and
 
 Sign up for a service at [https://www.shakebug.com](https://www.shakebug.com)
 
+## Supported following type of iOS projects
+1. Swift
+2. Objective-C
+3. SwiftUI
+4. Project with and without SceneDeleage
+
+
 ## Installation
 
 ### CocoaPods
@@ -127,7 +134,7 @@ ShakeBug.sharedInstance().addEventKey("App_open", eventValue: "Started app") //p
    
 ## Usage
 
-Build & run your app. Once your app is running, shake your device (\^⌘Z in the simulator) to report a bug! Bug/Crash reports are sent directly to login panel of Shakebug.com and also notify on your registered email id.
+Build & run your app. Once your app is running, shake your device (\^⌘Z in the simulator) to report a bug! Bug/Crash reports are sent directly to login panel of Shakebug.com and also notify on your registered email address.
 
 
 ## Contact
