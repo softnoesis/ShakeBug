@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "ShakeBug"
-  s.version      = "1.0.19"
+  s.version      = "1.0.20"
   s.summary      = "Framework to support bug & crash reporting, analytics, add events."
 
   # This description is used to generate tags and improve search results.
@@ -27,7 +27,7 @@ Pod::Spec.new do |s|
   s.description  = "Report bugs, annotate screenshots, and collect logs from within your iOS app!"
 
   s.homepage     = "https://www.shakebug.com/"
-  # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
+  s.screenshots  = "https://www.shakebug.com/assets/images/shakebug-images/step-1.png", "https://www.shakebug.com/assets/images/shakebug-images/step-2.png", "https://www.shakebug.com/assets/images/shakebug-images/step-3.png"
 
 
   # ―――  Spec License  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -51,7 +51,7 @@ Pod::Spec.new do |s|
   #  profile URL.
   #
 
-  s.author             = { "Softnoesis" => "contact@softnoesis.com" }
+  s.author             = { "Softnoesis" => "support@shakebug.com" }
 
 
   # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -61,7 +61,7 @@ Pod::Spec.new do |s|
   #
 
   # s.platform   = :ios
-  s.platform     = :ios, "14.0"
+  s.platform     = :ios, "15.0"
 
   #  When using multiple platforms
    s.ios.deployment_target = "12.0"
