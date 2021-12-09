@@ -140,4 +140,4 @@ Build & run your app. Once your app is running, shake your device (\^⌘Z in the
 ## Contact
 Visit on: [https://www.shakebug.com](https://www.shakebug.com)
 
-Contact us on contact@shakebug.com in case of any use.
+Contact us on support@shakebug.com in case of any use.
