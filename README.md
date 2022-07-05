@@ -1,5 +1,8 @@
 # ShakeBug
 
+![pod](https://badgen.net/badge/pod/v1.0.22/cyan) ![twitter](https://badgen.net/badge/icon/@shakebugtool?icon=twitter&label) ![linkedin](https://badgen.net/badge/icon/shakebug?icon=discord&label)
+
+
 Shakebug allows you to receive feedback from your beta testers or real users and improve the quality of your application in a simple way. Here users just need to shake their mobile and all the data regarding bugs & crashes can be seen by developers through their log in panel. It also helpful to analyse your users, session, location etc. Addition, you can add events on each action of your application and track it using this Shakebug framework.
 
 Sign up for a service at [https://www.shakebug.com](https://www.shakebug.com)
@@ -10,6 +13,11 @@ Sign up for a service at [https://www.shakebug.com](https://www.shakebug.com)
 3. SwiftUI
 4. Project with and without SceneDeleage
 
+## Compatibility
+- Minimum iOS deployment 12.0
+- Minimum Mac OS deployment 10.15
+- Carthage release for Swift is built with Xcode 13.0 or later
+- CocoaPods: 1.10 or later.
 
 ## Installation
 
