@@ -4,3 +4,8 @@ framework module ShakeBug {
   export *
   module * { export * }
 }
+
+module ShakeBug.Swift {
+  header "ShakeBug-Swift.h"
+  requires objc
+}
