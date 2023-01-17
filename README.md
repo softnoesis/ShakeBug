@@ -1,6 +1,6 @@
 # ShakeBug
 
-![pod](https://badgen.net/badge/pod/v1.0.22/cyan) ![twitter](https://badgen.net/badge/icon/@shakebugtool?icon=twitter&label) ![linkedin](https://badgen.net/badge/icon/shakebug?icon=discord&label)
+![pod](https://badgen.net/badge/pod/v1.0.25/cyan) ![twitter](https://badgen.net/badge/icon/@shakebugtool?icon=twitter&label) ![linkedin](https://badgen.net/badge/icon/shakebug?icon=discord&label)
 
 
 Shakebug allows you to receive feedback from your beta testers or real users and improve the quality of your application in a simple way. Here users just need to shake their mobile and all the data regarding bugs & crashes can be seen by developers through their log in panel. It also helpful to analyse your users, session, location etc. Addition, you can add events on each action of your application and track it using this Shakebug framework.
@@ -13,8 +13,20 @@ Sign up for a service at [https://www.shakebug.com](https://www.shakebug.com)
 3. SwiftUI
 4. Project with and without SceneDeleage
 
+## Features
+ ✅ Image bug reporting
+
+ ✅ Screen-Recording bug beporting
+
+ ✅ Crash reporting
+
+ ✅ Analytics
+
+ ✅ Events
+
+
 ## Compatibility
-- Minimum iOS deployment 12.0
+- Minimum iOS deployment 13.0
 - Minimum Mac OS deployment 10.15
 - Carthage release for Swift is built with Xcode 13.0 or later
 - CocoaPods: 1.10 or later.
@@ -77,12 +89,12 @@ and select the latest version.
     
    ```swift
    // Swift
-   ShakeBug.sharedInstance().initiate(withKey: “<Your Key>")
+   ShakeBugSDK.sharedInstance.initiateWithKey(“<Your Key>")
    ```
     
    ```objective-c
    // Objective-C
-   [[ShakeBug sharedInstance] initiateWithKey:@"<Your Key>"];
+   [[ShakebugSDK sharedInstance] initiateWithKey:@"<Your Key>"];
    ```
 
     Be sure to replace `<Your Key>` with your application key which given by ShakeBug website.
@@ -94,24 +106,24 @@ and select the latest version.
 
 ```swift
 // Swift
-ShakeBug.sharedInstance().showTutorialScreenFirstTime(false) // Default value True
+ShakeBugSDK.sharedInstance.showTutorialScreenFirstTime(false) // Default value True
 ```
 
  ```objective-c
  // Objective-C
- [[ShakeBug sharedInstance] showTutorialScreenFirstTime:NO];// Default value YES
+ [[ShakebugSDK sharedInstance] showTutorialScreenFirstTime:NO];// Default value YES
  ```
 
 2. If you want to show bug or crash from Simulator then use following code `application:didFinishLaunchingWithOptions:`
 
 ```swift
 // Swift
-ShakeBug.sharedInstance().allowCrash(fromSimulator:true) // Default value false
+ShakeBugSDK.sharedInstance.allowBugCrashFromSimulator(true) // Default value false
 ```
 
  ```objective-c
  // Objective-C
- [[ShakeBug sharedInstance] allowCrashFromSimulator:YES];// Default value NO
+ [[ShakebugSDK sharedInstance] allowCrashFromSimulator:YES];// Default value NO
  ```
  
  
@@ -119,25 +131,27 @@ ShakeBug.sharedInstance().allowCrash(fromSimulator:true) // Default value false
 
 ```swift
 // Swift
-ShakeBug.sharedInstance().makeLogEnabled(false) // Default value false
+ShakeBugSDK.sharedInstance.makeLogEnabled(false) // Default value false
 ```
 
   ```objective-c
   // Objective-C
-  [[ShakeBug sharedInstance] makeLogEnabled:NO];// Default value NO
+  [[ShakebugSDK sharedInstance] makeLogEnabled:NO];// Default value NO
   ```
+
+
+## Events  
   
-  
-  4. If you want add event to any screen or activity use following methods
+If you want add event to any screen or activity use following methods
 
 ```swift
 // Swift
-ShakeBug.sharedInstance().addEventKey("App_open", eventValue: "Started app") //pass any key or value
+ShakeBugSDK.sharedInstance.addEventKey(key:"App_open", eventValue: "Started app") //pass any key or value
 ```
 
    ```objective-c
    // Objective-C
-   [[ShakeBug sharedInstance] addEventKey:@"App_open" eventValue:@"Started app"];// pass any key or value
+   [[ShakebugSDK sharedInstance] addEventKey:@"App_open" eventValue:@"Started app"];// pass any key or value
    ```
    
 ## Usage
