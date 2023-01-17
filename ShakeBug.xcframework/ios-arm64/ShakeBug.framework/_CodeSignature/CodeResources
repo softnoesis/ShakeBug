@@ -6,53 +6,53 @@
 	<dict>
 		<key>Headers/ShakeBug-Swift.h</key>
 		<data>
-		mCnCzSczn5rZaVlBtM0UhOTIcck=
+		xDp9P8Y8R64JPnFZ9z9DuidAjoY=
 		</data>
 		<key>Headers/ShakeBug.h</key>
 		<data>
-		MNKgQS3/rRH57h6jxZACPMbFabk=
+		RI4BTEzgRXA/R0oftv2XqFZo7fU=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		jWGjDt2CrFYv42X+jXKwPT9fGjc=
+		w3uIraI5Uzll+hLEA/Iq2USexWQ=
 		</data>
 		<key>Modules/ShakeBug.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		s4Ng5zXmPb3Lf/IpM8GZ1vlSq2I=
+		R4DhyAUEHMzoCDrFfgjtWmVfZaI=
 		</data>
 		<key>Modules/ShakeBug.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		58Dtf1Fx8RAr68Arn4dWhYK0wag=
+		ViEIIKmApISsor1G3hVANj9QTJ0=
 		</data>
 		<key>Modules/ShakeBug.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		kSiUsNKFKcagj32iNZ9js3zqdXg=
+		oDiUh/h/3Yf4ALMpFCxVgp9ec0c=
 		</data>
 		<key>Modules/ShakeBug.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		58Dtf1Fx8RAr68Arn4dWhYK0wag=
+		ViEIIKmApISsor1G3hVANj9QTJ0=
 		</data>
 		<key>Modules/ShakeBug.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		FM3WC8UcRyVN2/oavcjTcBvOe9o=
+		Er58f5f1IccvW2TFTPPL2Ubilxw=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
 		oflCEda1TVabW33uHaf4WPMu6ZI=
 		</data>
-		<key>ShakeBug.bundle/Root.plist</key>
+		<key>ShakeBugSwift.bundle/Root.plist</key>
 		<data>
 		jOhqEUF1/xyY+fuswiWT+ELC3dI=
 		</data>
-		<key>ShakeBug.bundle/Shakebug-Stop-button.png</key>
+		<key>ShakeBugSwift.bundle/Shakebug-Stop-button.png</key>
 		<data>
 		MAjaoAvWbrv+zyEAhB4p7xBw/4E=
 		</data>
-		<key>ShakeBug.bundle/Shakebug-eraser.png</key>
+		<key>ShakeBugSwift.bundle/Shakebug-eraser.png</key>
 		<data>
 		u8RElNAHsfKBkW4qu1FGwKz4DQY=
 		</data>
-		<key>ShakeBug.bundle/en.lproj/Root.strings</key>
+		<key>ShakeBugSwift.bundle/en.lproj/Root.strings</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -61,83 +61,83 @@
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>ShakeBug.bundle/reset-Small.png</key>
+		<key>ShakeBugSwift.bundle/reset-Small.png</key>
 		<data>
 		2BzGa3p4hnQxcL1riUm+KkSWzbo=
 		</data>
-		<key>ShakeBug.bundle/shake.png</key>
+		<key>ShakeBugSwift.bundle/shake.png</key>
 		<data>
 		vjvxehbUAN96Ilc7Bcjl9ncfDYo=
 		</data>
-		<key>ShakeBug.bundle/shakebug-Black-highlight.png</key>
+		<key>ShakeBugSwift.bundle/shakebug-Black-highlight.png</key>
 		<data>
 		FOOTpZEVS/Zfx/Y1NXa3c8Tj9HQ=
 		</data>
-		<key>ShakeBug.bundle/shakebug-Black.png</key>
+		<key>ShakeBugSwift.bundle/shakebug-Black.png</key>
 		<data>
 		6OqamAgoBb02qkZ8FqnPV0bxpZg=
 		</data>
-		<key>ShakeBug.bundle/shakebug-LightBlue-highlight.png</key>
+		<key>ShakeBugSwift.bundle/shakebug-LightBlue-highlight.png</key>
 		<data>
 		ieZulBfJhq9GVTwu/viqr3acGJ0=
 		</data>
-		<key>ShakeBug.bundle/shakebug-LightBlue.png</key>
+		<key>ShakeBugSwift.bundle/shakebug-LightBlue.png</key>
 		<data>
 		tnfgwUMvg0Bpc/8U9cYo2Co3DOY=
 		</data>
-		<key>ShakeBug.bundle/shakebug-LightGreen-highlight.png</key>
+		<key>ShakeBugSwift.bundle/shakebug-LightGreen-highlight.png</key>
 		<data>
 		0rkSDsp9FFWJB4wpnZ7ruwydPok=
 		</data>
-		<key>ShakeBug.bundle/shakebug-LightGreen.png</key>
+		<key>ShakeBugSwift.bundle/shakebug-LightGreen.png</key>
 		<data>
 		rxWzJ7/m9tC2FUOpmU5DZgYkH/c=
 		</data>
-		<key>ShakeBug.bundle/shakebug-Red-highlight.png</key>
+		<key>ShakeBugSwift.bundle/shakebug-Red-highlight.png</key>
 		<data>
 		+lCDnoELGeQCaHsI/HWOL0Bbd8w=
 		</data>
-		<key>ShakeBug.bundle/shakebug-Red.png</key>
+		<key>ShakeBugSwift.bundle/shakebug-Red.png</key>
 		<data>
 		LGgEqzx2xwxsbw5vu2DK5r3j0qI=
 		</data>
-		<key>ShakeBug.bundle/shakebug-Yellow-highlight.png</key>
+		<key>ShakeBugSwift.bundle/shakebug-Yellow-highlight.png</key>
 		<data>
 		HOUHsXvcV/LYki+irskFPzXfiPo=
 		</data>
-		<key>ShakeBug.bundle/shakebug-Yellow.png</key>
+		<key>ShakeBugSwift.bundle/shakebug-Yellow.png</key>
 		<data>
 		VazdQtVVTqtYTnFjiW3q4fDenQI=
 		</data>
-		<key>ShakeBug.bundle/shakebug-back.png</key>
+		<key>ShakeBugSwift.bundle/shakebug-back.png</key>
 		<data>
 		/p6N5IGcWwS54ilIsyoWMG0OzAA=
 		</data>
-		<key>ShakeBug.bundle/shakebug-close.png</key>
+		<key>ShakeBugSwift.bundle/shakebug-close.png</key>
 		<data>
 		PvIbDReEvudYG5PXn3cbyCR0fMo=
 		</data>
-		<key>ShakeBug.bundle/shakebug-logo.png</key>
+		<key>ShakeBugSwift.bundle/shakebug-logo.png</key>
 		<data>
 		zP9lSWf1o8fOISGWGZRtHIs3DK0=
 		</data>
-		<key>ShakeBug.bundle/shakebug-play.png</key>
+		<key>ShakeBugSwift.bundle/shakebug-play.png</key>
 		<data>
 		IzRMvUeRRMJvdQH++Ln1Snn2dUw=
 		</data>
-		<key>ShakeBug.bundle/shakebug-rightarrow.png</key>
+		<key>ShakeBugSwift.bundle/shakebug-rightarrow.png</key>
 		<data>
 		3pLvc6zSdDwZUn/REaLESdoMW8w=
 		</data>
-		<key>ShakeBug.bundle/shakebug_play.png</key>
+		<key>ShakeBugSwift.bundle/shakebug_play.png</key>
 		<data>
 		qlisI8g41xzQWZpIYg9/op7/HSs=
 		</data>
-		<key>ShakeBug.bundle/shakebug_plus.png</key>
+		<key>ShakeBugSwift.bundle/shakebug_plus.png</key>
 		<data>
 		GoZrMdcL7Ri2puiraK4DwPwX6l8=
 		</data>
-		<key>ShakeBug.bundle/shakebug_reply.png</key>
+		<key>ShakeBugSwift.bundle/shakebug_reply.png</key>
 		<data>
 		FHoucfryDbj70uH3HF6C7PaLpY0=
 		</data>
@@ -148,49 +148,49 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			yJYsRhi1H5p1euposKTWyGPMCALvm3P/zTz7iCLUXDQ=
+			pkt1o0RozzZEIxUZ4Ns7Cphd9+/MDUBRZtPNFLhaY1A=
 			</data>
 		</dict>
 		<key>Headers/ShakeBug.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			8+FWyrXHiet4EGC6ZX41MCieCJ3l4DjmTkDa61NJ2Qs=
+			AtRaN+Dk7oFzsyjsHKeyLrdHNrnlKD8k5EDTjsD7MK8=
 			</data>
 		</dict>
 		<key>Modules/ShakeBug.swiftmodule/arm64-apple-ios.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			dJF+Mtan8Os5v9dtDO9ZrFsNHLsUSZQnPv027ugUD6E=
+			N2b43HxS5GNS3AwrL35ltyRrNWsF3YfMWoKVMx3jkhk=
 			</data>
 		</dict>
 		<key>Modules/ShakeBug.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			AYC9vKOPEAim5YB90jgjhKg4E4w68qy/u7GlxknJlVk=
+			1OWK8a3GRj1eJEVPhrhB76o5v+LVM+lkce+ZxDfi94o=
 			</data>
 		</dict>
 		<key>Modules/ShakeBug.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			DJl/305fabhoc4Oub/qmS298bxYIUOu04iby1LRaoRY=
+			H8q9t/IfBPJqVCT/zGRFyezxrWt5fH8u9wXgZ79dbbQ=
 			</data>
 		</dict>
 		<key>Modules/ShakeBug.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			AYC9vKOPEAim5YB90jgjhKg4E4w68qy/u7GlxknJlVk=
+			1OWK8a3GRj1eJEVPhrhB76o5v+LVM+lkce+ZxDfi94o=
 			</data>
 		</dict>
 		<key>Modules/ShakeBug.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			wj1bOBFUOAE7JtAgbAwcdvKajGV8zpjaeo2OI9x2mMM=
+			MSvO9wBQhnRv/gkDSEOP7e21sHqi7LQKdaZpgxhomWs=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -200,28 +200,28 @@
 			IFGl7RYBIubtFfe00NblPfKlmPG9jOihX5tIKwxlRjw=
 			</data>
 		</dict>
-		<key>ShakeBug.bundle/Root.plist</key>
+		<key>ShakeBugSwift.bundle/Root.plist</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			m26DmegPkB5jwUJkVEtLlObYALX8He100Ny0+NNJg/g=
 			</data>
 		</dict>
-		<key>ShakeBug.bundle/Shakebug-Stop-button.png</key>
+		<key>ShakeBugSwift.bundle/Shakebug-Stop-button.png</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			8K3FFW1/LquPL6jxGqCgoa3iXPnGF+jUxCb1Dwq+OU4=
 			</data>
 		</dict>
-		<key>ShakeBug.bundle/Shakebug-eraser.png</key>
+		<key>ShakeBugSwift.bundle/Shakebug-eraser.png</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			zRdOdZuV/Y37HvdXJa3EqrpvmHhFOMuekhpKgycV2Yo=
 			</data>
 		</dict>
-		<key>ShakeBug.bundle/en.lproj/Root.strings</key>
+		<key>ShakeBugSwift.bundle/en.lproj/Root.strings</key>
 		<dict>
 			<key>hash2</key>
 			<data>
@@ -230,140 +230,140 @@
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>ShakeBug.bundle/reset-Small.png</key>
+		<key>ShakeBugSwift.bundle/reset-Small.png</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			BNy/NepseqZw3xJMjFxPgeYSOPY/C3hdKF6ujfsJnNI=
 			</data>
 		</dict>
-		<key>ShakeBug.bundle/shake.png</key>
+		<key>ShakeBugSwift.bundle/shake.png</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			m0lbi06Pxdoq91Mx6Q23R/hs/yAIFy5gRClsP9lqJtc=
 			</data>
 		</dict>
-		<key>ShakeBug.bundle/shakebug-Black-highlight.png</key>
+		<key>ShakeBugSwift.bundle/shakebug-Black-highlight.png</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			n5oiSEmrZZk5PpI9jKdrEFEKsUhIxqmuv/D9bKl08xE=
 			</data>
 		</dict>
-		<key>ShakeBug.bundle/shakebug-Black.png</key>
+		<key>ShakeBugSwift.bundle/shakebug-Black.png</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			3R0dxNxDUCK9fraFO4xvux+6BzerXWhtj2Tjb45tiBc=
 			</data>
 		</dict>
-		<key>ShakeBug.bundle/shakebug-LightBlue-highlight.png</key>
+		<key>ShakeBugSwift.bundle/shakebug-LightBlue-highlight.png</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			ulDua1fzAWwWrrplR743v1PoWrlAgLGmUOfrjSqsJeM=
 			</data>
 		</dict>
-		<key>ShakeBug.bundle/shakebug-LightBlue.png</key>
+		<key>ShakeBugSwift.bundle/shakebug-LightBlue.png</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			S/thln5LLzVGMJko2GG/rZJLp/+hbLBTK7esnsNRHYM=
 			</data>
 		</dict>
-		<key>ShakeBug.bundle/shakebug-LightGreen-highlight.png</key>
+		<key>ShakeBugSwift.bundle/shakebug-LightGreen-highlight.png</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			4oPmDTWEd1yt+/4Z8TY8HD0BMoI+e7oA3JtFbUwmV8w=
 			</data>
 		</dict>
-		<key>ShakeBug.bundle/shakebug-LightGreen.png</key>
+		<key>ShakeBugSwift.bundle/shakebug-LightGreen.png</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			tdmMmuPUE3m3kPGKY2qhP4uk9xImJcVP8Z6dytKeguU=
 			</data>
 		</dict>
-		<key>ShakeBug.bundle/shakebug-Red-highlight.png</key>
+		<key>ShakeBugSwift.bundle/shakebug-Red-highlight.png</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			MHwWOUuOIIDZeFsriNwZy5XCup4NPpP+j0z98S23gH0=
 			</data>
 		</dict>
-		<key>ShakeBug.bundle/shakebug-Red.png</key>
+		<key>ShakeBugSwift.bundle/shakebug-Red.png</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			A0GVoiR4i2xK1vg3Qwrx5h19wotsI2xN3GH63jKlHp8=
 			</data>
 		</dict>
-		<key>ShakeBug.bundle/shakebug-Yellow-highlight.png</key>
+		<key>ShakeBugSwift.bundle/shakebug-Yellow-highlight.png</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			RiEnJyq+E1nQ0n1NpuoOSD57aZn1gzypFgfvZI13Z+0=
 			</data>
 		</dict>
-		<key>ShakeBug.bundle/shakebug-Yellow.png</key>
+		<key>ShakeBugSwift.bundle/shakebug-Yellow.png</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			s3QqzAsHPQVt5LlFJjzWCU6jjP9WIKd+TMENyCsmtos=
 			</data>
 		</dict>
-		<key>ShakeBug.bundle/shakebug-back.png</key>
+		<key>ShakeBugSwift.bundle/shakebug-back.png</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			05PiiFh5Ye3K+dYOK+zSUbGUvckT1z429VMSE7OajPU=
 			</data>
 		</dict>
-		<key>ShakeBug.bundle/shakebug-close.png</key>
+		<key>ShakeBugSwift.bundle/shakebug-close.png</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			uIuM4Z2sxfKJ+vWLMjUnN0jOuPUyHlAekePSFT6Wmo8=
 			</data>
 		</dict>
-		<key>ShakeBug.bundle/shakebug-logo.png</key>
+		<key>ShakeBugSwift.bundle/shakebug-logo.png</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			RQj6G3YzQqIdVfRjT5ak3G1JDD69eZvZhbjK2+UINOQ=
 			</data>
 		</dict>
-		<key>ShakeBug.bundle/shakebug-play.png</key>
+		<key>ShakeBugSwift.bundle/shakebug-play.png</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			Cxv0xLwz8/igxZdUg0BvSLcZ8FrHK/lBfSLZY6ffmlk=
 			</data>
 		</dict>
-		<key>ShakeBug.bundle/shakebug-rightarrow.png</key>
+		<key>ShakeBugSwift.bundle/shakebug-rightarrow.png</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			bta3RQSpDTSN6ZH/1S5h9boOvqq59rBcPtnsnfvNTCM=
 			</data>
 		</dict>
-		<key>ShakeBug.bundle/shakebug_play.png</key>
+		<key>ShakeBugSwift.bundle/shakebug_play.png</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			PO4xpMpLvZvxBwRiBm31HaPiLYyIFGn1K8yxofPK0Hw=
 			</data>
 		</dict>
-		<key>ShakeBug.bundle/shakebug_plus.png</key>
+		<key>ShakeBugSwift.bundle/shakebug_plus.png</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			H+rCZSpmhy1ONNK+XdoJcbi9p0/UxRoFM2To9+oBFvs=
 			</data>
 		</dict>
-		<key>ShakeBug.bundle/shakebug_reply.png</key>
+		<key>ShakeBugSwift.bundle/shakebug_reply.png</key>
 		<dict>
 			<key>hash2</key>
 			<data>

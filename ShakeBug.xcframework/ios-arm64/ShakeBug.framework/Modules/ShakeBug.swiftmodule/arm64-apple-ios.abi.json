@@ -23,16 +23,16 @@
       },
       {
         "kind": "Import",
+        "name": "CoreTelephony",
+        "printedName": "CoreTelephony",
+        "declKind": "Import",
+        "moduleName": "ShakeBug"
+      },
+      {
+        "kind": "Import",
         "name": "SystemConfiguration",
         "printedName": "SystemConfiguration",
         "declKind": "Import",
-        "moduleName": "ShakeBug"
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
         "moduleName": "ShakeBug",
         "declAttributes": [
           "RawDocComment"
@@ -40,45 +40,8 @@
       },
       {
         "kind": "Import",
-        "name": "AVKit",
-        "printedName": "AVKit",
-        "declKind": "Import",
-        "moduleName": "ShakeBug"
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "ShakeBug",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "ShakeBug",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "ShakeBug",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "AVFoundation",
-        "printedName": "AVFoundation",
+        "name": "Foundation",
+        "printedName": "Foundation",
         "declKind": "Import",
         "moduleName": "ShakeBug"
       },
@@ -94,38 +57,8 @@
       },
       {
         "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "ShakeBug",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "ShakeBug",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "ShakeBug",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "AVFoundation",
-        "printedName": "AVFoundation",
+        "name": "CoreLocation",
+        "printedName": "CoreLocation",
         "declKind": "Import",
         "moduleName": "ShakeBug"
       },
@@ -133,117 +66,34 @@
         "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "ShakeBug",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "ShakeBug",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "ShakeBug",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "ShakeBug",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "ShakeBug"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "ShakeBug",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "ShakeBug"
-      },
-      {
-        "kind": "Import",
-        "name": "ReplayKit",
-        "printedName": "ReplayKit",
-        "declKind": "Import",
-        "moduleName": "ShakeBug"
-      },
-      {
-        "kind": "Import",
-        "name": "Photos",
-        "printedName": "Photos",
-        "declKind": "Import",
-        "moduleName": "ShakeBug"
-      },
-      {
-        "kind": "Import",
-        "name": "PencilKit",
-        "printedName": "PencilKit",
-        "declKind": "Import",
-        "moduleName": "ShakeBug"
-      },
-      {
-        "kind": "Import",
-        "name": "MobileCoreServices",
-        "printedName": "MobileCoreServices",
         "declKind": "Import",
         "moduleName": "ShakeBug"
       },
       {
         "kind": "TypeDecl",
-        "name": "ShakebugCustomExtention",
-        "printedName": "ShakebugCustomExtention",
+        "name": "ShakeBugSDK",
+        "printedName": "ShakeBugSDK",
         "children": [
           {
             "kind": "Var",
-            "name": "isPencileButtonSelected",
-            "printedName": "isPencileButtonSelected",
+            "name": "sharedInstance",
+            "printedName": "sharedInstance",
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
+                "name": "ShakeBugSDK",
+                "printedName": "ShakeBug.ShakeBugSDK",
+                "usr": "c:@M@ShakeBug@objc(cs)ShakeBugSDK"
               }
             ],
             "declKind": "Var",
-            "usr": "c:@M@ShakeBug@objc(cs)ShakebugCustomExtention(py)isPencileButtonSelected",
-            "mangledName": "$s8ShakeBug23ShakebugCustomExtentionC23isPencileButtonSelectedSbvp",
+            "usr": "c:@M@ShakeBug@objc(cs)ShakeBugSDK(cpy)sharedInstance",
+            "mangledName": "$s8ShakeBug0aB3SDKC14sharedInstanceACvpZ",
             "moduleName": "ShakeBug",
+            "static": true,
             "declAttributes": [
               "HasInitialValue",
+              "Final",
               "HasStorage",
               "AccessControl",
               "ObjC"
@@ -257,17 +107,19 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "Bool",
-                    "printedName": "Swift.Bool",
-                    "usr": "s:Sb"
+                    "name": "ShakeBugSDK",
+                    "printedName": "ShakeBug.ShakeBugSDK",
+                    "usr": "c:@M@ShakeBug@objc(cs)ShakeBugSDK"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@M@ShakeBug@objc(cs)ShakebugCustomExtention(im)isPencileButtonSelected",
-                "mangledName": "$s8ShakeBug23ShakebugCustomExtentionC23isPencileButtonSelectedSbvg",
+                "usr": "c:@M@ShakeBug@objc(cs)ShakeBugSDK(cm)sharedInstance",
+                "mangledName": "$s8ShakeBug0aB3SDKC14sharedInstanceACvgZ",
                 "moduleName": "ShakeBug",
+                "static": true,
                 "implicit": true,
                 "declAttributes": [
+                  "Final",
                   "ObjC"
                 ],
                 "accessorKind": "get"
@@ -284,17 +136,19 @@
                   },
                   {
                     "kind": "TypeNominal",
-                    "name": "Bool",
-                    "printedName": "Swift.Bool",
-                    "usr": "s:Sb"
+                    "name": "ShakeBugSDK",
+                    "printedName": "ShakeBug.ShakeBugSDK",
+                    "usr": "c:@M@ShakeBug@objc(cs)ShakeBugSDK"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@M@ShakeBug@objc(cs)ShakebugCustomExtention(im)setIsPencileButtonSelected:",
-                "mangledName": "$s8ShakeBug23ShakebugCustomExtentionC23isPencileButtonSelectedSbvs",
+                "usr": "c:@M@ShakeBug@objc(cs)ShakeBugSDK(cm)setSharedInstance:",
+                "mangledName": "$s8ShakeBug0aB3SDKC14sharedInstanceACvsZ",
                 "moduleName": "ShakeBug",
+                "static": true,
                 "implicit": true,
                 "declAttributes": [
+                  "Final",
                   "ObjC"
                 ],
                 "accessorKind": "set"
@@ -311,271 +165,78 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8ShakeBug23ShakebugCustomExtentionC23isPencileButtonSelectedSbvM",
-                "mangledName": "$s8ShakeBug23ShakebugCustomExtentionC23isPencileButtonSelectedSbvM",
+                "usr": "s:8ShakeBug0aB3SDKC14sharedInstanceACvMZ",
+                "mangledName": "$s8ShakeBug0aB3SDKC14sharedInstanceACvMZ",
                 "moduleName": "ShakeBug",
+                "static": true,
                 "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
                 "accessorKind": "_modify"
               }
             ]
           },
           {
-            "kind": "Function",
-            "name": "sharedInstance",
-            "printedName": "sharedInstance()",
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "ShakebugCustomExtention",
-                "printedName": "ShakeBug.ShakebugCustomExtention",
-                "usr": "c:@M@ShakeBug@objc(cs)ShakebugCustomExtention"
+                "name": "ShakeBugSDK",
+                "printedName": "ShakeBug.ShakeBugSDK",
+                "usr": "c:@M@ShakeBug@objc(cs)ShakeBugSDK"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@ShakeBug@objc(cs)ShakeBugSDK(im)init",
+            "mangledName": "$s8ShakeBug0aB3SDKCACycfc",
+            "moduleName": "ShakeBug",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "initiateWithKey",
+            "printedName": "initiateWithKey(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
               }
             ],
             "declKind": "Func",
-            "usr": "c:@M@ShakeBug@objc(cs)ShakebugCustomExtention(cm)sharedInstance",
-            "mangledName": "$s8ShakeBug23ShakebugCustomExtentionC14sharedInstanceACyFZ",
+            "usr": "c:@CM@ShakeBug@objc(cs)ShakeBugSDK(im)initiateWithKey:",
+            "mangledName": "$s8ShakeBug0aB3SDKC15initiateWithKeyyySSF",
             "moduleName": "ShakeBug",
-            "static": true,
             "declAttributes": [
+              "Dynamic",
               "AccessControl",
               "ObjC",
               "RawDocComment"
             ],
+            "isFromExtension": true,
             "funcSelfKind": "NonMutating"
           },
           {
             "kind": "Function",
-            "name": "showWindow",
-            "printedName": "showWindow()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@M@ShakeBug@objc(cs)ShakebugCustomExtention(im)showWindow",
-            "mangledName": "$s8ShakeBug23ShakebugCustomExtentionC10showWindowyyF",
-            "moduleName": "ShakeBug",
-            "declAttributes": [
-              "AccessControl",
-              "ObjC"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "showWindowWithDelay",
-            "printedName": "showWindowWithDelay(completion:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(Foundation.NSURL) -> ()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "NSURL",
-                    "printedName": "Foundation.NSURL",
-                    "usr": "c:objc(cs)NSURL"
-                  }
-                ]
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@M@ShakeBug@objc(cs)ShakebugCustomExtention(im)showWindowWithDelayWithCompletion:",
-            "mangledName": "$s8ShakeBug23ShakebugCustomExtentionC19showWindowWithDelay10completionyySo5NSURLCc_tF",
-            "moduleName": "ShakeBug",
-            "objc_name": "showWindowWithDelayWithCompletion:",
-            "declAttributes": [
-              "AccessControl",
-              "ObjC"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "hideWindow",
-            "printedName": "hideWindow()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@M@ShakeBug@objc(cs)ShakebugCustomExtention(im)hideWindow",
-            "mangledName": "$s8ShakeBug23ShakebugCustomExtentionC10hideWindowyyF",
-            "moduleName": "ShakeBug",
-            "declAttributes": [
-              "AccessControl",
-              "ObjC"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "stopRecordingWithFlotButton",
-            "printedName": "stopRecordingWithFlotButton(completion:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(Swift.Bool) -> ()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Bool",
-                    "printedName": "Swift.Bool",
-                    "usr": "s:Sb"
-                  }
-                ]
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@M@ShakeBug@objc(cs)ShakebugCustomExtention(im)stopRecordingWithFlotButtonWithCompletion:",
-            "mangledName": "$s8ShakeBug23ShakebugCustomExtentionC27stopRecordingWithFlotButton10completionyySbc_tF",
-            "moduleName": "ShakeBug",
-            "objc_name": "stopRecordingWithFlotButtonWithCompletion:",
-            "declAttributes": [
-              "AccessControl",
-              "ObjC"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "pencilDrawWithFlotButton",
-            "printedName": "pencilDrawWithFlotButton(completion:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(Swift.Bool) -> ()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Bool",
-                    "printedName": "Swift.Bool",
-                    "usr": "s:Sb"
-                  }
-                ]
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@M@ShakeBug@objc(cs)ShakebugCustomExtention(im)pencilDrawWithFlotButtonWithCompletion:",
-            "mangledName": "$s8ShakeBug23ShakebugCustomExtentionC24pencilDrawWithFlotButton10completionyySbc_tF",
-            "moduleName": "ShakeBug",
-            "objc_name": "pencilDrawWithFlotButtonWithCompletion:",
-            "declAttributes": [
-              "AccessControl",
-              "ObjC"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "openScreenRecordingView",
-            "printedName": "openScreenRecordingView()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@M@ShakeBug@objc(cs)ShakebugCustomExtention(im)openScreenRecordingView",
-            "mangledName": "$s8ShakeBug23ShakebugCustomExtentionC23openScreenRecordingViewyyF",
-            "moduleName": "ShakeBug",
-            "declAttributes": [
-              "AccessControl",
-              "ObjC"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "checkPhotoLibreryAuth",
-            "printedName": "checkPhotoLibreryAuth(controller:completion:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "UIViewController",
-                "printedName": "UIKit.UIViewController",
-                "usr": "c:objc(cs)UIViewController"
-              },
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(Swift.Bool) -> ()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Bool",
-                    "printedName": "Swift.Bool",
-                    "usr": "s:Sb"
-                  }
-                ]
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@M@ShakeBug@objc(cs)ShakebugCustomExtention(im)checkPhotoLibreryAuthWithController:completion:",
-            "mangledName": "$s8ShakeBug23ShakebugCustomExtentionC21checkPhotoLibreryAuth10controller10completionySo16UIViewControllerC_ySbctF",
-            "moduleName": "ShakeBug",
-            "objc_name": "checkPhotoLibreryAuthWithController:completion:",
-            "declAttributes": [
-              "AccessControl",
-              "ObjC"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "setUpPencilKit",
-            "printedName": "setUpPencilKit(status:)",
+            "name": "makeLogEnabled",
+            "printedName": "makeLogEnabled(_:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -590,162 +251,123 @@
               }
             ],
             "declKind": "Func",
-            "usr": "c:@M@ShakeBug@objc(cs)ShakebugCustomExtention(im)setUpPencilKitWithStatus:",
-            "mangledName": "$s8ShakeBug23ShakebugCustomExtentionC14setUpPencilKit6statusySb_tF",
+            "usr": "c:@CM@ShakeBug@objc(cs)ShakeBugSDK(im)makeLogEnabled:",
+            "mangledName": "$s8ShakeBug0aB3SDKC14makeLogEnabledyySbF",
             "moduleName": "ShakeBug",
-            "objc_name": "setUpPencilKitWithStatus:",
-            "declAttributes": [
-              "AccessControl",
-              "ObjC"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "clickOnPencileButton",
-            "printedName": "clickOnPencileButton(mainView:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "UIView",
-                "printedName": "UIKit.UIView",
-                "usr": "c:objc(cs)UIView"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@M@ShakeBug@objc(cs)ShakebugCustomExtention(im)clickOnPencileButtonWithMainView:",
-            "mangledName": "$s8ShakeBug23ShakebugCustomExtentionC20clickOnPencileButton8mainViewySo6UIViewC_tF",
-            "moduleName": "ShakeBug",
-            "objc_name": "clickOnPencileButtonWithMainView:",
-            "declAttributes": [
-              "AccessControl",
-              "ObjC"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "openHelpDeskScreen",
-            "printedName": "openHelpDeskScreen()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@M@ShakeBug@objc(cs)ShakebugCustomExtention(im)openHelpDeskScreen",
-            "mangledName": "$s8ShakeBug23ShakebugCustomExtentionC18openHelpDeskScreenyyF",
-            "moduleName": "ShakeBug",
-            "declAttributes": [
-              "AccessControl",
-              "ObjC"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "openResultScreen",
-            "printedName": "openResultScreen()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@M@ShakeBug@objc(cs)ShakebugCustomExtention(im)openResultScreen",
-            "mangledName": "$s8ShakeBug23ShakebugCustomExtentionC16openResultScreenyyF",
-            "moduleName": "ShakeBug",
-            "declAttributes": [
-              "AccessControl",
-              "ObjC"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "saveVideo",
-            "printedName": "saveVideo(completion:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(Foundation.NSURL) -> ()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "NSURL",
-                    "printedName": "Foundation.NSURL",
-                    "usr": "c:objc(cs)NSURL"
-                  }
-                ]
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@M@ShakeBug@objc(cs)ShakebugCustomExtention(im)saveVideoWithCompletion:",
-            "mangledName": "$s8ShakeBug23ShakebugCustomExtentionC9saveVideo10completionyySo5NSURLCc_tF",
-            "moduleName": "ShakeBug",
-            "objc_name": "saveVideoWithCompletion:",
-            "declAttributes": [
-              "AccessControl",
-              "ObjC"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "ShakebugCustomExtention",
-                "printedName": "ShakeBug.ShakebugCustomExtention",
-                "usr": "c:@M@ShakeBug@objc(cs)ShakebugCustomExtention"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "c:@M@ShakeBug@objc(cs)ShakebugCustomExtention(im)init",
-            "mangledName": "$s8ShakeBug23ShakebugCustomExtentionCACycfc",
-            "moduleName": "ShakeBug",
-            "overriding": true,
-            "implicit": true,
-            "objc_name": "init",
             "declAttributes": [
               "Dynamic",
+              "AccessControl",
               "ObjC",
-              "Override"
+              "RawDocComment"
             ],
-            "init_kind": "Designated"
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "showTutorialScreenFirstTime",
+            "printedName": "showTutorialScreenFirstTime(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@ShakeBug@objc(cs)ShakeBugSDK(im)showTutorialScreenFirstTime:",
+            "mangledName": "$s8ShakeBug0aB3SDKC27showTutorialScreenFirstTimeyySbF",
+            "moduleName": "ShakeBug",
+            "declAttributes": [
+              "Dynamic",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "allowBugCrashFromSimulator",
+            "printedName": "allowBugCrashFromSimulator(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@ShakeBug@objc(cs)ShakeBugSDK(im)allowBugCrashFromSimulator:",
+            "mangledName": "$s8ShakeBug0aB3SDKC05allowB18CrashFromSimulatoryySbF",
+            "moduleName": "ShakeBug",
+            "declAttributes": [
+              "Dynamic",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "addEventKey",
+            "printedName": "addEventKey(key:eventValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@ShakeBug@objc(cs)ShakeBugSDK(im)addEventKeyWithKey:eventValue:",
+            "mangledName": "$s8ShakeBug0aB3SDKC11addEventKey3key10eventValueySS_SStF",
+            "moduleName": "ShakeBug",
+            "objc_name": "addEventKeyWithKey:eventValue:",
+            "declAttributes": [
+              "Dynamic",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Class",
-        "usr": "c:@M@ShakeBug@objc(cs)ShakebugCustomExtention",
-        "mangledName": "$s8ShakeBug23ShakebugCustomExtentionC",
+        "usr": "c:@M@ShakeBug@objc(cs)ShakeBugSDK",
+        "mangledName": "$s8ShakeBug0aB3SDKC",
         "moduleName": "ShakeBug",
-        "intro_iOS": "13.0",
         "declAttributes": [
           "AccessControl",
-          "ObjC",
-          "Available"
+          "ObjC"
         ],
         "superclassUsr": "c:objc(cs)NSObject",
         "inheritsConvenienceInitializers": true,
@@ -806,6 +428,166 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ShakeBug",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "ShakeBug",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AVKit",
+        "printedName": "AVKit",
+        "declKind": "Import",
+        "moduleName": "ShakeBug"
+      },
+      {
+        "kind": "Import",
+        "name": "CoreServices",
+        "printedName": "CoreServices",
+        "declKind": "Import",
+        "moduleName": "ShakeBug"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "ShakeBug",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "ShakeBug",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreTelephony",
+        "printedName": "CoreTelephony",
+        "declKind": "Import",
+        "moduleName": "ShakeBug"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ShakeBug",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "ShakeBug"
+      },
+      {
+        "kind": "Import",
+        "name": "ReplayKit",
+        "printedName": "ReplayKit",
+        "declKind": "Import",
+        "moduleName": "ShakeBug"
+      },
+      {
+        "kind": "Import",
+        "name": "Photos",
+        "printedName": "Photos",
+        "declKind": "Import",
+        "moduleName": "ShakeBug"
+      },
+      {
+        "kind": "Import",
+        "name": "PencilKit",
+        "printedName": "PencilKit",
+        "declKind": "Import",
+        "moduleName": "ShakeBug"
+      },
+      {
+        "kind": "Import",
+        "name": "MobileCoreServices",
+        "printedName": "MobileCoreServices",
+        "declKind": "Import",
+        "moduleName": "ShakeBug"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "ShakeBug",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ShakeBug",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "ShakeBug"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ShakeBug",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "ShakeBug"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ShakeBug",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -839,14 +621,94 @@
         "moduleName": "ShakeBug"
       },
       {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "ShakeBug",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "ReplayKit",
+        "printedName": "ReplayKit",
+        "declKind": "Import",
+        "moduleName": "ShakeBug"
+      },
+      {
+        "kind": "Import",
+        "name": "CoreServices",
+        "printedName": "CoreServices",
+        "declKind": "Import",
+        "moduleName": "ShakeBug"
+      },
+      {
         "kind": "TypeDecl",
-        "name": "PHPhotoLibrary",
-        "printedName": "PHPhotoLibrary",
+        "name": "UIViewController",
+        "printedName": "UIViewController",
         "children": [
           {
+            "kind": "Var",
+            "name": "canBecomeFirstResponder",
+            "printedName": "canBecomeFirstResponder",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@CM@ShakeBug@@objc(cs)UIViewController(py)canBecomeFirstResponder",
+            "mangledName": "$sSo16UIViewControllerC8ShakeBugE23canBecomeFirstResponderSbvp",
+            "moduleName": "ShakeBug",
+            "overriding": true,
+            "isOpen": true,
+            "objc_name": "canBecomeFirstResponder",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@CM@ShakeBug@@objc(cs)UIViewController(im)canBecomeFirstResponder",
+                "mangledName": "$sSo16UIViewControllerC8ShakeBugE23canBecomeFirstResponderSbvg",
+                "moduleName": "ShakeBug",
+                "overriding": true,
+                "isOpen": true,
+                "objc_name": "canBecomeFirstResponder",
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
             "kind": "Function",
-            "name": "execute",
-            "printedName": "execute(controller:onAccessHasBeenGranted:onAccessHasBeenDenied:)",
+            "name": "motionEnded",
+            "printedName": "motionEnded(_:with:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -855,81 +717,61 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "UIViewController",
-                "printedName": "UIKit.UIViewController",
-                "usr": "c:objc(cs)UIViewController"
-              },
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "() -> ()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ]
+                "name": "EventSubtype",
+                "printedName": "UIKit.UIEvent.EventSubtype",
+                "usr": "c:@E@UIEventSubtype"
               },
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "(() -> ())?",
+                "printedName": "UIKit.UIEvent?",
                 "children": [
                   {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "() -> ()",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Void",
-                        "printedName": "()"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Void",
-                        "printedName": "()"
-                      }
-                    ]
+                    "kind": "TypeNominal",
+                    "name": "UIEvent",
+                    "printedName": "UIKit.UIEvent",
+                    "usr": "c:objc(cs)UIEvent"
                   }
                 ],
-                "hasDefaultArg": true,
                 "usr": "s:Sq"
               }
             ],
             "declKind": "Func",
-            "usr": "s:So14PHPhotoLibraryC8ShakeBugE7execute10controller22onAccessHasBeenGranted0ghiJ6DeniedySo16UIViewControllerC_yycyycSgtFZ",
-            "mangledName": "$sSo14PHPhotoLibraryC8ShakeBugE7execute10controller22onAccessHasBeenGranted0ghiJ6DeniedySo16UIViewControllerC_yycyycSgtFZ",
+            "usr": "c:@CM@ShakeBug@@objc(cs)UIViewController(im)motionEnded:withEvent:",
+            "mangledName": "$sSo16UIViewControllerC8ShakeBugE11motionEnded_4withySo14UIEventSubtypeV_So0H0CSgtF",
             "moduleName": "ShakeBug",
-            "static": true,
+            "overriding": true,
+            "isOpen": true,
+            "objc_name": "motionEnded:withEvent:",
             "declAttributes": [
-              "Final"
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override",
+              "AccessControl"
             ],
             "isFromExtension": true,
             "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Class",
-        "usr": "c:objc(cs)PHPhotoLibrary",
-        "moduleName": "Photos",
+        "usr": "c:objc(cs)UIViewController",
+        "moduleName": "UIKit",
         "isOpen": true,
-        "intro_iOS": "8",
-        "objc_name": "PHPhotoLibrary",
+        "intro_iOS": "2.0",
+        "objc_name": "UIViewController",
         "declAttributes": [
           "Available",
           "ObjC",
+          "NonSendable",
+          "Custom",
           "Dynamic"
         ],
-        "superclassUsr": "c:objc(cs)NSObject",
+        "superclassUsr": "c:objc(cs)UIResponder",
         "isExternal": true,
         "inheritsConvenienceInitializers": true,
         "superclassNames": [
+          "UIKit.UIResponder",
           "ObjectiveC.NSObject"
         ],
         "conformances": [
@@ -989,1416 +831,499 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Volumes\/Data1\/iOS\/ShakeBug\/ShakeBug\/NetworkManager\/Swift\/ShakebugNetworkManager.swift",
+      "filePath": "\/Volumes\/Data1\/iOS\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Services\/APIServices\/ShakeBugAPIServices.swift",
       "kind": "StringLiteral",
-      "offset": 239,
-      "length": 35,
-      "value": "\"http:\/\/75.119.129.237:900\/ticket\/\""
+      "offset": 241,
+      "length": 50,
+      "value": "\"https:\/\/www.shakebug.com\/api\/v1.1\/webservice.php\""
     },
     {
-      "filePath": "\/Volumes\/Data1\/iOS\/ShakeBug\/ShakeBug\/NetworkManager\/Swift\/ShakebugNetworkManager.swift",
+      "filePath": "\/Volumes\/Data1\/iOS\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Services\/APIServices\/ShakeBugAPIServices.swift",
       "kind": "StringLiteral",
-      "offset": 303,
-      "length": 18,
-      "value": "\"getAllTicketList\""
+      "offset": 241,
+      "length": 50,
+      "value": "\"https:\/\/www.shakebug.com\/api\/v1.1\/webservice.php\""
     },
     {
-      "filePath": "\/Volumes\/Data1\/iOS\/ShakeBug\/ShakeBug\/NetworkManager\/Swift\/ShakebugNetworkManager.swift",
+      "filePath": "\/Volumes\/Data1\/iOS\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Services\/APIServices\/ShakeBugAPIServices.swift",
       "kind": "StringLiteral",
-      "offset": 354,
-      "length": 22,
-      "value": "\"getUnreadTicketReply\""
+      "offset": 346,
+      "length": 11,
+      "value": "\"matchKeys\""
     },
     {
-      "filePath": "\/Volumes\/Data1\/iOS\/ShakeBug\/ShakeBug\/NetworkManager\/Swift\/ShakebugNetworkManager.swift",
+      "filePath": "\/Volumes\/Data1\/iOS\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Services\/APIServices\/ShakeBugAPIServices.swift",
       "kind": "StringLiteral",
-      "offset": 405,
-      "length": 18,
-      "value": "\"getTicketDetails\""
+      "offset": 378,
+      "length": 10,
+      "value": "\"addIssue\""
     },
     {
-      "filePath": "\/Volumes\/Data1\/iOS\/ShakeBug\/ShakeBug\/NetworkManager\/Swift\/ShakebugNetworkManager.swift",
+      "filePath": "\/Volumes\/Data1\/iOS\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Services\/APIServices\/ShakeBugAPIServices.swift",
       "kind": "StringLiteral",
-      "offset": 448,
+      "offset": 413,
       "length": 14,
-      "value": "\"createTicket\""
+      "value": "\"startSession\""
     },
     {
-      "filePath": "\/Volumes\/Data1\/iOS\/ShakeBug\/ShakeBug\/NetworkManager\/Swift\/ShakebugNetworkManager.swift",
+      "filePath": "\/Volumes\/Data1\/iOS\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Services\/APIServices\/ShakeBugAPIServices.swift",
       "kind": "StringLiteral",
-      "offset": 486,
-      "length": 13,
-      "value": "\"replyTicket\""
-    },
-    {
-      "filePath": "\/Volumes\/Data1\/iOS\/ShakeBug\/ShakeBug\/NetworkManager\/Swift\/ShakebugNetworkManager.swift",
-      "kind": "StringLiteral",
-      "offset": 523,
-      "length": 13,
-      "value": "\"closeTicket\""
-    },
-    {
-      "filePath": "\/Volumes\/Data1\/iOS\/ShakeBug\/ShakeBug\/NetworkManager\/Swift\/ShakebugNetworkManager.swift",
-      "kind": "StringLiteral",
-      "offset": 559,
+      "offset": 450,
       "length": 12,
-      "value": "\"readTicket\""
+      "value": "\"endSession\""
     },
     {
-      "filePath": "\/Volumes\/Data1\/iOS\/ShakeBug\/ShakeBug\/NetworkManager\/Swift\/ShakebugNetworkManager.swift",
+      "filePath": "\/Volumes\/Data1\/iOS\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Services\/APIServices\/ShakeBugAPIServices.swift",
       "kind": "StringLiteral",
-      "offset": 239,
-      "length": 35,
-      "value": "\"http:\/\/75.119.129.237:900\/ticket\/\""
+      "offset": 480,
+      "length": 7,
+      "value": "\"event\""
     },
     {
-      "filePath": "\/Volumes\/Data1\/iOS\/ShakeBug\/ShakeBug\/NetworkManager\/Swift\/ShakebugNetworkManager.swift",
+      "filePath": "\/Volumes\/Data1\/iOS\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Services\/APIServices\/ShakeBugAPIServices.swift",
       "kind": "StringLiteral",
-      "offset": 303,
-      "length": 18,
-      "value": "\"getAllTicketList\""
+      "offset": 346,
+      "length": 11,
+      "value": "\"matchKeys\""
     },
     {
-      "filePath": "\/Volumes\/Data1\/iOS\/ShakeBug\/ShakeBug\/NetworkManager\/Swift\/ShakebugNetworkManager.swift",
+      "filePath": "\/Volumes\/Data1\/iOS\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Services\/APIServices\/ShakeBugAPIServices.swift",
       "kind": "StringLiteral",
-      "offset": 354,
-      "length": 22,
-      "value": "\"getUnreadTicketReply\""
+      "offset": 378,
+      "length": 10,
+      "value": "\"addIssue\""
     },
     {
-      "filePath": "\/Volumes\/Data1\/iOS\/ShakeBug\/ShakeBug\/NetworkManager\/Swift\/ShakebugNetworkManager.swift",
+      "filePath": "\/Volumes\/Data1\/iOS\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Services\/APIServices\/ShakeBugAPIServices.swift",
       "kind": "StringLiteral",
-      "offset": 405,
-      "length": 18,
-      "value": "\"getTicketDetails\""
-    },
-    {
-      "filePath": "\/Volumes\/Data1\/iOS\/ShakeBug\/ShakeBug\/NetworkManager\/Swift\/ShakebugNetworkManager.swift",
-      "kind": "StringLiteral",
-      "offset": 448,
+      "offset": 413,
       "length": 14,
-      "value": "\"createTicket\""
+      "value": "\"startSession\""
     },
     {
-      "filePath": "\/Volumes\/Data1\/iOS\/ShakeBug\/ShakeBug\/NetworkManager\/Swift\/ShakebugNetworkManager.swift",
+      "filePath": "\/Volumes\/Data1\/iOS\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Services\/APIServices\/ShakeBugAPIServices.swift",
       "kind": "StringLiteral",
-      "offset": 486,
-      "length": 13,
-      "value": "\"replyTicket\""
-    },
-    {
-      "filePath": "\/Volumes\/Data1\/iOS\/ShakeBug\/ShakeBug\/NetworkManager\/Swift\/ShakebugNetworkManager.swift",
-      "kind": "StringLiteral",
-      "offset": 523,
-      "length": 13,
-      "value": "\"closeTicket\""
-    },
-    {
-      "filePath": "\/Volumes\/Data1\/iOS\/ShakeBug\/ShakeBug\/NetworkManager\/Swift\/ShakebugNetworkManager.swift",
-      "kind": "StringLiteral",
-      "offset": 559,
+      "offset": 450,
       "length": 12,
-      "value": "\"readTicket\""
+      "value": "\"endSession\""
     },
     {
-      "filePath": "\/Volumes\/Data1\/iOS\/ShakeBug\/ShakeBug\/NetworkManager\/Swift\/ShakebugNetworkManager.swift",
+      "filePath": "\/Volumes\/Data1\/iOS\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Services\/APIServices\/ShakeBugAPIServices.swift",
       "kind": "StringLiteral",
-      "offset": 626,
+      "offset": 480,
+      "length": 7,
+      "value": "\"event\""
+    },
+    {
+      "filePath": "\/Volumes\/Data1\/iOS\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Services\/APIServices\/ShakeBugReachability.swift",
+      "kind": "StringLiteral",
+      "offset": 592,
+      "length": 41,
+      "value": "\"ShakeBugReachabilityChangedNotification\""
+    },
+    {
+      "filePath": "\/Volumes\/Data1\/iOS\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Services\/APIServices\/ShakeBugReachability.swift",
+      "kind": "StringLiteral",
+      "offset": 729,
+      "length": 29,
+      "value": "\"ShakeBugreachabilityChanged\""
+    },
+    {
+      "filePath": "\/Volumes\/Data1\/iOS\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Services\/APIServices\/ShakeBugReachability.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1923,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Volumes\/Data1\/iOS\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Services\/APIServices\/ShakeBugReachability.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2900,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Volumes\/Data1\/iOS\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Services\/APIServices\/ShakeBugReachability.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2968,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Volumes\/Data1\/iOS\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Modules\/ShakeBugFeedback\/ShakeBugFeedbackViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 388,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Volumes\/Data1\/iOS\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Miscellaneous\/ShakeBugUtils.swift",
+      "kind": "StringLiteral",
+      "offset": 7052,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Volumes\/Data1\/iOS\/ShakeBug\/ShakeBug\/NetworkManager\/Swift\/ShakebugNetworkManager.swift",
-      "kind": "StringLiteral",
-      "offset": 649,
-      "length": 21,
-      "value": "\"multipart\/form-data\""
-    },
-    {
-      "filePath": "\/Volumes\/Data1\/iOS\/ShakeBug\/ShakeBug\/NetworkManager\/Swift\/ShakebugNetworkManager.swift",
-      "kind": "StringLiteral",
-      "offset": 697,
-      "length": 35,
-      "value": "\"application\/x-www-form-urlencoded\""
-    },
-    {
-      "filePath": "\/Volumes\/Data1\/iOS\/ShakeBug\/ShakeBug\/NetworkManager\/Swift\/ShakebugNetworkManager.swift",
-      "kind": "StringLiteral",
-      "offset": 760,
-      "length": 18,
-      "value": "\"application\/json\""
-    },
-    {
-      "filePath": "\/Volumes\/Data1\/iOS\/ShakeBug\/ShakeBug\/NetworkManager\/Swift\/ShakebugNetworkManager.swift",
-      "kind": "StringLiteral",
-      "offset": 794,
+      "filePath": "\/Volumes\/Data1\/iOS\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Modules\/CustomExtension\/ShakeBugCustomExtension.swift",
+      "kind": "BooleanLiteral",
+      "offset": 443,
       "length": 5,
-      "value": "\"php\""
+      "value": "false"
     },
     {
-      "filePath": "\/Volumes\/Data1\/iOS\/ShakeBug\/ShakeBug\/NetworkManager\/Swift\/ShakebugNetworkManager.swift",
+      "filePath": "\/Volumes\/Data1\/iOS\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Services\/APIServices\/ShakeBugNetworkManager.swift",
       "kind": "StringLiteral",
-      "offset": 626,
+      "offset": 233,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Volumes\/Data1\/iOS\/ShakeBug\/ShakeBug\/NetworkManager\/Swift\/ShakebugNetworkManager.swift",
+      "filePath": "\/Volumes\/Data1\/iOS\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Services\/APIServices\/ShakeBugNetworkManager.swift",
       "kind": "StringLiteral",
-      "offset": 649,
+      "offset": 256,
       "length": 21,
       "value": "\"multipart\/form-data\""
     },
     {
-      "filePath": "\/Volumes\/Data1\/iOS\/ShakeBug\/ShakeBug\/NetworkManager\/Swift\/ShakebugNetworkManager.swift",
+      "filePath": "\/Volumes\/Data1\/iOS\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Services\/APIServices\/ShakeBugNetworkManager.swift",
       "kind": "StringLiteral",
-      "offset": 697,
+      "offset": 304,
       "length": 35,
       "value": "\"application\/x-www-form-urlencoded\""
     },
     {
-      "filePath": "\/Volumes\/Data1\/iOS\/ShakeBug\/ShakeBug\/NetworkManager\/Swift\/ShakebugNetworkManager.swift",
+      "filePath": "\/Volumes\/Data1\/iOS\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Services\/APIServices\/ShakeBugNetworkManager.swift",
       "kind": "StringLiteral",
-      "offset": 760,
+      "offset": 367,
       "length": 18,
       "value": "\"application\/json\""
     },
     {
-      "filePath": "\/Volumes\/Data1\/iOS\/ShakeBug\/ShakeBug\/NetworkManager\/Swift\/ShakebugNetworkManager.swift",
+      "filePath": "\/Volumes\/Data1\/iOS\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Services\/APIServices\/ShakeBugNetworkManager.swift",
       "kind": "StringLiteral",
-      "offset": 794,
+      "offset": 401,
       "length": 5,
       "value": "\"php\""
     },
     {
-      "filePath": "\/Volumes\/Data1\/iOS\/ShakeBug\/ShakeBug\/NetworkManager\/Swift\/ShakebugNetworkManager.swift",
+      "filePath": "\/Volumes\/Data1\/iOS\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Services\/APIServices\/ShakeBugNetworkManager.swift",
       "kind": "StringLiteral",
-      "offset": 853,
+      "offset": 233,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Volumes\/Data1\/iOS\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Services\/APIServices\/ShakeBugNetworkManager.swift",
+      "kind": "StringLiteral",
+      "offset": 256,
+      "length": 21,
+      "value": "\"multipart\/form-data\""
+    },
+    {
+      "filePath": "\/Volumes\/Data1\/iOS\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Services\/APIServices\/ShakeBugNetworkManager.swift",
+      "kind": "StringLiteral",
+      "offset": 304,
+      "length": 35,
+      "value": "\"application\/x-www-form-urlencoded\""
+    },
+    {
+      "filePath": "\/Volumes\/Data1\/iOS\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Services\/APIServices\/ShakeBugNetworkManager.swift",
+      "kind": "StringLiteral",
+      "offset": 367,
+      "length": 18,
+      "value": "\"application\/json\""
+    },
+    {
+      "filePath": "\/Volumes\/Data1\/iOS\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Services\/APIServices\/ShakeBugNetworkManager.swift",
+      "kind": "StringLiteral",
+      "offset": 401,
+      "length": 5,
+      "value": "\"php\""
+    },
+    {
+      "filePath": "\/Volumes\/Data1\/iOS\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Services\/APIServices\/ShakeBugNetworkManager.swift",
+      "kind": "StringLiteral",
+      "offset": 460,
       "length": 5,
       "value": "\"GET\""
     },
     {
-      "filePath": "\/Volumes\/Data1\/iOS\/ShakeBug\/ShakeBug\/NetworkManager\/Swift\/ShakebugNetworkManager.swift",
+      "filePath": "\/Volumes\/Data1\/iOS\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Services\/APIServices\/ShakeBugNetworkManager.swift",
       "kind": "StringLiteral",
-      "offset": 875,
+      "offset": 482,
       "length": 6,
       "value": "\"POST\""
     },
     {
-      "filePath": "\/Volumes\/Data1\/iOS\/ShakeBug\/ShakeBug\/NetworkManager\/Swift\/ShakebugNetworkManager.swift",
+      "filePath": "\/Volumes\/Data1\/iOS\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Services\/APIServices\/ShakeBugNetworkManager.swift",
       "kind": "StringLiteral",
-      "offset": 897,
+      "offset": 504,
       "length": 5,
       "value": "\"PUT\""
     },
     {
-      "filePath": "\/Volumes\/Data1\/iOS\/ShakeBug\/ShakeBug\/NetworkManager\/Swift\/ShakebugNetworkManager.swift",
+      "filePath": "\/Volumes\/Data1\/iOS\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Services\/APIServices\/ShakeBugNetworkManager.swift",
       "kind": "StringLiteral",
-      "offset": 921,
+      "offset": 528,
       "length": 8,
       "value": "\"DELETE\""
     },
     {
-      "filePath": "\/Volumes\/Data1\/iOS\/ShakeBug\/ShakeBug\/NetworkManager\/Swift\/ShakebugNetworkManager.swift",
+      "filePath": "\/Volumes\/Data1\/iOS\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Services\/APIServices\/ShakeBugNetworkManager.swift",
       "kind": "StringLiteral",
-      "offset": 946,
+      "offset": 553,
       "length": 6,
       "value": "\"HEAD\""
     },
     {
-      "filePath": "\/Volumes\/Data1\/iOS\/ShakeBug\/ShakeBug\/NetworkManager\/Swift\/ShakebugNetworkManager.swift",
+      "filePath": "\/Volumes\/Data1\/iOS\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Services\/APIServices\/ShakeBugNetworkManager.swift",
       "kind": "StringLiteral",
-      "offset": 853,
+      "offset": 460,
       "length": 5,
       "value": "\"GET\""
     },
     {
-      "filePath": "\/Volumes\/Data1\/iOS\/ShakeBug\/ShakeBug\/NetworkManager\/Swift\/ShakebugNetworkManager.swift",
+      "filePath": "\/Volumes\/Data1\/iOS\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Services\/APIServices\/ShakeBugNetworkManager.swift",
       "kind": "StringLiteral",
-      "offset": 875,
+      "offset": 482,
       "length": 6,
       "value": "\"POST\""
     },
     {
-      "filePath": "\/Volumes\/Data1\/iOS\/ShakeBug\/ShakeBug\/NetworkManager\/Swift\/ShakebugNetworkManager.swift",
+      "filePath": "\/Volumes\/Data1\/iOS\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Services\/APIServices\/ShakeBugNetworkManager.swift",
       "kind": "StringLiteral",
-      "offset": 897,
+      "offset": 504,
       "length": 5,
       "value": "\"PUT\""
     },
     {
-      "filePath": "\/Volumes\/Data1\/iOS\/ShakeBug\/ShakeBug\/NetworkManager\/Swift\/ShakebugNetworkManager.swift",
+      "filePath": "\/Volumes\/Data1\/iOS\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Services\/APIServices\/ShakeBugNetworkManager.swift",
       "kind": "StringLiteral",
-      "offset": 921,
+      "offset": 528,
       "length": 8,
       "value": "\"DELETE\""
     },
     {
-      "filePath": "\/Volumes\/Data1\/iOS\/ShakeBug\/ShakeBug\/NetworkManager\/Swift\/ShakebugNetworkManager.swift",
+      "filePath": "\/Volumes\/Data1\/iOS\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Services\/APIServices\/ShakeBugNetworkManager.swift",
       "kind": "StringLiteral",
-      "offset": 946,
+      "offset": 553,
       "length": 6,
       "value": "\"HEAD\""
     },
     {
-      "filePath": "\/Volumes\/Data1\/iOS\/ShakeBug\/ShakeBug\/NetworkManager\/Swift\/ShakebugNetworkManager.swift",
+      "filePath": "\/Volumes\/Data1\/iOS\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Services\/APIServices\/ShakeBugNetworkManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 1244,
+      "offset": 857,
       "length": 6,
       "value": "10001"
     },
     {
-      "filePath": "\/Volumes\/Data1\/iOS\/ShakeBug\/ShakeBug\/NetworkManager\/Swift\/ShakebugNetworkManager.swift",
+      "filePath": "\/Volumes\/Data1\/iOS\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Services\/APIServices\/ShakeBugNetworkManager.swift",
       "kind": "StringLiteral",
-      "offset": 1278,
-      "length": 35,
-      "value": "\"com.adminastroswamig.mobile.error\""
+      "offset": 892,
+      "length": 16,
+      "value": "\"MarchShake2022\""
     },
     {
-      "filePath": "\/Volumes\/Data1\/iOS\/ShakeBug\/ShakeBug\/NetworkManager\/Swift\/ShakebugNetworkManager.swift",
+      "filePath": "\/Volumes\/Data1\/iOS\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Services\/APIServices\/ShakeBugNetworkManager.swift",
+      "kind": "StringLiteral",
+      "offset": 931,
+      "length": 38,
+      "value": "\"com.softnoesis.SoftnoesisSwift.error\""
+    },
+    {
+      "filePath": "\/Volumes\/Data1\/iOS\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Services\/APIServices\/ShakeBugNetworkManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 2380,
+      "offset": 1965,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Volumes\/Data1\/iOS\/ShakeBug\/ShakeBug\/Classes\/ViewControllers\/HelpDesk\/ShakebugTicketDetailsViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 532,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Volumes\/Data1\/iOS\/ShakeBug\/ShakeBug\/Classes\/ViewControllers\/HelpDesk\/ShakebugTicketDetailsViewController.swift",
-      "kind": "FloatLiteral",
-      "offset": 1089,
-      "length": 3,
-      "value": "0.3"
-    },
-    {
-      "filePath": "\/Volumes\/Data1\/iOS\/ShakeBug\/ShakeBug\/Classes\/ViewControllers\/HelpDesk\/ShakebugTicketDetailsViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1156,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Volumes\/Data1\/iOS\/ShakeBug\/ShakeBug\/Classes\/ViewControllers\/HelpDesk\/ShakebugTicketDetailsViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1207,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Volumes\/Data1\/iOS\/ShakeBug\/ShakeBug\/Classes\/ViewControllers\/HelpDesk\/Cells\/ShakebugTicketDetailsCell.swift",
+      "filePath": "\/Volumes\/Data1\/iOS\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Modules\/CustomExtension\/ShakebugStopVideoRecordingWindow.swift",
       "kind": "StringLiteral",
-      "offset": 226,
-      "length": 27,
-      "value": "\"ShakebugTicketDetailsCell\""
-    },
-    {
-      "filePath": "\/Volumes\/Data1\/iOS\/ShakeBug\/ShakeBug\/Classes\/ViewControllers\/HelpDesk\/Cells\/ShakebugTicketDetailsCell.swift",
-      "kind": "IntegerLiteral",
-      "offset": 498,
-      "length": 1,
-      "value": "4"
-    },
-    {
-      "filePath": "\/Volumes\/Data1\/iOS\/ShakeBug\/ShakeBug\/Classes\/ViewControllers\/HelpDesk\/Cells\/ShakebugTicketDetailsCell.swift",
-      "kind": "IntegerLiteral",
-      "offset": 592,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Volumes\/Data1\/iOS\/ShakeBug\/ShakeBug\/Classes\/ViewControllers\/HelpDesk\/Cells\/ShakebugTicketDetailsCell.swift",
-      "kind": "BooleanLiteral",
-      "offset": 689,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Volumes\/Data1\/iOS\/ShakeBug\/ShakeBug\/Classes\/ViewControllers\/HelpDesk\/Cells\/ShakebugTicketDetailsCell.swift",
-      "kind": "IntegerLiteral",
-      "offset": 843,
-      "length": 2,
-      "value": "16"
-    },
-    {
-      "filePath": "\/Volumes\/Data1\/iOS\/ShakeBug\/ShakeBug\/Classes\/ViewControllers\/HelpDesk\/Cells\/ShakebugTicketDetailsCell.swift",
-      "kind": "IntegerLiteral",
-      "offset": 910,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Volumes\/Data1\/iOS\/ShakeBug\/ShakeBug\/Classes\/ViewControllers\/HelpDesk\/Cells\/ShakebugTicketDetailsCell.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1006,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Volumes\/Data1\/iOS\/ShakeBug\/ShakeBug\/Classes\/ViewControllers\/HelpDesk\/Cells\/ShakebugTicketDetailsCell.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1152,
-      "length": 2,
-      "value": "14"
-    },
-    {
-      "filePath": "\/Volumes\/Data1\/iOS\/ShakeBug\/ShakeBug\/Classes\/ViewControllers\/HelpDesk\/Cells\/ShakebugTicketDetailsCell.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1222,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Volumes\/Data1\/iOS\/ShakeBug\/ShakeBug\/Classes\/ViewControllers\/HelpDesk\/Cells\/ShakebugTicketDetailsCell.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1318,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Volumes\/Data1\/iOS\/ShakeBug\/ShakeBug\/Classes\/ViewControllers\/HelpDesk\/Cells\/ShakebugTicketDetailsCell.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1466,
-      "length": 2,
-      "value": "14"
-    },
-    {
-      "filePath": "\/Volumes\/Data1\/iOS\/ShakeBug\/ShakeBug\/Classes\/ViewControllers\/HelpDesk\/Cells\/ShakebugTicketDetailsCell.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1537,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Volumes\/Data1\/iOS\/ShakeBug\/ShakeBug\/Classes\/ViewControllers\/HelpDesk\/Cells\/ShakebugTicketDetailsCell.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1633,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Volumes\/Data1\/iOS\/ShakeBug\/ShakeBug\/Classes\/ViewControllers\/HelpDesk\/Cells\/ShakebugTicketDetailsCell.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1827,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Volumes\/Data1\/iOS\/ShakeBug\/ShakeBug\/Classes\/ViewControllers\/HelpDesk\/Cells\/ShakebugTicketDetailsCell.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1950,
-      "length": 2,
-      "value": "14"
-    },
-    {
-      "filePath": "\/Volumes\/Data1\/iOS\/ShakeBug\/ShakeBug\/Classes\/ViewControllers\/HelpDesk\/Cells\/ShakebugTicketDetailsCell.swift",
-      "kind": "FloatLiteral",
-      "offset": 1988,
-      "length": 4,
-      "value": "12.5"
-    },
-    {
-      "filePath": "\/Volumes\/Data1\/iOS\/ShakeBug\/ShakeBug\/Classes\/ViewControllers\/HelpDesk\/Cells\/ShakebugTicketDetailsCell.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2050,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Volumes\/Data1\/iOS\/ShakeBug\/ShakeBug\/Classes\/ViewControllers\/HelpDesk\/Cells\/ShakebugTicketDetailsCell.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2196,
-      "length": 2,
-      "value": "12"
-    },
-    {
-      "filePath": "\/Volumes\/Data1\/iOS\/ShakeBug\/ShakeBug\/Classes\/ViewControllers\/HelpDesk\/Cells\/ShakebugTicketDetailsCell.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2330,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Volumes\/Data1\/iOS\/ShakeBug\/ShakeBug\/Classes\/ViewControllers\/HelpDesk\/Cells\/ShakebugTicketDetailsCell.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2478,
-      "length": 2,
-      "value": "12"
-    },
-    {
-      "filePath": "\/Volumes\/Data1\/iOS\/ShakeBug\/ShakeBug\/Classes\/ViewControllers\/HelpDesk\/Cells\/ShakebugTicketDetailsCell.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2613,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Volumes\/Data1\/iOS\/ShakeBug\/ShakeBug\/Classes\/ViewControllers\/HelpDesk\/Cells\/ShakebugTicketDetailsCell.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2818,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Volumes\/Data1\/iOS\/ShakeBug\/ShakeBug\/Classes\/ViewControllers\/HelpDesk\/Cells\/ShakebugTicketDetailsCell.swift",
-      "kind": "StringLiteral",
-      "offset": 2989,
-      "length": 7,
-      "value": "\"Close\""
-    },
-    {
-      "filePath": "\/Volumes\/Data1\/iOS\/ShakeBug\/ShakeBug\/Classes\/ViewControllers\/HelpDesk\/Cells\/ShakebugTicketDetailsCell.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3122,
-      "length": 2,
-      "value": "16"
-    },
-    {
-      "filePath": "\/Volumes\/Data1\/iOS\/ShakeBug\/ShakeBug\/Classes\/ViewControllers\/HelpDesk\/Cells\/ShakebugTicketDetailsCell.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3185,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Volumes\/Data1\/iOS\/ShakeBug\/ShakeBug\/Classes\/ViewControllers\/HelpDesk\/Cells\/ShakebugTicketDetailsCell.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3420,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Volumes\/Data1\/iOS\/ShakeBug\/ShakeBug\/Classes\/ViewControllers\/HelpDesk\/Cells\/ShakebugTicketDetailsCell.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3510,
-      "length": 1,
-      "value": "4"
-    },
-    {
-      "filePath": "\/Volumes\/Data1\/iOS\/ShakeBug\/ShakeBug\/Classes\/ViewControllers\/HelpDesk\/Cells\/ShakebugTicketDetailsCell.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3546,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Volumes\/Data1\/iOS\/ShakeBug\/ShakeBug\/Classes\/ViewControllers\/HelpDesk\/Cells\/ShakebugTicketDetailsCell.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3653,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Volumes\/Data1\/iOS\/ShakeBug\/ShakeBug\/Classes\/ViewControllers\/HelpDesk\/Cells\/ShakebugTicketDetailsCell.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3857,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Volumes\/Data1\/iOS\/ShakeBug\/ShakeBug\/Classes\/Models\/HelpDesk\/ShakebugHelpDeskSummery.swift",
-      "kind": "StringLiteral",
-      "offset": 1063,
-      "length": 3,
-      "value": "\"0\""
-    },
-    {
-      "filePath": "\/Volumes\/Data1\/iOS\/ShakeBug\/ShakeBug\/Classes\/Models\/HelpDesk\/ShakebugHelpDeskSummery.swift",
-      "kind": "StringLiteral",
-      "offset": 1078,
-      "length": 11,
-      "value": "\"#sk-23423\""
-    },
-    {
-      "filePath": "\/Volumes\/Data1\/iOS\/ShakeBug\/ShakeBug\/Classes\/Models\/HelpDesk\/ShakebugHelpDeskSummery.swift",
-      "kind": "StringLiteral",
-      "offset": 1104,
-      "length": 27,
-      "value": "\"Not working\nplease check\""
-    },
-    {
-      "filePath": "\/Volumes\/Data1\/iOS\/ShakeBug\/ShakeBug\/Classes\/Models\/HelpDesk\/ShakebugHelpDeskSummery.swift",
-      "kind": "StringLiteral",
-      "offset": 1139,
-      "length": 15,
-      "value": "\"23th Aug 2050\""
-    },
-    {
-      "filePath": "\/Volumes\/Data1\/iOS\/ShakeBug\/ShakeBug\/Classes\/Models\/HelpDesk\/ShakebugHelpDeskSummery.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1171,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Volumes\/Data1\/iOS\/ShakeBug\/ShakeBug\/Classes\/Models\/HelpDesk\/ShakebugHelpDeskSummery.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1201,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Volumes\/Data1\/iOS\/ShakeBug\/ShakeBug\/Classes\/Models\/HelpDesk\/ShakebugHelpDeskSummery.swift",
-      "kind": "StringLiteral",
-      "offset": 1252,
-      "length": 3,
-      "value": "\"1\""
-    },
-    {
-      "filePath": "\/Volumes\/Data1\/iOS\/ShakeBug\/ShakeBug\/Classes\/Models\/HelpDesk\/ShakebugHelpDeskSummery.swift",
-      "kind": "StringLiteral",
-      "offset": 1267,
-      "length": 10,
-      "value": "\"#sk-3232\""
-    },
-    {
-      "filePath": "\/Volumes\/Data1\/iOS\/ShakeBug\/ShakeBug\/Classes\/Models\/HelpDesk\/ShakebugHelpDeskSummery.swift",
-      "kind": "StringLiteral",
-      "offset": 1292,
-      "length": 166,
-      "value": "\"You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ','',@last_bug_id)' at line 40\""
-    },
-    {
-      "filePath": "\/Volumes\/Data1\/iOS\/ShakeBug\/ShakeBug\/Classes\/Models\/HelpDesk\/ShakebugHelpDeskSummery.swift",
-      "kind": "StringLiteral",
-      "offset": 1466,
-      "length": 15,
-      "value": "\"23th Aug 2050\""
-    },
-    {
-      "filePath": "\/Volumes\/Data1\/iOS\/ShakeBug\/ShakeBug\/Classes\/Models\/HelpDesk\/ShakebugHelpDeskSummery.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1498,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Volumes\/Data1\/iOS\/ShakeBug\/ShakeBug\/Classes\/Models\/HelpDesk\/ShakebugHelpDeskSummery.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1528,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Volumes\/Data1\/iOS\/ShakeBug\/ShakeBug\/Classes\/Models\/HelpDesk\/ShakebugHelpDeskSummery.swift",
-      "kind": "StringLiteral",
-      "offset": 1579,
-      "length": 3,
-      "value": "\"2\""
-    },
-    {
-      "filePath": "\/Volumes\/Data1\/iOS\/ShakeBug\/ShakeBug\/Classes\/Models\/HelpDesk\/ShakebugHelpDeskSummery.swift",
-      "kind": "StringLiteral",
-      "offset": 1594,
-      "length": 12,
-      "value": "\"#sk-434333\""
-    },
-    {
-      "filePath": "\/Volumes\/Data1\/iOS\/ShakeBug\/ShakeBug\/Classes\/Models\/HelpDesk\/ShakebugHelpDeskSummery.swift",
-      "kind": "StringLiteral",
-      "offset": 1621,
-      "length": 13,
-      "value": "\"Not working\""
-    },
-    {
-      "filePath": "\/Volumes\/Data1\/iOS\/ShakeBug\/ShakeBug\/Classes\/Models\/HelpDesk\/ShakebugHelpDeskSummery.swift",
-      "kind": "StringLiteral",
-      "offset": 1642,
-      "length": 15,
-      "value": "\"23th Aug 2050\""
-    },
-    {
-      "filePath": "\/Volumes\/Data1\/iOS\/ShakeBug\/ShakeBug\/Classes\/Models\/HelpDesk\/ShakebugHelpDeskSummery.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1674,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Volumes\/Data1\/iOS\/ShakeBug\/ShakeBug\/Classes\/Models\/HelpDesk\/ShakebugHelpDeskSummery.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1706,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Volumes\/Data1\/iOS\/ShakeBug\/ShakeBug\/Classes\/Models\/HelpDesk\/ShakebugHelpDeskSummery.swift",
-      "kind": "StringLiteral",
-      "offset": 1757,
-      "length": 3,
-      "value": "\"3\""
-    },
-    {
-      "filePath": "\/Volumes\/Data1\/iOS\/ShakeBug\/ShakeBug\/Classes\/Models\/HelpDesk\/ShakebugHelpDeskSummery.swift",
-      "kind": "StringLiteral",
-      "offset": 1772,
-      "length": 11,
-      "value": "\"#sk-43431\""
-    },
-    {
-      "filePath": "\/Volumes\/Data1\/iOS\/ShakeBug\/ShakeBug\/Classes\/Models\/HelpDesk\/ShakebugHelpDeskSummery.swift",
-      "kind": "StringLiteral",
-      "offset": 1798,
-      "length": 14,
-      "value": "\"please check\""
-    },
-    {
-      "filePath": "\/Volumes\/Data1\/iOS\/ShakeBug\/ShakeBug\/Classes\/Models\/HelpDesk\/ShakebugHelpDeskSummery.swift",
-      "kind": "StringLiteral",
-      "offset": 1820,
-      "length": 15,
-      "value": "\"23th Aug 2050\""
-    },
-    {
-      "filePath": "\/Volumes\/Data1\/iOS\/ShakeBug\/ShakeBug\/Classes\/Models\/HelpDesk\/ShakebugHelpDeskSummery.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1852,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Volumes\/Data1\/iOS\/ShakeBug\/ShakeBug\/Classes\/Models\/HelpDesk\/ShakebugHelpDeskSummery.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1884,
-      "length": 1,
-      "value": "3"
-    },
-    {
-      "filePath": "\/Volumes\/Data1\/iOS\/ShakeBug\/ShakeBug\/Classes\/Models\/HelpDesk\/ShakebugHelpDeskSummery.swift",
-      "kind": "StringLiteral",
-      "offset": 1934,
-      "length": 6,
-      "value": "\"Open\""
-    },
-    {
-      "filePath": "\/Volumes\/Data1\/iOS\/ShakeBug\/ShakeBug\/Classes\/Models\/HelpDesk\/ShakebugHelpDeskSummery.swift",
-      "kind": "StringLiteral",
-      "offset": 1959,
-      "length": 8,
-      "value": "\"Closed\""
-    },
-    {
-      "filePath": "\/Volumes\/Data1\/iOS\/ShakeBug\/ShakeBug\/Classes\/Models\/HelpDesk\/ShakebugHelpDeskSummery.swift",
-      "kind": "StringLiteral",
-      "offset": 1934,
-      "length": 6,
-      "value": "\"Open\""
-    },
-    {
-      "filePath": "\/Volumes\/Data1\/iOS\/ShakeBug\/ShakeBug\/Classes\/Models\/HelpDesk\/ShakebugHelpDeskSummery.swift",
-      "kind": "StringLiteral",
-      "offset": 1959,
-      "length": 8,
-      "value": "\"Closed\""
-    },
-    {
-      "filePath": "\/Volumes\/Data1\/iOS\/ShakeBug\/ShakeBug\/External\/ShakebugStopVideoRecordingWindow.swift",
-      "kind": "StringLiteral",
-      "offset": 437,
+      "offset": 432,
       "length": 41,
       "value": "\"com.ScreenRecorder.stop.transform.scale\""
     },
     {
-      "filePath": "\/Volumes\/Data1\/iOS\/ShakeBug\/ShakeBug\/External\/ShakebugStopVideoRecordingWindow.swift",
+      "filePath": "\/Volumes\/Data1\/iOS\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Modules\/CustomExtension\/ShakebugStopVideoRecordingWindow.swift",
       "kind": "BooleanLiteral",
-      "offset": 587,
+      "offset": 585,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Volumes\/Data1\/iOS\/ShakeBug\/ShakeBug\/Classes\/ViewControllers\/HelpDesk\/ShakebugCreateTicketViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 274,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Volumes\/Data1\/iOS\/ShakeBug\/ShakeBug\/Classes\/ViewControllers\/HelpDesk\/ShakebugCreateTicketViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 640,
-      "length": 2,
-      "value": "16"
-    },
-    {
-      "filePath": "\/Volumes\/Data1\/iOS\/ShakeBug\/ShakeBug\/Classes\/ViewControllers\/HelpDesk\/ShakebugCreateTicketViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 702,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Volumes\/Data1\/iOS\/ShakeBug\/ShakeBug\/Classes\/ViewControllers\/HelpDesk\/ShakebugCreateTicketViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 738,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Volumes\/Data1\/iOS\/ShakeBug\/ShakeBug\/Classes\/ViewControllers\/HelpDesk\/ShakebugCreateTicketViewController.swift",
+      "filePath": "\/Volumes\/Data1\/iOS\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Miscellaneous\/ShakeBugContants.swift",
       "kind": "StringLiteral",
-      "offset": 761,
+      "offset": 216,
       "length": 16,
-      "value": "\"User identity:\""
+      "value": "\"SBND_CRASHFLAG\""
     },
     {
-      "filePath": "\/Volumes\/Data1\/iOS\/ShakeBug\/ShakeBug\/Classes\/ViewControllers\/HelpDesk\/ShakebugCreateTicketViewController.swift",
+      "filePath": "\/Volumes\/Data1\/iOS\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Miscellaneous\/ShakeBugContants.swift",
       "kind": "StringLiteral",
-      "offset": 894,
-      "length": 6,
-      "value": "\"Name\""
+      "offset": 262,
+      "length": 18,
+      "value": "\"SBND_VALIDAPPKEY\""
     },
     {
-      "filePath": "\/Volumes\/Data1\/iOS\/ShakeBug\/ShakeBug\/Classes\/ViewControllers\/HelpDesk\/ShakebugCreateTicketViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 982,
-      "length": 2,
-      "value": "13"
-    },
-    {
-      "filePath": "\/Volumes\/Data1\/iOS\/ShakeBug\/ShakeBug\/Classes\/ViewControllers\/HelpDesk\/ShakebugCreateTicketViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1044,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Volumes\/Data1\/iOS\/ShakeBug\/ShakeBug\/Classes\/ViewControllers\/HelpDesk\/ShakebugCreateTicketViewController.swift",
+      "filePath": "\/Volumes\/Data1\/iOS\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Miscellaneous\/ShakeBugContants.swift",
       "kind": "StringLiteral",
-      "offset": 1193,
-      "length": 6,
-      "value": "\"Name\""
+      "offset": 323,
+      "length": 31,
+      "value": "\"SBND_LASTOPENEDVIEWCONTROLLER\""
     },
     {
-      "filePath": "\/Volumes\/Data1\/iOS\/ShakeBug\/ShakeBug\/Classes\/ViewControllers\/HelpDesk\/ShakebugCreateTicketViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1245,
-      "length": 2,
-      "value": "16"
-    },
-    {
-      "filePath": "\/Volumes\/Data1\/iOS\/ShakeBug\/ShakeBug\/Classes\/ViewControllers\/HelpDesk\/ShakebugCreateTicketViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1326,
-      "length": 1,
-      "value": "4"
-    },
-    {
-      "filePath": "\/Volumes\/Data1\/iOS\/ShakeBug\/ShakeBug\/Classes\/ViewControllers\/HelpDesk\/ShakebugCreateTicketViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1366,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Volumes\/Data1\/iOS\/ShakeBug\/ShakeBug\/Classes\/ViewControllers\/HelpDesk\/ShakebugCreateTicketViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1557,
-      "length": 2,
-      "value": "10"
-    },
-    {
-      "filePath": "\/Volumes\/Data1\/iOS\/ShakeBug\/ShakeBug\/Classes\/ViewControllers\/HelpDesk\/ShakebugCreateTicketViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1569,
-      "length": 2,
-      "value": "40"
-    },
-    {
-      "filePath": "\/Volumes\/Data1\/iOS\/ShakeBug\/ShakeBug\/Classes\/ViewControllers\/HelpDesk\/ShakebugCreateTicketViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1637,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Volumes\/Data1\/iOS\/ShakeBug\/ShakeBug\/Classes\/ViewControllers\/HelpDesk\/ShakebugCreateTicketViewController.swift",
+      "filePath": "\/Volumes\/Data1\/iOS\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Miscellaneous\/ShakeBugContants.swift",
       "kind": "StringLiteral",
-      "offset": 1764,
-      "length": 7,
-      "value": "\"Email\""
+      "offset": 395,
+      "length": 29,
+      "value": "\"SBND_AllowBugCrashSimulator\""
     },
     {
-      "filePath": "\/Volumes\/Data1\/iOS\/ShakeBug\/ShakeBug\/Classes\/ViewControllers\/HelpDesk\/ShakebugCreateTicketViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1853,
-      "length": 2,
-      "value": "13"
-    },
-    {
-      "filePath": "\/Volumes\/Data1\/iOS\/ShakeBug\/ShakeBug\/Classes\/ViewControllers\/HelpDesk\/ShakebugCreateTicketViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1915,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Volumes\/Data1\/iOS\/ShakeBug\/ShakeBug\/Classes\/ViewControllers\/HelpDesk\/ShakebugCreateTicketViewController.swift",
+      "filePath": "\/Volumes\/Data1\/iOS\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Miscellaneous\/ShakeBugContants.swift",
       "kind": "StringLiteral",
-      "offset": 2065,
-      "length": 8,
-      "value": "\" Email\""
+      "offset": 455,
+      "length": 19,
+      "value": "\"SBND_ShowTutorial\""
     },
     {
-      "filePath": "\/Volumes\/Data1\/iOS\/ShakeBug\/ShakeBug\/Classes\/ViewControllers\/HelpDesk\/ShakebugCreateTicketViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2119,
-      "length": 2,
-      "value": "16"
-    },
-    {
-      "filePath": "\/Volumes\/Data1\/iOS\/ShakeBug\/ShakeBug\/Classes\/ViewControllers\/HelpDesk\/ShakebugCreateTicketViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2200,
-      "length": 1,
-      "value": "4"
-    },
-    {
-      "filePath": "\/Volumes\/Data1\/iOS\/ShakeBug\/ShakeBug\/Classes\/ViewControllers\/HelpDesk\/ShakebugCreateTicketViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2240,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Volumes\/Data1\/iOS\/ShakeBug\/ShakeBug\/Classes\/ViewControllers\/HelpDesk\/ShakebugCreateTicketViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2368,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Volumes\/Data1\/iOS\/ShakeBug\/ShakeBug\/Classes\/ViewControllers\/HelpDesk\/ShakebugCreateTicketViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2499,
-      "length": 2,
-      "value": "10"
-    },
-    {
-      "filePath": "\/Volumes\/Data1\/iOS\/ShakeBug\/ShakeBug\/Classes\/ViewControllers\/HelpDesk\/ShakebugCreateTicketViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2511,
-      "length": 2,
-      "value": "40"
-    },
-    {
-      "filePath": "\/Volumes\/Data1\/iOS\/ShakeBug\/ShakeBug\/Classes\/ViewControllers\/HelpDesk\/ShakebugCreateTicketViewController.swift",
+      "filePath": "\/Volumes\/Data1\/iOS\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Miscellaneous\/ShakeBugContants.swift",
       "kind": "StringLiteral",
-      "offset": 2641,
-      "length": 21,
-      "value": "\"Your feedback\/Issue\""
+      "offset": 503,
+      "length": 17,
+      "value": "\"SBND_AppInstall\""
     },
     {
-      "filePath": "\/Volumes\/Data1\/iOS\/ShakeBug\/ShakeBug\/Classes\/ViewControllers\/HelpDesk\/ShakebugCreateTicketViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2744,
-      "length": 2,
-      "value": "13"
-    },
-    {
-      "filePath": "\/Volumes\/Data1\/iOS\/ShakeBug\/ShakeBug\/Classes\/ViewControllers\/HelpDesk\/ShakebugCreateTicketViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2806,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Volumes\/Data1\/iOS\/ShakeBug\/ShakeBug\/Classes\/ViewControllers\/HelpDesk\/ShakebugCreateTicketViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3009,
-      "length": 2,
-      "value": "16"
-    },
-    {
-      "filePath": "\/Volumes\/Data1\/iOS\/ShakeBug\/ShakeBug\/Classes\/ViewControllers\/HelpDesk\/ShakebugCreateTicketViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3051,
-      "length": 1,
-      "value": "4"
-    },
-    {
-      "filePath": "\/Volumes\/Data1\/iOS\/ShakeBug\/ShakeBug\/Classes\/ViewControllers\/HelpDesk\/ShakebugCreateTicketViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3090,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Volumes\/Data1\/iOS\/ShakeBug\/ShakeBug\/Classes\/ViewControllers\/HelpDesk\/ShakebugCreateTicketViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3216,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Volumes\/Data1\/iOS\/ShakeBug\/ShakeBug\/Classes\/ViewControllers\/HelpDesk\/ShakebugCreateTicketViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3402,
-      "length": 1,
-      "value": "4"
-    },
-    {
-      "filePath": "\/Volumes\/Data1\/iOS\/ShakeBug\/ShakeBug\/Classes\/ViewControllers\/HelpDesk\/ShakebugCreateTicketViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3439,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Volumes\/Data1\/iOS\/ShakeBug\/ShakeBug\/Classes\/ViewControllers\/HelpDesk\/ShakebugCreateTicketViewController.swift",
+      "filePath": "\/Volumes\/Data1\/iOS\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Miscellaneous\/ShakeBugContants.swift",
       "kind": "StringLiteral",
-      "offset": 3583,
-      "length": 24,
-      "value": "\"Upload Video and Image\""
+      "offset": 549,
+      "length": 17,
+      "value": "\"SBND_LogEnabled\""
     },
     {
-      "filePath": "\/Volumes\/Data1\/iOS\/ShakeBug\/ShakeBug\/Classes\/ViewControllers\/HelpDesk\/ShakebugCreateTicketViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3682,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Volumes\/Data1\/iOS\/ShakeBug\/ShakeBug\/Classes\/ViewControllers\/HelpDesk\/ShakebugCreateTicketViewController.swift",
+      "filePath": "\/Volumes\/Data1\/iOS\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Miscellaneous\/ShakeBugContants.swift",
       "kind": "StringLiteral",
-      "offset": 3812,
-      "length": 32,
-      "value": "\"Video must be under 40 seconds\""
+      "offset": 594,
+      "length": 16,
+      "value": "\"SBND_SessionId\""
     },
     {
-      "filePath": "\/Volumes\/Data1\/iOS\/ShakeBug\/ShakeBug\/Classes\/ViewControllers\/HelpDesk\/ShakebugCreateTicketViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3922,
-      "length": 2,
-      "value": "13"
-    },
-    {
-      "filePath": "\/Volumes\/Data1\/iOS\/ShakeBug\/ShakeBug\/Classes\/ViewControllers\/HelpDesk\/ShakebugCreateTicketViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3984,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Volumes\/Data1\/iOS\/ShakeBug\/ShakeBug\/Classes\/ViewControllers\/HelpDesk\/ShakebugCreateTicketViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 4217,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Volumes\/Data1\/iOS\/ShakeBug\/ShakeBug\/Classes\/ViewControllers\/HelpDesk\/ShakebugCreateTicketViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4310,
-      "length": 1,
-      "value": "4"
-    },
-    {
-      "filePath": "\/Volumes\/Data1\/iOS\/ShakeBug\/ShakeBug\/Classes\/ViewControllers\/HelpDesk\/ShakebugCreateTicketViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 4346,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Volumes\/Data1\/iOS\/ShakeBug\/ShakeBug\/Classes\/ViewControllers\/HelpDesk\/ShakebugCreateTicketViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4453,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Volumes\/Data1\/iOS\/ShakeBug\/ShakeBug\/Classes\/ViewControllers\/HelpDesk\/ShakebugCreateTicketViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 4657,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Volumes\/Data1\/iOS\/ShakeBug\/ShakeBug\/Classes\/ViewControllers\/HelpDesk\/ShakebugCreateTicketViewController.swift",
+      "filePath": "\/Volumes\/Data1\/iOS\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Miscellaneous\/ShakeBugContants.swift",
       "kind": "StringLiteral",
-      "offset": 4883,
-      "length": 6,
-      "value": "\"Save\""
-    },
-    {
-      "filePath": "\/Volumes\/Data1\/iOS\/ShakeBug\/ShakeBug\/Classes\/ViewControllers\/HelpDesk\/ShakebugCreateTicketViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 4964,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Volumes\/Data1\/iOS\/ShakeBug\/ShakeBug\/Classes\/ViewControllers\/HelpDesk\/ShakebugCreateTicketViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 5006,
-      "length": 1,
-      "value": "4"
-    },
-    {
-      "filePath": "\/Volumes\/Data1\/iOS\/ShakeBug\/ShakeBug\/Classes\/ViewControllers\/HelpDesk\/ShakebugHelpDeskViewController.swift",
-      "kind": "Array",
-      "offset": 264,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Volumes\/Data1\/iOS\/ShakeBug\/ShakeBug\/Classes\/ViewControllers\/HelpDesk\/ShakebugHelpDeskViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 446,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Volumes\/Data1\/iOS\/ShakeBug\/ShakeBug\/Classes\/ViewControllers\/HelpDesk\/ShakebugHelpDeskViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 572,
-      "length": 23,
-      "value": "\"HelpDeskTableViewCell\""
-    },
-    {
-      "filePath": "\/Volumes\/Data1\/iOS\/ShakeBug\/ShakeBug\/Classes\/ViewControllers\/HelpDesk\/ShakebugHelpDeskViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 971,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Volumes\/Data1\/iOS\/ShakeBug\/ShakeBug\/Classes\/Models\/HelpDesk\/ShakebugTicketDetails.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1153,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Volumes\/Data1\/iOS\/ShakeBug\/ShakeBug\/Classes\/Models\/HelpDesk\/ShakebugTicketDetails.swift",
-      "kind": "StringLiteral",
-      "offset": 1200,
+      "offset": 633,
       "length": 11,
-      "value": "\"#sk-21413\""
+      "value": "\"SBND_Type\""
     },
     {
-      "filePath": "\/Volumes\/Data1\/iOS\/ShakeBug\/ShakeBug\/Classes\/Models\/HelpDesk\/ShakebugTicketDetails.swift",
+      "filePath": "\/Volumes\/Data1\/iOS\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Miscellaneous\/ShakeBugContants.swift",
       "kind": "StringLiteral",
-      "offset": 1262,
-      "length": 24,
-      "value": "\"Please check this bugs\""
+      "offset": 674,
+      "length": 19,
+      "value": "\"SBND_Type_multipe\""
     },
     {
-      "filePath": "\/Volumes\/Data1\/iOS\/ShakeBug\/ShakeBug\/Classes\/Models\/HelpDesk\/ShakebugTicketDetails.swift",
+      "filePath": "\/Volumes\/Data1\/iOS\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Miscellaneous\/ShakeBugContants.swift",
       "kind": "StringLiteral",
-      "offset": 1328,
-      "length": 23,
-      "value": "\"26th Sept 2012 2:23PM\""
+      "offset": 722,
+      "length": 18,
+      "value": "\"SBND_MAU_REACHED\""
     },
     {
-      "filePath": "\/Volumes\/Data1\/iOS\/ShakeBug\/ShakeBug\/Classes\/Models\/HelpDesk\/ShakebugTicketDetails.swift",
+      "filePath": "\/Volumes\/Data1\/iOS\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Miscellaneous\/ShakeBugContants.swift",
       "kind": "StringLiteral",
-      "offset": 1402,
-      "length": 48,
-      "value": "\"https:\/\/source.unsplash.com\/user\/c_v_r\/100x100\""
+      "offset": 775,
+      "length": 20,
+      "value": "\"SHAKEBUG-API-ERROR\""
     },
     {
-      "filePath": "\/Volumes\/Data1\/iOS\/ShakeBug\/ShakeBug\/Classes\/Models\/HelpDesk\/ShakebugTicketDetails.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1495,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Volumes\/Data1\/iOS\/ShakeBug\/ShakeBug\/Classes\/Models\/HelpDesk\/ShakebugTicketDetails.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1548,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Volumes\/Data1\/iOS\/ShakeBug\/ShakeBug\/Classes\/Models\/HelpDesk\/ShakebugTicketDetails.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1651,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Volumes\/Data1\/iOS\/ShakeBug\/ShakeBug\/Classes\/Models\/HelpDesk\/ShakebugTicketDetails.swift",
+      "filePath": "\/Volumes\/Data1\/iOS\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Miscellaneous\/ShakeBugContants.swift",
       "kind": "StringLiteral",
-      "offset": 1698,
-      "length": 11,
-      "value": "\"#sk-21413\""
-    },
-    {
-      "filePath": "\/Volumes\/Data1\/iOS\/ShakeBug\/ShakeBug\/Classes\/Models\/HelpDesk\/ShakebugTicketDetails.swift",
-      "kind": "StringLiteral",
-      "offset": 1760,
-      "length": 81,
-      "value": "\"We will give in next version. i am forwading this to technicak team.\nNew Lines\""
-    },
-    {
-      "filePath": "\/Volumes\/Data1\/iOS\/ShakeBug\/ShakeBug\/Classes\/Models\/HelpDesk\/ShakebugTicketDetails.swift",
-      "kind": "StringLiteral",
-      "offset": 1883,
-      "length": 23,
-      "value": "\"26th Sept 2012 2:23PM\""
-    },
-    {
-      "filePath": "\/Volumes\/Data1\/iOS\/ShakeBug\/ShakeBug\/Classes\/Models\/HelpDesk\/ShakebugTicketDetails.swift",
-      "kind": "StringLiteral",
-      "offset": 1957,
-      "length": 48,
-      "value": "\"https:\/\/source.unsplash.com\/user\/c_v_r\/100x100\""
-    },
-    {
-      "filePath": "\/Volumes\/Data1\/iOS\/ShakeBug\/ShakeBug\/Classes\/Models\/HelpDesk\/ShakebugTicketDetails.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2050,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Volumes\/Data1\/iOS\/ShakeBug\/ShakeBug\/Classes\/Models\/HelpDesk\/ShakebugTicketDetails.swift",
-      "kind": "StringLiteral",
-      "offset": 2101,
-      "length": 11,
-      "value": "\"Your apps\""
-    },
-    {
-      "filePath": "\/Volumes\/Data1\/iOS\/ShakeBug\/ShakeBug\/Classes\/Models\/HelpDesk\/ShakebugTicketDetails.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2165,
-      "length": 1,
-      "value": "3"
-    },
-    {
-      "filePath": "\/Volumes\/Data1\/iOS\/ShakeBug\/ShakeBug\/Classes\/Models\/HelpDesk\/ShakebugTicketDetails.swift",
-      "kind": "StringLiteral",
-      "offset": 2212,
-      "length": 11,
-      "value": "\"#sk-21413\""
-    },
-    {
-      "filePath": "\/Volumes\/Data1\/iOS\/ShakeBug\/ShakeBug\/Classes\/Models\/HelpDesk\/ShakebugTicketDetails.swift",
-      "kind": "StringLiteral",
-      "offset": 2274,
-      "length": 81,
-      "value": "\"We will give in next version. i am forwading this to technicak team.\nNew Lines\""
-    },
-    {
-      "filePath": "\/Volumes\/Data1\/iOS\/ShakeBug\/ShakeBug\/Classes\/Models\/HelpDesk\/ShakebugTicketDetails.swift",
-      "kind": "StringLiteral",
-      "offset": 2397,
-      "length": 23,
-      "value": "\"26th Sept 2012 2:23PM\""
-    },
-    {
-      "filePath": "\/Volumes\/Data1\/iOS\/ShakeBug\/ShakeBug\/Classes\/Models\/HelpDesk\/ShakebugTicketDetails.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2465,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Volumes\/Data1\/iOS\/ShakeBug\/ShakeBug\/Classes\/Models\/HelpDesk\/ShakebugTicketDetails.swift",
-      "kind": "StringLiteral",
-      "offset": 2516,
-      "length": 11,
-      "value": "\"Your apps\""
-    },
-    {
-      "filePath": "\/Volumes\/Data1\/iOS\/ShakeBug\/ShakeBug\/Classes\/Models\/HelpDesk\/ShakebugTicketDetails.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2580,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Volumes\/Data1\/iOS\/ShakeBug\/ShakeBug\/Classes\/Models\/HelpDesk\/ShakebugTicketDetails.swift",
-      "kind": "StringLiteral",
-      "offset": 2627,
-      "length": 11,
-      "value": "\"#sk-21413\""
-    },
-    {
-      "filePath": "\/Volumes\/Data1\/iOS\/ShakeBug\/ShakeBug\/Classes\/Models\/HelpDesk\/ShakebugTicketDetails.swift",
-      "kind": "StringLiteral",
-      "offset": 2689,
-      "length": 24,
-      "value": "\"Please check this bugs\""
-    },
-    {
-      "filePath": "\/Volumes\/Data1\/iOS\/ShakeBug\/ShakeBug\/Classes\/Models\/HelpDesk\/ShakebugTicketDetails.swift",
-      "kind": "StringLiteral",
-      "offset": 2755,
-      "length": 23,
-      "value": "\"26th Sept 2012 2:23PM\""
-    },
-    {
-      "filePath": "\/Volumes\/Data1\/iOS\/ShakeBug\/ShakeBug\/Classes\/Models\/HelpDesk\/ShakebugTicketDetails.swift",
-      "kind": "StringLiteral",
-      "offset": 2829,
-      "length": 88,
-      "value": "\"https:\/\/commondatastorage.googleapis.com\/gtv-videos-bucket\/sample\/ForBiggerEscapes.mp4\""
-    },
-    {
-      "filePath": "\/Volumes\/Data1\/iOS\/ShakeBug\/ShakeBug\/Classes\/Models\/HelpDesk\/ShakebugTicketDetails.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2962,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Volumes\/Data1\/iOS\/ShakeBug\/ShakeBug\/Classes\/Models\/HelpDesk\/ShakebugTicketDetails.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3014,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Volumes\/Data1\/iOS\/ShakeBug\/ShakeBug\/Classes\/ViewControllers\/HelpDesk\/Cells\/ShakebugHelpDeskTableViewCell.swift",
-      "kind": "IntegerLiteral",
-      "offset": 328,
-      "length": 1,
-      "value": "4"
-    },
-    {
-      "filePath": "\/Volumes\/Data1\/iOS\/ShakeBug\/ShakeBug\/Classes\/ViewControllers\/HelpDesk\/Cells\/ShakebugHelpDeskTableViewCell.swift",
-      "kind": "IntegerLiteral",
-      "offset": 422,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Volumes\/Data1\/iOS\/ShakeBug\/ShakeBug\/Classes\/ViewControllers\/HelpDesk\/Cells\/ShakebugHelpDeskTableViewCell.swift",
-      "kind": "BooleanLiteral",
-      "offset": 519,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Volumes\/Data1\/iOS\/ShakeBug\/ShakeBug\/Classes\/ViewControllers\/HelpDesk\/Cells\/ShakebugHelpDeskTableViewCell.swift",
-      "kind": "IntegerLiteral",
-      "offset": 669,
-      "length": 2,
-      "value": "16"
-    },
-    {
-      "filePath": "\/Volumes\/Data1\/iOS\/ShakeBug\/ShakeBug\/Classes\/ViewControllers\/HelpDesk\/Cells\/ShakebugHelpDeskTableViewCell.swift",
-      "kind": "IntegerLiteral",
-      "offset": 736,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Volumes\/Data1\/iOS\/ShakeBug\/ShakeBug\/Classes\/ViewControllers\/HelpDesk\/Cells\/ShakebugHelpDeskTableViewCell.swift",
-      "kind": "BooleanLiteral",
       "offset": 832,
-      "length": 5,
-      "value": "false"
+      "length": 22,
+      "value": "\"SHAKEBUG-API-SUCCESS\""
     },
     {
-      "filePath": "\/Volumes\/Data1\/iOS\/ShakeBug\/ShakeBug\/Classes\/ViewControllers\/HelpDesk\/Cells\/ShakebugHelpDeskTableViewCell.swift",
-      "kind": "IntegerLiteral",
-      "offset": 978,
-      "length": 2,
-      "value": "14"
-    },
-    {
-      "filePath": "\/Volumes\/Data1\/iOS\/ShakeBug\/ShakeBug\/Classes\/ViewControllers\/HelpDesk\/Cells\/ShakebugHelpDeskTableViewCell.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1048,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Volumes\/Data1\/iOS\/ShakeBug\/ShakeBug\/Classes\/ViewControllers\/HelpDesk\/Cells\/ShakebugHelpDeskTableViewCell.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1144,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Volumes\/Data1\/iOS\/ShakeBug\/ShakeBug\/Classes\/ViewControllers\/HelpDesk\/Cells\/ShakebugHelpDeskTableViewCell.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1292,
-      "length": 2,
-      "value": "14"
-    },
-    {
-      "filePath": "\/Volumes\/Data1\/iOS\/ShakeBug\/ShakeBug\/Classes\/ViewControllers\/HelpDesk\/Cells\/ShakebugHelpDeskTableViewCell.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1363,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Volumes\/Data1\/iOS\/ShakeBug\/ShakeBug\/Classes\/ViewControllers\/HelpDesk\/Cells\/ShakebugHelpDeskTableViewCell.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1459,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Volumes\/Data1\/iOS\/ShakeBug\/ShakeBug\/Classes\/ViewControllers\/HelpDesk\/Cells\/ShakebugHelpDeskTableViewCell.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1653,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Volumes\/Data1\/iOS\/ShakeBug\/ShakeBug\/Classes\/ViewControllers\/HelpDesk\/Cells\/ShakebugHelpDeskTableViewCell.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1776,
-      "length": 2,
-      "value": "14"
-    },
-    {
-      "filePath": "\/Volumes\/Data1\/iOS\/ShakeBug\/ShakeBug\/Classes\/ViewControllers\/HelpDesk\/Cells\/ShakebugHelpDeskTableViewCell.swift",
+      "filePath": "\/Volumes\/Data1\/iOS\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Modules\/ShakeBugResult\/ShakeBugResultViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 1814,
-      "length": 4,
-      "value": "12.5"
+      "offset": 281,
+      "length": 5,
+      "value": "255.0"
     },
     {
-      "filePath": "\/Volumes\/Data1\/iOS\/ShakeBug\/ShakeBug\/Classes\/ViewControllers\/HelpDesk\/Cells\/ShakebugHelpDeskTableViewCell.swift",
+      "filePath": "\/Volumes\/Data1\/iOS\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Modules\/ShakeBugResult\/ShakeBugResultViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 287,
+      "length": 5,
+      "value": "255.0"
+    },
+    {
+      "filePath": "\/Volumes\/Data1\/iOS\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Modules\/ShakeBugResult\/ShakeBugResultViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 309,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Volumes\/Data1\/iOS\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Modules\/ShakeBugResult\/ShakeBugResultViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 313,
+      "length": 5,
+      "value": "255.0"
+    },
+    {
+      "filePath": "\/Volumes\/Data1\/iOS\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Modules\/ShakeBugResult\/ShakeBugResultViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 334,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Volumes\/Data1\/iOS\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Modules\/ShakeBugResult\/ShakeBugResultViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 338,
+      "length": 5,
+      "value": "255.0"
+    },
+    {
+      "filePath": "\/Volumes\/Data1\/iOS\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Modules\/ShakeBugResult\/ShakeBugResultViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 360,
+      "length": 3,
+      "value": "3.0"
+    },
+    {
+      "filePath": "\/Volumes\/Data1\/iOS\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Modules\/ShakeBugResult\/ShakeBugResultViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 382,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Volumes\/Data1\/iOS\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Modules\/ShakeBugResult\/ShakeBugResultViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 420,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Volumes\/Data1\/iOS\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Modules\/ShakeBugResult\/ShakeBugResultViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 454,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Volumes\/Data1\/iOS\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Modules\/ShakeBugResult\/ShakeBugResultViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1876,
+      "offset": 485,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Volumes\/Data1\/iOS\/ShakeBug\/ShakeBug\/Classes\/ViewControllers\/HelpDesk\/Cells\/ShakebugHelpDeskTableViewCell.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2022,
-      "length": 2,
-      "value": "12"
-    },
-    {
-      "filePath": "\/Volumes\/Data1\/iOS\/ShakeBug\/ShakeBug\/Classes\/ViewControllers\/HelpDesk\/Cells\/ShakebugHelpDeskTableViewCell.swift",
+      "filePath": "\/Volumes\/Data1\/iOS\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Modules\/ShakeBugResult\/ShakeBugResultViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 2156,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Volumes\/Data1\/iOS\/ShakeBug\/ShakeBug\/Classes\/ViewControllers\/HelpDesk\/Cells\/ShakebugHelpDeskTableViewCell.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2304,
-      "length": 2,
-      "value": "12"
-    },
-    {
-      "filePath": "\/Volumes\/Data1\/iOS\/ShakeBug\/ShakeBug\/Classes\/ViewControllers\/HelpDesk\/Cells\/ShakebugHelpDeskTableViewCell.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2439,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Volumes\/Data1\/iOS\/ShakeBug\/ShakeBug\/Classes\/ShakebugCustomExtention.swift",
-      "kind": "BooleanLiteral",
-      "offset": 688,
+      "offset": 857,
       "length": 5,
       "value": "false"
     }

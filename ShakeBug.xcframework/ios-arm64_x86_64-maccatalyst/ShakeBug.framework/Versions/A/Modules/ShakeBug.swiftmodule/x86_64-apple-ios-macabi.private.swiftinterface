@@ -1,9 +1,11 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.7.2 effective-4.1.50 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)
-// swift-module-flags: -target x86_64-apple-ios13.1-macabi -enable-objc-interop -enable-library-evolution -swift-version 4 -enforce-exclusivity=checked -O -module-name ShakeBug
+// swift-compiler-version: Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)
+// swift-module-flags: -target x86_64-apple-ios13.1-macabi -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name ShakeBug
 // swift-module-flags-ignorable: -enable-bare-slash-regex
-import AVFoundation
 import AVKit
+import CoreLocation
+import CoreServices
+import CoreTelephony
 import Foundation
 import MobileCoreServices
 import PencilKit
@@ -15,25 +17,21 @@ import SystemConfiguration
 import UIKit
 import _Concurrency
 import _StringProcessing
-@_inheritsConvenienceInitializers @available(iOS 13.0, *)
-@objc public class ShakebugCustomExtention : ObjectiveC.NSObject {
-  @objc public var isPencileButtonSelected: Swift.Bool
-  @objc public class func sharedInstance() -> ShakeBug.ShakebugCustomExtention
-  @objc public func showWindow()
-  @objc public func showWindowWithDelay(completion: @escaping ((_ url: Foundation.NSURL) -> Swift.Void))
-  @objc public func hideWindow()
-  @objc public func stopRecordingWithFlotButton(completion: @escaping ((Swift.Bool) -> Swift.Void))
-  @objc public func pencilDrawWithFlotButton(completion: @escaping ((Swift.Bool) -> Swift.Void))
-  @objc public func openScreenRecordingView()
-  @objc public func checkPhotoLibreryAuth(controller: UIKit.UIViewController, completion: @escaping ((Swift.Bool) -> Swift.Void))
-  @objc public func setUpPencilKit(status: Swift.Bool)
-  @objc public func clickOnPencileButton(mainView: UIKit.UIView)
-  @objc public func openHelpDeskScreen()
-  @objc public func openResultScreen()
-  @objc public func saveVideo(completion: @escaping (Foundation.NSURL) -> Swift.Void)
+@_inheritsConvenienceInitializers @objc public class ShakeBugSDK : ObjectiveC.NSObject {
+  @objc public static var sharedInstance: ShakeBug.ShakeBugSDK
   @objc override dynamic public init()
   @objc deinit
 }
-extension Photos.PHPhotoLibrary {
-  public static func execute(controller: UIKit.UIViewController, onAccessHasBeenGranted: @escaping () -> Swift.Void, onAccessHasBeenDenied: (() -> Swift.Void)? = nil)
+extension ShakeBug.ShakeBugSDK {
+  @objc dynamic public func initiateWithKey(_ key: Swift.String)
+  @objc dynamic public func makeLogEnabled(_ flag: Swift.Bool)
+  @objc dynamic public func showTutorialScreenFirstTime(_ flag: Swift.Bool)
+  @objc dynamic public func allowBugCrashFromSimulator(_ flag: Swift.Bool)
+  @objc dynamic public func addEventKey(key: Swift.String, eventValue: Swift.String)
+}
+extension UIKit.UIViewController {
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open var canBecomeFirstResponder: Swift.Bool {
+    @objc get
+  }
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open func motionEnded(_ motion: UIKit.UIEvent.EventSubtype, with event: UIKit.UIEvent?)
 }

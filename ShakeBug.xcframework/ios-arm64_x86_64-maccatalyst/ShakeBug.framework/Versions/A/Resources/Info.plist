@@ -17,7 +17,7 @@
 	<key>CFBundlePackageType</key>
 	<string>FMWK</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1.0.24</string>
+	<string>1.0</string>
 	<key>CFBundleSupportedPlatforms</key>
 	<array>
 		<string>MacOSX</string>
@@ -40,25 +40,11 @@
 	<string>1420</string>
 	<key>DTXcodeBuild</key>
 	<string>14C18</string>
-	<key>LSApplicationCategoryType</key>
-	<string></string>
 	<key>LSMinimumSystemVersion</key>
 	<string>10.15</string>
-	<key>NSAllowsArbitraryLoads</key>
-	<true/>
-	<key>NSPhotoLibraryAddUsageDescription</key>
-	<string>We will use photo/video to upload photo for giving feedback to developer.</string>
-	<key>NSPhotoLibraryUsageDescription</key>
-	<string>We will use photo/video to upload photo for giving feedback to developer.</string>
-	<key>NSPrincipalClass</key>
-	<string>ShakeBugTutorialViewController</string>
-	<key>Privacy - Camera Usage Description</key>
-	<string>ShakeBug requires access to your phone’s camera.</string>
 	<key>UIDeviceFamily</key>
 	<array>
 		<integer>2</integer>
 	</array>
-	<key>UIUserInterfaceStyle</key>
-	<string>Light</string>
 </dict>
 </plist>
