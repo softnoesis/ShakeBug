@@ -99,6 +99,8 @@ and select the latest version.
 
     Be sure to replace `<Your Key>` with your application key which given by ShakeBug website.
 
+## Note: 
+```NSPhotoLibraryUsageDescription``` must be added in info.plist.
 
 ## Optional Settings
 
