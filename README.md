@@ -1,6 +1,6 @@
 # ShakeBug
 
-![pod](https://badgen.net/badge/pod/v1.0.25/cyan) ![twitter](https://badgen.net/badge/icon/@shakebugtool?icon=twitter&label) ![linkedin](https://badgen.net/badge/icon/shakebug?icon=discord&label)
+![pod](https://badgen.net/badge/pod/v1.0.26/cyan) ![twitter](https://badgen.net/badge/icon/@shakebugtool?icon=twitter&label) ![linkedin](https://badgen.net/badge/icon/shakebug?icon=discord&label)
 
 
 Shakebug allows you to receive feedback from your beta testers or real users and improve the quality of your application in a simple way. Here users just need to shake their mobile and all the data regarding bugs & crashes can be seen by developers through their log in panel. It also helpful to analyse your users, session, location etc. Addition, you can add events on each action of your application and track it using this Shakebug framework.
@@ -18,7 +18,7 @@ Sign up for a service at [https://www.shakebug.com](https://www.shakebug.com)
 
  ✅ Screen-Recording bug beporting
 
- ✅ Crash reporting
+ ✅ Automatic Crash reporting
 
  ✅ Analytics
 
@@ -140,7 +140,20 @@ ShakeBugSDK.sharedInstance.makeLogEnabled(false) // Default value false
   // Objective-C
   [[ShakebugSDK sharedInstance] makeLogEnabled:NO];// Default value NO
   ```
+  
+4. If you want to set forcefully any language for the bug reporting screen then use following code `application:didFinishLaunchingWithOptions:`
 
+
+```swift
+// Swift
+ShakeBugSDK.sharedInstance.setShakebugSDKLanguage(ShakebugLanguage.french) 
+```
+
+  ```objective-c
+  // Objective-C
+  [[ShakebugSDK sharedInstance] setShakebugSDKLanguage:ShakebugLanguage.french];
+  ```
+Note: Just mind that here, by default it will take device language as defualt language.
 
 ## Events  
   
@@ -160,6 +173,16 @@ ShakeBugSDK.sharedInstance.addEventKey(key:"App_open", eventValue: "Started app"
 
 Build & run your app. Once your app is running, shake your device (\^⌘Z in the simulator) to report a bug! Bug/Crash reports are sent directly to login panel of Shakebug.com and also notify on your registered email address.
 
+If you want to trigger bug reporting screen without shaking then you can  call following method in any button action of any screen.
+```swift
+// Swift
+ShakeBugSDK.sharedInstance.triggerBugReporting()
+```
+
+ ```objective-c
+ // Objective-C
+ [[ShakebugSDK sharedInstance] triggerBugReporting];
+ ```
 
 ## Contact
 Visit on: [https://www.shakebug.com](https://www.shakebug.com)
