@@ -1,0 +1,38 @@
+/* 
+  Localizable.strings
+  ShakeBug
+
+  Created by Ankur on 05/04/23.
+  
+*/
+"Description here" = "説明はこちら";
+"Email(Optional)" = "電子メール（オプション）";
+"Replace Image?" = "画像を置き換えますか?";
+"Replace Video?" = "ビデオを置き換えますか？";
+"Send" = "送信";
+"Add details" = "詳細を追加";
+"Please add a description before continuing." = "続行する前に説明を追加してください。";
+"Please enter valid email address." = "有効なメールアドレスを入力してください。";
+"Please attach feedback image." = "フィードバック画像を添付してください。";
+"Thanks for your help!" = "ご協力いただきありがとうございます！";
+"Bug submitted" = "バグが提出されました";
+"Tap any where to dismiss" = "閉じる場所をタップします";
+"Shake your mobile to report a bug" = "携帯を振ってバグを報告する";
+"Okay" = "わかった";
+"Hide" = "隠れる";
+"Pen" = "ペン";
+"Stop" = "ストップ";
+"Cancel" = "キャンセル";
+"Settings" = "設定";
+"Stop Recording?" = "記録を停止?";
+"Record Video?" = "録画映像？";
+"Choose Video?" = "ビデオを選択しますか?";
+"Annotate your bug" = "バグに注釈を付ける";
+"Cancel Video" = "ビデオをキャンセル";
+"Stop Recording" = "記録を停止";
+
+"We need your Photo library access prior to record screen. Please go to the Privacy Setting in your iPhone and enable it." = "画面を記録する前に、写真ライブラリへのアクセスが必要です。 iPhoneのプライバシー設定に移動して有効にしてください。";
+"As per your account limit, you can only upload" = "アカウントの制限により、アップロードのみ可能です ";
+"seconds video." = " 秒ビデオ。";
+"Prior to use bug reporting, your app must need 'NSPhotoLibraryUsageDescription' permission in your project plist." = "バグ レポートを使用する前に、アプリはプロジェクトの plist で「NSPhotoLibraryUsageDescription」権限を必要とする必要があります。";
+"We need your Photo library access prior to record screen. Please go to the Privacy Setting in your iPhone and enable it." = "画面を記録する前に、写真ライブラリへのアクセスが必要です。 iPhoneのプライバシー設定に移動して有効にしてください。";

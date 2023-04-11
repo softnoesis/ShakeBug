@@ -1,0 +1,38 @@
+/* 
+  Localizable.strings
+  ShakeBug
+
+  Created by Ankur on 05/04/23.
+  
+*/
+"Description here" = "विवरण यहाँ";
+"Email(Optional)" = "ईमेल (वैकल्पिक)";
+"Replace Image?" = "छवि बदलें?";
+"Replace Video?" = "वीडियो बदलें?";
+"Send" = "भेजना";
+"Add details" = "विवरण जोड़ें";
+"Please add a description before continuing." = "कृपया जारी रखने से पहले विवरण जोड़ें।";
+"Please enter valid email address." = "कृपया सही ईमेल पता दें।";
+"Please attach feedback image." = "कृपया फीडबैक छवि संलग्न करें।";
+"Thanks for your help!" = "आपकी सहायता के लिए धन्यवाद!";
+"Bug submitted" = "बग सबमिट किया गया";
+"Tap any where to dismiss" = "खारिज करने के लिए कहीं भी टैप करें";
+"Shake your mobile to report a bug" = "बग की रिपोर्ट करने के लिए अपना मोबाइल हिलाएं";
+"Okay" = "ठीक";
+"Hide" = "छिपाना";
+"Pen" = "कलम";
+"Stop" = "रुकना";
+"Cancel" = "रद्द करना";
+"Settings" = "सेटिंग";
+"Stop Recording?" = "रिकॉर्डिंग बंद करें?";
+"Record Video?" = "वीडियो रिकॉर्ड करो?";
+"Choose Video?" = "वीडियो चुनें?";
+"Annotate your bug" = "अपने बग को एनोटेट करें";
+"Cancel Video" = "वीडियो रद्द करें";
+"Stop Recording" = "रिकॉर्डिंग बंद करें";
+
+"We need your Photo library access prior to record screen. Please go to the Privacy Setting in your iPhone and enable it."; = "हमें रिकॉर्ड स्क्रीन से पहले आपकी फोटो लाइब्रेरी एक्सेस की आवश्यकता है। कृपया अपने आईफोन में गोपनीयता सेटिंग पर जाएं और इसे सक्षम करें।";
+"As per your account limit, you can only upload" = "As per your account limit, you can only upload ";
+"seconds video." = " seconds video.";
+"Prior to use bug reporting, your app must need 'NSPhotoLibraryUsageDescription' permission in your project plist." = "बग रिपोर्टिंग का उपयोग करने से पहले, आपके ऐप को आपके प्रोजेक्ट प्लिस्ट में 'NSPhotoLibraryUsageDescription' अनुमति की आवश्यकता होगी।";
+"We need your Photo library access prior to record screen. Please go to the Privacy Setting in your iPhone and enable it." = "स्क्रीन रिकॉर्ड करने से पहले हमें आपकी फोटो लाइब्रेरी एक्सेस की आवश्यकता है। कृपया अपने आईफोन में प्राइवेसी सेटिंग में जाएं और इसे इनेबल करें।";

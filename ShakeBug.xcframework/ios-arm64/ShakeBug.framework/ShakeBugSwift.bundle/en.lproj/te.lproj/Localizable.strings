@@ -1,0 +1,38 @@
+/* 
+  Localizable.strings
+  ShakeBug
+
+  Created by Ankur on 05/04/23.
+  
+*/
+"Description here" = "వివరణ ఇక్కడ";
+"Email(Optional)" = "ఇమెయిల్ (ఐచ్ఛికం)";
+"Replace Image?" = "చిత్రాన్ని భర్తీ చేయాలా?";
+"Replace Video?" = "వీడియోను భర్తీ చేయాలా?";
+"Send" = "పంపండి";
+"Add details" = "వివరాలను జోడించండి";
+"Please add a description before continuing." = "దయచేసి కొనసాగించే ముందు వివరణను జోడించండి.";
+"Please enter valid email address." = "దయచేసి చెల్లుబాటు అయ్యే ఇమెయిల్ చిరునామాను నమోదు చేయండి.";
+"Please attach feedback image." = "దయచేసి అభిప్రాయ చిత్రాన్ని జత చేయండి.";
+"Thanks for your help!" = "మీ సహాయానికి మా ధన్యవాధములు!";
+"Bug submitted" = "బగ్ సమర్పించబడింది";
+"Tap any where to dismiss" = "తీసివేయడానికి ఎక్కడైనా నొక్కండి";
+"Shake your mobile to report a bug" = "బగ్‌ని నివేదించడానికి మీ మొబైల్‌ని షేక్ చేయండి";
+"Okay" = "సరే";
+"Hide" = "దాచు";
+"Pen" = "పెన్";
+"Stop" = "ఆపు";
+"Cancel" = "రద్దు చేయండి";
+"Settings" = "సెట్టింగ్‌లు";
+"Stop Recording?" = "రికార్డింగ్ ఆపివేయాలా?";
+"Record Video?" = "వీడియో రికార్డ్ చేయాలా?";
+"Choose Video?" = "వీడియోను ఎంచుకోవాలా?";
+"Annotate your bug" = "మీ బగ్‌ని వ్యాఖ్యానించండి";
+"Cancel Video" = "వీడియోను రద్దు చేయి";
+"Stop Recording" = "రికార్డింగ్ ఆపివేయండి";
+
+"We need your Photo library access prior to record screen. Please go to the Privacy Setting in your iPhone and enable it." = "స్క్రీన్‌ను రికార్డ్ చేయడానికి ముందు మాకు మీ ఫోటో లైబ్రరీ యాక్సెస్ అవసరం. దయచేసి మీ ఐఫోన్‌లోని గోప్యతా సెట్టింగ్‌కి వెళ్లి దాన్ని ప్రారంభించండి.";
+"As per your account limit, you can only upload" = "మీ ఖాతా పరిమితి ప్రకారం, మీరు మాత్రమే అప్‌లోడ్ చేయగలరు ";
+"seconds video." = " సెకన్ల వీడియో.";
+"Prior to use bug reporting, your app must need 'NSPhotoLibraryUsageDescription' permission in your project plist." = "బగ్ రిపోర్టింగ్‌ని ఉపయోగించడానికి ముందు, మీ యాప్‌కి మీ ప్రాజెక్ట్ జాబితాలో తప్పనిసరిగా 'NSPhotoLibraryUsageDescription' అనుమతి అవసరం.";
+"We need your Photo library access prior to record screen. Please go to the Privacy Setting in your iPhone and enable it." = "స్క్రీన్‌ను రికార్డ్ చేయడానికి ముందు మాకు మీ ఫోటో లైబ్రరీ యాక్సెస్ అవసరం. దయచేసి మీ ఐఫోన్‌లోని గోప్యతా సెట్టింగ్‌కి వెళ్లి దాన్ని ప్రారంభించండి.";

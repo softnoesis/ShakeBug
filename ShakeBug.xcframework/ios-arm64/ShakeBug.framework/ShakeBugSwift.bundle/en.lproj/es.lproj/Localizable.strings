@@ -1,0 +1,38 @@
+/* 
+  Localizable.strings
+  ShakeBug
+
+  Created by Ankur on 05/04/23.
+  
+*/
+"Description here" = "Descripción aquí";
+"Email(Optional)" = "Email (opcional)";
+"Replace Image?" = "¿Reemplazar imagen?";
+"Replace Video?" = "¿Reemplazar vídeo?";
+"Send" = "Enviar";
+"Add details" = "Agregar detalles";
+"Please add a description before continuing." = "Agregue una descripción antes de continuar.";
+"Please enter valid email address." = "Por favor ingrese una dirección de correo electrónico válida.";
+"Please attach feedback image." = "Adjunte una imagen de comentarios.";
+"Thanks for your help!" = "¡Gracias por tu ayuda!";
+"Bug submitted" = "Error enviado";
+"Tap any where to dismiss" = "Toque en cualquier lugar para descartar";
+"Shake your mobile to report a bug" = "Agita tu móvil para informar de un error";
+"Okay" = "Bueno";
+"Hide" = "Esconder";
+"Pen" = "Bolígrafo";
+"Stop" = "Detener";
+"Cancel" = "Cancelar";
+"Settings" = "Ajustes";
+"Stop Recording?" = "¿Para de grabar?";
+"Record Video?" = "¿Grabar video?";
+"Choose Video?" = "¿Elegir vídeo?";
+"Annotate your bug" = "Anota tu error";
+"Cancel Video" = "Cancelar vídeo";
+"Stop Recording" = "Para de grabar";
+
+"We need your Photo library access prior to record screen. Please go to the Privacy Setting in your iPhone and enable it." = "Necesitamos su acceso a la biblioteca de fotos antes de grabar la pantalla. Vaya a la configuración de privacidad en su iPhone y habilítelo.";
+"As per your account limit, you can only upload" = "Según el límite de su cuenta, solo puede cargar ";
+"seconds video." = " segundos de vídeo.";
+"Prior to use bug reporting, your app must need 'NSPhotoLibraryUsageDescription' permission in your project plist." = "Antes de usar el informe de errores, su aplicación debe necesitar el permiso 'NSPhotoLibraryUsageDescription' en su lista de proyectos.";
+"We need your Photo library access prior to record screen. Please go to the Privacy Setting in your iPhone and enable it." = "Necesitamos su acceso a la biblioteca de fotos antes de grabar la pantalla. Vaya a la configuración de privacidad en su iPhone y habilítelo.";

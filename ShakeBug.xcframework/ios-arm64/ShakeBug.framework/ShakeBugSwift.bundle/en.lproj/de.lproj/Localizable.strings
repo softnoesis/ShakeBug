@@ -1,0 +1,38 @@
+/* 
+  Localizable.strings
+  ShakeBug
+
+  Created by Ankur on 05/04/23.
+  
+*/
+"Description here" = "Beschreibung hier";
+"Email(Optional)" = "E-Mail (optional)";
+"Replace Image?" = "Bild ersetzen?";
+"Replace Video?" = "Videos ersetzen?";
+"Send" = "Schicken";
+"Add details" = "Details hinzufügen";
+"Please add a description before continuing." = "Bitte fügen Sie eine Beschreibung hinzu, bevor Sie fortfahren.";
+"Please enter valid email address." = "Bitte geben Sie eine gültige Email Adresse an.";
+"Please attach feedback image." = "Bitte Feedback-Bild anhängen.";
+"Thanks for your help!" = "Vielen Dank für Ihre Hilfe!";
+"Bug submitted" = "Fehler eingereicht";
+"Tap any where to dismiss" = "Tippen Sie auf eine beliebige Stelle, um sie zu schließen";
+"Shake your mobile to report a bug" = "Schütteln Sie Ihr Handy, um einen Fehler zu melden";
+"Okay" = "Okay";
+"Hide" = "Verstecken";
+"Pen" = "Stift";
+"Stop" = "Stoppen";
+"Cancel" = "Stornieren";
+"Settings" = "Einstellungen";
+"Stop Recording?" = "Höre auf, aufzunehmen?";
+"Record Video?" = "Ein Video aufnehmen?";
+"Choose Video?" = "Video auswählen?";
+"Annotate your bug" = "Kommentieren Sie Ihren Fehler";
+"Cancel Video" = "Video abbrechen";
+"Stop Recording" = "Höre auf, aufzunehmen";
+
+"We need your Photo library access prior to record screen. Please go to the Privacy Setting in your iPhone and enable it." = "Vor dem Aufzeichnen des Bildschirms benötigen wir Ihren Zugriff auf die Fotobibliothek. Bitte gehen Sie zu den Datenschutzeinstellungen in Ihrem iPhone und aktivieren Sie sie.";
+"As per your account limit, you can only upload" = "Gemäß Ihrem Kontolimit können Sie nur hochladen ";
+"seconds video." = " Sekunden Video.";
+"Prior to use bug reporting, your app must need 'NSPhotoLibraryUsageDescription' permission in your project plist." = "Vor der Verwendung von Fehlerberichten muss Ihre App die Berechtigung „NSPhotoLibraryUsageDescription“ in Ihrer Projektliste benötigen.";
+"We need your Photo library access prior to record screen. Please go to the Privacy Setting in your iPhone and enable it." = "Vor dem Aufzeichnen des Bildschirms benötigen wir Ihren Zugriff auf die Fotobibliothek. Bitte gehen Sie zu den Datenschutzeinstellungen in Ihrem iPhone und aktivieren Sie sie.";

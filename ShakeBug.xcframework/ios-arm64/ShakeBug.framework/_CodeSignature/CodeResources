@@ -6,35 +6,35 @@
 	<dict>
 		<key>Headers/ShakeBug-Swift.h</key>
 		<data>
-		xDp9P8Y8R64JPnFZ9z9DuidAjoY=
+		Op0M5BIUBD/Ey+2f/OBSMK5cvIM=
 		</data>
 		<key>Headers/ShakeBug.h</key>
 		<data>
-		RI4BTEzgRXA/R0oftv2XqFZo7fU=
+		OyHNK7RJzjUV8CEwLzD6Ji292+I=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		w3uIraI5Uzll+hLEA/Iq2USexWQ=
+		D3BwCHpg7mbEokTkKJMgqmAs8Qo=
 		</data>
 		<key>Modules/ShakeBug.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		R4DhyAUEHMzoCDrFfgjtWmVfZaI=
+		6zToWQF0RIMEmPu3wkqQjno6JC4=
 		</data>
 		<key>Modules/ShakeBug.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		ViEIIKmApISsor1G3hVANj9QTJ0=
+		zhtNcRHP2Bp4vQp2fZxX2La7g2Q=
 		</data>
 		<key>Modules/ShakeBug.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		oDiUh/h/3Yf4ALMpFCxVgp9ec0c=
+		NGXIFJyBsG1VeseQYu+hxYLdSj8=
 		</data>
 		<key>Modules/ShakeBug.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		ViEIIKmApISsor1G3hVANj9QTJ0=
+		zhtNcRHP2Bp4vQp2fZxX2La7g2Q=
 		</data>
 		<key>Modules/ShakeBug.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		Er58f5f1IccvW2TFTPPL2Ubilxw=
+		lVjB6dE1Z6gaC01R4+sI8VJ9gzA=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -52,11 +52,182 @@
 		<data>
 		u8RElNAHsfKBkW4qu1FGwKz4DQY=
 		</data>
-		<key>ShakeBugSwift.bundle/en.lproj/Root.strings</key>
+		<key>ShakeBugSwift.bundle/en.lproj/ar.lproj/Localizable.strings</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			t4KY9Gh4uIiOv7VnHtRrKEuPRY8=
+			cHiqLWucq9ARQJOnF6ZhhsEY/7M=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>ShakeBugSwift.bundle/en.lproj/de.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			qDQkPi2lqHcgjteQUJrovYZhJmo=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>ShakeBugSwift.bundle/en.lproj/el.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			2965S3LAOAytaKlKsM6LsRcUp8s=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>ShakeBugSwift.bundle/en.lproj/en.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			86SxFPnsIAQ+OdeepmYr/GQ3iWQ=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>ShakeBugSwift.bundle/en.lproj/es.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			9DHmIZEP0OmhbYIsWT8Ue5WmX6s=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>ShakeBugSwift.bundle/en.lproj/fr.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			EVJSINBqVUpG+c5BiB3cegyhU8g=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>ShakeBugSwift.bundle/en.lproj/gu.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			U4dc412KsFqXARm1vDBL7fc5ITg=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>ShakeBugSwift.bundle/en.lproj/hi.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			obEO2CK8M3X1sc+f/nEVyRgQG2w=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>ShakeBugSwift.bundle/en.lproj/id.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			+W3mg6P65z7pnt0eBr79EVQPnnY=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>ShakeBugSwift.bundle/en.lproj/it.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			0UjBD/TIrhhYgPXsVY2eyNKK6YE=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>ShakeBugSwift.bundle/en.lproj/ja.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			R0rCG9LiyWylYt3Zn3TDwTtXUaE=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>ShakeBugSwift.bundle/en.lproj/ko.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			61cLLx2zCgxqAn2j/OJ/WRwmBTE=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>ShakeBugSwift.bundle/en.lproj/mr.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Ou7z9ZqvS0sH51R7G5xliDwgVTU=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>ShakeBugSwift.bundle/en.lproj/nl.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			eMjbiBz67TrArvE3MningaG01C8=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>ShakeBugSwift.bundle/en.lproj/ru.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			9L/DMEgswvexFZJmLAs4Fbpv4wY=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>ShakeBugSwift.bundle/en.lproj/ta.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			b7NGcf0oM34FaMLOA9w8+ti822U=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>ShakeBugSwift.bundle/en.lproj/te.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			fMU5jXQRDBokPRJrPttIcUkhl3g=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>ShakeBugSwift.bundle/en.lproj/tr.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			CL9kfqXJKKG6c8VeTmUFjRWCgzs=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>ShakeBugSwift.bundle/en.lproj/uk.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			pqahhSWsir48P1t1VARK+Xhyl1A=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>ShakeBugSwift.bundle/en.lproj/zh-Hans.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			oNWA56NFPzcnLL9qcnfHfPtJ5j8=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -148,49 +319,49 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			pkt1o0RozzZEIxUZ4Ns7Cphd9+/MDUBRZtPNFLhaY1A=
+			c9uvZ4253jNoH335M2VYwWtqa1pUx2QoEETod4K3tQc=
 			</data>
 		</dict>
 		<key>Headers/ShakeBug.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			AtRaN+Dk7oFzsyjsHKeyLrdHNrnlKD8k5EDTjsD7MK8=
+			2EF0TjqurZ6r33WYd3/T559DPyMT2/EHx/3npNl7QWQ=
 			</data>
 		</dict>
 		<key>Modules/ShakeBug.swiftmodule/arm64-apple-ios.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			N2b43HxS5GNS3AwrL35ltyRrNWsF3YfMWoKVMx3jkhk=
+			cXzJfkku5eRTCfW75O96+SQSI0Fl3BQ/n6/9kZeadYQ=
 			</data>
 		</dict>
 		<key>Modules/ShakeBug.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			1OWK8a3GRj1eJEVPhrhB76o5v+LVM+lkce+ZxDfi94o=
+			SovtGUDz+siAGvRUGf7wqZ8fg23Loi3BxYicwXItKzA=
 			</data>
 		</dict>
 		<key>Modules/ShakeBug.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			H8q9t/IfBPJqVCT/zGRFyezxrWt5fH8u9wXgZ79dbbQ=
+			hQdNsBUI7L2vqVDejds/XIQpsL658Z2VPv0V0TXYp3U=
 			</data>
 		</dict>
 		<key>Modules/ShakeBug.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			1OWK8a3GRj1eJEVPhrhB76o5v+LVM+lkce+ZxDfi94o=
+			SovtGUDz+siAGvRUGf7wqZ8fg23Loi3BxYicwXItKzA=
 			</data>
 		</dict>
 		<key>Modules/ShakeBug.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			MSvO9wBQhnRv/gkDSEOP7e21sHqi7LQKdaZpgxhomWs=
+			ogx2rZQ2yb5ulovsAkMs8+YtPMTB2mO0p9acIUkUoSE=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -221,11 +392,182 @@
 			zRdOdZuV/Y37HvdXJa3EqrpvmHhFOMuekhpKgycV2Yo=
 			</data>
 		</dict>
-		<key>ShakeBugSwift.bundle/en.lproj/Root.strings</key>
+		<key>ShakeBugSwift.bundle/en.lproj/ar.lproj/Localizable.strings</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			xUzNd7J7w99oAnMIWGe1dAGArHMuEXwQqxSziDU5vLk=
+			j3WAQkgQwMqc3HhJmFdyA9IGsNpWXhJ9yfFj80HoCJg=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>ShakeBugSwift.bundle/en.lproj/de.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			yOznWXJBlmmbkzFmDi04rl+tM6RiLQcti7GtQWRjBYg=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>ShakeBugSwift.bundle/en.lproj/el.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			qHd7/DTSbJdXHdkWjR5bh4StV8VUCcGeQYdxXefbYuk=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>ShakeBugSwift.bundle/en.lproj/en.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			i0wYC6cOECFa64GvEN7aBdIrAPD++vSjutBE8F8rVR0=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>ShakeBugSwift.bundle/en.lproj/es.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			4g//ft6XtYqFflZleEXzEwpeTSBEULEXr3bL0PdZcew=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>ShakeBugSwift.bundle/en.lproj/fr.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			QMZaiwvGmEV/HgS+GtSC3bX6LSOLBKbTNRnXZ9aV3Es=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>ShakeBugSwift.bundle/en.lproj/gu.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			H0ptObsiLWt3+UxcskcFPucXICMLb2fgTKvst96KcQw=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>ShakeBugSwift.bundle/en.lproj/hi.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			/ELsajPkQOx2js1TsfKaxiG2XJEe9fMFpX6hpYlFH8M=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>ShakeBugSwift.bundle/en.lproj/id.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			GIAwQkVAQBzHzNHs1gJxviPdKsR33Lf8P/mkGVlqEp4=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>ShakeBugSwift.bundle/en.lproj/it.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			BOvaje8MSfDIg/2l+Gonupe/dNzh66U2mOXyukJ+nkk=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>ShakeBugSwift.bundle/en.lproj/ja.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			7eMJ0UTDVMi5BJANtjkU5sVnxq/BjlLcSq99BEBP9+w=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>ShakeBugSwift.bundle/en.lproj/ko.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			F4GUvSlckacZtHNpWEVMisQcQulJgMaOBBC9sRqB8Kg=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>ShakeBugSwift.bundle/en.lproj/mr.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			O0p4YcBVW4LvJ/eN4ANwKB4jMfDjSkgO90zZCx888pg=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>ShakeBugSwift.bundle/en.lproj/nl.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			haoNIdkEgHJ2bFFMmxWD7KgARw+nIY44E+muuU9irnY=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>ShakeBugSwift.bundle/en.lproj/ru.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			IucGzadH/fYj/Hd2w02NmrioH/aKdXfL1oCvqvznG6g=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>ShakeBugSwift.bundle/en.lproj/ta.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			I0KaFx+FwqvQGlOLcA98C3dBvg2j6lJtyKIrG0I8NTk=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>ShakeBugSwift.bundle/en.lproj/te.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			RAc5a2+AIaRP0dHfjervggvxF3uI4bUiGdyQGoQ5j2M=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>ShakeBugSwift.bundle/en.lproj/tr.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			ABJ6gSrc4YJzp+Gak7pHRG7TViOGrz5h6gcIZPnFvdM=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>ShakeBugSwift.bundle/en.lproj/uk.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			C8SzZSD9qWH98NrSjIuZ4Ykr4eDTQuvyBh2xJowxsPE=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>ShakeBugSwift.bundle/en.lproj/zh-Hans.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			5oaXr7Mu8LA4hFAQQHpy8b8oybQBYQccGEtC0bacnN8=
 			</data>
 			<key>optional</key>
 			<true/>

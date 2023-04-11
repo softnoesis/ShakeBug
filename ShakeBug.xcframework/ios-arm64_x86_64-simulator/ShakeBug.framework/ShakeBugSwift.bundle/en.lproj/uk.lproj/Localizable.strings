@@ -1,0 +1,38 @@
+/* 
+  Localizable.strings
+  ShakeBug
+
+  Created by Ankur on 05/04/23.
+  
+*/
+"Description here" = "Опис тут";
+"Email(Optional)" = "Електронна адреса (необов'язково)";
+"Replace Image?" = "Замінити зображення?";
+"Replace Video?" = "Замінити відео?";
+"Send" = "Надіслати";
+"Add details" = "Додайте деталі";
+"Please add a description before continuing." = "Перш ніж продовжити, додайте опис.";
+"Please enter valid email address." = "Введіть дійсну електронну адресу.";
+"Please attach feedback image." = "Будь ласка, додайте зображення для відгуку.";
+"Thanks for your help!" = "Спасибі за вашу допомогу!";
+"Bug submitted" = "Надіслано помилку";
+"Tap any where to dismiss" = "Торкніться будь-якого місця, щоб відхилити";
+"Shake your mobile to report a bug" = "Струсіть мобільний, щоб повідомити про помилку";
+"Okay" = "Гаразд";
+"Hide" = "Сховати";
+"Pen" = "Перо";
+"Stop" = "СТІЙ";
+"Cancel" = "Скасувати";
+"Settings" = "Налаштування";
+"Stop Recording?" = "Зупинити запис?";
+"Record Video?" = "Запис відео?";
+"Choose Video?" = "Виберіть Відео?";
+"Annotate your bug" = "Примітки до вашої помилки";
+"Cancel Video" = "Скасувати відео";
+"Stop Recording" = "Зупинити запис";
+
+"We need your Photo library access prior to record screen. Please go to the Privacy Setting in your iPhone and enable it." = "Нам потрібен доступ до вашої бібліотеки фотографій перед записом екрана. Будь ласка, перейдіть до налаштувань конфіденційності на вашому iPhone і ввімкніть його.";
+"As per your account limit, you can only upload" = "Відповідно до ліміту вашого облікового запису ви можете лише завантажувати ";
+"seconds video." = " секунд відео.";
+"Prior to use bug reporting, your app must need 'NSPhotoLibraryUsageDescription' permission in your project plist." = "Перш ніж використовувати повідомлення про помилки, вашій програмі потрібен дозвіл «NSPhotoLibraryUsageDescription» у вашому plist проекту.";
+"We need your Photo library access prior to record screen. Please go to the Privacy Setting in your iPhone and enable it." = "Нам потрібен доступ до вашої бібліотеки фотографій перед записом екрана. Будь ласка, перейдіть до налаштувань конфіденційності на вашому iPhone і ввімкніть його.";

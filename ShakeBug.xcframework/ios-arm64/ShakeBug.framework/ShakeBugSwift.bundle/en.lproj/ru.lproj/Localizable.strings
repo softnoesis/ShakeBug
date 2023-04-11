@@ -1,0 +1,38 @@
+/* 
+  Localizable.strings
+  ShakeBug
+
+  Created by Ankur on 05/04/23.
+  
+*/
+"Description here" = "Описание здесь";
+"Email(Optional)" = "Электронная почта (необязательно)";
+"Replace Image?" = "Заменить изображение?";
+"Replace Video?" = "Заменить видео?";
+"Send" = "Отправлять";
+"Add details" = "Добавить детали";
+"Please add a description before continuing." = "Пожалуйста, добавьте описание, прежде чем продолжить.";
+"Please enter valid email address." = "Пожалуйста введите верный адрес электронной почты.";
+"Please attach feedback image." = "Пожалуйста, прикрепите изображение обратной связи.";
+"Thanks for your help!" = "Спасибо за вашу помощь!";
+"Bug submitted" = "Ошибка отправлена";
+"Tap any where to dismiss" = "Коснитесь любого места, чтобы закрыть";
+"Shake your mobile to report a bug" = "Встряхните свой мобильный телефон, чтобы сообщить об ошибке";
+"Okay" = "Хорошо";
+"Hide" = "Скрывать";
+"Pen" = "Ручка";
+"Stop" = "Останавливаться";
+"Cancel" = "Отмена";
+"Settings" = "Настройки";
+"Stop Recording?" = "Остановить запись?";
+"Record Video?" = "Запись видео?";
+"Choose Video?" = "Выбрать видео?";
+"Annotate your bug" = "Аннотируйте свою ошибку";
+"Cancel Video" = "Отменить видео";
+"Stop Recording" = "Остановить запись";
+
+"We need your Photo library access prior to record screen. Please go to the Privacy Setting in your iPhone and enable it." = "Нам нужен доступ к вашей библиотеке фотографий до записи экрана. Перейдите в настройки конфиденциальности на своем iPhone и включите их.";
+"As per your account limit, you can only upload" = "В соответствии с лимитом вашей учетной записи, вы можете загружать только ";
+"seconds video." = " секундное видео.";
+"Prior to use bug reporting, your app must need 'NSPhotoLibraryUsageDescription' permission in your project plist." = "Прежде чем использовать отчеты об ошибках, вашему приложению необходимо разрешение NSPhotoLibraryUsageDescription в plist вашего проекта.";
+"We need your Photo library access prior to record screen. Please go to the Privacy Setting in your iPhone and enable it." = "Нам нужен доступ к вашей библиотеке фотографий до записи экрана. Перейдите в настройки конфиденциальности на своем iPhone и включите их.";

@@ -1,0 +1,38 @@
+/* 
+  Localizable.strings
+  ShakeBug
+
+  Created by Ankur on 05/04/23.
+  
+*/
+"Description here" = "Descriptif ici";
+"Email(Optional)" = "E-mail (facultatif)";
+"Replace Image?" = "Remplacer l'image ?";
+"Replace Video?" = "Remplacer la vidéo ?";
+"Send" = "Envoyer";
+"Add details" = "Ajouter des détails";
+"Please add a description before continuing." = "Veuillez ajouter une description avant de continuer.";
+"Please enter valid email address." = "Veuillez saisir une adresse e-mail valide.";
+"Please attach feedback image." = "Veuillez joindre une image de commentaires.";
+"Thanks for your help!" = "Merci pour votre aide!";
+"Bug submitted" = "Bogue soumis";
+"Tap any where to dismiss" = "Appuyez n'importe où pour rejeter";
+"Shake your mobile to report a bug" = "Secouez votre mobile pour signaler un bug";
+"Okay" = "D'accord";
+"Hide" = "Cacher";
+"Pen" = "Stylo";
+"Stop" = "Arrêt";
+"Cancel" = "Annuler";
+"Settings" = "Paramètres";
+"Stop Recording?" = "Arrête d'enregistrer?";
+"Record Video?" = "Enregistrer une vidéo?";
+"Choose Video?" = "Choisissez la vidéo ?";
+"Annotate your bug" = "Annotez votre bogue";
+"Cancel Video" = "Annuler la vidéo";
+"Stop Recording" = "Arrête d'enregistrer";
+
+"We need your Photo library access prior to record screen. Please go to the Privacy Setting in your iPhone and enable it." = "Nous avons besoin de votre accès à la photothèque avant l'écran d'enregistrement. Veuillez accéder au paramètre de confidentialité de votre iPhone et l'activer.";
+"As per your account limit, you can only upload" = "Conformément à la limite de votre compte, vous ne pouvez télécharger que ";
+"seconds video." = " seconde vidéo.";
+"Prior to use bug reporting, your app must need 'NSPhotoLibraryUsageDescription' permission in your project plist." = "Avant d'utiliser le rapport de bogue, votre application doit avoir besoin de l'autorisation 'NSPhotoLibraryUsageDescription' dans votre plist de projet.";
+"We need your Photo library access prior to record screen. Please go to the Privacy Setting in your iPhone and enable it." = "Nous avons besoin de votre accès à la photothèque avant l'écran d'enregistrement. Veuillez accéder au paramètre de confidentialité de votre iPhone et l'activer.";

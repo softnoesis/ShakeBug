@@ -1,0 +1,38 @@
+/* 
+  Localizable.strings
+  ShakeBug
+
+  Created by Ankur on 05/04/23.
+  
+*/
+"Description here" = "الوصف هنا";
+"Email(Optional)" = "البريد الإلكتروني اختياري)";
+"Replace Image?" = "هل تريد استبدال الصورة؟";
+"Replace Video?" = "هل تريد استبدال الفيديو؟";
+"Send" = "يرسل";
+"Add details" = "أضف التفاصيل";
+"Please add a description before continuing." = "الرجاء إضافة وصف قبل المتابعة.";
+"Please enter valid email address." = "الرجاء إدخال عنوان بريد إلكتروني صالح.";
+"Please attach feedback image." = "يرجى إرفاق صورة الملاحظات.";
+"Thanks for your help!" = "شكرا لمساعدتك!";
+"Bug submitted" = "تم إرسال الخطأ";
+"Tap any where to dismiss" = "انقر فوق أي مكان للرفض";
+"Shake your mobile to report a bug" = "هز هاتفك المحمول للإبلاغ عن خطأ";
+"Okay" = "تمام";
+"Hide" = "يخفي";
+"Pen" = "قلم";
+"Stop" = "قف";
+"Cancel" = "يلغي";
+"Settings" = "إعدادات";
+"Stop Recording?" = "إيقاف التسجيل؟";
+"Record Video?" = "تسجيل الفيديو؟";
+"Choose Video?" = "اختر فيديو؟";
+"Annotate your bug" = "علق الخطأ الخاص بك";
+"Cancel Video" = "إلغاء الفيديو";
+"Stop Recording" = "إيقاف التسجيل";
+
+"We need your Photo library access prior to record screen. Please go to the Privacy Setting in your iPhone and enable it." = "نحتاج إلى الوصول إلى مكتبة الصور الخاصة بك قبل تسجيل الشاشة. يرجى الانتقال إلى إعداد الخصوصية في جهاز iPhone الخاص بك وتمكينه.";
+"As per your account limit, you can only upload" = "وفقًا لحد حسابك ، يمكنك فقط التحميل ";
+"seconds video." = " ثواني فيديو.";
+"Prior to use bug reporting, your app must need 'NSPhotoLibraryUsageDescription' permission in your project plist." = "قبل استخدام الإبلاغ عن الأخطاء ، يجب أن يحتاج تطبيقك إلى إذن 'NSPhotoLibraryUsageDescription' في قائمة مشروعك.";
+"We need your Photo library access prior to record screen. Please go to the Privacy Setting in your iPhone and enable it." = "نحتاج إلى الوصول إلى مكتبة الصور الخاصة بك قبل تسجيل الشاشة. يرجى الانتقال إلى إعداد الخصوصية في جهاز iPhone الخاص بك وتمكينه.";

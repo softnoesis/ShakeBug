@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)
+// swift-compiler-version: Apple Swift version 5.8 (swiftlang-5.8.0.124.2 clang-1403.0.22.11.100)
 // swift-module-flags: -target arm64-apple-ios13.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name ShakeBug
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 import AVKit
@@ -17,6 +17,13 @@ import SystemConfiguration
 import UIKit
 import _Concurrency
 import _StringProcessing
+extension UIKit.UITextView : UIKit.UITextViewDelegate {
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open var bounds: CoreFoundation.CGRect {
+    @objc get
+    @objc set
+  }
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func textViewDidChange(_ textView: UIKit.UITextView)
+}
 @_inheritsConvenienceInitializers @objc public class ShakeBugSDK : ObjectiveC.NSObject {
   @objc public static var sharedInstance: ShakeBug.ShakeBugSDK
   @objc override dynamic public init()
@@ -28,6 +35,45 @@ extension ShakeBug.ShakeBugSDK {
   @objc dynamic public func showTutorialScreenFirstTime(_ flag: Swift.Bool)
   @objc dynamic public func allowBugCrashFromSimulator(_ flag: Swift.Bool)
   @objc dynamic public func addEventKey(key: Swift.String, eventValue: Swift.String)
+  @objc dynamic public func setShakebugSDKLanguage(_ language: ShakeBug.ShakebugLanguage)
+  @objc dynamic public func triggerBugReporting()
+}
+@objc public enum ShakebugLanguage : Swift.Int, Swift.CaseIterable, Swift.Codable {
+  case english
+  case hindi
+  case gujarati
+  case arabic
+  case chinese
+  case dutch
+  case french
+  case german
+  case greek
+  case indonesian
+  case italian
+  case japanese
+  case korean
+  case russian
+  case spanish
+  case turkish
+  case ukrainian
+  case marathi
+  case tamil
+  case telugu
+  public var code: Swift.String {
+    get
+  }
+  public var title: Swift.String {
+    get
+  }
+  public init?(rawValue: Swift.Int)
+  public typealias AllCases = [ShakeBug.ShakebugLanguage]
+  public typealias RawValue = Swift.Int
+  public static var allCases: [ShakeBug.ShakebugLanguage] {
+    get
+  }
+  public var rawValue: Swift.Int {
+    get
+  }
 }
 extension UIKit.UIViewController {
   @_Concurrency.MainActor(unsafe) @objc override dynamic open var canBecomeFirstResponder: Swift.Bool {
@@ -35,3 +81,6 @@ extension UIKit.UIViewController {
   }
   @_Concurrency.MainActor(unsafe) @objc override dynamic open func motionEnded(_ motion: UIKit.UIEvent.EventSubtype, with event: UIKit.UIEvent?)
 }
+extension ShakeBug.ShakebugLanguage : Swift.Equatable {}
+extension ShakeBug.ShakebugLanguage : Swift.Hashable {}
+extension ShakeBug.ShakebugLanguage : Swift.RawRepresentable {}

@@ -1,0 +1,38 @@
+/* 
+  Localizable.strings
+  ShakeBug
+
+  Created by Ankur on 05/04/23.
+  
+*/
+"Description here" = "说明在这里";
+"Email(Optional)" = "电子邮件（可选）";
+"Replace Image?" = "替换图像？";
+"Replace Video?" = "替换视频？";
+"Send" = "发送";
+"Add details" = "添加详细信息";
+"Please add a description before continuing." = "请在继续之前添加说明。";
+"Please enter valid email address." = "请输入有效的电子邮件地址。";
+"Please attach feedback image." = "请附上反馈图像。";
+"Thanks for your help!" = "感谢您的帮助！";
+"Bug submitted" = "错误已提交";
+"Tap any where to dismiss" = "点击任意位置关闭";
+"Shake your mobile to report a bug" = "摇动您的手机以报告错误";
+"Okay" = "好的";
+"Hide" = "隐藏";
+"Pen" = "笔";
+"Stop" = "停止";
+"Cancel" = "取消";
+"Settings" = "设置";
+"Stop Recording?" = "停止录制？";
+"Record Video?" = "录视频？";
+"Choose Video?" = "选择视频？";
+"Annotate your bug" = "注释你的错误";
+"Cancel Video" = "取消视频";
+"Stop Recording" = "停止录音";
+
+"We need your Photo library access prior to record screen. Please go to the Privacy Setting in your iPhone and enable it." = "在录制屏幕之前，我们需要您的照片库访问权限。请转到 iPhone 中的隐私设置并启用它。";
+"As per your account limit, you can only upload" = "根据您的帐户限制，您只能上传 ";
+"seconds video." = " 秒视频。";
+"Prior to use bug reporting, your app must need 'NSPhotoLibraryUsageDescription' permission in your project plist." = "在使用错误报告之前，您的应用程序必须在您的项目 plist 中需要“NSPhotoLibraryUsageDescription”权限。";
+"We need your Photo library access prior to record screen. Please go to the Privacy Setting in your iPhone and enable it." = "在录制屏幕之前，我们需要您的照片库访问权限。请转到 iPhone 中的隐私设置并启用它。";

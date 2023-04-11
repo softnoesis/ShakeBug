@@ -1,0 +1,38 @@
+/* 
+  Localizable.strings
+  ShakeBug
+
+  Created by Ankur on 05/04/23.
+  
+*/
+"Description here" = "Deskripsi di sini";
+"Email(Optional)" = "Email (Opsional)";
+"Replace Image?" = "Ganti Gambar?";
+"Replace Video?" = "Ganti Video?";
+"Send" = "Mengirim";
+"Add details" = "Tambahkan detail";
+"Please add a description before continuing." = "Harap tambahkan deskripsi sebelum melanjutkan.";
+"Please enter valid email address." = "Masukkan alamat email yang valid.";
+"Please attach feedback image." = "Harap lampirkan gambar umpan balik.";
+"Thanks for your help!" = "Terima kasih atas bantuan Anda!";
+"Bug submitted" = "Bug dikirim";
+"Tap any where to dismiss" = "Ketuk di mana saja untuk menutup";
+"Shake your mobile to report a bug" = "Goyangkan ponsel Anda untuk melaporkan bug";
+"Okay" = "Oke";
+"Hide" = "Bersembunyi";
+"Pen" = "Pena";
+"Stop" = "Berhenti";
+"Cancel" = "Membatalkan";
+"Settings" = "Pengaturan";
+"Stop Recording?" = "Berhenti Merekam?";
+"Record Video?" = "Merekam video?";
+"Choose Video?" = "Pilih Video?";
+"Annotate your bug" = "Anotasi bug Anda";
+"Cancel Video" = "Batalkan Video";
+"Stop Recording" = "Berhenti Merekam";
+
+"We need your Photo library access prior to record screen. Please go to the Privacy Setting in your iPhone and enable it." = "Kami memerlukan akses pustaka Foto Anda sebelum merekam layar. Silakan buka Pengaturan Privasi di iPhone Anda dan aktifkan.";
+"As per your account limit, you can only upload" = "Sesuai batas akun Anda, Anda hanya dapat mengunggah ";
+"seconds video." = " video detik.";
+"Prior to use bug reporting, your app must need 'NSPhotoLibraryUsageDescription' permission in your project plist." = "Sebelum menggunakan pelaporan bug, aplikasi Anda harus memerlukan izin 'NSPhotoLibraryUsageDescription' di daftar proyek Anda.";
+"We need your Photo library access prior to record screen. Please go to the Privacy Setting in your iPhone and enable it." = "Kami memerlukan akses pustaka Foto Anda sebelum merekam layar. Silakan buka Pengaturan Privasi di iPhone Anda dan aktifkan.";

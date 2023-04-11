@@ -1,0 +1,38 @@
+/* 
+  Localizable.strings
+  ShakeBug
+
+  Created by Ankur on 05/04/23.
+  
+*/
+"Description here" = "Descrizione qui";
+"Email(Optional)" = "E-mail (facoltativo)";
+"Replace Image?" = "Sostituire l'immagine?";
+"Replace Video?" = "Sostituire video?";
+"Send" = "Inviare";
+"Add details" = "Aggiungi dettagli";
+"Please add a description before continuing." = "Aggiungi una descrizione prima di continuare.";
+"Please enter valid email address." = "Inserisci indirizzo email valido.";
+"Please attach feedback image." = "Si prega di allegare un'immagine di feedback.";
+"Thanks for your help!" = "Grazie per l'aiuto!";
+"Bug submitted" = "Bug inviato";
+"Tap any where to dismiss" = "Tocca qualsiasi punto in cui ignorare";
+"Shake your mobile to report a bug" = "Scuoti il ​​cellulare per segnalare un bug";
+"Okay" = "Va bene";
+"Hide" = "Nascondere";
+"Pen" = "Penna";
+"Stop" = "Fermare";
+"Cancel" = "Annulla";
+"Settings" = "Impostazioni";
+"Stop Recording?" = "Interrompere la registrazione?";
+"Record Video?" = "Registra video?";
+"Choose Video?" = "Scegli video?";
+"Annotate your bug" = "Annota il tuo bug";
+"Cancel Video" = "Annulla video";
+"Stop Recording" = "Interrompi la registrazione";
+
+"We need your Photo library access prior to record screen. Please go to the Privacy Setting in your iPhone and enable it." = "Abbiamo bisogno dell'accesso alla tua libreria di foto prima di registrare la schermata. Vai alle impostazioni sulla privacy nel tuo iPhone e abilitalo.";
+"As per your account limit, you can only upload" = "In base al limite del tuo account, puoi solo caricare ";
+"seconds video." = " secondi video.";
+"Prior to use bug reporting, your app must need 'NSPhotoLibraryUsageDescription' permission in your project plist." = "Prima di utilizzare la segnalazione dei bug, la tua app deve richiedere l'autorizzazione 'NSPhotoLibraryUsageDescription' nel plist del tuo progetto.";
+"We need your Photo library access prior to record screen. Please go to the Privacy Setting in your iPhone and enable it." = "Abbiamo bisogno dell'accesso alla tua libreria di foto prima di registrare la schermata. Vai alle impostazioni sulla privacy nel tuo iPhone e abilitalo.";

@@ -1,0 +1,38 @@
+/* 
+  Localizable.strings
+  ShakeBug
+
+  Created by Ankur on 05/04/23.
+  
+*/
+"Description here" = "Description here";
+"Email(Optional)" = "Email(Optional)";
+"Replace Image?" = "Replace Image?";
+"Replace Video?" = "Replace Video?";
+"Send" = "Send";
+"Add details" = "Add details";
+"Please add a description before continuing." = "Please add a description before continuing.";
+"Please enter valid email address." = "Please enter valid email address.";
+"Please attach feedback image." = "Please attach feedback image.";
+"Thanks for your help!" = "Thanks for your help!";
+"Bug submitted" = "Bug submitted";
+"Tap any where to dismiss" = "Tap any where to dismiss";
+"Shake your mobile to report a bug" = "Shake your mobile to report a bug";
+"Okay" = "Okay";
+"Hide" = "Hide";
+"Pen" = "Pen";
+"Stop" = "Stop";
+"Cancel" = "Cancel";
+"Settings" = "Settings";
+"Stop Recording?" = "Stop Recording?";
+"Record Video?" = "Record Video?";
+"Choose Video?" = "Choose Video?";
+"Annotate your bug" = "Annotate your bug";
+"Cancel Video" = "Cancel Video";
+"Stop Recording" = "Stop Recording";
+
+"We need your Photo library access prior to record screen. Please go to the Privacy Setting in your iPhone and enable it." = "We need your Photo library access prior to record screen. Please go to the Privacy Setting in your iPhone and enable it.";
+"As per your account limit, you can only upload" = "As per your account limit, you can only upload ";
+"seconds video." = " seconds video.";
+"Prior to use bug reporting, your app must need 'NSPhotoLibraryUsageDescription' permission in your project plist." = "Prior to use bug reporting, your app must need 'NSPhotoLibraryUsageDescription' permission in your project plist.";
+"We need your Photo library access prior to record screen. Please go to the Privacy Setting in your iPhone and enable it." = "We need your Photo library access prior to record screen. Please go to the Privacy Setting in your iPhone and enable it.";

@@ -1,0 +1,38 @@
+/* 
+  Localizable.strings
+  ShakeBug
+
+  Created by Ankur on 05/04/23.
+  
+*/
+"Description here" = "விளக்கம் இங்கே";
+"Email(Optional)" = "மின்னஞ்சல்(விரும்பினால்)";
+"Replace Image?" = "படத்தை மாற்றலாமா?";
+"Replace Video?" = "வீடியோவை மாற்றலாமா?";
+"Send" = "அனுப்பு";
+"Add details" = "விவரங்களைச் சேர்";
+"Please add a description before continuing." = "தொடர்வதற்கு முன் விளக்கத்தைச் சேர்க்கவும்.";
+"Please enter valid email address." = "சரியான மின்னஞ்சல் முகவரியை உள்ளிடவும்.";
+"Please attach feedback image." = "பின்னூட்டப் படத்தை இணைக்கவும்.";
+"Thanks for your help!" = "உங்கள் உதவிக்கு நன்றி!";
+"Bug submitted" = "பிழை சமர்ப்பிக்கப்பட்டது";
+"Tap any where to dismiss" = "நிராகரிக்க எங்கு வேண்டுமானாலும் தட்டவும்";
+"Shake your mobile to report a bug" = "பிழையைப் புகாரளிக்க உங்கள் மொபைலை அசைக்கவும்";
+"Okay" = "சரி";
+"Hide" = "மறை";
+"Pen" = "பேனா";
+"Stop" = "நிறுத்து";
+"Cancel" = "ரத்து செய்";
+"Settings" = "அமைப்புகள்";
+"Stop Recording?" = "பதிவு செய்வதை நிறுத்தவா?";
+"Record Video?" = "வீடியோவை பதிவு செய்யவா?";
+"Choose Video?" = "வீடியோவைத் தேர்ந்தெடுக்கவா?";
+"Annotate your bug" = "உங்கள் பிழையைக் குறிக்கவும்";
+"Cancel Video" = "வீடியோவை ரத்துசெய்";
+"Stop Recording" = "பதிவு செய்வதை நிறுத்து";
+
+"We need your Photo library access prior to record screen. Please go to the Privacy Setting in your iPhone and enable it." = "பதிவுத் திரைக்கு முன் உங்கள் புகைப்பட நூலக அணுகல் எங்களுக்குத் தேவை. உங்கள் ஐபோனில் உள்ள தனியுரிமை அமைப்புக்குச் சென்று அதை இயக்கவும்.";
+"As per your account limit, you can only upload" = "உங்கள் கணக்கு வரம்பின்படி, நீங்கள் மட்டுமே பதிவேற்ற முடியும் ";
+"seconds video." = " நொடிகள் வீடியோ.";
+"Prior to use bug reporting, your app must need 'NSPhotoLibraryUsageDescription' permission in your project plist." = "பிழை அறிக்கையைப் பயன்படுத்துவதற்கு முன், உங்கள் திட்டப் பட்டியலில் உங்கள் ஆப்ஸுக்கு 'NSPhotoLibraryUsageDescription' அனுமதி தேவை.";
+"We need your Photo library access prior to record screen. Please go to the Privacy Setting in your iPhone and enable it." = "பதிவுத் திரைக்கு முன் உங்கள் புகைப்பட நூலக அணுகல் எங்களுக்குத் தேவை. உங்கள் ஐபோனில் உள்ள தனியுரிமை அமைப்புக்குச் சென்று அதை இயக்கவும்.";

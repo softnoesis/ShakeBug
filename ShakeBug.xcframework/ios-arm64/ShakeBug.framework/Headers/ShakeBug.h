@@ -14,3 +14,4 @@ FOUNDATION_EXPORT double ShakeBugVersionNumber;
 FOUNDATION_EXPORT const unsigned char ShakeBugVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <ShakeBug/PublicHeader.h>
+#import <ShakeBug/ShakeBug.h>

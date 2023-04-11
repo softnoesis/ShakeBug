@@ -1,0 +1,38 @@
+/* 
+  Localizable.strings
+  ShakeBug
+
+  Created by Ankur on 05/04/23.
+  
+*/
+"Description here" = "Περιγραφή εδώ";
+"Email(Optional)" = "Email (Προαιρετικό)";
+"Replace Image?" = "Αντικατάσταση εικόνας;";
+"Replace Video?" = "Αντικατάσταση βίντεο;";
+"Send" = "Στείλετε";
+"Add details" = "Προσθέστε λεπτομέρειες";
+"Please add a description before continuing." = "Προσθέστε μια περιγραφή πριν συνεχίσετε.";
+"Please enter valid email address." = "Εισαγάγετε έγκυρη διεύθυνση email.";
+"Please attach feedback image." = "Επισυνάψτε την εικόνα σχολίων.";
+"Thanks for your help!" = "Ευχαριστώ για τη βοήθειά σου!";
+"Bug submitted" = "Υποβλήθηκε σφάλμα";
+"Tap any where to dismiss" = "Πατήστε οποιοδήποτε σημείο για παράβλεψη";
+"Shake your mobile to report a bug" = "Ανακινήστε το κινητό σας για να αναφέρετε ένα σφάλμα";
+"Okay" = "εντάξει";
+"Hide" = "Κρύβω";
+"Pen" = "Στυλό";
+"Stop" = "Να σταματήσει";
+"Cancel" = "Ματαίωση";
+"Settings" = "Ρυθμίσεις";
+"Stop Recording?" = "Διακοπή εγγραφής;";
+"Record Video?" = "Εγγραφή βίντεο;";
+"Choose Video?" = "Επιλογή βίντεο;";
+"Annotate your bug" = "Σημειώστε το σφάλμα σας";
+"Cancel Video" = "Ακύρωση βίντεο";
+"Stop Recording" = "Διακοπή εγγραφής";
+
+"We need your Photo library access prior to record screen. Please go to the Privacy Setting in your iPhone and enable it." = "Χρειαζόμαστε την πρόσβαση στη βιβλιοθήκη φωτογραφιών σας πριν από την οθόνη εγγραφής. Μεταβείτε στη Ρύθμιση απορρήτου στο iPhone σας και ενεργοποιήστε την.";
+"As per your account limit, you can only upload" = "Σύμφωνα με το όριο του λογαριασμού σας, μπορείτε μόνο να ανεβάσετε ";
+"seconds video." = " δευτερόλεπτα βίντεο.";
+"Prior to use bug reporting, your app must need 'NSPhotoLibraryUsageDescription' permission in your project plist." = "Προτού χρησιμοποιήσετε την αναφορά σφαλμάτων, η εφαρμογή σας πρέπει να χρειάζεται άδεια 'NSPhotoLibraryUsageDescription' στη λίστα έργων σας.";
+"We need your Photo library access prior to record screen. Please go to the Privacy Setting in your iPhone and enable it." = "Χρειαζόμαστε την πρόσβαση στη βιβλιοθήκη φωτογραφιών σας πριν από την οθόνη εγγραφής. Μεταβείτε στη Ρύθμιση απορρήτου στο iPhone σας και ενεργοποιήστε την.";

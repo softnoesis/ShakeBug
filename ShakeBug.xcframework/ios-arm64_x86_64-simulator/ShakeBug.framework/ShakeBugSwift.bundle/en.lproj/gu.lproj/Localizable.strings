@@ -1,0 +1,38 @@
+/* 
+  Localizable.strings
+  ShakeBug
+
+  Created by Ankur on 05/04/23.
+  
+*/
+"Description here" = "વર્ણન અહીં";
+"Email(Optional)" = "ઇમેઇલ (વૈકલ્પિક)";
+"Replace Image?" = "ફોટો બદલીએ?";
+"Replace Video?" = "વિડિઓ બદલીએ?";
+"Send" = "મોકલો";
+"Add details" = "વિગતો ઉમેરો";
+"Please add a description before continuing." = "ચાલુ રાખતા પહેલા કૃપા કરીને વર્ણન ઉમેરો.";
+"Please enter valid email address." = "કૃપા કરીને માન્ય ઇમેઇલ સરનામું દાખલ કરો.";
+"Please attach feedback image." = "કૃપા કરીને પ્રતિસાદ ફોટો જોડો.";
+"Thanks for your help!" = "તમારી મદદ બદલ આભાર!";
+"Bug submitted" = "બગ સબમિટ કર્યો";
+"Tap any where to dismiss" = "કાઢી નાખવા માટે ગમે ત્યાં ટૅપ કરો";
+"Shake your mobile to report a bug" = "બગની જાણ કરવા માટે તમારા મોબાઈલને હલાવો";
+"Okay" = "બરાબર";
+"Hide" = "છુપાવો";
+"Pen" = "પેન";
+"Stop" = "બંધ";
+"Cancel" = "રદ કરો";
+"Settings" = "સેટિંગ્સ";
+"Stop Recording?" = "રેકોર્ડિંગ બંધ કરીએ?";
+"Record Video?" = "વિડિઓ રેકોર્ડ કરીએ?";
+"Choose Video?" = "વિડિઓ પસંદ કરીએ?";
+"Annotate your bug" = "તમારી ભૂલની ટીકા કરો";
+"Cancel Video" = "વિડિઓ રદ કરો";
+"Stop Recording" = "રેકોર્ડિંગ બંધ કરો";
+
+"We need your Photo library access prior to record screen. Please go to the Privacy Setting in your iPhone and enable it." = "રેકોર્ડ સ્ક્રીન પહેલા અમને તમારી ફોટો લાઇબ્રેરી એક્સેસની જરૂર છે. કૃપા કરીને તમારા iPhone માં પ્રાઈવસી સેટિંગ પર જાઓ અને તેને સક્ષમ કરો.";
+"As per your account limit, you can only upload" = "તમારી એકાઉન્ટ મર્યાદા મુજબ, તમે ફક્ત અપલોડ કરી શકો છો ";
+"seconds video." = " સેકન્ડનો વિડિયો.";
+"Prior to use bug reporting, your app must need 'NSPhotoLibraryUsageDescription' permission in your project plist." = "બગ રિપોર્ટિંગનો ઉપયોગ કરતા પહેલા, તમારી એપ્લિકેશનને તમારા પ્રોજેક્ટ પ્લિસ્ટમાં 'NSPhotoLibraryUsageDescription' પરવાનગીની જરૂર પડશે.";
+"We need your Photo library access prior to record screen. Please go to the Privacy Setting in your iPhone and enable it." = "રેકોર્ડ સ્ક્રીન પહેલા અમને તમારી ફોટો લાઇબ્રેરી એક્સેસની જરૂર છે. કૃપા કરીને તમારા iPhone માં પ્રાઈવસી સેટિંગ પર જાઓ અને તેને સક્ષમ કરો.";

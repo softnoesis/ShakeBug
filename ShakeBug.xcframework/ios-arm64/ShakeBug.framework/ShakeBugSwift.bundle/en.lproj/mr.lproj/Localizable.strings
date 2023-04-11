@@ -1,0 +1,38 @@
+/* 
+  Localizable.strings
+  ShakeBug
+
+  Created by Ankur on 05/04/23.
+  
+*/
+"Description here" = "येथे वर्णन";
+"Email(Optional)" = "ईमेल(पर्यायी)";
+"Replace Image?" = "प्रतिमा बदला?";
+"Replace Video?" = "व्हिडिओ बदला?";
+"Send" = "पाठवा";
+"Add details" = "तपशील जोडा";
+"Please add a description before continuing." = "कृपया सुरू ठेवण्यापूर्वी वर्णन जोडा.";
+"Please enter valid email address." = "कृपया वैध ईमेल पत्ता प्रविष्ट करा..";
+"Please attach feedback image." = "कृपया अभिप्राय प्रतिमा संलग्न करा.";
+"Thanks for your help!" = "तुमच्या मदतीबद्दल धन्यवाद!";
+"Bug submitted" = "बग सबमिट केला";
+"Tap any where to dismiss" = "डिसमिस करण्यासाठी कुठेही टॅप करा";
+"Shake your mobile to report a bug" = "बगची तक्रार करण्यासाठी तुमचा मोबाईल हलवा";
+"Okay" = "ठीक आहे";
+"Hide" = "लपवा";
+"Pen" = "पेन";
+"Stop" = "थांबा";
+"Cancel" = "रद्द करा";
+"Settings" = "सेटिंग्ज";
+"Stop Recording?" = "रेकॉर्डिंग थांबवा?";
+"Record Video?" = "व्हिडिओ रेकॉर्ड करा?";
+"Choose Video?" = "व्हिडिओ निवडा?";
+"Annotate your bug" = "तुमच्या बगवर भाष्य करा";
+"Cancel Video" = "व्हिडिओ रद्द करा";
+"Stop Recording" = "रेकॉर्डिंग थांबवा";
+
+"We need your Photo library access prior to record screen. Please go to the Privacy Setting in your iPhone and enable it." = "रेकॉर्ड स्क्रीनच्या आधी आम्हाला तुमची फोटो लायब्ररी अ‍ॅक्सेस आवश्यक आहे. कृपया तुमच्या iPhone मधील Privacy Setting वर जा आणि ते सक्षम करा.";
+"As per your account limit, you can only upload" = "तुमच्या खात्याच्या मर्यादेनुसार, तुम्ही फक्त अपलोड करू शकता ";
+"seconds video." = " सेकंद व्हिडिओ.";
+"Prior to use bug reporting, your app must need 'NSPhotoLibraryUsageDescription' permission in your project plist." = "बग रिपोर्टिंग वापरण्यापूर्वी, तुमच्या अॅपला तुमच्या प्रोजेक्ट plist मध्ये 'NSPhotoLibraryUsageDescription' परवानगी आवश्यक आहे.";
+"We need your Photo library access prior to record screen. Please go to the Privacy Setting in your iPhone and enable it." = "रेकॉर्ड स्क्रीनच्या आधी आम्हाला तुमची फोटो लायब्ररी अ‍ॅक्सेस आवश्यक आहे. कृपया तुमच्या iPhone मधील Privacy Setting वर जा आणि ते सक्षम करा.";

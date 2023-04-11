@@ -1,0 +1,38 @@
+/* 
+  Localizable.strings
+  ShakeBug
+
+  Created by Ankur on 05/04/23.
+  
+*/
+"Description here" = "Beschrijving hier";
+"Email(Optional)" = "Email (optioneel)";
+"Replace Image?" = "Afbeelding vervangen?";
+"Replace Video?" = "Video vervangen?";
+"Send" = "Versturen";
+"Add details" = "Details toevoegen";
+"Please add a description before continuing." = "Voeg een beschrijving toe voordat u verder gaat.";
+"Please enter valid email address." = "Vul alstublieft een geldig e-mailadres in.";
+"Please attach feedback image." = "Voeg een feedbackafbeelding toe.";
+"Thanks for your help!" = "Bedankt voor je hulp!";
+"Bug submitted" = "Bug ingediend";
+"Tap any where to dismiss" = "Tik ergens om te sluiten";
+"Shake your mobile to report a bug" = "Schud met je mobiel om een ​​bug te melden";
+"Okay" = "Oké";
+"Hide" = "Verbergen";
+"Pen" = "Pen";
+"Stop" = "Stop";
+"Cancel" = "Annuleren";
+"Settings" = "Instellingen";
+"Stop Recording?" = "Stop met opnemen?";
+"Record Video?" = "Video opnemen?";
+"Choose Video?" = "Video kiezen?";
+"Annotate your bug" = "Annoteer uw fout";
+"Cancel Video" = "Annuleer video";
+"Stop Recording" = "Stop met opnemen";
+
+"We need your Photo library access prior to record screen. Please go to the Privacy Setting in your iPhone and enable it." = "We hebben uw toegang tot de fotobibliotheek nodig voorafgaand aan het opnamescherm. Ga naar de privacy-instelling op je iPhone en schakel deze in.";
+"As per your account limit, you can only upload" = "Volgens uw accountlimiet kunt u alleen uploaden ";
+"seconds video." = " seconden filmpje.";
+"Prior to use bug reporting, your app must need 'NSPhotoLibraryUsageDescription' permission in your project plist." = "Voordat u bugrapportage kunt gebruiken, moet uw app toestemming hebben voor 'NSPhotoLibraryUsageDescription' in uw project-plist.";
+"We need your Photo library access prior to record screen. Please go to the Privacy Setting in your iPhone and enable it." = "We hebben uw toegang tot de fotobibliotheek nodig voorafgaand aan het opnamescherm. Ga naar de privacy-instelling op je iPhone en schakel deze in.";
