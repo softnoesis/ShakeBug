@@ -18,7 +18,7 @@
 		</data>
 		<key>Modules/ShakeBug.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		6zToWQF0RIMEmPu3wkqQjno6JC4=
+		jj88goFE6cSqQmA4hCrLOwpih7w=
 		</data>
 		<key>Modules/ShakeBug.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
@@ -34,7 +34,7 @@
 		</data>
 		<key>Modules/ShakeBug.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		lVjB6dE1Z6gaC01R4+sI8VJ9gzA=
+		LPXyAxDwyKCYIAxsT20PEqfQdq0=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -296,6 +296,10 @@
 		<data>
 		IzRMvUeRRMJvdQH++Ln1Snn2dUw=
 		</data>
+		<key>ShakeBugSwift.bundle/shakebug-public.der</key>
+		<data>
+		ZXA+pnL0limJRgQis0BSIUOetTM=
+		</data>
 		<key>ShakeBugSwift.bundle/shakebug-rightarrow.png</key>
 		<data>
 		3pLvc6zSdDwZUn/REaLESdoMW8w=
@@ -333,7 +337,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			cXzJfkku5eRTCfW75O96+SQSI0Fl3BQ/n6/9kZeadYQ=
+			BR0qCoDignRImYDoG7aqRpDVac0ohc0cHREK5ym+bqc=
 			</data>
 		</dict>
 		<key>Modules/ShakeBug.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
@@ -361,7 +365,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ogx2rZQ2yb5ulovsAkMs8+YtPMTB2mO0p9acIUkUoSE=
+			sCtdXxTSmdfUwmAFCRqjzQq9gJLC011xYAXZiRgiIW0=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -682,6 +686,13 @@
 			<key>hash2</key>
 			<data>
 			Cxv0xLwz8/igxZdUg0BvSLcZ8FrHK/lBfSLZY6ffmlk=
+			</data>
+		</dict>
+		<key>ShakeBugSwift.bundle/shakebug-public.der</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			kPuPEVlT1GdEP8oguzeY0Xltn2LQuzuBYzFTaz65los=
 			</data>
 		</dict>
 		<key>ShakeBugSwift.bundle/shakebug-rightarrow.png</key>

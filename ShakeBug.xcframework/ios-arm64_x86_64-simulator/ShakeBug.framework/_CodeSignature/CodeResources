@@ -18,7 +18,7 @@
 		</data>
 		<key>Modules/ShakeBug.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		WEzM8VZfe61OdPnwHbHAK/k/7y4=
+		Rr12HioXFYsk21MbEkHnPymxS+I=
 		</data>
 		<key>Modules/ShakeBug.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -34,11 +34,11 @@
 		</data>
 		<key>Modules/ShakeBug.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		spX4/9HNq44YQ+xP9PyZpOcnwzs=
+		QYKQeoNH8We3TwINsWFv3rczb4c=
 		</data>
 		<key>Modules/ShakeBug.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		WEzM8VZfe61OdPnwHbHAK/k/7y4=
+		Rr12HioXFYsk21MbEkHnPymxS+I=
 		</data>
 		<key>Modules/ShakeBug.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -54,7 +54,7 @@
 		</data>
 		<key>Modules/ShakeBug.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		AIKhZgV8g50ts5r7qt+w1Pp4G38=
+		jeZ1O3eU1MNycYubJsr7eGycyOo=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -316,6 +316,10 @@
 		<data>
 		IzRMvUeRRMJvdQH++Ln1Snn2dUw=
 		</data>
+		<key>ShakeBugSwift.bundle/shakebug-public.der</key>
+		<data>
+		ZXA+pnL0limJRgQis0BSIUOetTM=
+		</data>
 		<key>ShakeBugSwift.bundle/shakebug-rightarrow.png</key>
 		<data>
 		3pLvc6zSdDwZUn/REaLESdoMW8w=
@@ -353,7 +357,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			N+G6t8Ya8REOABkBZ3f0SlQNvTWZaQv4n7qqlgGQ8Xk=
+			Ouap+k+4K6wDGRDXG6BPGskcQv2HypisiPXxWa7lSNs=
 			</data>
 		</dict>
 		<key>Modules/ShakeBug.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -381,14 +385,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			X/JpdNvsFZr/G1HD9D6i4wg6gcjPmUA6QQdl0Garu2Q=
+			a2UKuWp6rjlvAKt18mnCZlN4pzig1IMn7r5y7sfHPsc=
 			</data>
 		</dict>
 		<key>Modules/ShakeBug.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			N+G6t8Ya8REOABkBZ3f0SlQNvTWZaQv4n7qqlgGQ8Xk=
+			Ouap+k+4K6wDGRDXG6BPGskcQv2HypisiPXxWa7lSNs=
 			</data>
 		</dict>
 		<key>Modules/ShakeBug.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -416,7 +420,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			S0at3/oA4v3U7iwDS8j+IcDtYqGh2HMOTFIKAH5j69U=
+			cge2axSJdlDzlZH3j/WLdaORUTEZgb+b+Z8kX4lkIRs=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -737,6 +741,13 @@
 			<key>hash2</key>
 			<data>
 			Cxv0xLwz8/igxZdUg0BvSLcZ8FrHK/lBfSLZY6ffmlk=
+			</data>
+		</dict>
+		<key>ShakeBugSwift.bundle/shakebug-public.der</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			kPuPEVlT1GdEP8oguzeY0Xltn2LQuzuBYzFTaz65los=
 			</data>
 		</dict>
 		<key>ShakeBugSwift.bundle/shakebug-rightarrow.png</key>
