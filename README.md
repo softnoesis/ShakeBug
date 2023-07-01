@@ -1,6 +1,6 @@
 # ShakeBug
 
-![pod](https://badgen.net/badge/pod/v1.0.26/cyan) ![twitter](https://badgen.net/badge/icon/@shakebugtool?icon=twitter&label) ![linkedin](https://badgen.net/badge/icon/shakebug?icon=discord&label)
+![pod](https://badgen.net/badge/pod/v1.0.28/cyan) ![twitter](https://badgen.net/badge/icon/@shakebugtool?icon=twitter&label) ![linkedin](https://badgen.net/badge/icon/shakebug?icon=discord&label)
 
 
 Shakebug allows you to receive feedback from your beta testers or real users and improve the quality of your application in a simple way. Here users just need to shake their mobile and all the data regarding bugs & crashes can be seen by developers through their log in panel. It also helpful to analyse your users, session, location etc. Addition, you can add events on each action of your application and track it using this Shakebug framework.
@@ -23,6 +23,11 @@ Sign up for a service at [https://www.shakebug.com](https://www.shakebug.com)
  ✅ Analytics
 
  ✅ Events
+
+ ✅ Custom theme color, title and error message
+
+ ✅ On-premise hosting
+
 
 
 ## Compatibility
@@ -154,6 +159,51 @@ ShakeBugSDK.sharedInstance.setShakebugSDKLanguage(ShakebugLanguage.french)
   [[ShakebugSDK sharedInstance] setShakebugSDKLanguage:ShakebugLanguage.french];
   ```
 Note: Just mind that here, by default it will take device language as defualt language.
+
+5. Developer can also set custome theme color in Shakebug SDK screens:
+```swift
+// Swift
+ShakeBugSDK.sharedInstance.setShakebugThemeColor(UIColor.green)
+```
+
+```objective-c
+// Objective-C
+[[ShakeBugSDK sharedInstance] setShakebugThemeColor:[UIColor greenColor]];
+```   
+
+
+6. Developer can also set custom title for Shakebug annotate and feedback input screen:
+```swift
+// Swift
+ShakeBugSDK.sharedInstance.changeSDKScreenTitle("Annotate your Bug", "Feedback") 
+```
+
+```objective-c
+// Objective-C
+[[ShakeBugSDK sharedInstance] changeSDKScreenTitle:@"Annotate your bug" :@"Add detail"];
+```   
+
+7. Set custom error message for any error alert screen from SDK.
+```swift
+// Swift
+ShakeBugSDK.sharedInstance.changeSDKErrorAlertMessage("This Error")
+```
+
+```objective-c
+// Objective-C
+[[ShakeBugSDK sharedInstance] changeSDKErrorAlertMessage:@"Something wrong.."];
+```   
+8. If you have on-premise hosting plan then following method will be used.
+```swift
+// Swift
+ShakeBugSDK.sharedInstance.setShakebugSDKEndPointURL(url: "", headerKey: "", sslPublicKey: "")
+```
+
+```objective-c
+// Objective-C
+[[ShakeBugSDK sharedInstance] setShakebugSDKEndPointURLWithUrl:@"" headerKey:@"" sslPublicKey:@""];
+```
+Note: New enpoint url, its header key and SSL public key(Optional)
 
 ## Events  
   
