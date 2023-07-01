@@ -2,7 +2,7 @@
 //  ShakeBug.h
 //  ShakeBug
 //
-//  Created by Ankur on 12/01/23.
+//  Created by iChirag on 12/01/23.
 //
 
 #import <Foundation/Foundation.h>

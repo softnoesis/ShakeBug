@@ -2,7 +2,7 @@
   Localizable.strings
   ShakeBug
 
-  Created by Ankur on 05/04/23.
+  Created by iChirag on 05/04/23.
   
 */
 "Description here" = "વર્ણન અહીં";
@@ -24,8 +24,8 @@
 "Stop" = "બંધ";
 "Cancel" = "રદ કરો";
 "Settings" = "સેટિંગ્સ";
-"Stop Recording?" = "રેકોર્ડિંગ બંધ કરીએ?";
-"Record Video?" = "વિડિઓ રેકોર્ડ કરીએ?";
+"Stop Recording?" = "રેકોર્ડિંગ બંધ?";
+"Record Screen?" = "સ્ક્રીન રેકોર્ડ કરીએ?";
 "Choose Video?" = "વિડિઓ પસંદ કરીએ?";
 "Annotate your bug" = "તમારી ભૂલની ટીકા કરો";
 "Cancel Video" = "વિડિઓ રદ કરો";

@@ -2,7 +2,7 @@
   Localizable.strings
   ShakeBug
 
-  Created by Ankur on 05/04/23.
+  Created by iChirag on 05/04/23.
   
 */
 "Description here" = "Description here";
@@ -25,7 +25,7 @@
 "Cancel" = "Cancel";
 "Settings" = "Settings";
 "Stop Recording?" = "Stop Recording?";
-"Record Video?" = "Record Video?";
+"Record Screen?" = "Record Screen?";
 "Choose Video?" = "Choose Video?";
 "Annotate your bug" = "Annotate your bug";
 "Cancel Video" = "Cancel Video";

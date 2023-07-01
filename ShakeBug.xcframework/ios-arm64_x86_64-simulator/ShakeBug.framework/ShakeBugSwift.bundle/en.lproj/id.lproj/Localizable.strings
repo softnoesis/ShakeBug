@@ -2,7 +2,7 @@
   Localizable.strings
   ShakeBug
 
-  Created by Ankur on 05/04/23.
+  Created by iChirag on 05/04/23.
   
 */
 "Description here" = "Deskripsi di sini";
@@ -25,7 +25,7 @@
 "Cancel" = "Membatalkan";
 "Settings" = "Pengaturan";
 "Stop Recording?" = "Berhenti Merekam?";
-"Record Video?" = "Merekam video?";
+"Record Screen?" = "Rekam Layar?";
 "Choose Video?" = "Pilih Video?";
 "Annotate your bug" = "Anotasi bug Anda";
 "Cancel Video" = "Batalkan Video";
