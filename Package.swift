@@ -20,6 +20,6 @@ let package = Package(
         // Targets can depend on other targets in this package, and on products in packages this package depends on.
         .binaryTarget(name: "ShakeBug",
                       url: "https://www.shakebug.com/sdk/ios/1.0.28/ShakeBug.xcframework.zip",
-                      checksum: "8572837b4a70c601d7be4b1e8d29e185e97dfa3d3e5ee7a2f64ea1bcb7d4ac2a"),
+                      checksum: "430d04cbb47848682e6defe9a4d928896a82cff31bada90c511f812ef2dcab59"),
     ]
 )
