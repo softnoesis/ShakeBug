@@ -6,7 +6,7 @@
 	<dict>
 		<key>Resources/Info.plist</key>
 		<data>
-		rS1b6X0Iw5AjUoquby5cCvbQUuo=
+		UP1f1uym+13SdF612idaoTt4fFA=
 		</data>
 		<key>Resources/ShakeBugSwift.bundle/Root.plist</key>
 		<data>
@@ -291,7 +291,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			20e+dSeW367u4lUGOsryoomZjShC89o6HYObF0vRxaI=
+			gqzcXbmtG+QW5Z2o17WU+oTHq+k2VeCZHiXTA1m9NJo=
 			</data>
 		</dict>
 		<key>Headers/ShakeBug.h</key>
@@ -305,70 +305,70 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			yrAycccRiBu/bnYHcy3vpEYHFGwjcV2x0lBaIOWVscU=
+			rBdYONUvH4dvaVU3dcyi2arp34pi/dT7eou99oP7UHA=
 			</data>
 		</dict>
 		<key>Modules/ShakeBug.swiftmodule/arm64-apple-ios-macabi.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			UlMeeCNlzID6ZwjtXnW6N/aN5bVLFwnAkGAZkeHKtMs=
+			4g6T8xod6oRe1A0OVF/g2HY/lwiajk7HLaXJ9kiMGWA=
 			</data>
 		</dict>
 		<key>Modules/ShakeBug.swiftmodule/arm64-apple-ios-macabi.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			JpPx82f8IfmzWzHDhuJ5Gbx3I58zSazHUlvGfIuI8yo=
+			Yg8qsJIwVMn5Dgd9Bi3pd1mi9oRu2WaYN4jaEW1XMsg=
 			</data>
 		</dict>
 		<key>Modules/ShakeBug.swiftmodule/arm64-apple-ios-macabi.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			UlMeeCNlzID6ZwjtXnW6N/aN5bVLFwnAkGAZkeHKtMs=
+			4g6T8xod6oRe1A0OVF/g2HY/lwiajk7HLaXJ9kiMGWA=
 			</data>
 		</dict>
 		<key>Modules/ShakeBug.swiftmodule/arm64-apple-ios-macabi.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			/j5rABNncPt3B4AUzIhCri2G423qaGtQHNA1nX0tugE=
+			FcDzOPhdmihkrB+c8QQEBdfV8ozdt3aWjEfh8zDfPDk=
 			</data>
 		</dict>
 		<key>Modules/ShakeBug.swiftmodule/x86_64-apple-ios-macabi.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			yrAycccRiBu/bnYHcy3vpEYHFGwjcV2x0lBaIOWVscU=
+			rBdYONUvH4dvaVU3dcyi2arp34pi/dT7eou99oP7UHA=
 			</data>
 		</dict>
 		<key>Modules/ShakeBug.swiftmodule/x86_64-apple-ios-macabi.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			eUZKCdRDxZwnYPOynSbWMBywu7FFGiVaqDg2kZ7trIk=
+			26NaA0P0fjiqJv5vTKwXL/BnXqda1mryKgJ46Pu16Ts=
 			</data>
 		</dict>
 		<key>Modules/ShakeBug.swiftmodule/x86_64-apple-ios-macabi.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			1yLPvtBy/QcAMa57RxoEHHaPAjGA7M67FJ46X1HrDdc=
+			0wew8w3LiDL3UhNL5nBlzPJkoXMBS/sLbvwJWM/njgQ=
 			</data>
 		</dict>
 		<key>Modules/ShakeBug.swiftmodule/x86_64-apple-ios-macabi.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			eUZKCdRDxZwnYPOynSbWMBywu7FFGiVaqDg2kZ7trIk=
+			26NaA0P0fjiqJv5vTKwXL/BnXqda1mryKgJ46Pu16Ts=
 			</data>
 		</dict>
 		<key>Modules/ShakeBug.swiftmodule/x86_64-apple-ios-macabi.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			gcscWtfjdsEtVau3/11PUL1XlDikpXftK3e7z6z7mw4=
+			/Tzs3YzKZwJtS0rWsT2O9UyWuqWA32nfzVhe27hV2r0=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -382,7 +382,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			6ICHEkt3LZw8Vy0OCpupYIlYqG52MSHN2+eunAHwqjw=
+			vfZvvuDSdKZUVb6GABigLGq6w1RUEqus7K6Nq67tFlA=
 			</data>
 		</dict>
 		<key>Resources/ShakeBugSwift.bundle/Root.plist</key>

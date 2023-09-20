@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)
+// swift-compiler-version: Apple Swift version 5.8.1 (swiftlang-5.8.0.124.5 clang-1403.0.22.11.100)
 // swift-module-flags: -target arm64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name ShakeBug
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 import AVKit
@@ -8,6 +8,7 @@ import CommonCrypto/*.CC_LONG*/
 import CommonCrypto/*.CC_MD5*/
 import CommonCrypto/*.CC_MD5_DIGEST_LENGTH*/
 import CoreLocation
+import CoreMotion
 import CoreServices
 import CoreTelephony
 import Foundation
@@ -45,6 +46,8 @@ extension ShakeBug.ShakeBugSDK {
   @objc dynamic public func setShakebugSDKEndPointURL(url: Swift.String, headerKey: Swift.String, sslPublicKey: [Swift.String]? = nil)
   @objc dynamic public func changeSDKScreenTitle(_ bugReviewScreen: Swift.String?, _ bugFeedbackScreen: Swift.String?)
   @objc dynamic public func changeSDKErrorAlertMessage(_ message: Swift.String)
+  @objc dynamic public func allowToReportBugByScreenCapture(_ isAllow: Swift.Bool)
+  @objc dynamic public func allowToReportBugByShakingMobile(_ isAllow: Swift.Bool)
 }
 @objc public enum ShakebugLanguage : Swift.Int, Swift.CaseIterable, Swift.Codable {
   case english
