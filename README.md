@@ -205,6 +205,26 @@ ShakeBugSDK.sharedInstance.setShakebugSDKEndPointURL(url: "", headerKey: "", ssl
 ```
 Note: New enpoint url, its header key and SSL public key(Optional)
 
+9. User can report bug either by shaking phone or by triggering default screen capture event. This method can be used to manage "screen capture" event should trigger bug reporting or not.
+```swift
+// Swift
+ShakeBugSDK.sharedInstance.allowToReportBugByScreenCapture(false) // Default value true
+```
+
+```objective-c
+// Objective-C
+[[ShakeBugSDK sharedInstance] allowToReportBugByScreenCapture:NO]; // Default value YES
+```
+10. User can report bug either by shaking phone or by triggering default screen capture event. This method can be used to manage "shaking mobile" should trigger bug reporting or not.
+```swift
+// Swift
+ShakeBugSDK.sharedInstance.allowToReportBugByShakingMobile(true) // Default value true
+```
+
+```objective-c
+// Objective-C
+[[ShakeBugSDK sharedInstance] allowToReportBugByShakingMobile:YES]; // Default value YES
+```
 ## Events  
   
 If you want add event to any screen or activity use following methods
@@ -222,8 +242,10 @@ ShakeBugSDK.sharedInstance.addEventKey(key:"App_open", eventValue: "Started app"
 ## Usage
 
 Build & run your app. Once your app is running, shake your device (\^⌘Z in the simulator) to report a bug! Bug/Crash reports are sent directly to login panel of Shakebug.com and also notify on your registered email address.
+Additionally, now user can report bug if they trigger screen capture event in iPhone.
 
-If you want to trigger bug reporting screen without shaking then you can  call following method in any button action of any screen.
+
+If you want to trigger bug reporting screen without shaking then you can call following method in any button action of any screen.
 ```swift
 // Swift
 ShakeBugSDK.sharedInstance.triggerBugReporting()
