@@ -1,6 +1,6 @@
 # ShakeBug
 
-![pod](https://badgen.net/badge/pod/v1.0.30/cyan) ![twitter](https://badgen.net/badge/icon/@shakebugtool?icon=twitter&label) ![linkedin](https://badgen.net/badge/icon/shakebug?icon=discord&label)
+![pod](https://badgen.net/badge/pod/v1.0.31/cyan) ![twitter](https://badgen.net/badge/icon/@shakebugtool?icon=twitter&label) ![linkedin](https://badgen.net/badge/icon/shakebug?icon=discord&label)
 
 
 Shakebug allows you to receive feedback from your beta testers or real users and improve the quality of your application in a simple way. Here users just need to shake their mobile and all the data regarding bugs & crashes can be seen by developers through their log in panel. It also helpful to analyse your users, session, location etc. Addition, you can add events on each action of your application and track it using this Shakebug framework.
