@@ -5231,7 +5231,7 @@
       "kind": "StringLiteral",
       "offset": 3491,
       "length": 20,
-      "value": "\"©ShakeBug v1.0.30\""
+      "value": "\"©ShakeBug v1.0.31\""
     },
     {
       "filePath": "\/Volumes\/SNData\/iOS\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Modules\/ShakeBugFeedback\/ShakeBugFeedbackViewController.swift",
@@ -6699,205 +6699,212 @@
     {
       "filePath": "\/Volumes\/SNData\/iOS\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Miscellaneous\/ShakeBugUtils.swift",
       "kind": "IntegerLiteral",
-      "offset": 2443,
-      "length": 2,
-      "value": "60"
-    },
-    {
-      "filePath": "\/Volumes\/SNData\/iOS\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Miscellaneous\/ShakeBugUtils.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2497,
+      "offset": 2465,
       "length": 2,
       "value": "20"
     },
     {
       "filePath": "\/Volumes\/SNData\/iOS\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Miscellaneous\/ShakeBugUtils.swift",
       "kind": "IntegerLiteral",
-      "offset": 2742,
+      "offset": 2493,
+      "length": 2,
+      "value": "20"
+    },
+    {
+      "filePath": "\/Volumes\/SNData\/iOS\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Miscellaneous\/ShakeBugUtils.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2738,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Volumes\/SNData\/iOS\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Miscellaneous\/ShakeBugUtils.swift",
       "kind": "IntegerLiteral",
-      "offset": 2748,
+      "offset": 2744,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Volumes\/SNData\/iOS\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Miscellaneous\/ShakeBugUtils.swift",
       "kind": "BooleanLiteral",
-      "offset": 2773,
+      "offset": 2769,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Volumes\/SNData\/iOS\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Miscellaneous\/ShakeBugUtils.swift",
       "kind": "StringLiteral",
-      "offset": 2794,
+      "offset": 2790,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Volumes\/SNData\/iOS\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Miscellaneous\/ShakeBugUtils.swift",
       "kind": "StringLiteral",
-      "offset": 2812,
+      "offset": 2808,
       "length": 6,
       "value": "\"NULL\""
     },
     {
       "filePath": "\/Volumes\/SNData\/iOS\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Miscellaneous\/ShakeBugUtils.swift",
       "kind": "StringLiteral",
-      "offset": 2834,
+      "offset": 2830,
       "length": 8,
       "value": "\"(null)\""
     },
     {
       "filePath": "\/Volumes\/SNData\/iOS\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Miscellaneous\/ShakeBugUtils.swift",
       "kind": "StringLiteral",
-      "offset": 2875,
+      "offset": 2871,
       "length": 8,
       "value": "\"<null>\""
     },
     {
       "filePath": "\/Volumes\/SNData\/iOS\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Miscellaneous\/ShakeBugUtils.swift",
       "kind": "StringLiteral",
-      "offset": 2899,
+      "offset": 2895,
       "length": 5,
       "value": "\"NaN\""
     },
     {
       "filePath": "\/Volumes\/SNData\/iOS\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Miscellaneous\/ShakeBugUtils.swift",
       "kind": "StringLiteral",
-      "offset": 2920,
+      "offset": 2916,
       "length": 3,
       "value": "\"n\""
     },
     {
       "filePath": "\/Volumes\/SNData\/iOS\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Miscellaneous\/ShakeBugUtils.swift",
       "kind": "BooleanLiteral",
-      "offset": 2946,
+      "offset": 2942,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Volumes\/SNData\/iOS\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Miscellaneous\/ShakeBugUtils.swift",
       "kind": "BooleanLiteral",
-      "offset": 2977,
+      "offset": 2973,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Volumes\/SNData\/iOS\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Miscellaneous\/ShakeBugUtils.swift",
       "kind": "BooleanLiteral",
-      "offset": 3113,
+      "offset": 3109,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Volumes\/SNData\/iOS\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Miscellaneous\/ShakeBugUtils.swift",
       "kind": "StringLiteral",
-      "offset": 3147,
+      "offset": 3143,
       "length": 49,
       "value": "\"[A-Z0-9a-z.+-_]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,3}\""
     },
     {
       "filePath": "\/Volumes\/SNData\/iOS\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Miscellaneous\/ShakeBugUtils.swift",
       "kind": "IntegerLiteral",
-      "offset": 3425,
+      "offset": 3421,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Volumes\/SNData\/iOS\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Miscellaneous\/ShakeBugUtils.swift",
       "kind": "IntegerLiteral",
-      "offset": 3507,
+      "offset": 3503,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Volumes\/SNData\/iOS\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Miscellaneous\/ShakeBugUtils.swift",
       "kind": "BooleanLiteral",
-      "offset": 3545,
+      "offset": 3541,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Volumes\/SNData\/iOS\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Miscellaneous\/ShakeBugUtils.swift",
       "kind": "BooleanLiteral",
-      "offset": 3621,
+      "offset": 3617,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Volumes\/SNData\/iOS\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Miscellaneous\/ShakeBugUtils.swift",
       "kind": "BooleanLiteral",
-      "offset": 3708,
+      "offset": 3704,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Volumes\/SNData\/iOS\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Miscellaneous\/ShakeBugUtils.swift",
       "kind": "IntegerLiteral",
-      "offset": 3982,
+      "offset": 3978,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Volumes\/SNData\/iOS\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Miscellaneous\/ShakeBugUtils.swift",
       "kind": "IntegerLiteral",
-      "offset": 4123,
+      "offset": 4119,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Volumes\/SNData\/iOS\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Miscellaneous\/ShakeBugUtils.swift",
       "kind": "IntegerLiteral",
-      "offset": 4337,
+      "offset": 4333,
       "length": 7,
       "value": "1000000"
     },
     {
       "filePath": "\/Volumes\/SNData\/iOS\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Miscellaneous\/ShakeBugUtils.swift",
       "kind": "FloatLiteral",
-      "offset": 4390,
+      "offset": 4386,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Volumes\/SNData\/iOS\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Miscellaneous\/ShakeBugUtils.swift",
       "kind": "BooleanLiteral",
-      "offset": 4536,
+      "offset": 4532,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Volumes\/SNData\/iOS\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Miscellaneous\/ShakeBugUtils.swift",
       "kind": "IntegerLiteral",
-      "offset": 4585,
+      "offset": 4581,
       "length": 3,
       "value": "100"
     },
     {
       "filePath": "\/Volumes\/SNData\/iOS\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Miscellaneous\/ShakeBugUtils.swift",
       "kind": "StringLiteral",
-      "offset": 4838,
+      "offset": 4834,
       "length": 7,
       "value": "\"Wi-fi\""
     },
     {
       "filePath": "\/Volumes\/SNData\/iOS\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Miscellaneous\/ShakeBugUtils.swift",
       "kind": "StringLiteral",
-      "offset": 4956,
+      "offset": 4952,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Volumes\/SNData\/iOS\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Miscellaneous\/ShakeBugUtils.swift",
       "kind": "StringLiteral",
-      "offset": 5192,
+      "offset": 5188,
       "length": 2,
       "value": "\"\""
+    },
+    {
+      "filePath": "\/Volumes\/SNData\/iOS\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Miscellaneous\/ShakeBugUtils.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5226,
+      "length": 1,
+      "value": "0"
     },
     {
       "filePath": "\/Volumes\/SNData\/iOS\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Miscellaneous\/ShakeBugUtils.swift",
@@ -6908,141 +6915,134 @@
     },
     {
       "filePath": "\/Volumes\/SNData\/iOS\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Miscellaneous\/ShakeBugUtils.swift",
-      "kind": "IntegerLiteral",
-      "offset": 5234,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Volumes\/SNData\/iOS\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Miscellaneous\/ShakeBugUtils.swift",
       "kind": "StringLiteral",
-      "offset": 5327,
+      "offset": 5323,
       "length": 11,
       "value": "\"2G (GPRS)\""
     },
     {
       "filePath": "\/Volumes\/SNData\/iOS\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Miscellaneous\/ShakeBugUtils.swift",
       "kind": "StringLiteral",
-      "offset": 5435,
+      "offset": 5431,
       "length": 11,
       "value": "\"2G (Edge)\""
     },
     {
       "filePath": "\/Volumes\/SNData\/iOS\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Miscellaneous\/ShakeBugUtils.swift",
       "kind": "StringLiteral",
-      "offset": 5545,
+      "offset": 5541,
       "length": 13,
       "value": "\"2G (CDMA1x)\""
     },
     {
       "filePath": "\/Volumes\/SNData\/iOS\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Miscellaneous\/ShakeBugUtils.swift",
       "kind": "StringLiteral",
-      "offset": 5656,
+      "offset": 5652,
       "length": 12,
       "value": "\"3G (WCDMA)\""
     },
     {
       "filePath": "\/Volumes\/SNData\/iOS\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Miscellaneous\/ShakeBugUtils.swift",
       "kind": "StringLiteral",
-      "offset": 5766,
+      "offset": 5762,
       "length": 12,
       "value": "\"3G (HSUPA)\""
     },
     {
       "filePath": "\/Volumes\/SNData\/iOS\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Miscellaneous\/ShakeBugUtils.swift",
       "kind": "StringLiteral",
-      "offset": 5876,
+      "offset": 5872,
       "length": 12,
       "value": "\"3G (HSDPA)\""
     },
     {
       "filePath": "\/Volumes\/SNData\/iOS\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Miscellaneous\/ShakeBugUtils.swift",
       "kind": "StringLiteral",
-      "offset": 5993,
+      "offset": 5989,
       "length": 19,
       "value": "\"3G (CDMAEVDORev0)\""
     },
     {
       "filePath": "\/Volumes\/SNData\/iOS\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Miscellaneous\/ShakeBugUtils.swift",
       "kind": "StringLiteral",
-      "offset": 6117,
+      "offset": 6113,
       "length": 19,
       "value": "\"3G (CDMAEVDORevA)\""
     },
     {
       "filePath": "\/Volumes\/SNData\/iOS\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Miscellaneous\/ShakeBugUtils.swift",
       "kind": "StringLiteral",
-      "offset": 6241,
+      "offset": 6237,
       "length": 19,
       "value": "\"3G (CDMAEVDORevB)\""
     },
     {
       "filePath": "\/Volumes\/SNData\/iOS\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Miscellaneous\/ShakeBugUtils.swift",
       "kind": "StringLiteral",
-      "offset": 6358,
+      "offset": 6354,
       "length": 11,
       "value": "\"3G (HRPD)\""
     },
     {
       "filePath": "\/Volumes\/SNData\/iOS\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Miscellaneous\/ShakeBugUtils.swift",
       "kind": "StringLiteral",
-      "offset": 6465,
+      "offset": 6461,
       "length": 10,
       "value": "\"4G (LTE)\""
     },
     {
       "filePath": "\/Volumes\/SNData\/iOS\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Miscellaneous\/ShakeBugUtils.swift",
       "kind": "StringLiteral",
-      "offset": 6648,
+      "offset": 6644,
       "length": 12,
       "value": "\"5G (NRNSA)\""
     },
     {
       "filePath": "\/Volumes\/SNData\/iOS\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Miscellaneous\/ShakeBugUtils.swift",
       "kind": "StringLiteral",
-      "offset": 6771,
+      "offset": 6767,
       "length": 9,
       "value": "\"5G (NR)\""
     },
     {
       "filePath": "\/Volumes\/SNData\/iOS\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Miscellaneous\/ShakeBugUtils.swift",
       "kind": "StringLiteral",
-      "offset": 6841,
+      "offset": 6837,
       "length": 9,
       "value": "\"UNKNOWN\""
     },
     {
       "filePath": "\/Volumes\/SNData\/iOS\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Miscellaneous\/ShakeBugUtils.swift",
       "kind": "StringLiteral",
-      "offset": 6925,
+      "offset": 6921,
       "length": 9,
       "value": "\"UNKNOWN\""
     },
     {
       "filePath": "\/Volumes\/SNData\/iOS\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Miscellaneous\/ShakeBugUtils.swift",
       "kind": "StringLiteral",
-      "offset": 7003,
+      "offset": 6999,
       "length": 9,
       "value": "\"UNKNOWN\""
     },
     {
       "filePath": "\/Volumes\/SNData\/iOS\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Miscellaneous\/ShakeBugUtils.swift",
       "kind": "StringLiteral",
-      "offset": 7110,
+      "offset": 7106,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Volumes\/SNData\/iOS\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Miscellaneous\/ShakeBugUtils.swift",
       "kind": "StringLiteral",
-      "offset": 7372,
+      "offset": 7368,
       "length": 6,
       "value": "\"Okay\""
     },
     {
       "filePath": "\/Volumes\/SNData\/iOS\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Miscellaneous\/ShakeBugUtils.swift",
       "kind": "BooleanLiteral",
-      "offset": 7520,
+      "offset": 7516,
       "length": 4,
       "value": "true"
     },
@@ -7406,161 +7406,105 @@
     {
       "filePath": "\/Volumes\/SNData\/iOS\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Modules\/CustomExtension\/ShakeBugCustomExtension.swift",
       "kind": "StringLiteral",
-      "offset": 13801,
+      "offset": 13833,
       "length": 10,
       "value": "\"filename\""
     },
     {
       "filePath": "\/Volumes\/SNData\/iOS\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Modules\/CustomExtension\/ShakeBugCustomExtension.swift",
       "kind": "StringLiteral",
-      "offset": 13827,
+      "offset": 13859,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Volumes\/SNData\/iOS\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Modules\/CustomExtension\/ShakeBugCustomExtension.swift",
       "kind": "StringLiteral",
-      "offset": 13964,
+      "offset": 13996,
       "length": 5,
       "value": "\"mp4\""
     },
     {
       "filePath": "\/Volumes\/SNData\/iOS\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Modules\/CustomExtension\/ShakeBugCustomExtension.swift",
       "kind": "StringLiteral",
-      "offset": 14017,
+      "offset": 14049,
       "length": 58,
       "value": "\"\""
     },
     {
       "filePath": "\/Volumes\/SNData\/iOS\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Modules\/CustomExtension\/ShakeBugCustomExtension.swift",
       "kind": "StringLiteral",
-      "offset": 14065,
+      "offset": 14097,
       "length": 1,
       "value": "\".\""
     },
     {
       "filePath": "\/Volumes\/SNData\/iOS\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Modules\/CustomExtension\/ShakeBugCustomExtension.swift",
       "kind": "StringLiteral",
-      "offset": 14074,
+      "offset": 14106,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Volumes\/SNData\/iOS\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Modules\/CustomExtension\/ShakeBugCustomExtension.swift",
       "kind": "BooleanLiteral",
-      "offset": 14197,
+      "offset": 14229,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Volumes\/SNData\/iOS\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Modules\/CustomExtension\/ShakeBugCustomExtension.swift",
       "kind": "StringLiteral",
-      "offset": 14641,
-      "length": 18,
-      "value": "\"SBND_VALIDAPPKEY\""
-    },
-    {
-      "filePath": "\/Volumes\/SNData\/iOS\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Modules\/CustomExtension\/ShakeBugCustomExtension.swift",
-      "kind": "StringLiteral",
-      "offset": 14723,
-      "length": 18,
-      "value": "\"SBND_VALIDAPPKEY\""
-    },
-    {
-      "filePath": "\/Volumes\/SNData\/iOS\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Modules\/CustomExtension\/ShakeBugCustomExtension.swift",
-      "kind": "StringLiteral",
-      "offset": 14769,
-      "length": 16,
-      "value": "\"video_duration\""
-    },
-    {
-      "filePath": "\/Volumes\/SNData\/iOS\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Modules\/CustomExtension\/ShakeBugCustomExtension.swift",
-      "kind": "StringLiteral",
-      "offset": 14871,
-      "length": 18,
-      "value": "\"SBND_VALIDAPPKEY\""
-    },
-    {
-      "filePath": "\/Volumes\/SNData\/iOS\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Modules\/CustomExtension\/ShakeBugCustomExtension.swift",
-      "kind": "StringLiteral",
-      "offset": 14917,
-      "length": 16,
-      "value": "\"video_duration\""
-    },
-    {
-      "filePath": "\/Volumes\/SNData\/iOS\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Modules\/CustomExtension\/ShakeBugCustomExtension.swift",
-      "kind": "StringLiteral",
-      "offset": 15008,
-      "length": 3,
-      "value": "\"0\""
-    },
-    {
-      "filePath": "\/Volumes\/SNData\/iOS\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Modules\/CustomExtension\/ShakeBugCustomExtension.swift",
-      "kind": "IntegerLiteral",
-      "offset": 15016,
-      "length": 2,
-      "value": "20"
-    },
-    {
-      "filePath": "\/Volumes\/SNData\/iOS\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Modules\/CustomExtension\/ShakeBugCustomExtension.swift",
-      "kind": "IntegerLiteral",
-      "offset": 15058,
-      "length": 2,
-      "value": "20"
-    },
-    {
-      "filePath": "\/Volumes\/SNData\/iOS\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Modules\/CustomExtension\/ShakeBugCustomExtension.swift",
-      "kind": "StringLiteral",
-      "offset": 15125,
+      "offset": 14637,
       "length": 49,
       "value": "\"As per your account limit, you can only upload \""
     },
     {
       "filePath": "\/Volumes\/SNData\/iOS\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Modules\/CustomExtension\/ShakeBugCustomExtension.swift",
       "kind": "StringLiteral",
-      "offset": 15195,
+      "offset": 14707,
       "length": 11,
       "value": "\"\""
     },
     {
       "filePath": "\/Volumes\/SNData\/iOS\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Modules\/CustomExtension\/ShakeBugCustomExtension.swift",
       "kind": "StringLiteral",
-      "offset": 15205,
+      "offset": 14717,
       "length": 5,
       "value": "\"\""
     },
     {
       "filePath": "\/Volumes\/SNData\/iOS\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Modules\/CustomExtension\/ShakeBugCustomExtension.swift",
       "kind": "StringLiteral",
-      "offset": 15209,
+      "offset": 14721,
       "length": 17,
       "value": "\" seconds video.\""
     },
     {
       "filePath": "\/Volumes\/SNData\/iOS\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Modules\/CustomExtension\/ShakeBugCustomExtension.swift",
       "kind": "StringLiteral",
-      "offset": 15304,
+      "offset": 14816,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Volumes\/SNData\/iOS\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Modules\/CustomExtension\/ShakeBugCustomExtension.swift",
       "kind": "StringLiteral",
-      "offset": 15372,
+      "offset": 14884,
       "length": 6,
       "value": "\"Okay\""
     },
     {
       "filePath": "\/Volumes\/SNData\/iOS\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Modules\/CustomExtension\/ShakeBugCustomExtension.swift",
       "kind": "BooleanLiteral",
-      "offset": 15570,
+      "offset": 15082,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Volumes\/SNData\/iOS\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Modules\/CustomExtension\/ShakeBugCustomExtension.swift",
       "kind": "BooleanLiteral",
-      "offset": 15795,
+      "offset": 15307,
       "length": 4,
       "value": "true"
     },
