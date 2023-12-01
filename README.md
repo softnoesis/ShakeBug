@@ -99,7 +99,7 @@ and select the latest version.
     
    ```objective-c
    // Objective-C
-   [[ShakebugSDK sharedInstance] initiateWithKey:@"<Your Key>"];
+   [[ShakeBugSDK sharedInstance] initiateWithKey:@"<Your Key>"];
    ```
 
     Be sure to replace `<Your Key>` with your application key which given by ShakeBug website.
@@ -118,7 +118,7 @@ ShakeBugSDK.sharedInstance.showTutorialScreenFirstTime(false) // Default value T
 
  ```objective-c
  // Objective-C
- [[ShakebugSDK sharedInstance] showTutorialScreenFirstTime:NO];// Default value YES
+ [[ShakeBugSDK sharedInstance] showTutorialScreenFirstTime:NO];// Default value YES
  ```
 
 2. If you want to show bug or crash from Simulator then use following code `application:didFinishLaunchingWithOptions:`
@@ -130,7 +130,7 @@ ShakeBugSDK.sharedInstance.allowBugCrashFromSimulator(true) // Default value fal
 
  ```objective-c
  // Objective-C
- [[ShakebugSDK sharedInstance] allowCrashFromSimulator:YES];// Default value NO
+ [[ShakeBugSDK sharedInstance] allowCrashFromSimulator:YES];// Default value NO
  ```
  
  
@@ -143,7 +143,7 @@ ShakeBugSDK.sharedInstance.makeLogEnabled(false) // Default value false
 
   ```objective-c
   // Objective-C
-  [[ShakebugSDK sharedInstance] makeLogEnabled:NO];// Default value NO
+  [[ShakeBugSDK sharedInstance] makeLogEnabled:NO];// Default value NO
   ```
   
 4. If you want to set forcefully any language for the bug reporting screen then use following code `application:didFinishLaunchingWithOptions:`
@@ -156,7 +156,7 @@ ShakeBugSDK.sharedInstance.setShakebugSDKLanguage(ShakebugLanguage.french)
 
   ```objective-c
   // Objective-C
-  [[ShakebugSDK sharedInstance] setShakebugSDKLanguage:ShakebugLanguage.french];
+  [[ShakeBugSDK sharedInstance] setShakebugSDKLanguage:ShakebugLanguage.french];
   ```
 Note: Just mind that here, by default it will take device language as defualt language.
 
@@ -236,7 +236,7 @@ ShakeBugSDK.sharedInstance.addEventKey(key:"App_open", eventValue: "Started app"
 
    ```objective-c
    // Objective-C
-   [[ShakebugSDK sharedInstance] addEventKey:@"App_open" eventValue:@"Started app"];// pass any key or value
+   [[ShakeBugSDK sharedInstance] addEventKey:@"App_open" eventValue:@"Started app"];// pass any key or value
    ```
    
 ## Usage
@@ -253,7 +253,7 @@ ShakeBugSDK.sharedInstance.triggerBugReporting()
 
  ```objective-c
  // Objective-C
- [[ShakebugSDK sharedInstance] triggerBugReporting];
+ [[ShakeBugSDK sharedInstance] triggerBugReporting];
  ```
 
 ## Contact
