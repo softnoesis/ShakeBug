@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/ShakeBug-Swift.h</key>
 		<data>
-		05rWlmoGZdC9/8X/hh+lio2vtZE=
+		DMHzJU0qf4lVx6N0CvO8M0PrksI=
 		</data>
 		<key>Headers/ShakeBug.h</key>
 		<data>
@@ -14,31 +14,31 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		ImRKpp9F+JXeRSMejKYnlAN1WTQ=
+		5i1e6zpjRa8FIhresMDD+hpWl4Y=
 		</data>
 		<key>Modules/ShakeBug.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		TBZXPyj0nQTAlBGOpj4tKpqdAgA=
+		MgPH/yXbZ684EwUttZ0OMyjalS8=
 		</data>
 		<key>Modules/ShakeBug.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		pjFCdxg4sG1GJzzoX3DYEFJBWfg=
+		exm1arcPyFMZ7HJCEnAy5bnF6RY=
 		</data>
 		<key>Modules/ShakeBug.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		0hTfv6TbykndoC36PbedPVNYvDU=
+		Tu35s1npRm88DCSSIRXNZhLzq5Y=
 		</data>
 		<key>Modules/ShakeBug.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		pjFCdxg4sG1GJzzoX3DYEFJBWfg=
+		exm1arcPyFMZ7HJCEnAy5bnF6RY=
 		</data>
 		<key>Modules/ShakeBug.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		A3fPSgwsyFo3nllEV7OLZiCyWEM=
+		Z7svnIy9YDbSof0C/HoipiKaaHg=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		oflCEda1TVabW33uHaf4WPMu6ZI=
+		TE0PK3+MjIumlWWkO9jC7nQskxo=
 		</data>
 		<key>ShakeBugSwift.bundle/Root.plist</key>
 		<data>
@@ -51,6 +51,10 @@
 		<key>ShakeBugSwift.bundle/Shakebug-eraser.png</key>
 		<data>
 		u8RElNAHsfKBkW4qu1FGwKz4DQY=
+		</data>
+		<key>ShakeBugSwift.bundle/Shakebug-text.png</key>
+		<data>
+		v2+dJEWJnjATuxpR4KQUp8WhzOQ=
 		</data>
 		<key>ShakeBugSwift.bundle/en.lproj/ar.lproj/Localizable.strings</key>
 		<dict>
@@ -323,7 +327,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			U1CsEcS0mTGUKggV3MwRJ40REOAXvi59Ls7nNQW8+vg=
+			NsKluz0ELhxYDhFTU17vfQqvVNo7An0anfIVmN1zR2Q=
 			</data>
 		</dict>
 		<key>Headers/ShakeBug.h</key>
@@ -337,42 +341,42 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			q6o0LDwm0saeqe9tFfLuU6IWBX+fA3j3eL1svwT4+4w=
+			xu34K27xYNwz7lQPF0Z0p6pmiFGP5xih8UbYTkERnoY=
 			</data>
 		</dict>
 		<key>Modules/ShakeBug.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			5JXw8PwLI/pDGv4+2ba4FJNbKrAi0TfUzVHxZqGktvc=
+			ggd+S10pJR8bBT2p/lT0wFjg/p1i39HLcGrFSXNi8/U=
 			</data>
 		</dict>
 		<key>Modules/ShakeBug.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			NuGVdFIvya6iYmn9QvgzujrlrbAK2FgBg0f7Sju2YiI=
+			AkWrNILMTqDGxaQGk51NWylsIYAW1Qu4KW1OvhoNPbs=
 			</data>
 		</dict>
 		<key>Modules/ShakeBug.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			5JXw8PwLI/pDGv4+2ba4FJNbKrAi0TfUzVHxZqGktvc=
+			ggd+S10pJR8bBT2p/lT0wFjg/p1i39HLcGrFSXNi8/U=
 			</data>
 		</dict>
 		<key>Modules/ShakeBug.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			z+RJipVqEgxX9lNeDM8y7NZtSWwGGci+h5W8ZETedzA=
+			8uVnragukid5i2vjFbtnObGB+kaX3CNnYhhmbXN4K2I=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			IFGl7RYBIubtFfe00NblPfKlmPG9jOihX5tIKwxlRjw=
+			tZAz/Fg9Dy6vysiygCAdsQimn1ewjF46ldOmH2jQLI0=
 			</data>
 		</dict>
 		<key>ShakeBugSwift.bundle/Root.plist</key>
@@ -394,6 +398,13 @@
 			<key>hash2</key>
 			<data>
 			zRdOdZuV/Y37HvdXJa3EqrpvmHhFOMuekhpKgycV2Yo=
+			</data>
+		</dict>
+		<key>ShakeBugSwift.bundle/Shakebug-text.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Ck+qAfRDKpwX3HYlJY3AWI0ygv0UndcY2/QtTpLHWNY=
 			</data>
 		</dict>
 		<key>ShakeBugSwift.bundle/en.lproj/ar.lproj/Localizable.strings</key>

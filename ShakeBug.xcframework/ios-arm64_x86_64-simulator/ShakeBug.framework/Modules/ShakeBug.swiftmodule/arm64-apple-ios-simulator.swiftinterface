@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.8.1 (swiftlang-5.8.0.124.5 clang-1403.0.22.11.100)
+// swift-compiler-version: Apple Swift version 5.9 (swiftlang-5.9.0.128.108 clang-1500.0.40.1)
 // swift-module-flags: -target arm64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name ShakeBug
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 import AVKit
@@ -22,6 +22,42 @@ import SystemConfiguration
 import UIKit
 import _Concurrency
 import _StringProcessing
+import _SwiftConcurrencyShims
+@objc public protocol GrowingTextViewDelegate : UIKit.UITextViewDelegate {
+  @objc optional func textViewDidChangeHeight(_ textView: ShakeBug.GrowingTextView, height: CoreFoundation.CGFloat)
+}
+@objc @_inheritsConvenienceInitializers @IBDesignable @_Concurrency.MainActor(unsafe) open class GrowingTextView : UIKit.UITextView {
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open var text: Swift.String! {
+    @objc get
+    @objc set
+  }
+  @objc @IBInspectable @_Concurrency.MainActor(unsafe) open var maxLength: Swift.Int
+  @objc @IBInspectable @_Concurrency.MainActor(unsafe) open var trimWhiteSpaceWhenEndEditing: Swift.Bool
+  @objc @IBInspectable @_Concurrency.MainActor(unsafe) open var minHeight: CoreFoundation.CGFloat {
+    @objc get
+    @objc set
+  }
+  @objc @IBInspectable @_Concurrency.MainActor(unsafe) open var maxHeight: CoreFoundation.CGFloat {
+    @objc get
+    @objc set
+  }
+  @objc @IBInspectable @_Concurrency.MainActor(unsafe) open var placeholderColor: UIKit.UIColor {
+    @objc get
+    @objc set
+  }
+  @_Concurrency.MainActor(unsafe) open var attributedPlaceholder: Foundation.NSAttributedString? {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreFoundation.CGRect, textContainer: UIKit.NSTextContainer?)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
+  @objc deinit
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open var intrinsicContentSize: CoreFoundation.CGSize {
+    @objc get
+  }
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open func layoutSubviews()
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open func draw(_ rect: CoreFoundation.CGRect)
+}
 extension UIKit.UITextView : UIKit.UITextViewDelegate {
   @_Concurrency.MainActor(unsafe) @objc override dynamic open var bounds: CoreFoundation.CGRect {
     @objc get
@@ -48,6 +84,9 @@ extension ShakeBug.ShakeBugSDK {
   @objc dynamic public func changeSDKErrorAlertMessage(_ message: Swift.String)
   @objc dynamic public func allowToReportBugByScreenCapture(_ isAllow: Swift.Bool)
   @objc dynamic public func allowToReportBugByShakingMobile(_ isAllow: Swift.Bool)
+}
+extension UIKit.UIDevice {
+  @_Concurrency.MainActor(unsafe) public static let modelName: Swift.String
 }
 @objc public enum ShakebugLanguage : Swift.Int, Swift.CaseIterable, Swift.Codable {
   case english
