@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "ShakeBug"
-  s.version      = "1.0.33"
+  s.version      = "1.0.34"
   s.summary      = "Framework to support bug & crash reporting along with screen recording, video, photos, description, analytics and events."
 
   # This description is used to generate tags and improve search results.
@@ -61,7 +61,7 @@ Pod::Spec.new do |s|
   #
 
   # s.platform   = :ios
-  s.platform     = :ios, "16.0"
+  s.platform     = :ios, "17.0"
 
   #  When using multiple platforms
    s.ios.deployment_target = "13.0"
