@@ -19,7 +19,7 @@ let package = Package(
         // Targets are the basic building blocks of a package. A target can define a module or a test suite.
         // Targets can depend on other targets in this package, and on products in packages this package depends on.
         .binaryTarget(name: "ShakeBug",
-                      url: "https://www.shakebug.com/sdk/ios/1.0.34/ShakeBug.xcframework.zip",
-                      checksum: "43cc865a1ddbd92b0bde5cbcefdff9999222b1bb414aededcf5740204eae9c6f"),
+                      url: "https://www.shakebug.com/sdk/ios/1.0.35/ShakeBug.xcframework.zip",
+                      checksum: "ebd6a759383ee6be58a62d1bddafdc3ccbcaf6363346fae8fe9ca8ffbd43210d"),
     ]
 )
