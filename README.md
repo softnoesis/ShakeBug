@@ -25,6 +25,10 @@ Sign up for a service at [https://www.shakebug.com](https://www.shakebug.com)
 
  ✅ Events
 
+ ✅ Review of application for each new version
+
+ ✅ Track login user using custom user method 
+
  ✅ Custom theme color, title and error message
 
  ✅ On-premise hosting
