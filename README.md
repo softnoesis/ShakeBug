@@ -1,6 +1,7 @@
 # ShakeBug
 
-![pod](https://badgen.net/badge/pod/v1.0.35/cyan) ![twitter](https://badgen.net/badge/icon/@shakebugtool?icon=twitter&label) ![linkedin](https://badgen.net/badge/icon/shakebug?icon=discord&label)
+![pod](https://badgen.net/badge/pod/v1.0.36/cyan) ![twitter](https://badgen.net/badge/icon/@shakebugtool?icon=twitter&label) ![discord](https://badgen.net/badge/icon/shakebug?icon=discord&label)
+
 
 
 Shakebug allows you to receive feedback from your beta testers or real users and improve the quality of your application in a simple way. Here users just need to shake their mobile and all the data regarding bugs & crashes can be seen by developers through their log in panel. It also helpful to analyse your users, session, location etc. Addition, you can add events on each action of your application and track it using this Shakebug framework.
@@ -238,7 +239,28 @@ ShakeBugSDK.sharedInstance.addEventKey(key:"App_open", eventValue: "Started app"
    // Objective-C
    [[ShakeBugSDK sharedInstance] addEventKey:@"App_open" eventValue:@"Started app"];// pass any key or value
    ```
-   
+
+## Set Custom User Details
+Shakebug allows you to associate custom user information with session data for better tracking and personalized reporting. This is useful when you want to tag crash reports or feedback with specific user details.
+
+```swift
+// Swift
+public func setcustomUser(customUserId: String, name: String, email: String, country: String, other: String)
+```
+ ```objective-c
+ // Objective-C
+[[ShakeBug shared] setcustomUserWithCustomUserId:@"user_123"
+                                             name:@"John Doe"
+                                            email:@"john.doe@example.com"
+                                          country:@"USA"
+                                            other:@"iOS beta tester"];
+```
+
+## Review Popup each version wise
+
+The Shakebug React Native SDK shows a friendly review popup to gather helpful feedback from users. It appears only after the app has been opened at least 3 times and waits at least 2 days between reminders — so it's thoughtful, not annoying. Once a user submits a review, they won’t be asked again for that app version. Everything is remembered automatically, and the popup closes on its own after submission to keep the experience smooth.
+
+
 ## Usage
 
 Build & run your app. Once your app is running, shake your device (\^⌘Z in the simulator) to report a bug! Bug/Crash reports are sent directly to login panel of Shakebug.com and also notify on your registered email address.
