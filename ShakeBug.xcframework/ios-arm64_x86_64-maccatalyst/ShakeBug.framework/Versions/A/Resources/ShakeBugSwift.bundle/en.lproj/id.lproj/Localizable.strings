@@ -36,3 +36,7 @@
 "seconds video." = " video detik.";
 "Prior to use bug reporting, your app must need 'NSPhotoLibraryUsageDescription' permission in your project plist." = "Sebelum menggunakan pelaporan bug, aplikasi Anda harus memerlukan izin 'NSPhotoLibraryUsageDescription' di daftar proyek Anda.";
 "We need your Photo library access prior to record screen. Please go to the Privacy Setting in your iPhone and enable it." = "Kami memerlukan akses pustaka Foto Anda sebelum merekam layar. Silakan buka Pengaturan Privasi di iPhone Anda dan aktifkan.";
+"Review and Ratings has been submitted." = "Ulasan dan penilaian telah dikirim.";
+"Rate your experience" = "Nilai pengalaman Anda";
+"Write your feedback here..." = "Tulis masukan Anda di sini...";
+"Submit" = "Kirim";

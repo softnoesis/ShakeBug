@@ -36,3 +36,7 @@
 "seconds video." = " 秒视频。";
 "Prior to use bug reporting, your app must need 'NSPhotoLibraryUsageDescription' permission in your project plist." = "在使用错误报告之前，您的应用程序必须在您的项目 plist 中需要“NSPhotoLibraryUsageDescription”权限。";
 "We need your Photo library access prior to record screen. Please go to the Privacy Setting in your iPhone and enable it." = "在录制屏幕之前，我们需要您的照片库访问权限。请转到 iPhone 中的隐私设置并启用它。";
+"Review and Ratings has been submitted." = "评论和评分已提交。";
+"Rate your experience" = "评价您的体验";
+"Write your feedback here..." = "在此写下您的反馈...";
+"Submit" = "提交";

@@ -36,3 +36,7 @@
 "seconds video." = " 秒ビデオ。";
 "Prior to use bug reporting, your app must need 'NSPhotoLibraryUsageDescription' permission in your project plist." = "バグ レポートを使用する前に、アプリはプロジェクトの plist で「NSPhotoLibraryUsageDescription」権限を必要とする必要があります。";
 "We need your Photo library access prior to record screen. Please go to the Privacy Setting in your iPhone and enable it." = "画面を記録する前に、写真ライブラリへのアクセスが必要です。 iPhoneのプライバシー設定に移動して有効にしてください。";
+"Review and Ratings has been submitted." = "レビューと評価が送信されました。";
+"Rate your experience" = "体験を評価してください";
+"Write your feedback here..." = "ここにフィードバックを書いてください...";
+"Submit" = "送信";

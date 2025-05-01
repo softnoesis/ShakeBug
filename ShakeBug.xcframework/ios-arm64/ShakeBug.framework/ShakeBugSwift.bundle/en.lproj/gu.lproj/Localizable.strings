@@ -36,3 +36,7 @@
 "seconds video." = " સેકન્ડનો વિડિયો.";
 "Prior to use bug reporting, your app must need 'NSPhotoLibraryUsageDescription' permission in your project plist." = "બગ રિપોર્ટિંગનો ઉપયોગ કરતા પહેલા, તમારી એપ્લિકેશનને તમારા પ્રોજેક્ટ પ્લિસ્ટમાં 'NSPhotoLibraryUsageDescription' પરવાનગીની જરૂર પડશે.";
 "We need your Photo library access prior to record screen. Please go to the Privacy Setting in your iPhone and enable it." = "રેકોર્ડ સ્ક્રીન પહેલા અમને તમારી ફોટો લાઇબ્રેરી એક્સેસની જરૂર છે. કૃપા કરીને તમારા iPhone માં પ્રાઈવસી સેટિંગ પર જાઓ અને તેને સક્ષમ કરો.";
+"Review and Ratings has been submitted." = "સમીક્ષા અને રેટિંગ્સ મોકલવામાં આવી છે.";
+"Rate your experience" = "તમારો અનુભવ રેટ કરો";
+"Write your feedback here..." = "તમારાં પ્રતિસાદ અહીં લખો...";
+"Submit" = "મોકલો";

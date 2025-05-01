@@ -36,3 +36,7 @@
 "seconds video." = " సెకన్ల వీడియో.";
 "Prior to use bug reporting, your app must need 'NSPhotoLibraryUsageDescription' permission in your project plist." = "బగ్ రిపోర్టింగ్‌ని ఉపయోగించడానికి ముందు, మీ యాప్‌కి మీ ప్రాజెక్ట్ జాబితాలో తప్పనిసరిగా 'NSPhotoLibraryUsageDescription' అనుమతి అవసరం.";
 "We need your Photo library access prior to record screen. Please go to the Privacy Setting in your iPhone and enable it." = "స్క్రీన్‌ను రికార్డ్ చేయడానికి ముందు మాకు మీ ఫోటో లైబ్రరీ యాక్సెస్ అవసరం. దయచేసి మీ ఐఫోన్‌లోని గోప్యతా సెట్టింగ్‌కి వెళ్లి దాన్ని ప్రారంభించండి.";
+"Review and Ratings has been submitted." = "సమీక్ష మరియు రేటింగ్ సమర్పించబడింది.";
+"Rate your experience" = "మీ అనుభవాన్ని రేట్ చేయండి";
+"Write your feedback here..." = "మీ అభిప్రాయాన్ని ఇక్కడ వ్రాయండి...";
+"Submit" = "సమర్పించండి";

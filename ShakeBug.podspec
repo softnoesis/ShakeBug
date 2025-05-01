@@ -16,15 +16,15 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "ShakeBug"
-  s.version      = "1.0.35"
-  s.summary      = "Framework to support bug & crash reporting along with screen recording, video, photos, description, analytics and events."
+  s.version      = "1.0.36"
+  s.summary      = "Framework to support bug & crash reporting along with screen recording, video, photos, description, review for each app version, analytics and events."
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
   #   * Try to keep it short, snappy and to the point.
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
-  s.description  = "Report bugs, annotate screenshots, and collect logs from within your iOS app!"
+  s.description  = "Report bugs, annotate screenshots, get review for each version and collect logs from within your iOS app!"
 
   s.homepage     = "https://www.shakebug.com/"
   s.screenshots  = "https://www.shakebug.com/assets/images/shakebug-images/step-1.png", "https://www.shakebug.com/assets/images/shakebug-images/step-2.png", "https://www.shakebug.com/assets/images/shakebug-images/step-3.png"

@@ -36,3 +36,7 @@
 "seconds video." = " 초 비디오.";
 "Prior to use bug reporting, your app must need 'NSPhotoLibraryUsageDescription' permission in your project plist." = "버그 보고를 사용하기 전에 앱에 프로젝트 plist에 'NSPhotoLibraryUsageDescription' 권한이 있어야 합니다.";
 "We need your Photo library access prior to record screen. Please go to the Privacy Setting in your iPhone and enable it." = "화면을 녹화하기 전에 사진 라이브러리 액세스가 필요합니다. iPhone의 개인 정보 설정으로 이동하여 활성화하십시오.";
+"Review and Ratings has been submitted." = "리뷰와 평가가 제출되었습니다.";
+"Rate your experience" = "경험을 평가하세요";
+"Write your feedback here..." = "여기에 피드백을 작성하세요...";
+"Submit" = "제출";

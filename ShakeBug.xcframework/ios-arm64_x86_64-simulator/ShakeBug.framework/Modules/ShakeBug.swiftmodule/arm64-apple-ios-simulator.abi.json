@@ -1195,6 +1195,16 @@
       },
       {
         "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "ShakeBug",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "SystemConfiguration",
         "printedName": "SystemConfiguration",
         "declKind": "Import",
@@ -1533,6 +1543,61 @@
             "mangledName": "$s8ShakeBug0aB3SDKC11addEventKey3key10eventValueySS_SStF",
             "moduleName": "ShakeBug",
             "objc_name": "addEventKeyWithKey:eventValue:",
+            "declAttributes": [
+              "Dynamic",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setcustomUser",
+            "printedName": "setcustomUser(customUserId:name:email:country:other:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@ShakeBug@objc(cs)ShakeBugSDK(im)setcustomUserWithCustomUserId:name:email:country:other:",
+            "mangledName": "$s8ShakeBug0aB3SDKC13setcustomUser06customE2Id4name5email7country5otherySS_S4StF",
+            "moduleName": "ShakeBug",
+            "objc_name": "setcustomUserWithCustomUserId:name:email:country:other:",
             "declAttributes": [
               "Dynamic",
               "AccessControl",
@@ -1905,6 +1970,91 @@
             "printedName": "CustomDebugStringConvertible",
             "usr": "s:s28CustomDebugStringConvertibleP",
             "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "ShakeBug",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ShakebugReviewManager",
+        "printedName": "ShakebugReviewManager",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "showReviewPopupIfNeeded",
+            "printedName": "showReviewPopupIfNeeded()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8ShakeBug21ShakebugReviewManagerC04showD13PopupIfNeededyyFZ",
+            "mangledName": "$s8ShakeBug21ShakebugReviewManagerC04showD13PopupIfNeededyyFZ",
+            "moduleName": "ShakeBug",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "incrementAppLaunchCount",
+            "printedName": "incrementAppLaunchCount()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8ShakeBug21ShakebugReviewManagerC23incrementAppLaunchCountyyFZ",
+            "mangledName": "$s8ShakeBug21ShakebugReviewManagerC23incrementAppLaunchCountyyFZ",
+            "moduleName": "ShakeBug",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:8ShakeBug21ShakebugReviewManagerC",
+        "mangledName": "$s8ShakeBug21ShakebugReviewManagerC",
+        "moduleName": "ShakeBug",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           }
         ]
       },
@@ -3604,152 +3754,6 @@
       },
       {
         "kind": "TypeDecl",
-        "name": "UIDevice",
-        "printedName": "UIDevice",
-        "children": [
-          {
-            "kind": "Var",
-            "name": "modelName",
-            "printedName": "modelName",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:So8UIDeviceC8ShakeBugE9modelNameSSvpZ",
-            "mangledName": "$sSo8UIDeviceC8ShakeBugE9modelNameSSvpZ",
-            "moduleName": "ShakeBug",
-            "static": true,
-            "declAttributes": [
-              "HasInitialValue",
-              "Final",
-              "HasStorage",
-              "Preconcurrency",
-              "Custom"
-            ],
-            "isFromExtension": true,
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:So8UIDeviceC8ShakeBugE9modelNameSSvgZ",
-                "mangledName": "$sSo8UIDeviceC8ShakeBugE9modelNameSSvgZ",
-                "moduleName": "ShakeBug",
-                "static": true,
-                "implicit": true,
-                "declAttributes": [
-                  "Final"
-                ],
-                "isFromExtension": true,
-                "accessorKind": "get"
-              }
-            ]
-          }
-        ],
-        "declKind": "Class",
-        "usr": "c:objc(cs)UIDevice",
-        "moduleName": "UIKit",
-        "isOpen": true,
-        "intro_iOS": "2.0",
-        "objc_name": "UIDevice",
-        "declAttributes": [
-          "Preconcurrency",
-          "Available",
-          "ObjC",
-          "NonSendable",
-          "Custom",
-          "Dynamic"
-        ],
-        "superclassUsr": "c:objc(cs)NSObject",
-        "isExternal": true,
-        "inheritsConvenienceInitializers": true,
-        "superclassNames": [
-          "ObjectiveC.NSObject"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CVarArg",
-            "printedName": "CVarArg",
-            "usr": "s:s7CVarArgP",
-            "mangledName": "$ss7CVarArgP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObservingPublishing",
-            "printedName": "_KeyValueCodingAndObservingPublishing",
-            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
-            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObserving",
-            "printedName": "_KeyValueCodingAndObserving",
-            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomStringConvertible",
-            "printedName": "CustomStringConvertible",
-            "usr": "s:s23CustomStringConvertibleP",
-            "mangledName": "$ss23CustomStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomDebugStringConvertible",
-            "printedName": "CustomDebugStringConvertible",
-            "usr": "s:s28CustomDebugStringConvertibleP",
-            "mangledName": "$ss28CustomDebugStringConvertibleP"
-          }
-        ]
-      },
-      {
-        "kind": "TypeDecl",
         "name": "UIViewController",
         "printedName": "UIViewController",
         "children": [
@@ -3960,6 +3964,152 @@
             "mangledName": "$s5UIKit23UITraitChangeObservableP"
           }
         ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "UIDevice",
+        "printedName": "UIDevice",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "modelName",
+            "printedName": "modelName",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:So8UIDeviceC8ShakeBugE9modelNameSSvpZ",
+            "mangledName": "$sSo8UIDeviceC8ShakeBugE9modelNameSSvpZ",
+            "moduleName": "ShakeBug",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "Preconcurrency",
+              "Custom"
+            ],
+            "isFromExtension": true,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:So8UIDeviceC8ShakeBugE9modelNameSSvgZ",
+                "mangledName": "$sSo8UIDeviceC8ShakeBugE9modelNameSSvgZ",
+                "moduleName": "ShakeBug",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:objc(cs)UIDevice",
+        "moduleName": "UIKit",
+        "isOpen": true,
+        "intro_iOS": "2.0",
+        "objc_name": "UIDevice",
+        "declAttributes": [
+          "Preconcurrency",
+          "Available",
+          "ObjC",
+          "NonSendable",
+          "Custom",
+          "Dynamic"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "isExternal": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
       }
     ],
     "json_format_version": 8
@@ -3999,6 +4149,20 @@
       "offset": 558,
       "length": 7,
       "value": "\"event\""
+    },
+    {
+      "filePath": "\/Volumes\/SNData\/iOS\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Services\/APIServices\/ShakeBugAPIServices.swift",
+      "kind": "StringLiteral",
+      "offset": 595,
+      "length": 18,
+      "value": "\"addCustomUserIds\""
+    },
+    {
+      "filePath": "\/Volumes\/SNData\/iOS\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Services\/APIServices\/ShakeBugAPIServices.swift",
+      "kind": "StringLiteral",
+      "offset": 632,
+      "length": 14,
+      "value": "\"addAppReview\""
     },
     {
       "filePath": "\/Volumes\/SNData\/iOS\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Modules\/CustomExtension\/ShakeBugGrowingTextView.swift",
@@ -4064,6 +4228,13 @@
       "value": "false"
     },
     {
+      "filePath": "\/Volumes\/SNData\/iOS\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Modules\/ShakebugReview\/ShakebugReviewPopupView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 222,
+      "length": 1,
+      "value": "0"
+    },
+    {
       "filePath": "\/Volumes\/SNData\/iOS\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Services\/APIServices\/ShakeBugReachability.swift",
       "kind": "StringLiteral",
       "offset": 594,
@@ -4097,6 +4268,27 @@
       "offset": 2970,
       "length": 5,
       "value": "false"
+    },
+    {
+      "filePath": "\/Volumes\/SNData\/iOS\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Modules\/ShakebugReview\/ShakebugReviewManager.swift",
+      "kind": "StringLiteral",
+      "offset": 459,
+      "length": 33,
+      "value": "\"Shakebug_CustomReview_Submitted\""
+    },
+    {
+      "filePath": "\/Volumes\/SNData\/iOS\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Modules\/ShakebugReview\/ShakebugReviewManager.swift",
+      "kind": "StringLiteral",
+      "offset": 535,
+      "length": 37,
+      "value": "\"Shakebug_CustomReview_LastPopupDate\""
+    },
+    {
+      "filePath": "\/Volumes\/SNData\/iOS\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Modules\/ShakebugReview\/ShakebugReviewManager.swift",
+      "kind": "StringLiteral",
+      "offset": 616,
+      "length": 35,
+      "value": "\"Shakebug_CustomReview_LaunchCount\""
     },
     {
       "filePath": "\/Volumes\/SNData\/iOS\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Modules\/ShakeBugFeedback\/ShakeBugFeedbackViewController.swift",
@@ -5704,21 +5896,21 @@
     {
       "filePath": "\/Volumes\/SNData\/iOS\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Services\/StorageServices\/ShakeBugStorageService.swift",
       "kind": "StringLiteral",
-      "offset": 5894,
+      "offset": 6178,
       "length": 35,
       "value": "\"Unable to encode object into data\""
     },
     {
       "filePath": "\/Volumes\/SNData\/iOS\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Services\/StorageServices\/ShakeBugStorageService.swift",
       "kind": "StringLiteral",
-      "offset": 5953,
+      "offset": 6237,
       "length": 40,
       "value": "\"No data object found for the given key\""
     },
     {
       "filePath": "\/Volumes\/SNData\/iOS\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Services\/StorageServices\/ShakeBugStorageService.swift",
       "kind": "StringLiteral",
-      "offset": 6024,
+      "offset": 6308,
       "length": 41,
       "value": "\"Unable to decode object into given type\""
     },
@@ -6278,147 +6470,154 @@
     {
       "filePath": "\/Volumes\/SNData\/iOS\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Miscellaneous\/ShakeBugContants.swift",
       "kind": "StringLiteral",
-      "offset": 845,
+      "offset": 849,
+      "length": 25,
+      "value": "\"SHAKEBUG-CUSTOM-USER-ID\""
+    },
+    {
+      "filePath": "\/Volumes\/SNData\/iOS\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Miscellaneous\/ShakeBugContants.swift",
+      "kind": "StringLiteral",
+      "offset": 909,
       "length": 20,
       "value": "\"SHAKEBUG-API-ERROR\""
     },
     {
       "filePath": "\/Volumes\/SNData\/iOS\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Miscellaneous\/ShakeBugContants.swift",
       "kind": "StringLiteral",
-      "offset": 902,
+      "offset": 966,
       "length": 22,
       "value": "\"SHAKEBUG-API-SUCCESS\""
     },
     {
       "filePath": "\/Volumes\/SNData\/iOS\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Miscellaneous\/ShakeBugContants.swift",
       "kind": "StringLiteral",
-      "offset": 960,
+      "offset": 1024,
       "length": 19,
       "value": "\"SHAKEBUG-LANGUAGE\""
     },
     {
       "filePath": "\/Volumes\/SNData\/iOS\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Miscellaneous\/ShakeBugContants.swift",
       "kind": "StringLiteral",
-      "offset": 1020,
+      "offset": 1084,
       "length": 30,
       "value": "\"SHAKEBUG-SCREEN-RECORDING-ON\""
     },
     {
       "filePath": "\/Volumes\/SNData\/iOS\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Miscellaneous\/ShakeBugContants.swift",
       "kind": "StringLiteral",
-      "offset": 1092,
+      "offset": 1156,
       "length": 28,
       "value": "\"SHAKEBUG-VIDEO-REC-STARTED\""
     },
     {
       "filePath": "\/Volumes\/SNData\/iOS\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Miscellaneous\/ShakeBugContants.swift",
       "kind": "StringLiteral",
-      "offset": 1161,
+      "offset": 1225,
       "length": 25,
       "value": "\"SHAKEBUG-RECORDING-TIME\""
     },
     {
       "filePath": "\/Volumes\/SNData\/iOS\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Miscellaneous\/ShakeBugContants.swift",
       "kind": "StringLiteral",
-      "offset": 1231,
+      "offset": 1295,
       "length": 24,
       "value": "\"SHAKEBUG-SCREENCAPTURE\""
     },
     {
       "filePath": "\/Volumes\/SNData\/iOS\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Miscellaneous\/ShakeBugContants.swift",
       "kind": "StringLiteral",
-      "offset": 1313,
+      "offset": 1377,
       "length": 36,
       "value": "\"SHAKEBUG-SHAKEDEVICE-CAPTURESCREEN\""
     },
     {
       "filePath": "\/Volumes\/SNData\/iOS\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Miscellaneous\/ShakeBugContants.swift",
       "kind": "StringLiteral",
-      "offset": 1409,
+      "offset": 1473,
       "length": 50,
-      "value": "\"https:\/\/www.shakebug.com\/api\/v1.3\/webservice.php\""
+      "value": "\"https:\/\/www.shakebug.com\/api\/v1.4\/webservice.php\""
     },
     {
       "filePath": "\/Volumes\/SNData\/iOS\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Miscellaneous\/ShakeBugContants.swift",
       "kind": "FloatLiteral",
-      "offset": 1667,
+      "offset": 1731,
       "length": 4,
       "value": "29.0"
     },
     {
       "filePath": "\/Volumes\/SNData\/iOS\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Miscellaneous\/ShakeBugContants.swift",
       "kind": "FloatLiteral",
-      "offset": 1674,
+      "offset": 1738,
       "length": 5,
       "value": "255.0"
     },
     {
       "filePath": "\/Volumes\/SNData\/iOS\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Miscellaneous\/ShakeBugContants.swift",
       "kind": "FloatLiteral",
-      "offset": 1688,
+      "offset": 1752,
       "length": 5,
       "value": "211.0"
     },
     {
       "filePath": "\/Volumes\/SNData\/iOS\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Miscellaneous\/ShakeBugContants.swift",
       "kind": "FloatLiteral",
-      "offset": 1696,
+      "offset": 1760,
       "length": 5,
       "value": "255.0"
     },
     {
       "filePath": "\/Volumes\/SNData\/iOS\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Miscellaneous\/ShakeBugContants.swift",
       "kind": "FloatLiteral",
-      "offset": 1709,
+      "offset": 1773,
       "length": 5,
       "value": "229.0"
     },
     {
       "filePath": "\/Volumes\/SNData\/iOS\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Miscellaneous\/ShakeBugContants.swift",
       "kind": "FloatLiteral",
-      "offset": 1717,
+      "offset": 1781,
       "length": 5,
       "value": "255.0"
     },
     {
       "filePath": "\/Volumes\/SNData\/iOS\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Miscellaneous\/ShakeBugContants.swift",
       "kind": "FloatLiteral",
-      "offset": 1731,
+      "offset": 1795,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Volumes\/SNData\/iOS\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Miscellaneous\/ShakeBugContants.swift",
       "kind": "StringLiteral",
-      "offset": 1769,
+      "offset": 1833,
       "length": 19,
       "value": "\"Annotate your bug\""
     },
     {
       "filePath": "\/Volumes\/SNData\/iOS\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Miscellaneous\/ShakeBugContants.swift",
       "kind": "StringLiteral",
-      "offset": 1817,
+      "offset": 1881,
       "length": 13,
       "value": "\"Add Details\""
     },
     {
       "filePath": "\/Volumes\/SNData\/iOS\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Miscellaneous\/ShakeBugContants.swift",
       "kind": "StringLiteral",
-      "offset": 1861,
+      "offset": 1925,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Volumes\/SNData\/iOS\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Miscellaneous\/ShakeBugContants.swift",
       "kind": "StringLiteral",
-      "offset": 1891,
+      "offset": 1955,
       "length": 16,
       "value": "\"MarchShake2022\""
     },
     {
       "filePath": "\/Volumes\/SNData\/iOS\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Miscellaneous\/ShakeBugContants.swift",
       "kind": "BooleanLiteral",
-      "offset": 1989,
+      "offset": 2053,
       "length": 5,
       "value": "false"
     },
@@ -6544,7 +6743,7 @@
     {
       "filePath": "\/Volumes\/SNData\/iOS\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Modules\/ShakeBugResult\/ShakeBugResultViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 31918,
+      "offset": 31741,
       "length": 5,
       "value": "false"
     }

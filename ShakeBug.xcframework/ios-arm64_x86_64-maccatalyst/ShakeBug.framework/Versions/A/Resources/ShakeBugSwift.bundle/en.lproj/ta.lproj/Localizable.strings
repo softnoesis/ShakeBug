@@ -36,3 +36,7 @@
 "seconds video." = " நொடிகள் வீடியோ.";
 "Prior to use bug reporting, your app must need 'NSPhotoLibraryUsageDescription' permission in your project plist." = "பிழை அறிக்கையைப் பயன்படுத்துவதற்கு முன், உங்கள் திட்டப் பட்டியலில் உங்கள் ஆப்ஸுக்கு 'NSPhotoLibraryUsageDescription' அனுமதி தேவை.";
 "We need your Photo library access prior to record screen. Please go to the Privacy Setting in your iPhone and enable it." = "பதிவுத் திரைக்கு முன் உங்கள் புகைப்பட நூலக அணுகல் எங்களுக்குத் தேவை. உங்கள் ஐபோனில் உள்ள தனியுரிமை அமைப்புக்குச் சென்று அதை இயக்கவும்.";
+"Review and Ratings has been submitted." = "மதிப்பீடும் விமர்சனமும் சமர்ப்பிக்கப்பட்டது.";
+"Rate your experience" = "உங்கள் அனுபவத்தை மதிப்பீடு செய்யவும்";
+"Write your feedback here..." = "உங்கள் கருத்தை இங்கே எழுதவும்...";
+"Submit" = "சமர்ப்பிக்கவும்";

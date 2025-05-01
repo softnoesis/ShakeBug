@@ -36,3 +36,7 @@
 "seconds video." = " δευτερόλεπτα βίντεο.";
 "Prior to use bug reporting, your app must need 'NSPhotoLibraryUsageDescription' permission in your project plist." = "Προτού χρησιμοποιήσετε την αναφορά σφαλμάτων, η εφαρμογή σας πρέπει να χρειάζεται άδεια 'NSPhotoLibraryUsageDescription' στη λίστα έργων σας.";
 "We need your Photo library access prior to record screen. Please go to the Privacy Setting in your iPhone and enable it." = "Χρειαζόμαστε την πρόσβαση στη βιβλιοθήκη φωτογραφιών σας πριν από την οθόνη εγγραφής. Μεταβείτε στη Ρύθμιση απορρήτου στο iPhone σας και ενεργοποιήστε την.";
+"Review and Ratings has been submitted." = "Η αξιολόγηση και η κριτική υποβλήθηκαν.";
+"Rate your experience" = "Αξιολογήστε την εμπειρία σας";
+"Write your feedback here..." = "Γράψτε τα σχόλιά σας εδώ...";
+"Submit" = "Υποβολή";
