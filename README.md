@@ -1,6 +1,6 @@
 # ShakeBug
 
-![pod](https://badgen.net/badge/pod/v1.0.36/cyan) ![twitter](https://badgen.net/badge/icon/@shakebugtool?icon=twitter&label) ![discord](https://badgen.net/badge/icon/shakebug?icon=discord&label)
+![pod](https://badgen.net/badge/pod/v1.0.37/cyan) ![twitter](https://badgen.net/badge/icon/@shakebugtool?icon=twitter&label) ![discord](https://badgen.net/badge/icon/shakebug?icon=discord&label)
 
 
 
@@ -264,6 +264,19 @@ public func setcustomUser(customUserId: String, name: String, email: String, cou
 
 The Shakebug React Native SDK shows a friendly review popup to gather helpful feedback from users. It appears only after the app has been opened at least 3 times and waits at least 2 days between reminders — so it's thoughtful, not annoying. Once a user submits a review, they won’t be asked again for that app version. Everything is remembered automatically, and the popup closes on its own after submission to keep the experience smooth.
 
+**Note**: If you deselect the rating popup option from "Edit Project" screen in app.shakebug.com then rating popup will not visible.
+
+In case, you want to trigger manually review rating popup then use this method
+
+```swift
+// Swift
+ShakeBugSDK.sharedInstance.triggerRatingsPopup()
+```
+
+ ```objective-c
+ // Objective-C
+ [[ShakeBugSDK sharedInstance] triggerRatingsPopup];
+ ```
 
 ## Usage
 
