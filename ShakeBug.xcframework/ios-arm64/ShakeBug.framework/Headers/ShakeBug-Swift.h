@@ -390,6 +390,8 @@ enum ShakebugLanguage : NSInteger;
 - (void)setShakebugSDKLanguage:(enum ShakebugLanguage)language;
 /// Trigger bug reporting screen manually without shaking.
 - (void)triggerBugReporting;
+/// Trigger rating and review popup manually.
+- (void)triggerRatingsPopup;
 /// Set Theme of Shakebug SDK
 /// \param color Shakebug supported languages
 ///
@@ -452,8 +454,6 @@ typedef SWIFT_ENUM(NSInteger, ShakebugLanguage, open) {
 
 
 @interface UITextView (SWIFT_EXTENSION(ShakeBug)) <UITextViewDelegate>
-/// Resize the placeholder when the UITextView bounds change
-@property (nonatomic) CGRect bounds;
 /// When the UITextView did change, show or hide the label based on if the UITextView is empty or not
 /// \param textView The UITextView that got updated
 ///

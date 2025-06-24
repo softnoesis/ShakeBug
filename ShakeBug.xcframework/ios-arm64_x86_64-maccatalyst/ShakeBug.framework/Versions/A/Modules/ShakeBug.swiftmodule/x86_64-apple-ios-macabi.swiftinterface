@@ -60,18 +60,10 @@ import _SwiftConcurrencyShims
 }
 #if compiler(>=5.3) && $RetroactiveAttribute
 extension UIKit.UITextView : @retroactive UIKit.UITextViewDelegate {
-  @_Concurrency.MainActor @preconcurrency @objc override dynamic open var bounds: CoreFoundation.CGRect {
-    @objc get
-    @objc set
-  }
   @_Concurrency.MainActor @preconcurrency @objc dynamic public func textViewDidChange(_ textView: UIKit.UITextView)
 }
 #else
 extension UIKit.UITextView : UIKit.UITextViewDelegate {
-  @_Concurrency.MainActor @preconcurrency @objc override dynamic open var bounds: CoreFoundation.CGRect {
-    @objc get
-    @objc set
-  }
   @_Concurrency.MainActor @preconcurrency @objc dynamic public func textViewDidChange(_ textView: UIKit.UITextView)
 }
 #endif
@@ -89,6 +81,7 @@ extension ShakeBug.ShakeBugSDK {
   @objc dynamic public func setcustomUser(customUserId: Swift.String, name: Swift.String, email: Swift.String, country: Swift.String, other: Swift.String)
   @objc dynamic public func setShakebugSDKLanguage(_ language: ShakeBug.ShakebugLanguage)
   @objc dynamic public func triggerBugReporting()
+  @objc dynamic public func triggerRatingsPopup()
   @objc dynamic public func setShakebugThemeColor(_ color: UIKit.UIColor)
   @objc dynamic public func setShakebugSDKEndPointURL(url: Swift.String, headerKey: Swift.String, sslPublicKey: [Swift.String]? = nil)
   @objc dynamic public func changeSDKScreenTitle(_ bugReviewScreen: Swift.String?, _ bugFeedbackScreen: Swift.String?)
@@ -98,6 +91,7 @@ extension ShakeBug.ShakeBugSDK {
 }
 @_hasMissingDesignatedInitializers public class ShakebugReviewManager {
   public static func showReviewPopupIfNeeded()
+  public static func showReviewPopupForSure()
   public static func incrementAppLaunchCount()
   @objc deinit
 }

@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/ShakeBug-Swift.h</key>
 		<data>
-		UKp6Xvgm+219KDjat/KEk5nk6tc=
+		qY0joacTAzaYS10Ps7TZs8K59mc=
 		</data>
 		<key>Headers/ShakeBug.h</key>
 		<data>
@@ -14,47 +14,47 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		OmZ60d8lwzZxOHiVY04rkgHprMI=
+		kzitMTY2ehZuWn5r0YvykdcGxag=
 		</data>
 		<key>Modules/ShakeBug.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		mIrxgnjnFLObkDXGu0zRm1jVGiM=
+		i990nOkLsikyiUHOfveMtGVzi6I=
 		</data>
 		<key>Modules/ShakeBug.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		3NoCVYbzMM7BTwm4LJ9P/cgQR2Y=
+		jRCOoMlFtqo96at3xDMReZzXg14=
 		</data>
 		<key>Modules/ShakeBug.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		v21mSRqzFqQq4VmsyW82/VJvYEg=
+		urGrCPfyPwVfSu5mZ7CZMqV35FA=
 		</data>
 		<key>Modules/ShakeBug.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		3NoCVYbzMM7BTwm4LJ9P/cgQR2Y=
+		jRCOoMlFtqo96at3xDMReZzXg14=
 		</data>
 		<key>Modules/ShakeBug.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		N+6OOkdtFC2YR833kPYDOxvrSnk=
+		9SlphqAomzAogrFnxGWwmmHeuds=
 		</data>
 		<key>Modules/ShakeBug.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		mIrxgnjnFLObkDXGu0zRm1jVGiM=
+		i990nOkLsikyiUHOfveMtGVzi6I=
 		</data>
 		<key>Modules/ShakeBug.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		38z4YdTMEjV6ckDAkEu/FLvVASY=
+		9G4v8EDrzTeuMK2jU6RG7cilkys=
 		</data>
 		<key>Modules/ShakeBug.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		Lizr9gBn56/Lfg0V/17mr4vUk90=
+		VsFWDkdjNcoRzw8f4aefMnGKufM=
 		</data>
 		<key>Modules/ShakeBug.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		38z4YdTMEjV6ckDAkEu/FLvVASY=
+		9G4v8EDrzTeuMK2jU6RG7cilkys=
 		</data>
 		<key>Modules/ShakeBug.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		2w8ikm8Q/NhZNfSzigEoJSWXeh4=
+		fYK7Vd6SJ6DJCmk7Rs5hPlJS8Ic=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -347,7 +347,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			GtHDFlU7GjIbR3dfAw4xfUcKuMxaYAAZgBOYcLeMguc=
+			RoD30kc2NesbtyjuegNDiwXLbtjhW118hg1MnibOdqI=
 			</data>
 		</dict>
 		<key>Headers/ShakeBug.h</key>
@@ -361,70 +361,70 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			VZ/WGDvvWkbEHCaPY7qsj6jU5tL40RCqb7odc/HedWI=
+			8Jw6MwQoLe6Yf+juthC46QAVvAxzp+wCIW6CRa8Wpds=
 			</data>
 		</dict>
 		<key>Modules/ShakeBug.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			0Iic/jPVyGh0Z1X05IxPAolCoM79sPEbHeQIByGjoAw=
+			CK/81GKXXbEAGE07IWW5G7W9KCufkt2YbNy6yV4/254=
 			</data>
 		</dict>
 		<key>Modules/ShakeBug.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			FEjV2wgJY7EMdiBWjPkf9eVG+mHmd1nPsCGkN0/ayIA=
+			1Kk19eMPe7T5MjE8OHFjj5mcEc8f10vNEuQP+bgSoCo=
 			</data>
 		</dict>
 		<key>Modules/ShakeBug.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			0Iic/jPVyGh0Z1X05IxPAolCoM79sPEbHeQIByGjoAw=
+			CK/81GKXXbEAGE07IWW5G7W9KCufkt2YbNy6yV4/254=
 			</data>
 		</dict>
 		<key>Modules/ShakeBug.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			rP8HDJ7WJFG3BacZc27eSbJuTzkFG+SjsH0S9rrvwdA=
+			9D8UaQSrgkCvn6worUi0nl1s0HRZYCCZoQ/0FSiPLzQ=
 			</data>
 		</dict>
 		<key>Modules/ShakeBug.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			VZ/WGDvvWkbEHCaPY7qsj6jU5tL40RCqb7odc/HedWI=
+			8Jw6MwQoLe6Yf+juthC46QAVvAxzp+wCIW6CRa8Wpds=
 			</data>
 		</dict>
 		<key>Modules/ShakeBug.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			B7wI/XgKp3xKRKmoRkzWrwK1tJiJ9vEjg051gzGbX/M=
+			kyOXkHYu/X4SqyjMFuQWOG9oHYY6AogHLLYFePzapIw=
 			</data>
 		</dict>
 		<key>Modules/ShakeBug.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			bnBgmLajJF5THUJOwQ4i3s2osYqD2Gq1QqKKVVMjrQQ=
+			SP2MVfLZO7UfRhAopGW5GfhHCeVnwE+zOdDmcFPTVKI=
 			</data>
 		</dict>
 		<key>Modules/ShakeBug.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			B7wI/XgKp3xKRKmoRkzWrwK1tJiJ9vEjg051gzGbX/M=
+			kyOXkHYu/X4SqyjMFuQWOG9oHYY6AogHLLYFePzapIw=
 			</data>
 		</dict>
 		<key>Modules/ShakeBug.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			QwYJqSeWGQ5a/iQVQDIH/4aNRuz1bri3PqoV3LzCGyQ=
+			Nkq6cc1UJomO94X/1MadBfZI2qFCRnYQ2MRsV/E7/7o=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
