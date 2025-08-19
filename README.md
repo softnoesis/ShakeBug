@@ -1,6 +1,6 @@
 # ShakeBug
 
-![pod](https://badgen.net/badge/pod/v1.0.37/cyan) ![twitter](https://badgen.net/badge/icon/@shakebugtool?icon=twitter&label) ![discord](https://badgen.net/badge/icon/shakebug?icon=discord&label)
+![pod](https://badgen.net/badge/pod/v1.0.38/cyan) ![twitter](https://badgen.net/badge/icon/@shakebugtool?icon=twitter&label) ![discord](https://badgen.net/badge/icon/shakebug?icon=discord&label)
 
 
 
@@ -26,6 +26,8 @@ Sign up for a service at [https://www.shakebug.com](https://www.shakebug.com)
  ✅ Events
 
  ✅ Review of application for each new version
+
+ ✅ Remote code execution
 
  ✅ Track login user using custom user method 
 
@@ -262,7 +264,7 @@ public func setcustomUser(customUserId: String, name: String, email: String, cou
 
 ## Review Popup each version wise
 
-The Shakebug React Native SDK shows a friendly review popup to gather helpful feedback from users. It appears only after the app has been opened at least 3 times and waits at least 2 days between reminders — so it's thoughtful, not annoying. Once a user submits a review, they won’t be asked again for that app version. Everything is remembered automatically, and the popup closes on its own after submission to keep the experience smooth.
+The Shakebug iOS SDK shows a friendly review popup to gather helpful feedback from users. It appears only after the app has been opened at least 3 times and waits at least 2 days between reminders — so it's thoughtful, not annoying. Once a user submits a review, they won’t be asked again for that app version. Everything is remembered automatically, and the popup closes on its own after submission to keep the experience smooth.
 
 **Note**: If you deselect the rating popup option from "Edit Project" screen in app.shakebug.com then rating popup will not visible.
 
@@ -276,6 +278,22 @@ ShakeBugSDK.sharedInstance.triggerRatingsPopup()
  ```objective-c
  // Objective-C
  [[ShakeBugSDK sharedInstance] triggerRatingsPopup];
+ ```
+
+## Remote Code Execution
+
+With Shakebug Remote Code, you can fetch dynamic configuration values based on predefined keys set in the Shakebug dashboard. It supports `String`, `Number`, `Boolean`, and `JSON` types and allows you to modify app behavior without a version update.
+```swift
+// Swift
+ShakeBugSDK.sharedInstance.fetchRemoteCodeValue(forKey: "your_key") { value in
+    print("Remote code value: \(value ?? "nil")")
+}
+```
+ ```objective-c
+ // Objective-C
+[[ShakeBugSDK sharedInstance] fetchRemoteCodeValueForKey:@"your_key" completion:^(id  _Nullable value) {
+    NSLog(@"Remote code value: %@", value ?: @"nil");
+}];
  ```
 
 ## Usage
