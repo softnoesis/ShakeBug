@@ -14,47 +14,47 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		kzitMTY2ehZuWn5r0YvykdcGxag=
+		iQg1Coah6dprm5jZuHI2U81ViAg=
 		</data>
 		<key>Modules/ShakeBug.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		i990nOkLsikyiUHOfveMtGVzi6I=
+		+AeNyqwXqMMMKPByZNi7OvOoazo=
 		</data>
 		<key>Modules/ShakeBug.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		jRCOoMlFtqo96at3xDMReZzXg14=
+		ea2MX4UEZYvOydvqvEzzuKew15A=
 		</data>
 		<key>Modules/ShakeBug.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		urGrCPfyPwVfSu5mZ7CZMqV35FA=
+		henQsRX2BJ2zyPd78FO5LYSWDTA=
 		</data>
 		<key>Modules/ShakeBug.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		jRCOoMlFtqo96at3xDMReZzXg14=
+		ea2MX4UEZYvOydvqvEzzuKew15A=
 		</data>
 		<key>Modules/ShakeBug.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		9SlphqAomzAogrFnxGWwmmHeuds=
+		++f10OapiJtwmTDN6epyw+wH3Q0=
 		</data>
 		<key>Modules/ShakeBug.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		i990nOkLsikyiUHOfveMtGVzi6I=
+		+AeNyqwXqMMMKPByZNi7OvOoazo=
 		</data>
 		<key>Modules/ShakeBug.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		9G4v8EDrzTeuMK2jU6RG7cilkys=
+		J10R3UeI34IcSRt6LhZyztfFNeM=
 		</data>
 		<key>Modules/ShakeBug.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		VsFWDkdjNcoRzw8f4aefMnGKufM=
+		CwjM1Yx8iMXTE3Su+RVuJTi8+Uo=
 		</data>
 		<key>Modules/ShakeBug.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		9G4v8EDrzTeuMK2jU6RG7cilkys=
+		J10R3UeI34IcSRt6LhZyztfFNeM=
 		</data>
 		<key>Modules/ShakeBug.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		fYK7Vd6SJ6DJCmk7Rs5hPlJS8Ic=
+		qaKnrBAihmQwZ/03dP9R7zqnmQU=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -361,70 +361,70 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			8Jw6MwQoLe6Yf+juthC46QAVvAxzp+wCIW6CRa8Wpds=
+			1NByjysduygBnpVZikc1GVgs565lgtKeQXB6BPOe+I0=
 			</data>
 		</dict>
 		<key>Modules/ShakeBug.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			CK/81GKXXbEAGE07IWW5G7W9KCufkt2YbNy6yV4/254=
+			dyzCxN/161XO6Cjls75EnWGHMv7oFYB0/qfq4Gk/5cQ=
 			</data>
 		</dict>
 		<key>Modules/ShakeBug.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			1Kk19eMPe7T5MjE8OHFjj5mcEc8f10vNEuQP+bgSoCo=
+			0Hb3Vpemz9okoFBZXuD/VKf9G+cSfz20++auODF11Mw=
 			</data>
 		</dict>
 		<key>Modules/ShakeBug.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			CK/81GKXXbEAGE07IWW5G7W9KCufkt2YbNy6yV4/254=
+			dyzCxN/161XO6Cjls75EnWGHMv7oFYB0/qfq4Gk/5cQ=
 			</data>
 		</dict>
 		<key>Modules/ShakeBug.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			9D8UaQSrgkCvn6worUi0nl1s0HRZYCCZoQ/0FSiPLzQ=
+			QQ9Qj7M6jihUPCQeHj3VKA2sW+VU2on89Yh5EfmfkAk=
 			</data>
 		</dict>
 		<key>Modules/ShakeBug.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			8Jw6MwQoLe6Yf+juthC46QAVvAxzp+wCIW6CRa8Wpds=
+			1NByjysduygBnpVZikc1GVgs565lgtKeQXB6BPOe+I0=
 			</data>
 		</dict>
 		<key>Modules/ShakeBug.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			kyOXkHYu/X4SqyjMFuQWOG9oHYY6AogHLLYFePzapIw=
+			7JvX63qCeIkz7jSm9nge69uQcpGXIx8ZlfqkGPgzsLU=
 			</data>
 		</dict>
 		<key>Modules/ShakeBug.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			SP2MVfLZO7UfRhAopGW5GfhHCeVnwE+zOdDmcFPTVKI=
+			6Zbp+oVOuNMtbWJ5FrJV36+D8RLGGGmM/uBfM4BoMzE=
 			</data>
 		</dict>
 		<key>Modules/ShakeBug.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			kyOXkHYu/X4SqyjMFuQWOG9oHYY6AogHLLYFePzapIw=
+			7JvX63qCeIkz7jSm9nge69uQcpGXIx8ZlfqkGPgzsLU=
 			</data>
 		</dict>
 		<key>Modules/ShakeBug.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Nkq6cc1UJomO94X/1MadBfZI2qFCRnYQ2MRsV/E7/7o=
+			kOU4beEEgfGCJh8dzkqzMi/CTJFXCkjEKjzgAnkbNiY=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

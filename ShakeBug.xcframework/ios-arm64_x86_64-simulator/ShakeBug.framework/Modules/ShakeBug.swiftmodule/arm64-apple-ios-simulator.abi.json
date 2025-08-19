@@ -1687,6 +1687,59 @@
           },
           {
             "kind": "Function",
+            "name": "fetchRemoteCodeValue",
+            "printedName": "fetchRemoteCodeValue(forkey:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Any?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Any?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8ShakeBug0aB3SDKC20fetchRemoteCodeValue6forkey10completionySS_yypSgctF",
+            "mangledName": "$s8ShakeBug0aB3SDKC20fetchRemoteCodeValue6forkey10completionySS_yypSgctF",
+            "moduleName": "ShakeBug",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "setShakebugThemeColor",
             "printedName": "setShakebugThemeColor(_:)",
             "children": [
@@ -2164,6 +2217,101 @@
         "printedName": "CoreTelephony",
         "declKind": "Import",
         "moduleName": "ShakeBug"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "ShakeBug",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ShakebugRemoteCodeManager",
+        "printedName": "ShakebugRemoteCodeManager",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "fetchRemoteCode",
+            "printedName": "fetchRemoteCode(forKey:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Any?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Any?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8ShakeBug25ShakebugRemoteCodeManagerC05fetchdE06forKey10completionySS_yypSgctFZ",
+            "mangledName": "$s8ShakeBug25ShakebugRemoteCodeManagerC05fetchdE06forKey10completionySS_yypSgctFZ",
+            "moduleName": "ShakeBug",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:8ShakeBug25ShakebugRemoteCodeManagerC",
+        "mangledName": "$s8ShakeBug25ShakebugRemoteCodeManagerC",
+        "moduleName": "ShakeBug",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
       },
       {
         "kind": "Import",
@@ -4118,6 +4266,13 @@
       "offset": 632,
       "length": 14,
       "value": "\"addAppReview\""
+    },
+    {
+      "filePath": "\/Volumes\/SNData\/iOS\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Services\/APIServices\/ShakeBugAPIServices.swift",
+      "kind": "StringLiteral",
+      "offset": 669,
+      "length": 13,
+      "value": "\"remote_code\""
     },
     {
       "filePath": "\/Volumes\/SNData\/iOS\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Modules\/CustomExtension\/ShakeBugGrowingTextView.swift",
@@ -6497,7 +6652,7 @@
       "kind": "StringLiteral",
       "offset": 1473,
       "length": 50,
-      "value": "\"https:\/\/www.shakebug.com\/api\/v1.4\/webservice.php\""
+      "value": "\"https:\/\/www.shakebug.com\/api\/v1.5\/webservice.php\""
     },
     {
       "filePath": "\/Volumes\/SNData\/iOS\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Miscellaneous\/ShakeBugContants.swift",
