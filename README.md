@@ -1,6 +1,6 @@
 # ShakeBug
 
-![pod](https://badgen.net/badge/pod/v1.0.38/cyan) ![twitter](https://badgen.net/badge/icon/@shakebugtool?icon=twitter&label) ![discord](https://badgen.net/badge/icon/shakebug?icon=discord&label)
+![pod](https://badgen.net/badge/pod/v1.0.39/cyan) ![twitter](https://badgen.net/badge/icon/@shakebugtool?icon=twitter&label) ![discord](https://badgen.net/badge/icon/shakebug?icon=discord&label)
 
 
 
