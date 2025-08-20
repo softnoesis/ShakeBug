@@ -392,6 +392,10 @@ enum ShakebugLanguage : NSInteger;
 - (void)triggerBugReporting;
 /// Trigger rating and review popup manually.
 - (void)triggerRatingsPopup;
+/// This api help developers to fetch data based on provide remote code key.
+/// \param forKey String, Predefined key on login panel
+///
+- (void)fetchRemoteCodeValueWithForkey:(NSString * _Nonnull)forkey completion:(void (^ _Nonnull)(id _Nullable))completion;
 /// Set Theme of Shakebug SDK
 /// \param color Shakebug supported languages
 ///

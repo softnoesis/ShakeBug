@@ -82,7 +82,7 @@ extension ShakeBug.ShakeBugSDK {
   @objc dynamic public func setShakebugSDKLanguage(_ language: ShakeBug.ShakebugLanguage)
   @objc dynamic public func triggerBugReporting()
   @objc dynamic public func triggerRatingsPopup()
-  public func fetchRemoteCodeValue(forkey: Swift.String, completion: @escaping (Any?) -> Swift.Void)
+  @objc dynamic public func fetchRemoteCodeValue(forkey: Swift.String, completion: @escaping (Any?) -> Swift.Void)
   @objc dynamic public func setShakebugThemeColor(_ color: UIKit.UIColor)
   @objc dynamic public func setShakebugSDKEndPointURL(url: Swift.String, headerKey: Swift.String, sslPublicKey: [Swift.String]? = nil)
   @objc dynamic public func changeSDKScreenTitle(_ bugReviewScreen: Swift.String?, _ bugFeedbackScreen: Swift.String?)

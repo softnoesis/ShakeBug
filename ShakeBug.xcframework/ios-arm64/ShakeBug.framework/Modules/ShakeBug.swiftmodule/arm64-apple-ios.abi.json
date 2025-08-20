@@ -1728,11 +1728,14 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:8ShakeBug0aB3SDKC20fetchRemoteCodeValue6forkey10completionySS_yypSgctF",
+            "usr": "c:@CM@ShakeBug@objc(cs)ShakeBugSDK(im)fetchRemoteCodeValueWithForkey:completion:",
             "mangledName": "$s8ShakeBug0aB3SDKC20fetchRemoteCodeValue6forkey10completionySS_yypSgctF",
             "moduleName": "ShakeBug",
+            "objc_name": "fetchRemoteCodeValueWithForkey:completion:",
             "declAttributes": [
+              "Dynamic",
               "AccessControl",
+              "ObjC",
               "RawDocComment"
             ],
             "isFromExtension": true,
