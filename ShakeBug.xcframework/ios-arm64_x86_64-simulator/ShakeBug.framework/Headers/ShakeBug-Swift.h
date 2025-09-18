@@ -426,6 +426,10 @@ enum ShakebugLanguage : NSInteger;
 /// \param isAllow Bool, Default value is True
 ///
 - (void)allowToReportBugByShakingMobile:(BOOL)isAllow;
+/// Enable/disable auto screen capture for crash reports
+/// \param enabled Bool, Default value is True
+///
+- (void)allowAutoCaptureScreenForCrashes:(BOOL)enabled;
 @end
 
 typedef SWIFT_ENUM(NSInteger, ShakebugLanguage, open) {
@@ -909,6 +913,10 @@ enum ShakebugLanguage : NSInteger;
 /// \param isAllow Bool, Default value is True
 ///
 - (void)allowToReportBugByShakingMobile:(BOOL)isAllow;
+/// Enable/disable auto screen capture for crash reports
+/// \param enabled Bool, Default value is True
+///
+- (void)allowAutoCaptureScreenForCrashes:(BOOL)enabled;
 @end
 
 typedef SWIFT_ENUM(NSInteger, ShakebugLanguage, open) {

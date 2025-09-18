@@ -2,6 +2,7 @@
 // swift-compiler-version: Apple Swift version 6.0.3 effective-5.10 (swiftlang-6.0.3.1.10 clang-1600.0.30.1)
 // swift-module-flags: -target x86_64-apple-ios13.1-macabi -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name ShakeBug
 // swift-module-flags-ignorable: -no-verify-emitted-module-interface
+import AVFoundation
 import AVKit
 import CommonCrypto
 import CommonCrypto/*.CC_LONG*/
@@ -11,6 +12,7 @@ import CoreLocation
 import CoreMotion
 import CoreServices
 import CoreTelephony
+import Darwin
 import Foundation
 import MobileCoreServices
 import PencilKit
@@ -89,6 +91,7 @@ extension ShakeBug.ShakeBugSDK {
   @objc dynamic public func changeSDKErrorAlertMessage(_ message: Swift.String)
   @objc dynamic public func allowToReportBugByScreenCapture(_ isAllow: Swift.Bool)
   @objc dynamic public func allowToReportBugByShakingMobile(_ isAllow: Swift.Bool)
+  @objc dynamic public func allowAutoCaptureScreenForCrashes(_ enabled: Swift.Bool)
 }
 @_hasMissingDesignatedInitializers public class ShakebugReviewManager {
   public static func showReviewPopupIfNeeded()
