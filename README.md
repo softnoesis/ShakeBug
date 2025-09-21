@@ -1,6 +1,6 @@
 # ShakeBug
 
-![pod](https://badgen.net/badge/pod/v1.0.39/cyan) ![twitter](https://badgen.net/badge/icon/@shakebugtool?icon=twitter&label) ![discord](https://badgen.net/badge/icon/shakebug?icon=discord&label)
+![pod](https://badgen.net/badge/pod/v1.0.40/cyan) ![twitter](https://badgen.net/badge/icon/@shakebugtool?icon=twitter&label) ![discord](https://badgen.net/badge/icon/shakebug?icon=discord&label)
 
 
 
@@ -231,6 +231,17 @@ ShakeBugSDK.sharedInstance.allowToReportBugByShakingMobile(true) // Default valu
 ```objective-c
 // Objective-C
 [[ShakeBugSDK sharedInstance] allowToReportBugByShakingMobile:YES]; // Default value YES
+```
+
+11. When a crash occurs, the SDK will automatically share a screen recording of the last 20 seconds of the application. If you pass false, it will not send the video with the crash report. By default, this is set to true.
+```swift
+// Swift
+ShakeBugSDK.sharedInstance.allowAutoCaptureScreenForCrashes(true) // Default value true
+```
+
+```objective-c
+// Objective-C
+[[ShakeBugSDK sharedInstance] allowAutoCaptureScreenForCrashes:YES]; // Default value YES
 ```
 ## Events  
   
