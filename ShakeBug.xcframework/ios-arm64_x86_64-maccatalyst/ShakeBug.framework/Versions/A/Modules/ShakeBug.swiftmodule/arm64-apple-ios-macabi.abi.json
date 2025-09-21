@@ -4482,12 +4482,12 @@
       "kind": "IntegerLiteral",
       "offset": 408,
       "length": 1,
-      "value": "1"
+      "value": "3"
     },
     {
       "filePath": "\/Volumes\/SNData\/iOS\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Modules\/ShakebugAutoScreeRecorder\/ShakebugScreenCaptureManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 3663,
+      "offset": 3337,
       "length": 4,
       "value": "true"
     },
