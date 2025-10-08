@@ -1,6 +1,6 @@
 # ShakeBug
 
-![pod](https://badgen.net/badge/pod/v1.0.41/cyan) ![twitter](https://badgen.net/badge/icon/@shakebugtool?icon=twitter&label) ![discord](https://badgen.net/badge/icon/shakebug?icon=discord&label)
+![pod](https://badgen.net/badge/pod/v1.0.42/cyan) ![twitter](https://badgen.net/badge/icon/@shakebugtool?icon=twitter&label) ![discord](https://badgen.net/badge/icon/shakebug?icon=discord&label)
 
 
 
@@ -233,7 +233,9 @@ ShakeBugSDK.sharedInstance.allowToReportBugByShakingMobile(true) // Default valu
 [[ShakeBugSDK sharedInstance] allowToReportBugByShakingMobile:YES]; // Default value YES
 ```
 
-11. When a crash occurs, the SDK will automatically share a screen recording of the last 20 seconds of the application. If you pass false, it will not send the video with the crash report. By default, this is set to true.
+11. When a crash occurs, the SDK will automatically share a screen recording of the last 18-20 seconds of the application. If you pass false, it will not send the video with the crash report. By default, this is set to false. So if you want video with your each crash report then you have to call this function with value true. 
+
+Note: When you make screen recording enable fro crash then it might compromise little UI performance of app.
 ```swift
 // Swift
 ShakeBugSDK.sharedInstance.allowAutoCaptureScreenForCrashes(true) // Default value true
