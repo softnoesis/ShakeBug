@@ -7,5 +7,4 @@ framework module ShakeBug {
 
 module ShakeBug.Swift {
   header "ShakeBug-Swift.h"
-  requires objc
 }
