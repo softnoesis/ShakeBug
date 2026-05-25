@@ -4531,6 +4531,13 @@
       "value": "false"
     },
     {
+      "filePath": "\/Volumes\/Data\/IOSProject\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/ShakeBugSDK.swift",
+      "kind": "BooleanLiteral",
+      "offset": 14742,
+      "length": 5,
+      "value": "false"
+    },
+    {
       "filePath": "\/Volumes\/Data\/IOSProject\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Modules\/ShakebugReview\/ShakebugReviewManager.swift",
       "kind": "StringLiteral",
       "offset": 459,
@@ -7018,7 +7025,7 @@
     {
       "filePath": "\/Volumes\/Data\/IOSProject\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Modules\/ShakeBugResult\/ShakeBugResultViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 34697,
+      "offset": 33691,
       "length": 5,
       "value": "false"
     }
