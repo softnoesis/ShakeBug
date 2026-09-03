@@ -2026,6 +2026,84 @@
             ],
             "isFromExtension": true,
             "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "showNPSSurvey",
+            "printedName": "showNPSSurvey(options:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Any]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@ShakeBug@objc(cs)ShakeBugSDK(im)showNPSSurveyWithOptions:",
+            "mangledName": "$s8ShakeBug0aB3SDKC13showNPSSurvey7optionsySDySSypGSg_tF",
+            "moduleName": "ShakeBug",
+            "objc_name": "showNPSSurveyWithOptions:",
+            "declAttributes": [
+              "Dynamic",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "isNPSEligible",
+            "printedName": "isNPSEligible()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@ShakeBug@objc(cs)ShakeBugSDK(im)isNPSEligible",
+            "mangledName": "$s8ShakeBug0aB3SDKC13isNPSEligibleSbyF",
+            "moduleName": "ShakeBug",
+            "declAttributes": [
+              "Dynamic",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Class",
@@ -3734,6 +3812,62 @@
         "moduleName": "ShakeBug"
       },
       {
+        "kind": "TypeDecl",
+        "name": "ShakebugNPSManager",
+        "printedName": "ShakebugNPSManager",
+        "declKind": "Class",
+        "usr": "s:8ShakeBug18ShakebugNPSManagerC",
+        "mangledName": "$s8ShakeBug18ShakebugNPSManagerC",
+        "moduleName": "ShakeBug",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "ShakeBug",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ShakeBug",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "ShakeBug"
+      },
+      {
         "kind": "Import",
         "name": "Photos",
         "printedName": "Photos",
@@ -4387,6 +4521,13 @@
       "value": "\"remote_code\""
     },
     {
+      "filePath": "\/Volumes\/Data\/IOSProject\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Services\/APIServices\/ShakeBugAPIServices.swift",
+      "kind": "StringLiteral",
+      "offset": 709,
+      "length": 16,
+      "value": "\"addNpsResponse\""
+    },
+    {
       "filePath": "\/Volumes\/Data\/IOSProject\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Modules\/CustomExtension\/ShakeBugGrowingTextView.swift",
       "kind": "IntegerLiteral",
       "offset": 657,
@@ -4536,7 +4677,7 @@
     {
       "filePath": "\/Volumes\/Data\/IOSProject\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/ShakeBugSDK.swift",
       "kind": "BooleanLiteral",
-      "offset": 14742,
+      "offset": 15305,
       "length": 5,
       "value": "false"
     },
@@ -6167,21 +6308,21 @@
     {
       "filePath": "\/Volumes\/Data\/IOSProject\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Services\/StorageServices\/ShakeBugStorageService.swift",
       "kind": "StringLiteral",
-      "offset": 6482,
+      "offset": 8120,
       "length": 35,
       "value": "\"Unable to encode object into data\""
     },
     {
       "filePath": "\/Volumes\/Data\/IOSProject\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Services\/StorageServices\/ShakeBugStorageService.swift",
       "kind": "StringLiteral",
-      "offset": 6541,
+      "offset": 8179,
       "length": 40,
       "value": "\"No data object found for the given key\""
     },
     {
       "filePath": "\/Volumes\/Data\/IOSProject\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Services\/StorageServices\/ShakeBugStorageService.swift",
       "kind": "StringLiteral",
-      "offset": 6612,
+      "offset": 8250,
       "length": 41,
       "value": "\"Unable to decode object into given type\""
     },
@@ -6818,91 +6959,133 @@
     {
       "filePath": "\/Volumes\/Data\/IOSProject\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Miscellaneous\/ShakeBugContants.swift",
       "kind": "StringLiteral",
-      "offset": 1559,
+      "offset": 1563,
+      "length": 26,
+      "value": "\"SBND_NPSFirstInstallDate\""
+    },
+    {
+      "filePath": "\/Volumes\/Data\/IOSProject\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Miscellaneous\/ShakeBugContants.swift",
+      "kind": "StringLiteral",
+      "offset": 1623,
+      "length": 22,
+      "value": "\"SBND_NPSSessionCount\""
+    },
+    {
+      "filePath": "\/Volumes\/Data\/IOSProject\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Miscellaneous\/ShakeBugContants.swift",
+      "kind": "StringLiteral",
+      "offset": 1678,
+      "length": 21,
+      "value": "\"SBND_NPSLastAskedAt\""
+    },
+    {
+      "filePath": "\/Volumes\/Data\/IOSProject\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Miscellaneous\/ShakeBugContants.swift",
+      "kind": "StringLiteral",
+      "offset": 1735,
+      "length": 24,
+      "value": "\"SBND_NPSLastAnsweredAt\""
+    },
+    {
+      "filePath": "\/Volumes\/Data\/IOSProject\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Miscellaneous\/ShakeBugContants.swift",
+      "kind": "StringLiteral",
+      "offset": 1796,
+      "length": 25,
+      "value": "\"SBND_NPSLastDismissedAt\""
+    },
+    {
+      "filePath": "\/Volumes\/Data\/IOSProject\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Miscellaneous\/ShakeBugContants.swift",
+      "kind": "StringLiteral",
+      "offset": 1857,
+      "length": 24,
+      "value": "\"SBND_NPSAskCountWindow\""
+    },
+    {
+      "filePath": "\/Volumes\/Data\/IOSProject\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Miscellaneous\/ShakeBugContants.swift",
+      "kind": "StringLiteral",
+      "offset": 1941,
       "length": 50,
-      "value": "\"https:\/\/www.shakebug.com\/api\/v1.5\/webservice.php\""
+      "value": "\"https:\/\/www.shakebug.com\/api\/v1.6\/webservice.php\""
     },
     {
       "filePath": "\/Volumes\/Data\/IOSProject\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Miscellaneous\/ShakeBugContants.swift",
       "kind": "FloatLiteral",
-      "offset": 1817,
+      "offset": 2199,
       "length": 4,
       "value": "29.0"
     },
     {
       "filePath": "\/Volumes\/Data\/IOSProject\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Miscellaneous\/ShakeBugContants.swift",
       "kind": "FloatLiteral",
-      "offset": 1824,
+      "offset": 2206,
       "length": 5,
       "value": "255.0"
     },
     {
       "filePath": "\/Volumes\/Data\/IOSProject\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Miscellaneous\/ShakeBugContants.swift",
       "kind": "FloatLiteral",
-      "offset": 1838,
+      "offset": 2220,
       "length": 5,
       "value": "211.0"
     },
     {
       "filePath": "\/Volumes\/Data\/IOSProject\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Miscellaneous\/ShakeBugContants.swift",
       "kind": "FloatLiteral",
-      "offset": 1846,
+      "offset": 2228,
       "length": 5,
       "value": "255.0"
     },
     {
       "filePath": "\/Volumes\/Data\/IOSProject\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Miscellaneous\/ShakeBugContants.swift",
       "kind": "FloatLiteral",
-      "offset": 1859,
+      "offset": 2241,
       "length": 5,
       "value": "229.0"
     },
     {
       "filePath": "\/Volumes\/Data\/IOSProject\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Miscellaneous\/ShakeBugContants.swift",
       "kind": "FloatLiteral",
-      "offset": 1867,
+      "offset": 2249,
       "length": 5,
       "value": "255.0"
     },
     {
       "filePath": "\/Volumes\/Data\/IOSProject\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Miscellaneous\/ShakeBugContants.swift",
       "kind": "FloatLiteral",
-      "offset": 1881,
+      "offset": 2263,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Volumes\/Data\/IOSProject\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Miscellaneous\/ShakeBugContants.swift",
       "kind": "StringLiteral",
-      "offset": 1919,
+      "offset": 2301,
       "length": 19,
       "value": "\"Annotate your bug\""
     },
     {
       "filePath": "\/Volumes\/Data\/IOSProject\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Miscellaneous\/ShakeBugContants.swift",
       "kind": "StringLiteral",
-      "offset": 1967,
+      "offset": 2349,
       "length": 13,
       "value": "\"Add Details\""
     },
     {
       "filePath": "\/Volumes\/Data\/IOSProject\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Miscellaneous\/ShakeBugContants.swift",
       "kind": "StringLiteral",
-      "offset": 2011,
+      "offset": 2393,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Volumes\/Data\/IOSProject\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Miscellaneous\/ShakeBugContants.swift",
       "kind": "StringLiteral",
-      "offset": 2041,
+      "offset": 2423,
       "length": 16,
       "value": "\"MarchShake2022\""
     },
     {
       "filePath": "\/Volumes\/Data\/IOSProject\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Miscellaneous\/ShakeBugContants.swift",
       "kind": "BooleanLiteral",
-      "offset": 2139,
+      "offset": 2521,
       "length": 5,
       "value": "false"
     },
@@ -6933,6 +7116,447 @@
       "offset": 6158,
       "length": 4,
       "value": "true"
+    },
+    {
+      "filePath": "\/Volumes\/Data\/IOSProject\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Modules\/ShakebugNPS\/ShakebugNPSManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 233,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Volumes\/Data\/IOSProject\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Modules\/ShakebugNPS\/ShakebugNPSManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 273,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Volumes\/Data\/IOSProject\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Modules\/ShakebugNPS\/ShakebugNPSManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 311,
+      "length": 2,
+      "value": "90"
+    },
+    {
+      "filePath": "\/Volumes\/Data\/IOSProject\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Modules\/ShakebugNPS\/ShakebugNPSManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 351,
+      "length": 2,
+      "value": "14"
+    },
+    {
+      "filePath": "\/Volumes\/Data\/IOSProject\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Modules\/ShakebugNPS\/ShakebugNPSManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 387,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Volumes\/Data\/IOSProject\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Modules\/ShakebugNPS\/ShakebugNPSManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2204,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Volumes\/Data\/IOSProject\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Modules\/ShakebugNPS\/ShakebugNPSViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 401,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Volumes\/Data\/IOSProject\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Modules\/ShakebugNPS\/ShakebugNPSViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 461,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Volumes\/Data\/IOSProject\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Modules\/ShakebugNPS\/ShakebugNPSViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 644,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Volumes\/Data\/IOSProject\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Modules\/ShakebugNPS\/ShakebugNPSViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 708,
+      "length": 7,
+      "value": "\"xmark\""
+    },
+    {
+      "filePath": "\/Volumes\/Data\/IOSProject\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Modules\/ShakebugNPS\/ShakebugNPSViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 849,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Volumes\/Data\/IOSProject\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Modules\/ShakebugNPS\/ShakebugNPSViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 1046,
+      "length": 3,
+      "value": "0.1"
+    },
+    {
+      "filePath": "\/Volumes\/Data\/IOSProject\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Modules\/ShakebugNPS\/ShakebugNPSViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1085,
+      "length": 2,
+      "value": "32"
+    },
+    {
+      "filePath": "\/Volumes\/Data\/IOSProject\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Modules\/ShakebugNPS\/ShakebugNPSViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1145,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Volumes\/Data\/IOSProject\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Modules\/ShakebugNPS\/ShakebugNPSViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1322,
+      "length": 2,
+      "value": "28"
+    },
+    {
+      "filePath": "\/Volumes\/Data\/IOSProject\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Modules\/ShakebugNPS\/ShakebugNPSViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 1381,
+      "length": 7,
+      "value": "\"heart\""
+    },
+    {
+      "filePath": "\/Volumes\/Data\/IOSProject\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Modules\/ShakebugNPS\/ShakebugNPSViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1562,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Volumes\/Data\/IOSProject\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Modules\/ShakebugNPS\/ShakebugNPSViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1699,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Volumes\/Data\/IOSProject\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Modules\/ShakebugNPS\/ShakebugNPSViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1784,
+      "length": 2,
+      "value": "22"
+    },
+    {
+      "filePath": "\/Volumes\/Data\/IOSProject\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Modules\/ShakebugNPS\/ShakebugNPSViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 1842,
+      "length": 19,
+      "value": "\"Enjoying the app?\""
+    },
+    {
+      "filePath": "\/Volumes\/Data\/IOSProject\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Modules\/ShakebugNPS\/ShakebugNPSViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1920,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Volumes\/Data\/IOSProject\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Modules\/ShakebugNPS\/ShakebugNPSViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2063,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Volumes\/Data\/IOSProject\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Modules\/ShakebugNPS\/ShakebugNPSViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2144,
+      "length": 2,
+      "value": "15"
+    },
+    {
+      "filePath": "\/Volumes\/Data\/IOSProject\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Modules\/ShakebugNPS\/ShakebugNPSViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 2234,
+      "length": 14,
+      "value": "\"CFBundleName\""
+    },
+    {
+      "filePath": "\/Volumes\/Data\/IOSProject\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Modules\/ShakebugNPS\/ShakebugNPSViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 2264,
+      "length": 9,
+      "value": "\"our app\""
+    },
+    {
+      "filePath": "\/Volumes\/Data\/IOSProject\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Modules\/ShakebugNPS\/ShakebugNPSViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 2295,
+      "length": 71,
+      "value": "\"How likely are you to recommend\n\""
+    },
+    {
+      "filePath": "\/Volumes\/Data\/IOSProject\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Modules\/ShakebugNPS\/ShakebugNPSViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 2339,
+      "length": 2,
+      "value": "\" to a friend or colleague?\""
+    },
+    {
+      "filePath": "\/Volumes\/Data\/IOSProject\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Modules\/ShakebugNPS\/ShakebugNPSViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2425,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Volumes\/Data\/IOSProject\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Modules\/ShakebugNPS\/ShakebugNPSViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2629,
+      "length": 1,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Volumes\/Data\/IOSProject\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Modules\/ShakebugNPS\/ShakebugNPSViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2686,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Volumes\/Data\/IOSProject\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Modules\/ShakebugNPS\/ShakebugNPSViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2924,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Volumes\/Data\/IOSProject\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Modules\/ShakebugNPS\/ShakebugNPSViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 2996,
+      "length": 19,
+      "value": "\"Not at all likely\""
+    },
+    {
+      "filePath": "\/Volumes\/Data\/IOSProject\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Modules\/ShakebugNPS\/ShakebugNPSViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3060,
+      "length": 2,
+      "value": "13"
+    },
+    {
+      "filePath": "\/Volumes\/Data\/IOSProject\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Modules\/ShakebugNPS\/ShakebugNPSViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 3169,
+      "length": 18,
+      "value": "\"Extremely likely\""
+    },
+    {
+      "filePath": "\/Volumes\/Data\/IOSProject\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Modules\/ShakebugNPS\/ShakebugNPSViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3232,
+      "length": 2,
+      "value": "13"
+    },
+    {
+      "filePath": "\/Volumes\/Data\/IOSProject\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Modules\/ShakebugNPS\/ShakebugNPSViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 3533,
+      "length": 3,
+      "value": "0.3"
+    },
+    {
+      "filePath": "\/Volumes\/Data\/IOSProject\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Modules\/ShakebugNPS\/ShakebugNPSViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3595,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Volumes\/Data\/IOSProject\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Modules\/ShakebugNPS\/ShakebugNPSViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 3732,
+      "length": 26,
+      "value": "\"Any comments? (optional)\""
+    },
+    {
+      "filePath": "\/Volumes\/Data\/IOSProject\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Modules\/ShakebugNPS\/ShakebugNPSViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3800,
+      "length": 2,
+      "value": "14"
+    },
+    {
+      "filePath": "\/Volumes\/Data\/IOSProject\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Modules\/ShakebugNPS\/ShakebugNPSViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3895,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Volumes\/Data\/IOSProject\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Modules\/ShakebugNPS\/ShakebugNPSViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 4082,
+      "length": 3,
+      "value": "0.5"
+    },
+    {
+      "filePath": "\/Volumes\/Data\/IOSProject\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Modules\/ShakebugNPS\/ShakebugNPSViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4128,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Volumes\/Data\/IOSProject\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Modules\/ShakebugNPS\/ShakebugNPSViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4164,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Volumes\/Data\/IOSProject\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Modules\/ShakebugNPS\/ShakebugNPSViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4223,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Volumes\/Data\/IOSProject\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Modules\/ShakebugNPS\/ShakebugNPSViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4378,
+      "length": 2,
+      "value": "14"
+    },
+    {
+      "filePath": "\/Volumes\/Data\/IOSProject\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Modules\/ShakebugNPS\/ShakebugNPSViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4503,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Volumes\/Data\/IOSProject\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Modules\/ShakebugNPS\/ShakebugNPSViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 4637,
+      "length": 27,
+      "value": "\"Tell us what you think...\""
+    },
+    {
+      "filePath": "\/Volumes\/Data\/IOSProject\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Modules\/ShakebugNPS\/ShakebugNPSViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4706,
+      "length": 2,
+      "value": "14"
+    },
+    {
+      "filePath": "\/Volumes\/Data\/IOSProject\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Modules\/ShakebugNPS\/ShakebugNPSViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4805,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Volumes\/Data\/IOSProject\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Modules\/ShakebugNPS\/ShakebugNPSViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 4940,
+      "length": 7,
+      "value": "\"0\/250\""
+    },
+    {
+      "filePath": "\/Volumes\/Data\/IOSProject\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Modules\/ShakebugNPS\/ShakebugNPSViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4989,
+      "length": 2,
+      "value": "12"
+    },
+    {
+      "filePath": "\/Volumes\/Data\/IOSProject\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Modules\/ShakebugNPS\/ShakebugNPSViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5088,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Volumes\/Data\/IOSProject\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Modules\/ShakebugNPS\/ShakebugNPSViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 5272,
+      "length": 3,
+      "value": "0.3"
+    },
+    {
+      "filePath": "\/Volumes\/Data\/IOSProject\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Modules\/ShakebugNPS\/ShakebugNPSViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5334,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Volumes\/Data\/IOSProject\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Modules\/ShakebugNPS\/ShakebugNPSViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5549,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Volumes\/Data\/IOSProject\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Modules\/ShakebugNPS\/ShakebugNPSViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5607,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Volumes\/Data\/IOSProject\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Modules\/ShakebugNPS\/ShakebugNPSViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 5750,
+      "length": 9,
+      "value": "\"Not now\""
+    },
+    {
+      "filePath": "\/Volumes\/Data\/IOSProject\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Modules\/ShakebugNPS\/ShakebugNPSViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5826,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Volumes\/Data\/IOSProject\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Modules\/ShakebugNPS\/ShakebugNPSViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5978,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Volumes\/Data\/IOSProject\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Modules\/ShakebugNPS\/ShakebugNPSViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 6122,
+      "length": 8,
+      "value": "\"Submit\""
+    },
+    {
+      "filePath": "\/Volumes\/Data\/IOSProject\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Modules\/ShakebugNPS\/ShakebugNPSViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6201,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Volumes\/Data\/IOSProject\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Modules\/ShakebugNPS\/ShakebugNPSViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6336,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Volumes\/Data\/IOSProject\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Modules\/ShakebugNPS\/ShakebugNPSViewController.swift",
+      "kind": "Array",
+      "offset": 6417,
+      "length": 2,
+      "value": "[]"
     },
     {
       "filePath": "\/Volumes\/Data\/IOSProject\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Modules\/ShakeBugResult\/ShakeBugResultViewController.swift",
