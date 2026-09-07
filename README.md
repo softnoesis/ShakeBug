@@ -46,7 +46,15 @@ Sign up for a service at [https://www.shakebug.com](https://www.shakebug.com)
 
 ## Installation
 
-### CocoaPods
+### Swift Package Manager
+Navigate to the SPM section in your project, add a new package, point it to
+
+```ruby
+https://github.com/softnoesis/ShakeBug/
+```
+and select the latest version.
+
+### CocoaPods (Deprecated)
 
 To integrate ShakeBug into your Xcode project using [CocoaPods](https://cocoapods.org), specify it in your `Podfile`:
 
@@ -60,7 +68,7 @@ Then, run the following command:
 $ pod install
 ```
 
-### Carthage
+### Carthage (Deprecated)
 Add following line to your Xcode project's `Cartfile`
 
 ```ruby
@@ -73,14 +81,6 @@ Then, run the following command:
 $ carthage update
 ```
 Then drag Shakebug.xcframework from Carthage folder to your Xcode project's settings.
-
-### Swift Package Manager
-Navigate to the SPM section in your project, add a new package, point it to
-
-```ruby
-https://github.com/softnoesis/ShakeBug/
-```
-and select the latest version.
 
 
 ## Code
