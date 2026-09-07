@@ -3,8 +3,7 @@
 ![pod](https://badgen.net/badge/pod/v1.0.45/cyan) ![twitter](https://badgen.net/badge/icon/@shakebugtool?icon=twitter&label) ![discord](https://badgen.net/badge/icon/shakebug?icon=discord&label)
 
 
-
-Shakebug allows you to receive feedback from your beta testers or real users and improve the quality of your application in a simple way. Here users just need to shake their mobile and all the data regarding bugs & crashes can be seen by developers through their log in panel. It also helpful to analyse your users, session, location etc. Addition, you can add events on each action of your application and track it using this Shakebug framework.
+Shakebug is an AI-powered bug, crash & product analytics platform for iOS, Android, Flutter, React Native, and web apps. Users can report an issue with a simple shake, click, or tap — capturing video reproductions, network logs, and device data so developers have everything they need to fix issues fast, all visible through their login panel. Crash AI automatically clusters identical crashes into a single issue with affected devices, OS versions, and trend data to help you prioritize. Session Journey and User Journey stitch sessions, events, bug reports, and crash data into a clear timeline — even for users who aren't logged in — so you can trace the exact point things broke. Real-time product analytics tracks sessions, active users, stickiness, and app health alongside your quality data, and you can log custom events on any action in your app to track it through the Shakebug framework.
 
 Sign up for a service at [https://www.shakebug.com](https://www.shakebug.com)
 
