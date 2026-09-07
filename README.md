@@ -1,6 +1,6 @@
 # ShakeBug
 
-![pod](https://badgen.net/badge/pod/v1.0.44/cyan) ![twitter](https://badgen.net/badge/icon/@shakebugtool?icon=twitter&label) ![discord](https://badgen.net/badge/icon/shakebug?icon=discord&label)
+![pod](https://badgen.net/badge/pod/v1.0.45/cyan) ![twitter](https://badgen.net/badge/icon/@shakebugtool?icon=twitter&label) ![discord](https://badgen.net/badge/icon/shakebug?icon=discord&label)
 
 
 
@@ -28,6 +28,8 @@ Sign up for a service at [https://www.shakebug.com](https://www.shakebug.com)
  ✅ Review of application for each new version
 
  ✅ Remote code execution
+
+ ✅ NPS Popup
 
  ✅ Track login user using custom user method 
 
@@ -308,6 +310,20 @@ ShakeBugSDK.sharedInstance.fetchRemoteCodeValue(forKey: "your_key") { value in
     NSLog(@"Remote code value: %@", value ?: @"nil");
 }];
  ```
+
+## NPS Review Popup
+
+The Shakebug iOS SDK provides an NPS (Net Promoter Score) popup to collect helpful feedback from users. The NPS popup allows users to provide a score from 0 to 10 and optionally add additional comments. The NPS survey can be triggered manually whenever required.
+In case, you want to trigger NPS survey popup then use this method
+
+```swift
+// Swift
+ShakeBugSDK.sharedInstance.showNPSSurvey()
+
+If you want to show the NPS survey popup every time you call the method, then use the force option.
+// Swift
+ShakeBugSDK.sharedInstance.showNPSSurvey(options: ["force": true])
+```
 
 ## Usage
 
