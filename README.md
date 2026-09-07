@@ -313,17 +313,63 @@ ShakeBugSDK.sharedInstance.fetchRemoteCodeValue(forKey: "your_key") { value in
 
 ## NPS Review Popup
 
-The Shakebug iOS SDK provides an NPS (Net Promoter Score) popup to collect helpful feedback from users. The NPS popup allows users to provide a score from 0 to 10 and optionally add additional comments. The NPS survey can be triggered manually whenever required.
-In case, you want to trigger NPS survey popup then use this method
+The Shakebug iOS SDK provides an NPS (Net Promoter Score) popup to collect helpful feedback from users. The NPS popup allows users to provide a score from 0 to 10 and optionally add additional comments.
+
+### NPS Popup Automatic Flow
+
+When the NPS survey is triggered using the default method, the Shakebug SDK automatically manages when the popup should be displayed.
+
+* After the application is installed, the NPS popup will be shown after 3 days.
+* If the user selects **Not Now**, the NPS popup will be shown again within 14 days.
+* Once the user successfully submits the NPS survey, the popup will automatically be shown again after 90 days.
+* After 90 days, the same NPS flow will be repeated.
+* The SDK automatically manages the NPS popup timing and does not require the developer to manually manage these intervals.
+
+### Show NPS Survey
+
+In case, you want to trigger the NPS survey popup manually, use the following method:
 
 ```swift
 // Swift
 ShakeBugSDK.sharedInstance.showNPSSurvey()
+```
 
-If you want to show the NPS survey popup every time you call the method, then use the force option.
+When using the default method, the SDK follows the automatic NPS popup flow described above.
+
+### Force Show NPS Survey
+
+If you want to show the NPS survey popup every time the method is called, use the `force` option:
+
+```swift
 // Swift
 ShakeBugSDK.sharedInstance.showNPSSurvey(options: ["force": true])
 ```
+
+Using `force: true` ignores the normal NPS popup timing and allows the developer to display the NPS survey whenever this method is called.
+
+### NPS Survey Use Cases
+
+NPS can be used to understand how satisfied users are with your application and identify opportunities to improve the user experience.
+
+Some common use cases include:
+
+  1. **Measure User Satisfaction**
+      Collect a score from 0 to 10 to understand how users feel about your application.
+
+  2. **Identify Promoters and Detractors**
+      Identify users who are highly satisfied with the application and users who may have a negative experience.
+
+  3. **Collect User Feedback**
+      The optional comment field allows users to explain the reason behind their NPS score.
+
+  4. **Measure Product Experience Over Time**
+      The automatic 90-day cycle can be used to collect feedback from users periodically and understand how their experience changes over time.
+
+  5. **After a Major Feature Update**
+      Developers can use the force option to trigger the NPS survey after launching an important feature or major application update.
+
+  6. **After Important User Activities**
+      The NPS survey can be manually triggered after important actions or workflows to understand the user's experience with that particular part of the application.
 
 ## Usage
 
