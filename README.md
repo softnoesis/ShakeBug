@@ -1,6 +1,6 @@
 # ShakeBug
 
-![pod](https://badgen.net/badge/pod/v1.0.45/cyan) ![twitter](https://badgen.net/badge/icon/@shakebugtool?icon=twitter&label) ![discord](https://badgen.net/badge/icon/shakebug?icon=discord&label)
+![pod](https://badgen.net/badge/pod/v1.0.46/cyan) ![twitter](https://badgen.net/badge/icon/@shakebugtool?icon=twitter&label) ![discord](https://badgen.net/badge/icon/shakebug?icon=discord&label)
 
 
 Shakebug is an AI-powered bug, crash & product analytics platform for iOS, Android, Flutter, React Native, and web apps. Users can report an issue with a simple shake, click, or tap — capturing video reproductions, network logs, and device data so developers have everything they need to fix issues fast, all visible through their login panel. Crash AI automatically clusters identical crashes into a single issue with affected devices, OS versions, and trend data to help you prioritize. Session Journey and User Journey stitch sessions, events, bug reports, and crash data into a clear timeline — even for users who aren't logged in — so you can trace the exact point things broke. Real-time product analytics tracks sessions, active users, stickiness, and app health alongside your quality data, and you can log custom events on any action in your app to track it through the Shakebug framework.
