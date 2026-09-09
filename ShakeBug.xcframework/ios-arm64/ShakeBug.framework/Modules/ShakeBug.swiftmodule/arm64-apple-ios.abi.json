@@ -4674,7 +4674,7 @@
     {
       "filePath": "\/Volumes\/Data\/IOSProject\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/ShakeBugSDK.swift",
       "kind": "BooleanLiteral",
-      "offset": 15305,
+      "offset": 15637,
       "length": 5,
       "value": "false"
     },
@@ -6305,21 +6305,21 @@
     {
       "filePath": "\/Volumes\/Data\/IOSProject\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Services\/StorageServices\/ShakeBugStorageService.swift",
       "kind": "StringLiteral",
-      "offset": 8120,
+      "offset": 9020,
       "length": 35,
       "value": "\"Unable to encode object into data\""
     },
     {
       "filePath": "\/Volumes\/Data\/IOSProject\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Services\/StorageServices\/ShakeBugStorageService.swift",
       "kind": "StringLiteral",
-      "offset": 8179,
+      "offset": 9079,
       "length": 40,
       "value": "\"No data object found for the given key\""
     },
     {
       "filePath": "\/Volumes\/Data\/IOSProject\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Services\/StorageServices\/ShakeBugStorageService.swift",
       "kind": "StringLiteral",
-      "offset": 8250,
+      "offset": 9150,
       "length": 41,
       "value": "\"Unable to decode object into given type\""
     },
@@ -6858,231 +6858,238 @@
     {
       "filePath": "\/Volumes\/Data\/IOSProject\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Miscellaneous\/ShakeBugContants.swift",
       "kind": "StringLiteral",
-      "offset": 648,
+      "offset": 661,
+      "length": 24,
+      "value": "\"SBND_PreviousSessionId\""
+    },
+    {
+      "filePath": "\/Volumes\/Data\/IOSProject\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Miscellaneous\/ShakeBugContants.swift",
+      "kind": "StringLiteral",
+      "offset": 708,
       "length": 11,
       "value": "\"SBND_Type\""
     },
     {
       "filePath": "\/Volumes\/Data\/IOSProject\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Miscellaneous\/ShakeBugContants.swift",
       "kind": "StringLiteral",
-      "offset": 689,
+      "offset": 749,
       "length": 19,
       "value": "\"SBND_Type_multipe\""
     },
     {
       "filePath": "\/Volumes\/Data\/IOSProject\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Miscellaneous\/ShakeBugContants.swift",
       "kind": "StringLiteral",
-      "offset": 737,
+      "offset": 797,
       "length": 18,
       "value": "\"SBND_MAU_REACHED\""
     },
     {
       "filePath": "\/Volumes\/Data\/IOSProject\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Miscellaneous\/ShakeBugContants.swift",
       "kind": "StringLiteral",
-      "offset": 790,
+      "offset": 850,
       "length": 20,
       "value": "\"SHAKEBUG-UNIQUE-ID\""
     },
     {
       "filePath": "\/Volumes\/Data\/IOSProject\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Miscellaneous\/ShakeBugContants.swift",
       "kind": "StringLiteral",
-      "offset": 849,
+      "offset": 909,
       "length": 25,
       "value": "\"SHAKEBUG-CUSTOM-USER-ID\""
     },
     {
       "filePath": "\/Volumes\/Data\/IOSProject\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Miscellaneous\/ShakeBugContants.swift",
       "kind": "StringLiteral",
-      "offset": 909,
+      "offset": 969,
       "length": 20,
       "value": "\"SHAKEBUG-API-ERROR\""
     },
     {
       "filePath": "\/Volumes\/Data\/IOSProject\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Miscellaneous\/ShakeBugContants.swift",
       "kind": "StringLiteral",
-      "offset": 966,
+      "offset": 1026,
       "length": 22,
       "value": "\"SHAKEBUG-API-SUCCESS\""
     },
     {
       "filePath": "\/Volumes\/Data\/IOSProject\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Miscellaneous\/ShakeBugContants.swift",
       "kind": "StringLiteral",
-      "offset": 1024,
+      "offset": 1084,
       "length": 19,
       "value": "\"SHAKEBUG-LANGUAGE\""
     },
     {
       "filePath": "\/Volumes\/Data\/IOSProject\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Miscellaneous\/ShakeBugContants.swift",
       "kind": "StringLiteral",
-      "offset": 1084,
+      "offset": 1144,
       "length": 30,
       "value": "\"SHAKEBUG-SCREEN-RECORDING-ON\""
     },
     {
       "filePath": "\/Volumes\/Data\/IOSProject\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Miscellaneous\/ShakeBugContants.swift",
       "kind": "StringLiteral",
-      "offset": 1156,
+      "offset": 1216,
       "length": 28,
       "value": "\"SHAKEBUG-VIDEO-REC-STARTED\""
     },
     {
       "filePath": "\/Volumes\/Data\/IOSProject\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Miscellaneous\/ShakeBugContants.swift",
       "kind": "StringLiteral",
-      "offset": 1225,
+      "offset": 1285,
       "length": 25,
       "value": "\"SHAKEBUG-RECORDING-TIME\""
     },
     {
       "filePath": "\/Volumes\/Data\/IOSProject\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Miscellaneous\/ShakeBugContants.swift",
       "kind": "StringLiteral",
-      "offset": 1295,
+      "offset": 1355,
       "length": 24,
       "value": "\"SHAKEBUG-SCREENCAPTURE\""
     },
     {
       "filePath": "\/Volumes\/Data\/IOSProject\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Miscellaneous\/ShakeBugContants.swift",
       "kind": "StringLiteral",
-      "offset": 1372,
+      "offset": 1432,
       "length": 33,
       "value": "\"SHAKEBUG-SCREENCAPTURE-FORCRASH\""
     },
     {
       "filePath": "\/Volumes\/Data\/IOSProject\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Miscellaneous\/ShakeBugContants.swift",
       "kind": "StringLiteral",
-      "offset": 1463,
+      "offset": 1523,
       "length": 36,
       "value": "\"SHAKEBUG-SHAKEDEVICE-CAPTURESCREEN\""
     },
     {
       "filePath": "\/Volumes\/Data\/IOSProject\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Miscellaneous\/ShakeBugContants.swift",
       "kind": "StringLiteral",
-      "offset": 1563,
+      "offset": 1623,
       "length": 26,
       "value": "\"SBND_NPSFirstInstallDate\""
     },
     {
       "filePath": "\/Volumes\/Data\/IOSProject\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Miscellaneous\/ShakeBugContants.swift",
       "kind": "StringLiteral",
-      "offset": 1623,
+      "offset": 1683,
       "length": 22,
       "value": "\"SBND_NPSSessionCount\""
     },
     {
       "filePath": "\/Volumes\/Data\/IOSProject\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Miscellaneous\/ShakeBugContants.swift",
       "kind": "StringLiteral",
-      "offset": 1678,
+      "offset": 1738,
       "length": 21,
       "value": "\"SBND_NPSLastAskedAt\""
     },
     {
       "filePath": "\/Volumes\/Data\/IOSProject\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Miscellaneous\/ShakeBugContants.swift",
       "kind": "StringLiteral",
-      "offset": 1735,
+      "offset": 1795,
       "length": 24,
       "value": "\"SBND_NPSLastAnsweredAt\""
     },
     {
       "filePath": "\/Volumes\/Data\/IOSProject\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Miscellaneous\/ShakeBugContants.swift",
       "kind": "StringLiteral",
-      "offset": 1796,
+      "offset": 1856,
       "length": 25,
       "value": "\"SBND_NPSLastDismissedAt\""
     },
     {
       "filePath": "\/Volumes\/Data\/IOSProject\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Miscellaneous\/ShakeBugContants.swift",
       "kind": "StringLiteral",
-      "offset": 1857,
+      "offset": 1917,
       "length": 24,
       "value": "\"SBND_NPSAskCountWindow\""
     },
     {
       "filePath": "\/Volumes\/Data\/IOSProject\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Miscellaneous\/ShakeBugContants.swift",
       "kind": "StringLiteral",
-      "offset": 1941,
+      "offset": 2001,
       "length": 50,
       "value": "\"https:\/\/www.shakebug.com\/api\/v1.6\/webservice.php\""
     },
     {
       "filePath": "\/Volumes\/Data\/IOSProject\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Miscellaneous\/ShakeBugContants.swift",
       "kind": "FloatLiteral",
-      "offset": 2199,
+      "offset": 2259,
       "length": 4,
       "value": "29.0"
     },
     {
       "filePath": "\/Volumes\/Data\/IOSProject\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Miscellaneous\/ShakeBugContants.swift",
       "kind": "FloatLiteral",
-      "offset": 2206,
+      "offset": 2266,
       "length": 5,
       "value": "255.0"
     },
     {
       "filePath": "\/Volumes\/Data\/IOSProject\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Miscellaneous\/ShakeBugContants.swift",
       "kind": "FloatLiteral",
-      "offset": 2220,
+      "offset": 2280,
       "length": 5,
       "value": "211.0"
     },
     {
       "filePath": "\/Volumes\/Data\/IOSProject\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Miscellaneous\/ShakeBugContants.swift",
       "kind": "FloatLiteral",
-      "offset": 2228,
+      "offset": 2288,
       "length": 5,
       "value": "255.0"
     },
     {
       "filePath": "\/Volumes\/Data\/IOSProject\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Miscellaneous\/ShakeBugContants.swift",
       "kind": "FloatLiteral",
-      "offset": 2241,
+      "offset": 2301,
       "length": 5,
       "value": "229.0"
     },
     {
       "filePath": "\/Volumes\/Data\/IOSProject\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Miscellaneous\/ShakeBugContants.swift",
       "kind": "FloatLiteral",
-      "offset": 2249,
+      "offset": 2309,
       "length": 5,
       "value": "255.0"
     },
     {
       "filePath": "\/Volumes\/Data\/IOSProject\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Miscellaneous\/ShakeBugContants.swift",
       "kind": "FloatLiteral",
-      "offset": 2263,
+      "offset": 2323,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Volumes\/Data\/IOSProject\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Miscellaneous\/ShakeBugContants.swift",
       "kind": "StringLiteral",
-      "offset": 2301,
+      "offset": 2361,
       "length": 19,
       "value": "\"Annotate your bug\""
     },
     {
       "filePath": "\/Volumes\/Data\/IOSProject\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Miscellaneous\/ShakeBugContants.swift",
       "kind": "StringLiteral",
-      "offset": 2349,
+      "offset": 2409,
       "length": 13,
       "value": "\"Add Details\""
     },
     {
       "filePath": "\/Volumes\/Data\/IOSProject\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Miscellaneous\/ShakeBugContants.swift",
       "kind": "StringLiteral",
-      "offset": 2393,
+      "offset": 2453,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Volumes\/Data\/IOSProject\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Miscellaneous\/ShakeBugContants.swift",
       "kind": "StringLiteral",
-      "offset": 2423,
+      "offset": 2483,
       "length": 16,
       "value": "\"MarchShake2022\""
     },
     {
       "filePath": "\/Volumes\/Data\/IOSProject\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Miscellaneous\/ShakeBugContants.swift",
       "kind": "BooleanLiteral",
-      "offset": 2521,
+      "offset": 2581,
       "length": 5,
       "value": "false"
     },
