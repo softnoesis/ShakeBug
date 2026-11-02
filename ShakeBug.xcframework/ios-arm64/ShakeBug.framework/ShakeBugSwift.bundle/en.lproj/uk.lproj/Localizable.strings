@@ -7,8 +7,8 @@
 */
 "Description here" = "Опис тут";
 "Email(Optional)" = "Електронна адреса (необов'язково)";
-"Replace Image?" = "Замінити зображення?";
-"Replace Video?" = "Замінити відео?";
+"Replace Image" = "Замінити зображення?";
+"Replace Video" = "Замінити відео?";
 "Send" = "Надіслати";
 "Add details" = "Додайте деталі";
 "Please add a description before continuing." = "Перш ніж продовжити, додайте опис.";
@@ -25,8 +25,8 @@
 "Cancel" = "Скасувати";
 "Settings" = "Налаштування";
 "Stop Recording?" = "Зупинити запис?";
-"Record Screen?" = "Записати екран?";
-"Choose Video?" = "Виберіть Відео?";
+"Record Screen" = "Записати екран?";
+"Choose Video" = "Виберіть Відео?";
 "Annotate your bug" = "Примітки до вашої помилки";
 "Cancel Video" = "Скасувати відео";
 "Stop Recording" = "Зупинити запис";

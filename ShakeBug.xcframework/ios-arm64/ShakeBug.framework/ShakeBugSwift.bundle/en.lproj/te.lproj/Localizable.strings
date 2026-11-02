@@ -7,8 +7,8 @@
 */
 "Description here" = "వివరణ ఇక్కడ";
 "Email(Optional)" = "ఇమెయిల్ (ఐచ్ఛికం)";
-"Replace Image?" = "చిత్రాన్ని భర్తీ చేయాలా?";
-"Replace Video?" = "వీడియోను భర్తీ చేయాలా?";
+"Replace Image" = "చిత్రాన్ని భర్తీ చేయాలా?";
+"Replace Video" = "వీడియోను భర్తీ చేయాలా?";
 "Send" = "పంపండి";
 "Add details" = "వివరాలను జోడించండి";
 "Please add a description before continuing." = "దయచేసి కొనసాగించే ముందు వివరణను జోడించండి.";
@@ -25,8 +25,8 @@
 "Cancel" = "రద్దు చేయండి";
 "Settings" = "సెట్టింగ్‌లు";
 "Stop Recording?" = "రికార్డింగ్ ఆపివేయాలా?";
-"Record Screen?" = "స్క్రీన్ రికార్డ్ చేయాలా?";
-"Choose Video?" = "వీడియోను ఎంచుకోవాలా?";
+"Record Screen" = "స్క్రీన్ రికార్డ్ చేయాలా?";
+"Choose Video" = "వీడియోను ఎంచుకోవాలా?";
 "Annotate your bug" = "మీ బగ్‌ని వ్యాఖ్యానించండి";
 "Cancel Video" = "వీడియోను రద్దు చేయి";
 "Stop Recording" = "రికార్డింగ్ ఆపివేయండి";

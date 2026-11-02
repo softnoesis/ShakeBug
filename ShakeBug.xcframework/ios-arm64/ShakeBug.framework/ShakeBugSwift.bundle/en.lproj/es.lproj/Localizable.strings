@@ -7,8 +7,8 @@
 */
 "Description here" = "Descripción aquí";
 "Email(Optional)" = "Email (opcional)";
-"Replace Image?" = "¿Reemplazar imagen?";
-"Replace Video?" = "¿Reemplazar vídeo?";
+"Replace Image" = "¿Reemplazar imagen?";
+"Replace Video" = "¿Reemplazar vídeo?";
 "Send" = "Enviar";
 "Add details" = "Agregar detalles";
 "Please add a description before continuing." = "Agregue una descripción antes de continuar.";
@@ -25,8 +25,8 @@
 "Cancel" = "Cancelar";
 "Settings" = "Ajustes";
 "Stop Recording?" = "¿Para de grabar?";
-"Record Screen?" = "Grabar pantalla?";
-"Choose Video?" = "¿Elegir vídeo?";
+"Record Screen" = "Grabar pantalla?";
+"Choose Video" = "¿Elegir vídeo?";
 "Annotate your bug" = "Anota tu error";
 "Cancel Video" = "Cancelar vídeo";
 "Stop Recording" = "Para de grabar";

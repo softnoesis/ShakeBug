@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "ShakeBug"
-  s.version      = "1.0.46"
+  s.version      = "1.0.47"
   s.summary      = "To report bug & crash along with screen recording videos, photos, detail, review version wise, analytics, remote code and events."
 
   # This description is used to generate tags and improve search results.
@@ -64,7 +64,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios, "26.0"
 
   #  When using multiple platforms
-   s.ios.deployment_target = "13.0"
+   s.ios.deployment_target = "15.0"
  #  s.osx.deployment_target = "10.15"
  #  s.watchos.deployment_target = "2.0"
  #  s.tvos.deployment_target = "9.0"

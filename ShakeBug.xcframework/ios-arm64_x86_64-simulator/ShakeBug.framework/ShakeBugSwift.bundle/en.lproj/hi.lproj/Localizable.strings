@@ -7,8 +7,8 @@
 */
 "Description here" = "विवरण यहाँ";
 "Email(Optional)" = "ईमेल (वैकल्पिक)";
-"Replace Image?" = "छवि बदलें?";
-"Replace Video?" = "वीडियो बदलें?";
+"Replace Image" = "छवि बदलें?";
+"Replace Video" = "वीडियो बदलें?";
 "Send" = "भेजना";
 "Add details" = "विवरण जोड़ें";
 "Please add a description before continuing." = "कृपया जारी रखने से पहले विवरण जोड़ें।";
@@ -25,8 +25,8 @@
 "Cancel" = "रद्द करना";
 "Settings" = "सेटिंग";
 "Stop Recording?" = "रिकॉर्डिंग बंद करें?";
-"Record Screen?" = "स्क्रीन रिकॉर्ड करो?";
-"Choose Video?" = "वीडियो चुनें?";
+"Record Screen" = "स्क्रीन रिकॉर्ड करो?";
+"Choose Video" = "वीडियो चुनें?";
 "Annotate your bug" = "अपने बग को एनोटेट करें";
 "Cancel Video" = "वीडियो रद्द करें";
 "Stop Recording" = "रिकॉर्डिंग बंद करें";

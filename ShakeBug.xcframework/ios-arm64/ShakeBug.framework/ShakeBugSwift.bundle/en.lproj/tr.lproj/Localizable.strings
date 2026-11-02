@@ -7,8 +7,8 @@
 */
 "Description here" = "Açıklama burada";
 "Email(Optional)" = "E-posta isteğe bağlı)";
-"Replace Image?" = "Görüntü Değiştirilsin mi?";
-"Replace Video?" = "Videoyu Değiştir?";
+"Replace Image" = "Görüntü Değiştirilsin mi?";
+"Replace Video" = "Videoyu Değiştir?";
 "Send" = "Göndermek";
 "Add details" = "ayrıntıları ekle";
 "Please add a description before continuing." = "Lütfen devam etmeden önce bir açıklama ekleyin.";
@@ -25,8 +25,8 @@
 "Cancel" = "İptal etmek";
 "Settings" = "Ayarlar";
 "Stop Recording?" = "Kaydetmeyi bırak?";
-"Record Screen?" = "Kayıt Ekranı?";
-"Choose Video?" = "Videoyu Seç?";
+"Record Screen" = "Kayıt Ekranı?";
+"Choose Video" = "Videoyu Seç?";
 "Annotate your bug" = "Hatanıza açıklama ekleyin";
 "Cancel Video" = "Videoyu İptal Et";
 "Stop Recording" = "Kaydetmeyi bırak";

@@ -7,8 +7,8 @@
 */
 "Description here" = "Deskripsi di sini";
 "Email(Optional)" = "Email (Opsional)";
-"Replace Image?" = "Ganti Gambar?";
-"Replace Video?" = "Ganti Video?";
+"Replace Image" = "Ganti Gambar?";
+"Replace Video" = "Ganti Video?";
 "Send" = "Mengirim";
 "Add details" = "Tambahkan detail";
 "Please add a description before continuing." = "Harap tambahkan deskripsi sebelum melanjutkan.";
@@ -25,8 +25,8 @@
 "Cancel" = "Membatalkan";
 "Settings" = "Pengaturan";
 "Stop Recording?" = "Berhenti Merekam?";
-"Record Screen?" = "Rekam Layar?";
-"Choose Video?" = "Pilih Video?";
+"Record Screen" = "Rekam Layar?";
+"Choose Video" = "Pilih Video?";
 "Annotate your bug" = "Anotasi bug Anda";
 "Cancel Video" = "Batalkan Video";
 "Stop Recording" = "Berhenti Merekam";

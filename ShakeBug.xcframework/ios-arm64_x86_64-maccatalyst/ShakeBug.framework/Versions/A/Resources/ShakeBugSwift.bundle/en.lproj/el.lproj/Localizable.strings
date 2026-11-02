@@ -7,8 +7,8 @@
 */
 "Description here" = "Περιγραφή εδώ";
 "Email(Optional)" = "Email (Προαιρετικό)";
-"Replace Image?" = "Αντικατάσταση εικόνας;";
-"Replace Video?" = "Αντικατάσταση βίντεο;";
+"Replace Image" = "Αντικατάσταση εικόνας;";
+"Replace Video" = "Αντικατάσταση βίντεο;";
 "Send" = "Στείλετε";
 "Add details" = "Προσθέστε λεπτομέρειες";
 "Please add a description before continuing." = "Προσθέστε μια περιγραφή πριν συνεχίσετε.";
@@ -25,8 +25,8 @@
 "Cancel" = "Ματαίωση";
 "Settings" = "Ρυθμίσεις";
 "Stop Recording?" = "Διακοπή εγγραφής;";
-"Record Screen?" = "Οθόνη εγγραφής;";
-"Choose Video?" = "Επιλογή βίντεο;";
+"Record Screen" = "Οθόνη εγγραφής;";
+"Choose Video" = "Επιλογή βίντεο;";
 "Annotate your bug" = "Σημειώστε το σφάλμα σας";
 "Cancel Video" = "Ακύρωση βίντεο";
 "Stop Recording" = "Διακοπή εγγραφής";

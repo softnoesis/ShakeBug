@@ -7,8 +7,8 @@
 */
 "Description here" = "Description here";
 "Email(Optional)" = "Email(Optional)";
-"Replace Image?" = "Replace Image?";
-"Replace Video?" = "Replace Video?";
+"Replace Image" = "Replace Image";
+"Replace Video" = "Replace Video";
 "Send" = "Send";
 "Add details" = "Add details";
 "Please add a description before continuing." = "Please add a description before continuing.";
@@ -25,8 +25,8 @@
 "Cancel" = "Cancel";
 "Settings" = "Settings";
 "Stop Recording?" = "Stop Recording?";
-"Record Screen?" = "Record Screen?";
-"Choose Video?" = "Choose Video?";
+"Record Screen" = "Record Screen";
+"Choose Video" = "Choose Video";
 "Annotate your bug" = "Annotate your bug";
 "Cancel Video" = "Cancel Video";
 "Stop Recording" = "Stop Recording";
@@ -40,3 +40,19 @@
 "Rate your experience" = "Rate your experience";
 "Write your feedback here..." = "Write your feedback here...";
 "Submit" = "Submit";
+
+/* ShakeBug Feedback Bottom Sheet */
+"Shake detected" = "Shake detected";
+"Screenshot detected" = "Screenshot detected";
+"Something not working?" = "Something not working?";
+"We saved a screenshot of this screen." = "We saved a screenshot of this screen.";
+"We captured a screenshot of this screen." = "We captured a screenshot of this screen.";
+"Report an issue" = "Report an issue";
+"Record the issue instead" = "Record the issue instead";
+"Choose media" = "Choose media";
+"Not now" = "Not now";
+"Turn off shake" = "Turn off shake";
+"Are you sure you want to disable the Shake feature? It will be automatically enabled again after 7 days." = "Are you sure you want to disable the Shake feature? It will be automatically enabled again after 7 days.";
+"Disable" = "Disable";
+"Video" = "Video";
+

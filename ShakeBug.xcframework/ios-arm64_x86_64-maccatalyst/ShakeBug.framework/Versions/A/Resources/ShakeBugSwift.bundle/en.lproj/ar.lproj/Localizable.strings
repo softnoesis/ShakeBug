@@ -7,8 +7,8 @@
 */
 "Description here" = "الوصف هنا";
 "Email(Optional)" = "البريد الإلكتروني اختياري)";
-"Replace Image?" = "هل تريد استبدال الصورة؟";
-"Replace Video?" = "هل تريد استبدال الفيديو؟";
+"Replace Image" = "هل تريد استبدال الصورة؟";
+"Replace Video" = "هل تريد استبدال الفيديو؟";
 "Send" = "يرسل";
 "Add details" = "أضف التفاصيل";
 "Please add a description before continuing." = "الرجاء إضافة وصف قبل المتابعة.";
@@ -25,8 +25,8 @@
 "Cancel" = "يلغي";
 "Settings" = "إعدادات";
 "Stop Recording?" = "إيقاف التسجيل؟";
-"Record Screen?" = "شاشة التسجيل";
-"Choose Video?" = "اختر فيديو؟";
+"Record Screen" = "شاشة التسجيل";
+"Choose Video" = "اختر فيديو؟";
 "Annotate your bug" = "علق الخطأ الخاص بك";
 "Cancel Video" = "إلغاء الفيديو";
 "Stop Recording" = "إيقاف التسجيل";
