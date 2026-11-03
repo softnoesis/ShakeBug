@@ -82,10 +82,10 @@ extension ShakeBug::ShakeBugSDK {
   @objc dynamic public func setcustomUser(customUserId: Swift::String, name: Swift::String, email: Swift::String, country: Swift::String, other: Swift::String)
   @objc dynamic public func setShakebugSDKLanguage(_ language: ShakeBug::ShakebugLanguage)
   @objc dynamic public func triggerBugReporting()
-  @objc dynamic public func showShakeFeedbackScreen()
   @objc dynamic public func triggerRatingsPopup()
   @objc dynamic public func fetchRemoteCodeValue(forkey: Swift::String, completion: @escaping (Any?) -> Swift::Void)
   @objc dynamic public func setShakebugThemeColor(_ color: UIKit::UIColor)
+  @objc dynamic public func setShakebugThemeColor(light: UIKit::UIColor, dark: UIKit::UIColor)
   @objc dynamic public func setShakebugThemeMode(_ mode: ShakeBug::ShakeBugThemeMode)
   @objc dynamic public func setShakebugSDKEndPointURL(url: Swift::String, headerKey: Swift::String, sslPublicKey: [Swift::String]? = nil)
   @objc dynamic public func changeSDKScreenTitle(_ bugReviewScreen: Swift::String?, _ bugFeedbackScreen: Swift::String?)
@@ -129,6 +129,7 @@ public typealias ShakeBugFeedbackBottomSheetViewController = ShakeBug::ShakeBugF
   }
   @_Concurrency::MainActor @preconcurrency public init(triggerType: ShakeBug::ShakeBugFeedbackTrigger = .shake, screenshot: UIKit::UIImage? = nil)
   @_Concurrency::MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation::NSCoder)
+  @objc deinit
   @discardableResult
   @objc @_Concurrency::MainActor @preconcurrency public static func showFeedbackBottomSheet(triggerType: ShakeBug::ShakeBugFeedbackTrigger, screenshot: UIKit::UIImage? = nil) -> ShakeBug::ShakeBugFeedbackViewController?
   @objc @_Concurrency::MainActor @preconcurrency public func showFeedbackBottomSheet(triggerType: ShakeBug::ShakeBugFeedbackTrigger)
@@ -138,6 +139,7 @@ public typealias ShakeBugFeedbackBottomSheetViewController = ShakeBug::ShakeBugF
   @_Concurrency::MainActor @preconcurrency @objc override dynamic public func traitCollectionDidChange(_ previousTraitCollection: UIKit::UITraitCollection?)
   @_Concurrency::MainActor @preconcurrency public func animatePresentation()
   @_Concurrency::MainActor @preconcurrency public func dismissBottomSheet(completion: (() -> Swift::Void)? = nil)
+  @objc @_Concurrency::MainActor @preconcurrency public func updateLocalizedStrings()
   @_Concurrency::MainActor @preconcurrency public func updateIllustrationImage()
   @_Concurrency::MainActor @preconcurrency public func updateThemeColors()
   @objc @IBAction @_Concurrency::MainActor @preconcurrency public func reportIssueButtonTapped(_ sender: Any)
@@ -145,7 +147,6 @@ public typealias ShakeBugFeedbackBottomSheetViewController = ShakeBug::ShakeBugF
   @objc @IBAction @_Concurrency::MainActor @preconcurrency public func chooseMediaButtonTapped(_ sender: Any)
   @objc @IBAction @_Concurrency::MainActor @preconcurrency public func notNowButtonTapped(_ sender: Any)
   @objc @IBAction @_Concurrency::MainActor @preconcurrency public func turnOffShakeButtonTapped(_ sender: Any)
-  @objc deinit
 }
 @objc public enum ShakeBugFeedbackTrigger : Swift::Int {
   case screenshot = 0

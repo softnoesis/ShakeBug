@@ -40,3 +40,22 @@
 "Rate your experience" = "Deneyiminizi değerlendirin";
 "Write your feedback here..." = "Geri bildiriminizi buraya yazın...";
 "Submit" = "Gönder";
+
+
+/* ShakeBug Feedback Bottom Sheet */
+"Shake detected" = "Sallama algılandı";
+"Screenshot detected" = "Ekran görüntüsü algılandı";
+"Something not working?" = "Bir sorun mu var?";
+"We saved a screenshot of this screen." = "Bu ekranın bir görüntüsünü kaydettik.";
+"We captured a screenshot of this screen." = "Bu ekranın bir görüntüsünü aldık.";
+"Report an issue" = "Sorun bildir";
+"Record the issue instead" = "Bunun yerine sorunu kaydet";
+"Choose media" = "Medya seç";
+"Not now" = "Şimdi değil";
+"Turn off shake" = "Sallamayı kapat";
+"Are you sure you want to disable the Shake feature? It will be automatically enabled again after 7 days." = "Sallama özelliğini devre dışı bırakmak istediğinizden emin misiniz? 7 gün sonra otomatik olarak tekrar etkinleştirilecektir.";
+"Disable" = "Devre dışı bırak";
+"Video" = "Video";
+"Your screen is already being recording please stop that first!" = "Ekranınız zaten kaydediliyor, lütfen önce onu durdurun!";
+
+"ATTACHED MEDIA" = "EKLENEN MEDYA";

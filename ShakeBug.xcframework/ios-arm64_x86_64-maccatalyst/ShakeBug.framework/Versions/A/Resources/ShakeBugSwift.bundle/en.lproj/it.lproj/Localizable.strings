@@ -40,3 +40,22 @@
 "Rate your experience" = "Valuta la tua esperienza";
 "Write your feedback here..." = "Scrivi il tuo feedback qui...";
 "Submit" = "Invia";
+
+
+/* ShakeBug Feedback Bottom Sheet */
+"Shake detected" = "Scuotimento rilevato";
+"Screenshot detected" = "Schermata rilevata";
+"Something not working?" = "Qualcosa non funziona?";
+"We saved a screenshot of this screen." = "Abbiamo salvato una schermata di questa visualizzazione.";
+"We captured a screenshot of this screen." = "Abbiamo catturato una schermata di questa visualizzazione.";
+"Report an issue" = "Segnala un problema";
+"Record the issue instead" = "Registra il problema invece";
+"Choose media" = "Scegli file multimediali";
+"Not now" = "Non ora";
+"Turn off shake" = "Disattiva scuotimento";
+"Are you sure you want to disable the Shake feature? It will be automatically enabled again after 7 days." = "Sei sicuro di voler disattivare la funzione Scuoti? Verrà riattivata automaticamente dopo 7 giorni.";
+"Disable" = "Disattiva";
+"Video" = "Video";
+"Your screen is already being recording please stop that first!" = "Lo schermo è già in fase di registrazione, fermalo prima!";
+
+"ATTACHED MEDIA" = "ELEMENTI MULTIMEDIALI ALLEGATI";

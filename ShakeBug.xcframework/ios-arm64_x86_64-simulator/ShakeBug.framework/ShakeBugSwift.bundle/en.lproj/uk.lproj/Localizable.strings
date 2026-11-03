@@ -40,3 +40,22 @@
 "Rate your experience" = "Оцініть свій досвід";
 "Write your feedback here..." = "Напишіть свій відгук тут...";
 "Submit" = "Надіслати";
+
+
+/* ShakeBug Feedback Bottom Sheet */
+"Shake detected" = "Виявлено струшування";
+"Screenshot detected" = "Виявлено знімок екрана";
+"Something not working?" = "Щось не працює?";
+"We saved a screenshot of this screen." = "Ми зберегли знімок цього екрана.";
+"We captured a screenshot of this screen." = "Ми зробили знімок цього екрана.";
+"Report an issue" = "Повідомити про проблему";
+"Record the issue instead" = "Записати проблему замість цього";
+"Choose media" = "Обрати медіа";
+"Not now" = "Не зараз";
+"Turn off shake" = "Вимкнути струшування";
+"Are you sure you want to disable the Shake feature? It will be automatically enabled again after 7 days." = "Ви впевнені, що хочете вимкнути функцію струшування? Вона знову автоматично ввімкнеться через 7 днів.";
+"Disable" = "Вимкнути";
+"Video" = "Відео";
+"Your screen is already being recording please stop that first!" = "Ваш екран вже записується, будь ласка, спочатку зупиніть запис!";
+
+"ATTACHED MEDIA" = "ПРИКРІПЛЕНІ МЕДІАФАЙЛИ";

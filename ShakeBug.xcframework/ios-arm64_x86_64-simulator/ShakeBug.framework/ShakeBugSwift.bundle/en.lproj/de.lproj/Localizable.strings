@@ -40,3 +40,22 @@
 "Rate your experience" = "Bewerten Sie Ihre Erfahrung";
 "Write your feedback here..." = "Schreiben Sie Ihr Feedback hier...";
 "Submit" = "Absenden";
+
+
+/* ShakeBug Feedback Bottom Sheet */
+"Shake detected" = "Schütteln erkannt";
+"Screenshot detected" = "Screenshot erkannt";
+"Something not working?" = "Funktioniert etwas nicht?";
+"We saved a screenshot of this screen." = "Wir haben einen Screenshot dieses Bildschirms gespeichert.";
+"We captured a screenshot of this screen." = "Wir haben einen Screenshot dieses Bildschirms aufgenommen.";
+"Report an issue" = "Problem melden";
+"Record the issue instead" = "Problem stattdessen aufnehmen";
+"Choose media" = "Medien auswählen";
+"Not now" = "Nicht jetzt";
+"Turn off shake" = "Schütteln deaktivieren";
+"Are you sure you want to disable the Shake feature? It will be automatically enabled again after 7 days." = "Möchten Sie die Schüttel-Funktion wirklich deaktivieren? Sie wird nach 7 Tagen automatisch wieder aktiviert.";
+"Disable" = "Deaktivieren";
+"Video" = "Video";
+"Your screen is already being recording please stop that first!" = "Ihr Bildschirm wird bereits aufgenommen, bitte beenden Sie dies zuerst!";
+
+"ATTACHED MEDIA" = "ANGEHÄNGTE MEDIEN";

@@ -40,3 +40,22 @@
 "Rate your experience" = "Nilai pengalaman Anda";
 "Write your feedback here..." = "Tulis masukan Anda di sini...";
 "Submit" = "Kirim";
+
+
+/* ShakeBug Feedback Bottom Sheet */
+"Shake detected" = "Goyangan terdeteksi";
+"Screenshot detected" = "Tangkapan layar terdeteksi";
+"Something not working?" = "Ada yang tidak berfungsi?";
+"We saved a screenshot of this screen." = "Kami menyimpan tangkapan layar dari layar ini.";
+"We captured a screenshot of this screen." = "Kami mengambil tangkapan layar dari layar ini.";
+"Report an issue" = "Laporkan masalah";
+"Record the issue instead" = "Rekam masalah saja";
+"Choose media" = "Pilih media";
+"Not now" = "Nanti saja";
+"Turn off shake" = "Matikan goyangan";
+"Are you sure you want to disable the Shake feature? It will be automatically enabled again after 7 days." = "Apakah Anda yakin ingin menonaktifkan fitur Goyang? Fitur ini akan otomatis diaktifkan kembali setelah 7 hari.";
+"Disable" = "Nonaktifkan";
+"Video" = "Video";
+"Your screen is already being recording please stop that first!" = "Layar Anda sudah sedang direkam, harap hentikan terlebih dahulu!";
+
+"ATTACHED MEDIA" = "MEDIA TERLAMPIR";

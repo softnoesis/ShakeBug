@@ -40,3 +40,22 @@
 "Rate your experience" = "Оцените свой опыт";
 "Write your feedback here..." = "Напишите свой отзыв здесь...";
 "Submit" = "Отправить";
+
+
+/* ShakeBug Feedback Bottom Sheet */
+"Shake detected" = "Обнаружено встряхивание";
+"Screenshot detected" = "Обнаружен снимок экрана";
+"Something not working?" = "Что-то не работает?";
+"We saved a screenshot of this screen." = "Мы сохранили снимок этого экрана.";
+"We captured a screenshot of this screen." = "Мы сделали снимок этого экрана.";
+"Report an issue" = "Сообщить о проблеме";
+"Record the issue instead" = "Записать проблему на видео";
+"Choose media" = "Выбрать медиа";
+"Not now" = "Не сейчас";
+"Turn off shake" = "Отключить встряхивание";
+"Are you sure you want to disable the Shake feature? It will be automatically enabled again after 7 days." = "Вы уверены, что хотите отключить функцию встряхивания? Она будет автоматически включена через 7 дней.";
+"Disable" = "Отключить";
+"Video" = "Видео";
+"Your screen is already being recording please stop that first!" = "Ваш экран уже записывается, сначала остановите запись!";
+
+"ATTACHED MEDIA" = "ПРИКРЕПЛЕННЫЕ МЕДИАФАЙЛЫ";

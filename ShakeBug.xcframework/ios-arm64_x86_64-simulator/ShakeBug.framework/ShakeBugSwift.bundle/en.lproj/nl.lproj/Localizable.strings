@@ -40,3 +40,22 @@
 "Rate your experience" = "Beoordeel uw ervaring";
 "Write your feedback here..." = "Schrijf hier uw feedback...";
 "Submit" = "Verzenden";
+
+
+/* ShakeBug Feedback Bottom Sheet */
+"Shake detected" = "Schudden gedetecteerd";
+"Screenshot detected" = "Schermafbeelding gedetecteerd";
+"Something not working?" = "Werkt er iets niet?";
+"We saved a screenshot of this screen." = "We hebben een schermafbeelding van dit scherm opgeslagen.";
+"We captured a screenshot of this screen." = "We hebben een schermafbeelding van dit scherm vastgelegd.";
+"Report an issue" = "Meld een probleem";
+"Record the issue instead" = "Neem in plaats daarvan het probleem op";
+"Choose media" = "Media kiezen";
+"Not now" = "Niet nu";
+"Turn off shake" = "Schudden uitschakelen";
+"Are you sure you want to disable the Shake feature? It will be automatically enabled again after 7 days." = "Weet u zeker dat u de schudfunctie wilt uitschakelen? Deze wordt na 7 dagen automatisch weer ingeschakeld.";
+"Disable" = "Uitschakelen";
+"Video" = "Video";
+"Your screen is already being recording please stop that first!" = "Uw scherm wordt al opgenomen, stop dat eerst!";
+
+"ATTACHED MEDIA" = "BIJGEVOEGDE MEDIA";

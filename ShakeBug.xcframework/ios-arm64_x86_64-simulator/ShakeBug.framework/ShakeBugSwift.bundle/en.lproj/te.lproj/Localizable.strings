@@ -40,3 +40,22 @@
 "Rate your experience" = "మీ అనుభవాన్ని రేట్ చేయండి";
 "Write your feedback here..." = "మీ అభిప్రాయాన్ని ఇక్కడ వ్రాయండి...";
 "Submit" = "సమర్పించండి";
+
+
+/* ShakeBug Feedback Bottom Sheet */
+"Shake detected" = "షేక్ కనుగొనబడింది";
+"Screenshot detected" = "స్క్రీన్‌షాట్ కనుగొనబడింది";
+"Something not working?" = "ఏదైనా పని చేయడం లేదా?";
+"We saved a screenshot of this screen." = "మేము ఈ స్క్రీన్ యొక్క స్క్రీన్‌షాట్‌ను సేవ్ చేసాము.";
+"We captured a screenshot of this screen." = "మేము ఈ స్క్రీన్ యొక్క స్క్రీన్‌షాట్‌ను క్యాప్చర్ చేసాము.";
+"Report an issue" = "సమస్యను నివేదించండి";
+"Record the issue instead" = "బదులుగా సమస్యను రికార్డ్ చేయండి";
+"Choose media" = "మీడియాను ఎంచుకోండి";
+"Not now" = "ఇప్పుడు కాదు";
+"Turn off shake" = "షేక్ ఆఫ్ చేయండి";
+"Are you sure you want to disable the Shake feature? It will be automatically enabled again after 7 days." = "మీరు ఖచ్చితంగా షేక్ ఫీచర్‌ను నిలిపివేయాలనుకుంటున్నారా? ఇది 7 రోజుల తర్వాత స్వయంచాలకంగా మళ్లీ ప్రారంభించబడుతుంది.";
+"Disable" = "డిసేబుల్ చేయండి";
+"Video" = "వీడియో";
+"Your screen is already being recording please stop that first!" = "మీ స్క్రీన్ ఇప్పటికే రికార్డ్ అవుతోంది, దయచేసి ముందుగా దాన్ని ఆపండి!";
+
+"ATTACHED MEDIA" = "జోడించిన మీడియా";

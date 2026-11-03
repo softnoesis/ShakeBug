@@ -31,7 +31,7 @@
 "Cancel Video" = "वीडियो रद्द करें";
 "Stop Recording" = "रिकॉर्डिंग बंद करें";
 
-"We need your Photo library access prior to record screen. Please go to the Privacy Setting in your iPhone and enable it."; = "हमें रिकॉर्ड स्क्रीन से पहले आपकी फोटो लाइब्रेरी एक्सेस की आवश्यकता है। कृपया अपने आईफोन में गोपनीयता सेटिंग पर जाएं और इसे सक्षम करें।";
+"We need your Photo library access prior to record screen. Please go to the Privacy Setting in your iPhone and enable it." = "हमें रिकॉर्ड स्क्रीन से पहले आपकी फोटो लाइब्रेरी एक्सेस की आवश्यकता है। कृपया अपने आईफोन में गोपनीयता सेटिंग पर जाएं और इसे सक्षम करें।";
 "As per your account limit, you can only upload" = "As per your account limit, you can only upload ";
 "seconds video." = " seconds video.";
 "Prior to use bug reporting, your app must need 'NSPhotoLibraryUsageDescription' permission in your project plist." = "बग रिपोर्टिंग का उपयोग करने से पहले, आपके ऐप को आपके प्रोजेक्ट प्लिस्ट में 'NSPhotoLibraryUsageDescription' अनुमति की आवश्यकता होगी।";
@@ -40,3 +40,22 @@
 "Rate your experience" = "अपने अनुभव को रेट करें";
 "Write your feedback here..." = "अपनी प्रतिक्रिया यहाँ लिखें...";
 "Submit" = "जमा करें";
+
+
+/* ShakeBug Feedback Bottom Sheet */
+"Shake detected" = "शेक का पता चला";
+"Screenshot detected" = "स्क्रीनशॉट का पता चला";
+"Something not working?" = "कुछ काम नहीं कर रहा है?";
+"We saved a screenshot of this screen." = "हमने इस स्क्रीन का स्क्रीनशॉट सहेज लिया है।";
+"We captured a screenshot of this screen." = "हमने इस स्क्रीन का स्क्रीनशॉट लिया है।";
+"Report an issue" = "समस्या की रिपोर्ट करें";
+"Record the issue instead" = "इसके बजाय समस्या रिकॉर्ड करें";
+"Choose media" = "मीडिया चुनें";
+"Not now" = "अभी नहीं";
+"Turn off shake" = "शेक बंद करें";
+"Are you sure you want to disable the Shake feature? It will be automatically enabled again after 7 days." = "क्या आप वाकई शेक सुविधा को अक्षम करना चाहते हैं? यह 7 दिनों के बाद अपने आप फिर से सक्षम हो जाएगी।";
+"Disable" = "अक्षम करें";
+"Video" = "वीडियो";
+"Your screen is already being recording please stop that first!" = "आपकी स्क्रीन पहले से रिकॉर्ड हो रही है, कृपया पहले उसे रोकें!";
+
+"ATTACHED MEDIA" = "संलग्न मीडिया";

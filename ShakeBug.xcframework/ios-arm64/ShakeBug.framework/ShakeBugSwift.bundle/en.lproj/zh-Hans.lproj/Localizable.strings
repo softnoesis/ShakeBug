@@ -40,3 +40,22 @@
 "Rate your experience" = "评价您的体验";
 "Write your feedback here..." = "在此写下您的反馈...";
 "Submit" = "提交";
+
+
+/* ShakeBug Feedback Bottom Sheet */
+"Shake detected" = "检测到摇一摇";
+"Screenshot detected" = "检测到截屏";
+"Something not working?" = "遇到问题了吗？";
+"We saved a screenshot of this screen." = "我们保存了此页面的屏幕截图。";
+"We captured a screenshot of this screen." = "我们捕获了此页面的屏幕截图。";
+"Report an issue" = "报告问题";
+"Record the issue instead" = "改为录制此问题";
+"Choose media" = "选择媒体";
+"Not now" = "暂不";
+"Turn off shake" = "关闭摇一摇";
+"Are you sure you want to disable the Shake feature? It will be automatically enabled again after 7 days." = "您确定要关闭摇一摇功能吗？7天后将自动重新启用。";
+"Disable" = "关闭";
+"Video" = "视频";
+"Your screen is already being recording please stop that first!" = "您的屏幕正在录制中，请先停止录制！";
+
+"ATTACHED MEDIA" = "附加媒体";

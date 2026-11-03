@@ -410,6 +410,7 @@ SWIFT_CLASS("_TtC8ShakeBug30ShakeBugFeedbackViewController")
 - (void)viewWillAppear:(BOOL)animated;
 - (void)viewDidAppear:(BOOL)animated;
 - (void)traitCollectionDidChange:(UITraitCollection * _Nullable)previousTraitCollection;
+- (void)updateLocalizedStrings;
 - (IBAction)reportIssueButtonTapped:(id _Nonnull)sender;
 - (IBAction)recordIssueButtonTapped:(id _Nonnull)sender;
 - (IBAction)chooseMediaButtonTapped:(id _Nonnull)sender;
@@ -510,10 +511,8 @@ SWIFT_ENUM_FWD_DECL(NSInteger, ShakeBugThemeMode)
 /// \param language Shakebug supported languages
 ///
 - (void)setShakebugSDKLanguage:(enum ShakebugLanguage)language;
-/// Trigger bug reporting screen manually without shaking.
-- (void)triggerBugReporting;
 /// Manually triggers and presents the shake feedback bottom sheet (simulating a shake event).
-- (void)showShakeFeedbackScreen;
+- (void)triggerBugReporting;
 /// Trigger rating and review popup manually.
 - (void)triggerRatingsPopup;
 /// This api help developers to fetch data based on provide remote code key.
@@ -521,9 +520,15 @@ SWIFT_ENUM_FWD_DECL(NSInteger, ShakeBugThemeMode)
 ///
 - (void)fetchRemoteCodeValueWithForkey:(NSString * _Nonnull)forkey completion:(void (^ _Nonnull)(id _Nullable))completion;
 /// Set Theme Color of Shakebug SDK
-/// \param color Custom theme color for navigation bar
+/// \param color Custom theme color for navigation bar (can be a static UIColor or a dynamic UIColor supporting light/dark appearance)
 ///
 - (void)setShakebugThemeColor:(UIColor * _Nonnull)color;
+/// Set Theme Colors of Shakebug SDK for both light and dark appearances
+/// \param light Custom theme color for Light mode
+///
+/// \param dark Custom theme color for Dark mode
+///
+- (void)setShakebugThemeColorWithLight:(UIColor * _Nonnull)light dark:(UIColor * _Nonnull)dark;
 /// Set Theme Mode of Shakebug SDK: .auto (follows host app/system), .light, or .dark
 /// \param mode ShakeBugThemeMode
 ///

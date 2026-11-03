@@ -40,3 +40,22 @@
 "Rate your experience" = "قيّم تجربتك";
 "Write your feedback here..." = "اكتب ملاحظاتك هنا...";
 "Submit" = "إرسال";
+
+
+/* ShakeBug Feedback Bottom Sheet */
+"Shake detected" = "تم اكتشاف الهز";
+"Screenshot detected" = "تم اكتشاف لقطة الشاشة";
+"Something not working?" = "هل هناك شيء لا يعمل؟";
+"We saved a screenshot of this screen." = "لقد قمنا بحفظ لقطة لهذه الشاشة.";
+"We captured a screenshot of this screen." = "لقد التقطنا لقطة لهذه الشاشة.";
+"Report an issue" = "الإبلاغ عن مشكلة";
+"Record the issue instead" = "تسجيل المشكلة بدلاً من ذلك";
+"Choose media" = "اختيار الوسائط";
+"Not now" = "ليس الآن";
+"Turn off shake" = "إيقاف ميزة الهز";
+"Are you sure you want to disable the Shake feature? It will be automatically enabled again after 7 days." = "هل أنت متأكد من رغبتك في تعطيل ميزة الهز؟ سيتم إعادة تفعيلها تلقائيًا بعد 7 أيام.";
+"Disable" = "تعطيل";
+"Video" = "فيديو";
+"Your screen is already being recording please stop that first!" = "شاشتك قيد التسجيل بالفعل، يرجى إيقاف ذلك أولاً!";
+
+"ATTACHED MEDIA" = "الوسائط المرفقة";

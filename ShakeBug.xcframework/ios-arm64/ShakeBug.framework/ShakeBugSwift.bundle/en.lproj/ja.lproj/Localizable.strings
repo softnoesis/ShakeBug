@@ -40,3 +40,22 @@
 "Rate your experience" = "体験を評価してください";
 "Write your feedback here..." = "ここにフィードバックを書いてください...";
 "Submit" = "送信";
+
+
+/* ShakeBug Feedback Bottom Sheet */
+"Shake detected" = "シェイクを検出しました";
+"Screenshot detected" = "スクリーンショットを検出しました";
+"Something not working?" = "何か問題が発生しましたか？";
+"We saved a screenshot of this screen." = "この画面のスクリーンショットを保存しました。";
+"We captured a screenshot of this screen." = "この画面のスクリーンショットをキャプチャしました。";
+"Report an issue" = "問題を報告する";
+"Record the issue instead" = "代わりに問題を録画する";
+"Choose media" = "メディアを選択";
+"Not now" = "今はしない";
+"Turn off shake" = "シェイクを無効にする";
+"Are you sure you want to disable the Shake feature? It will be automatically enabled again after 7 days." = "シェイク機能を無効にしてもよろしいですか？7日後に自動的に再度有効になります。";
+"Disable" = "無効にする";
+"Video" = "動画";
+"Your screen is already being recording please stop that first!" = "画面はすでに録画中です。先に停止してください。";
+
+"ATTACHED MEDIA" = "添付メディア";
