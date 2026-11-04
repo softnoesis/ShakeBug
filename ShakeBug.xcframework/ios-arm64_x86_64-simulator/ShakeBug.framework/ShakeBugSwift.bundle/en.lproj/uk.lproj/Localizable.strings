@@ -53,6 +53,8 @@
 "Choose media" = "Обрати медіа";
 "Not now" = "Не зараз";
 "Turn off shake" = "Вимкнути струшування";
+"Turn on shake" = "Увімкнути струшування";
+"Shake feature on" = "Функція струшування увімкнена";
 "Are you sure you want to disable the Shake feature? It will be automatically enabled again after 7 days." = "Ви впевнені, що хочете вимкнути функцію струшування? Вона знову автоматично ввімкнеться через 7 днів.";
 "Disable" = "Вимкнути";
 "Video" = "Відео";

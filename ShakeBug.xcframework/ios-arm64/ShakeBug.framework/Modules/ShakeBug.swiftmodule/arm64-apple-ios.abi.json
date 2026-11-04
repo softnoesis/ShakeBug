@@ -1815,103 +1815,6 @@
           },
           {
             "kind": "Function",
-            "name": "setShakebugThemeColor",
-            "printedName": "setShakebugThemeColor(_:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "UIColor",
-                "printedName": "UIKit.UIColor",
-                "usr": "c:objc(cs)UIColor"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@CM@ShakeBug@objc(cs)ShakeBugSDK(im)setShakebugThemeColor:",
-            "mangledName": "$s8ShakeBug0aB3SDKC21setShakebugThemeColoryySo7UIColorCF",
-            "moduleName": "ShakeBug",
-            "declAttributes": [
-              "Dynamic",
-              "AccessControl",
-              "ObjC",
-              "RawDocComment"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "setShakebugThemeColor",
-            "printedName": "setShakebugThemeColor(light:dark:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "UIColor",
-                "printedName": "UIKit.UIColor",
-                "usr": "c:objc(cs)UIColor"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "UIColor",
-                "printedName": "UIKit.UIColor",
-                "usr": "c:objc(cs)UIColor"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@CM@ShakeBug@objc(cs)ShakeBugSDK(im)setShakebugThemeColorWithLight:dark:",
-            "mangledName": "$s8ShakeBug0aB3SDKC21setShakebugThemeColor5light4darkySo7UIColorC_AHtF",
-            "moduleName": "ShakeBug",
-            "objc_name": "setShakebugThemeColorWithLight:dark:",
-            "declAttributes": [
-              "Dynamic",
-              "AccessControl",
-              "ObjC",
-              "RawDocComment"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "setShakebugThemeMode",
-            "printedName": "setShakebugThemeMode(_:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "ShakeBugThemeMode",
-                "printedName": "ShakeBug.ShakeBugThemeMode",
-                "usr": "c:@M@ShakeBug@E@ShakeBugThemeMode"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@CM@ShakeBug@objc(cs)ShakeBugSDK(im)setShakebugThemeMode:",
-            "mangledName": "$s8ShakeBug0aB3SDKC20setShakebugThemeModeyyAA0abfG0OF",
-            "moduleName": "ShakeBug",
-            "declAttributes": [
-              "Dynamic",
-              "AccessControl",
-              "ObjC",
-              "RawDocComment"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
             "name": "setShakebugSDKEndPointURL",
             "printedName": "setShakebugSDKEndPointURL(url:headerKey:sslPublicKey:)",
             "children": [
@@ -2072,109 +1975,6 @@
             "declKind": "Func",
             "usr": "c:@CM@ShakeBug@objc(cs)ShakeBugSDK(im)allowToReportBugByScreenCapture:",
             "mangledName": "$s8ShakeBug0aB3SDKC013allowToReportB15ByScreenCaptureyySbF",
-            "moduleName": "ShakeBug",
-            "declAttributes": [
-              "Dynamic",
-              "AccessControl",
-              "ObjC",
-              "RawDocComment"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "allowToReportBugByShakingMobile",
-            "printedName": "allowToReportBugByShakingMobile(_:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@CM@ShakeBug@objc(cs)ShakeBugSDK(im)allowToReportBugByShakingMobile:",
-            "mangledName": "$s8ShakeBug0aB3SDKC013allowToReportB15ByShakingMobileyySbF",
-            "moduleName": "ShakeBug",
-            "declAttributes": [
-              "Dynamic",
-              "AccessControl",
-              "ObjC",
-              "RawDocComment"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "disableShakeForSevenDays",
-            "printedName": "disableShakeForSevenDays()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@CM@ShakeBug@objc(cs)ShakeBugSDK(im)disableShakeForSevenDays",
-            "mangledName": "$s8ShakeBug0aB3SDKC07disableA12ForSevenDaysyyF",
-            "moduleName": "ShakeBug",
-            "declAttributes": [
-              "Dynamic",
-              "AccessControl",
-              "ObjC",
-              "RawDocComment"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "resetShakeDisabledState",
-            "printedName": "resetShakeDisabledState()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@CM@ShakeBug@objc(cs)ShakeBugSDK(im)resetShakeDisabledState",
-            "mangledName": "$s8ShakeBug0aB3SDKC05resetA13DisabledStateyyF",
-            "moduleName": "ShakeBug",
-            "declAttributes": [
-              "Dynamic",
-              "AccessControl",
-              "ObjC",
-              "RawDocComment"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "isShakeEnabled",
-            "printedName": "isShakeEnabled()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@CM@ShakeBug@objc(cs)ShakeBugSDK(im)isShakeEnabled",
-            "mangledName": "$s8ShakeBug0aB3SDKC02isA7EnabledSbyF",
             "moduleName": "ShakeBug",
             "declAttributes": [
               "Dynamic",
@@ -4518,6 +4318,28 @@
             "declKind": "Func",
             "usr": "s:8ShakeBug0aB22FeedbackViewControllerC18dismissBottomSheet10completionyyycSg_tF",
             "mangledName": "$s8ShakeBug0aB22FeedbackViewControllerC18dismissBottomSheet10completionyyycSg_tF",
+            "moduleName": "ShakeBug",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "updateShakeToggleButton",
+            "printedName": "updateShakeToggleButton()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8ShakeBug0aB22FeedbackViewControllerC06updateA12ToggleButtonyyF",
+            "mangledName": "$s8ShakeBug0aB22FeedbackViewControllerC06updateA12ToggleButtonyyF",
             "moduleName": "ShakeBug",
             "declAttributes": [
               "Preconcurrency",
@@ -9486,7 +9308,7 @@
     {
       "filePath": "\/Volumes\/Data\/IOSProject\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/ShakeBugSDK.swift",
       "kind": "BooleanLiteral",
-      "offset": 18892,
+      "offset": 19178,
       "length": 5,
       "value": "false"
     },
@@ -9527,183 +9349,197 @@
     },
     {
       "filePath": "\/Volumes\/Data\/IOSProject\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Modules\/ShakeBugFeedback\/ShakeBugFeedbackViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 31334,
+      "length": 18,
+      "value": "\"Shake feature on\""
+    },
+    {
+      "filePath": "\/Volumes\/Data\/IOSProject\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Modules\/ShakeBugFeedback\/ShakeBugFeedbackViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 34272,
+      "offset": 31397,
+      "length": 3,
+      "value": "4.0"
+    },
+    {
+      "filePath": "\/Volumes\/Data\/IOSProject\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Modules\/ShakeBugFeedback\/ShakeBugFeedbackViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 41374,
       "length": 4,
       "value": "20.0"
     },
     {
       "filePath": "\/Volumes\/Data\/IOSProject\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Modules\/ShakeBugFeedback\/ShakeBugFeedbackViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 34286,
+      "offset": 41388,
       "length": 4,
       "value": "20.0"
     },
     {
       "filePath": "\/Volumes\/Data\/IOSProject\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Modules\/ShakeBugFeedback\/ShakeBugFeedbackViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 34412,
+      "offset": 41514,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Volumes\/Data\/IOSProject\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Modules\/ShakeBugFeedback\/ShakeBugFeedbackViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 34664,
+      "offset": 41766,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Volumes\/Data\/IOSProject\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Modules\/ShakeBugFeedback\/ShakeBugFeedbackViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 34670,
+      "offset": 41772,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Volumes\/Data\/IOSProject\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Modules\/ShakeBugFeedback\/ShakeBugFeedbackViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 34680,
+      "offset": 41782,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Volumes\/Data\/IOSProject\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Modules\/ShakeBugFeedback\/ShakeBugFeedbackViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 34692,
+      "offset": 41794,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Volumes\/Data\/IOSProject\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Modules\/ShakeBugFeedback\/ShakeBugFeedbackViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 34724,
+      "offset": 41826,
       "length": 3,
       "value": "1.8"
     },
     {
       "filePath": "\/Volumes\/Data\/IOSProject\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Modules\/ShakeBugFeedback\/ShakeBugFeedbackViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 34772,
+      "offset": 41874,
       "length": 3,
       "value": "235"
     },
     {
       "filePath": "\/Volumes\/Data\/IOSProject\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Modules\/ShakeBugFeedback\/ShakeBugFeedbackViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 34776,
+      "offset": 41878,
       "length": 5,
       "value": "255.0"
     },
     {
       "filePath": "\/Volumes\/Data\/IOSProject\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Modules\/ShakeBugFeedback\/ShakeBugFeedbackViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 34790,
+      "offset": 41892,
       "length": 2,
       "value": "65"
     },
     {
       "filePath": "\/Volumes\/Data\/IOSProject\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Modules\/ShakeBugFeedback\/ShakeBugFeedbackViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 34793,
+      "offset": 41895,
       "length": 5,
       "value": "255.0"
     },
     {
       "filePath": "\/Volumes\/Data\/IOSProject\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Modules\/ShakeBugFeedback\/ShakeBugFeedbackViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 34806,
+      "offset": 41908,
       "length": 2,
       "value": "55"
     },
     {
       "filePath": "\/Volumes\/Data\/IOSProject\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Modules\/ShakeBugFeedback\/ShakeBugFeedbackViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 34809,
+      "offset": 41911,
       "length": 5,
       "value": "255.0"
     },
     {
       "filePath": "\/Volumes\/Data\/IOSProject\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Modules\/ShakeBugFeedback\/ShakeBugFeedbackViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 34823,
+      "offset": 41925,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Volumes\/Data\/IOSProject\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Modules\/ShakeBugFeedback\/ShakeBugFeedbackViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 34958,
+      "offset": 42060,
       "length": 3,
       "value": "6.2"
     },
     {
       "filePath": "\/Volumes\/Data\/IOSProject\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Modules\/ShakeBugFeedback\/ShakeBugFeedbackViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 34966,
+      "offset": 42068,
       "length": 3,
       "value": "6.2"
     },
     {
       "filePath": "\/Volumes\/Data\/IOSProject\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Modules\/ShakeBugFeedback\/ShakeBugFeedbackViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 34978,
+      "offset": 42080,
       "length": 3,
       "value": "7.6"
     },
     {
       "filePath": "\/Volumes\/Data\/IOSProject\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Modules\/ShakeBugFeedback\/ShakeBugFeedbackViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 34991,
+      "offset": 42093,
       "length": 3,
       "value": "7.6"
     },
     {
       "filePath": "\/Volumes\/Data\/IOSProject\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Modules\/ShakeBugFeedback\/ShakeBugFeedbackViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 35021,
+      "offset": 42123,
       "length": 3,
       "value": "235"
     },
     {
       "filePath": "\/Volumes\/Data\/IOSProject\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Modules\/ShakeBugFeedback\/ShakeBugFeedbackViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 35025,
+      "offset": 42127,
       "length": 5,
       "value": "255.0"
     },
     {
       "filePath": "\/Volumes\/Data\/IOSProject\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Modules\/ShakeBugFeedback\/ShakeBugFeedbackViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 35039,
+      "offset": 42141,
       "length": 2,
       "value": "65"
     },
     {
       "filePath": "\/Volumes\/Data\/IOSProject\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Modules\/ShakeBugFeedback\/ShakeBugFeedbackViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 35042,
+      "offset": 42144,
       "length": 5,
       "value": "255.0"
     },
     {
       "filePath": "\/Volumes\/Data\/IOSProject\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Modules\/ShakeBugFeedback\/ShakeBugFeedbackViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 35055,
+      "offset": 42157,
       "length": 2,
       "value": "55"
     },
     {
       "filePath": "\/Volumes\/Data\/IOSProject\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Modules\/ShakeBugFeedback\/ShakeBugFeedbackViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 35058,
+      "offset": 42160,
       "length": 5,
       "value": "255.0"
     },
     {
       "filePath": "\/Volumes\/Data\/IOSProject\/shakebugswift\/ShakeBug\/ShakeBug\/Classes\/Modules\/ShakeBugFeedback\/ShakeBugFeedbackViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 35072,
+      "offset": 42174,
       "length": 3,
       "value": "1.0"
     },

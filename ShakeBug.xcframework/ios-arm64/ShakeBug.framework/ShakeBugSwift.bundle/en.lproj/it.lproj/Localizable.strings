@@ -53,6 +53,8 @@
 "Choose media" = "Scegli file multimediali";
 "Not now" = "Non ora";
 "Turn off shake" = "Disattiva scuotimento";
+"Turn on shake" = "Attiva scuotimento";
+"Shake feature on" = "Funzione scuotimento attiva";
 "Are you sure you want to disable the Shake feature? It will be automatically enabled again after 7 days." = "Sei sicuro di voler disattivare la funzione Scuoti? Verrà riattivata automaticamente dopo 7 giorni.";
 "Disable" = "Disattiva";
 "Video" = "Video";

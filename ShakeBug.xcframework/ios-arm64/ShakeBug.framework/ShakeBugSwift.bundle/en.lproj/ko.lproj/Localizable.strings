@@ -53,6 +53,8 @@
 "Choose media" = "미디어 선택";
 "Not now" = "나중에";
 "Turn off shake" = "흔들기 끄기";
+"Turn on shake" = "흔들기 켜기";
+"Shake feature on" = "흔들기 기능 켜짐";
 "Are you sure you want to disable the Shake feature? It will be automatically enabled again after 7 days." = "흔들기 기능을 비활성화하시겠습니까? 7일 후에 자동으로 다시 활성화됩니다.";
 "Disable" = "비활성화";
 "Video" = "동영상";

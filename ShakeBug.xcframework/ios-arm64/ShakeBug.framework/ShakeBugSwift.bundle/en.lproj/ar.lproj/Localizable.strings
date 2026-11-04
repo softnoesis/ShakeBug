@@ -53,6 +53,8 @@
 "Choose media" = "اختيار الوسائط";
 "Not now" = "ليس الآن";
 "Turn off shake" = "إيقاف ميزة الهز";
+"Turn on shake" = "تشغيل ميزة الهز";
+"Shake feature on" = "ميزة الهز قيد التشغيل";
 "Are you sure you want to disable the Shake feature? It will be automatically enabled again after 7 days." = "هل أنت متأكد من رغبتك في تعطيل ميزة الهز؟ سيتم إعادة تفعيلها تلقائيًا بعد 7 أيام.";
 "Disable" = "تعطيل";
 "Video" = "فيديو";

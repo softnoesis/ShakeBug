@@ -53,6 +53,8 @@
 "Choose media" = "メディアを選択";
 "Not now" = "今はしない";
 "Turn off shake" = "シェイクを無効にする";
+"Turn on shake" = "シェイクを有効にする";
+"Shake feature on" = "シェイク機能オン";
 "Are you sure you want to disable the Shake feature? It will be automatically enabled again after 7 days." = "シェイク機能を無効にしてもよろしいですか？7日後に自動的に再度有効になります。";
 "Disable" = "無効にする";
 "Video" = "動画";

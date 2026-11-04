@@ -53,6 +53,8 @@
 "Choose media" = "Medya seç";
 "Not now" = "Şimdi değil";
 "Turn off shake" = "Sallamayı kapat";
+"Turn on shake" = "Sallamayı aç";
+"Shake feature on" = "Sallama özelliği açık";
 "Are you sure you want to disable the Shake feature? It will be automatically enabled again after 7 days." = "Sallama özelliğini devre dışı bırakmak istediğinizden emin misiniz? 7 gün sonra otomatik olarak tekrar etkinleştirilecektir.";
 "Disable" = "Devre dışı bırak";
 "Video" = "Video";

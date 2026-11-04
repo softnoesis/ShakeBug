@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "ShakeBug"
-  s.version      = "1.0.47"
+  s.version      = "1.0.48"
   s.summary      = "To report bug & crash along with screen recording videos, photos, detail, review version wise, analytics, remote code and events."
 
   # This description is used to generate tags and improve search results.

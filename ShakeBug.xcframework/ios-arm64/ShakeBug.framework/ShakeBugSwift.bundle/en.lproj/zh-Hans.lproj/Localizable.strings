@@ -53,6 +53,8 @@
 "Choose media" = "选择媒体";
 "Not now" = "暂不";
 "Turn off shake" = "关闭摇一摇";
+"Turn on shake" = "开启摇一摇";
+"Shake feature on" = "摇一摇功能已开启";
 "Are you sure you want to disable the Shake feature? It will be automatically enabled again after 7 days." = "您确定要关闭摇一摇功能吗？7天后将自动重新启用。";
 "Disable" = "关闭";
 "Video" = "视频";

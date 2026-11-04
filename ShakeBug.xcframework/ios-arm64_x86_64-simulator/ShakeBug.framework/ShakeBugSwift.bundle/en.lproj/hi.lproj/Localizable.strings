@@ -53,6 +53,8 @@
 "Choose media" = "मीडिया चुनें";
 "Not now" = "अभी नहीं";
 "Turn off shake" = "शेक बंद करें";
+"Turn on shake" = "शेक चालू करें";
+"Shake feature on" = "शेक सुविधा चालू";
 "Are you sure you want to disable the Shake feature? It will be automatically enabled again after 7 days." = "क्या आप वाकई शेक सुविधा को अक्षम करना चाहते हैं? यह 7 दिनों के बाद अपने आप फिर से सक्षम हो जाएगी।";
 "Disable" = "अक्षम करें";
 "Video" = "वीडियो";

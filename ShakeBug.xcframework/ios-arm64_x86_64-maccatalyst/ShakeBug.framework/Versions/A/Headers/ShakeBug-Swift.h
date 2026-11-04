@@ -470,7 +470,6 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) ShakeBugSDK 
 @end
 
 SWIFT_ENUM_FWD_DECL(NSInteger, ShakebugLanguage)
-SWIFT_ENUM_FWD_DECL(NSInteger, ShakeBugThemeMode)
 @interface ShakeBugSDK (SWIFT_EXTENSION(ShakeBug))
 /// Set ShakeBug Application Key
 /// \param key ApplicationKey in String
@@ -519,20 +518,6 @@ SWIFT_ENUM_FWD_DECL(NSInteger, ShakeBugThemeMode)
 /// \param forKey String, Predefined key on login panel
 ///
 - (void)fetchRemoteCodeValueWithForkey:(NSString * _Nonnull)forkey completion:(void (^ _Nonnull)(id _Nullable))completion;
-/// Set Theme Color of Shakebug SDK
-/// \param color Custom theme color for navigation bar (can be a static UIColor or a dynamic UIColor supporting light/dark appearance)
-///
-- (void)setShakebugThemeColor:(UIColor * _Nonnull)color;
-/// Set Theme Colors of Shakebug SDK for both light and dark appearances
-/// \param light Custom theme color for Light mode
-///
-/// \param dark Custom theme color for Dark mode
-///
-- (void)setShakebugThemeColorWithLight:(UIColor * _Nonnull)light dark:(UIColor * _Nonnull)dark;
-/// Set Theme Mode of Shakebug SDK: .auto (follows host app/system), .light, or .dark
-/// \param mode ShakeBugThemeMode
-///
-- (void)setShakebugThemeMode:(enum ShakeBugThemeMode)mode;
 /// Set custom end point URL  for on-premise hosting
 /// \param url String
 ///
@@ -555,17 +540,6 @@ SWIFT_ENUM_FWD_DECL(NSInteger, ShakeBugThemeMode)
 /// \param isAllow Bool, Default value is True
 ///
 - (void)allowToReportBugByScreenCapture:(BOOL)isAllow;
-/// Allow user to report bug by shaking mobile or not.
-/// If user has temporarily disabled shake from the feedback sheet for 7 days, that temporary disable takes precedence until 7 days have passed.
-/// \param isAllow Bool, Default value is True
-///
-- (void)allowToReportBugByShakingMobile:(BOOL)isAllow;
-/// Disables the shake feature for 7 days, after which it will be automatically re-enabled.
-- (void)disableShakeForSevenDays;
-/// Re-enables the shake feature immediately, clearing any active 7-day disable timer.
-- (void)resetShakeDisabledState;
-/// Returns whether bug reporting by shaking mobile is currently enabled.
-- (BOOL)isShakeEnabled SWIFT_WARN_UNUSED_RESULT;
 /// Enable/disable auto screen capture for crash reports
 /// \param enabled Bool, Default value is false
 ///
@@ -1105,7 +1079,6 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) ShakeBugSDK 
 @end
 
 SWIFT_ENUM_FWD_DECL(NSInteger, ShakebugLanguage)
-SWIFT_ENUM_FWD_DECL(NSInteger, ShakeBugThemeMode)
 @interface ShakeBugSDK (SWIFT_EXTENSION(ShakeBug))
 /// Set ShakeBug Application Key
 /// \param key ApplicationKey in String
@@ -1154,20 +1127,6 @@ SWIFT_ENUM_FWD_DECL(NSInteger, ShakeBugThemeMode)
 /// \param forKey String, Predefined key on login panel
 ///
 - (void)fetchRemoteCodeValueWithForkey:(NSString * _Nonnull)forkey completion:(void (^ _Nonnull)(id _Nullable))completion;
-/// Set Theme Color of Shakebug SDK
-/// \param color Custom theme color for navigation bar (can be a static UIColor or a dynamic UIColor supporting light/dark appearance)
-///
-- (void)setShakebugThemeColor:(UIColor * _Nonnull)color;
-/// Set Theme Colors of Shakebug SDK for both light and dark appearances
-/// \param light Custom theme color for Light mode
-///
-/// \param dark Custom theme color for Dark mode
-///
-- (void)setShakebugThemeColorWithLight:(UIColor * _Nonnull)light dark:(UIColor * _Nonnull)dark;
-/// Set Theme Mode of Shakebug SDK: .auto (follows host app/system), .light, or .dark
-/// \param mode ShakeBugThemeMode
-///
-- (void)setShakebugThemeMode:(enum ShakeBugThemeMode)mode;
 /// Set custom end point URL  for on-premise hosting
 /// \param url String
 ///
@@ -1190,17 +1149,6 @@ SWIFT_ENUM_FWD_DECL(NSInteger, ShakeBugThemeMode)
 /// \param isAllow Bool, Default value is True
 ///
 - (void)allowToReportBugByScreenCapture:(BOOL)isAllow;
-/// Allow user to report bug by shaking mobile or not.
-/// If user has temporarily disabled shake from the feedback sheet for 7 days, that temporary disable takes precedence until 7 days have passed.
-/// \param isAllow Bool, Default value is True
-///
-- (void)allowToReportBugByShakingMobile:(BOOL)isAllow;
-/// Disables the shake feature for 7 days, after which it will be automatically re-enabled.
-- (void)disableShakeForSevenDays;
-/// Re-enables the shake feature immediately, clearing any active 7-day disable timer.
-- (void)resetShakeDisabledState;
-/// Returns whether bug reporting by shaking mobile is currently enabled.
-- (BOOL)isShakeEnabled SWIFT_WARN_UNUSED_RESULT;
 /// Enable/disable auto screen capture for crash reports
 /// \param enabled Bool, Default value is false
 ///

@@ -53,6 +53,8 @@
 "Choose media" = "Choisir un média";
 "Not now" = "Pas maintenant";
 "Turn off shake" = "Désactiver la secousse";
+"Turn on shake" = "Activer la secousse";
+"Shake feature on" = "Fonction secousse activée";
 "Are you sure you want to disable the Shake feature? It will be automatically enabled again after 7 days." = "Voulez-vous vraiment désactiver la fonction Secouer ? Elle sera automatiquement réactivée après 7 jours.";
 "Disable" = "Désactiver";
 "Video" = "Vidéo";

@@ -53,6 +53,8 @@
 "Choose media" = "மீடியாவைத் தேர்ந்தெடுக்கவும்";
 "Not now" = "இப்போது வேண்டாம்";
 "Turn off shake" = "குலுக்குதலை முடக்கு";
+"Turn on shake" = "குலுக்குதலை இயக்கு";
+"Shake feature on" = "குலுக்குதல் அம்சம் இயக்கத்தில் உள்ளது";
 "Are you sure you want to disable the Shake feature? It will be automatically enabled again after 7 days." = "குலுக்குதல் அம்சத்தை நிச்சயமாக முடக்க விரும்புகிறீர்களா? இது 7 நாட்களுக்குப் பிறகு தானாகவே மீண்டும் இயக்கப்படும்.";
 "Disable" = "முடக்கு";
 "Video" = "வீடியோ";

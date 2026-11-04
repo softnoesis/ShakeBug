@@ -53,6 +53,8 @@
 "Choose media" = "Elegir medios";
 "Not now" = "Ahora no";
 "Turn off shake" = "Desactivar agitar";
+"Turn on shake" = "Activar agitar";
+"Shake feature on" = "Función de agitar activada";
 "Are you sure you want to disable the Shake feature? It will be automatically enabled again after 7 days." = "¿Está seguro de que desea desactivar la función Agitar? Se volverá a activar automáticamente después de 7 días.";
 "Disable" = "Desactivar";
 "Video" = "Vídeo";

@@ -53,6 +53,8 @@
 "Choose media" = "Medien auswählen";
 "Not now" = "Nicht jetzt";
 "Turn off shake" = "Schütteln deaktivieren";
+"Turn on shake" = "Schütteln aktivieren";
+"Shake feature on" = "Schüttel-Funktion an";
 "Are you sure you want to disable the Shake feature? It will be automatically enabled again after 7 days." = "Möchten Sie die Schüttel-Funktion wirklich deaktivieren? Sie wird nach 7 Tagen automatisch wieder aktiviert.";
 "Disable" = "Deaktivieren";
 "Video" = "Video";

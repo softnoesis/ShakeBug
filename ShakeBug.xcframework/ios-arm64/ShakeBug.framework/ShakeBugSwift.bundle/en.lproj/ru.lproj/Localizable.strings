@@ -53,6 +53,8 @@
 "Choose media" = "Выбрать медиа";
 "Not now" = "Не сейчас";
 "Turn off shake" = "Отключить встряхивание";
+"Turn on shake" = "Включить встряхивание";
+"Shake feature on" = "Функция встряхивания включена";
 "Are you sure you want to disable the Shake feature? It will be automatically enabled again after 7 days." = "Вы уверены, что хотите отключить функцию встряхивания? Она будет автоматически включена через 7 дней.";
 "Disable" = "Отключить";
 "Video" = "Видео";
